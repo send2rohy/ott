@@ -1042,11 +1042,9 @@ def main():
     # Netflix
     # -----------------------------------------------------
 
-    netflix_tsv =
-        get_netflix_tsv()
+    netflix_tsv = get_netflix_tsv()
 
-    netflix =
-        parse_netflix_tsv(
+    netflix = parse_netflix_tsv(
             netflix_tsv
         )
 
