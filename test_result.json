@@ -1,9 +1,9 @@
 {
-  "collectedAt": "2026-09-15T09:46:17.701478+00:00",
+  "collectedAt": "2026-09-15T09:48:56.807909+00:00",
   "country": "KR",
   "services": {
     "netflix": {
-      "error": "IncompleteRead(573440 bytes read)"
+      "error": "IncompleteRead(65133 bytes read)"
     },
     "disneyplus": {
       "service": "Disney+",
@@ -12,43 +12,43 @@
       "items": [
         {
           "rank": 1,
-          "title": "Nav Link - Log In -/identity/login USUF - LATAM, EMEA, CA, AUNZ, APAC"
-        },
-        {
-          "rank": 2,
-          "title": "Link - Trio - Bundle \\u0026 Save CTA - KR - TVing Bundle - Official"
-        },
-        {
-          "rank": 3,
-          "title": "Link - Disney+ Standalone [/commerce/plans?default=standalone] - KR ONLY"
-        },
-        {
-          "rank": 4,
-          "title": "Link - View All plan details - APAC Tiering"
-        },
-        {
-          "rank": 5,
-          "title": "Link - 'Learn More' - /bundle-terms-and-conditions - KR - Bundle"
-        },
-        {
-          "rank": 6,
-          "title": "Link - Cancellation and Refund policy - KR Legal Disclaimer"
-        },
-        {
-          "rank": 7,
           "title": "메이드 인 코리아"
         },
         {
-          "rank": 8,
+          "rank": 2,
           "title": "재벌 x 형사"
         },
         {
-          "rank": 9,
+          "rank": 3,
           "title": "킬러들의 쇼핑몰"
         },
         {
-          "rank": 10,
+          "rank": 4,
           "title": "스타워즈: 만달로리안과 그로구"
+        },
+        {
+          "rank": 5,
+          "title": "연애전쟁"
+        },
+        {
+          "rank": 6,
+          "title": "악마는 프라다를 입는다 2"
+        },
+        {
+          "rank": 7,
+          "title": "조각도시"
+        },
+        {
+          "rank": 8,
+          "title": "레디 오어 낫: 죽음의 숨바꼭질"
+        },
+        {
+          "rank": 9,
+          "title": "골드랜드"
+        },
+        {
+          "rank": 10,
+          "title": "어벤져스: 엔드게임"
         }
       ]
     },
@@ -63,79 +63,79 @@
         },
         {
           "rank": 2,
-          "title": "직장인들3 3회 예고 모바일히어로"
-        },
-        {
-          "rank": 3,
-          "title": "직장인들3 3회 예고 오토플레이"
-        },
-        {
-          "rank": 4,
           "title": "지금 불륜이 문제가 아닙니다"
         },
         {
-          "rank": 5,
-          "title": "지금 불륜이 문제가 아닙니다 메인예고_히어로"
-        },
-        {
-          "rank": 6,
-          "title": "지금 불륜이 문제가 아닙니다 메인예고_오토"
-        },
-        {
-          "rank": 7,
+          "rank": 3,
           "title": "리센느의 맨시티 어택!"
         },
         {
-          "rank": 8,
-          "title": "리센느의 맨시티 어택 모바일히어로"
-        },
-        {
-          "rank": 9,
-          "title": "리센느의 맨시티 어택 오토플레이"
-        },
-        {
-          "rank": 10,
+          "rank": 4,
           "title": "국대: 로드 투 노스 아메리카"
         },
         {
-          "rank": 11,
-          "title": "국대: 로드 투 노스 아메리카 모바일 오토플레이"
-        },
-        {
-          "rank": 12,
-          "title": "국대: 로드 투 노스 아메리카 오토플레이"
-        },
-        {
-          "rank": 13,
+          "rank": 5,
           "title": "원희는 스무살"
         },
         {
-          "rank": 14,
-          "title": "원희는 스무살 티저 모바일히어로"
-        },
-        {
-          "rank": 15,
-          "title": "원희는 스무살 티저 오토플레이"
-        },
-        {
-          "rank": 16,
+          "rank": 6,
           "title": "봉주르빵집"
         },
         {
-          "rank": 17,
-          "title": "봉주르빵집_1차티저_히어로"
-        },
-        {
-          "rank": 18,
-          "title": "봉주르빵집_1차티저_오토"
-        },
-        {
-          "rank": 19,
+          "rank": 7,
           "title": "SNL 코리아"
         },
         {
-          "rank": 20,
+          "rank": 8,
           "title": "위버맨쉬 지드래곤 2025 월드 투어 더 파이널"
+        },
+        {
+          "rank": 9,
+          "title": "ÜBERMENSCH G-DRAGON 2025 WORLD TOUR THE FINAL 히어로"
+        },
+        {
+          "rank": 10,
+          "title": "투 브로크 걸즈"
+        },
+        {
+          "rank": 11,
+          "title": "투 브로크 걸즈_히어로"
+        },
+        {
+          "rank": 12,
+          "title": "세븐킹덤의 기사"
+        },
+        {
+          "rank": 13,
+          "title": "HBO"
+        },
+        {
+          "rank": 14,
+          "title": "세븐킹덤의 기사_히어로"
+        },
+        {
+          "rank": 15,
+          "title": "자매다방"
+        },
+        {
+          "rank": 16,
+          "title": "자매다방 5회 히어로"
+        },
+        {
+          "rank": 17,
+          "title": "자매다방 5회"
+        },
+        {
+          "rank": 18,
+          "title": "가족계획"
+        },
+        {
+          "rank": 19,
+          "title": "가족계획_트레일러히어로"
+        },
+        {
+          "rank": 20,
+          "title": "가족계획_트레일러"
         }
       ]
     }
