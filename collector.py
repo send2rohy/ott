@@ -4,7 +4,7 @@ import json
 import re
 import urllib.request
 from datetime import datetime, timezone, timedelta
-
+csv.field_size_limit(sys.maxsize)
 
 # =========================================================
 # 기본 설정
