@@ -1,1 +1,274 @@
-{"updated_at":"2026-09-15T10:39:07.474507+00:00","netflix":{"week":"2026-09-06","movies":[{"r":1,"t":"Shelter","c":0},{"r":2,"t":"The Whisper Man","c":0},{"r":3,"t":"Choir of God: Anthem","c":0},{"r":4,"t":"The Secret Woman","c":0},{"r":5,"t":"Anacondas: Trail of Blood","c":0},{"r":6,"t":"Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe","c":0},{"r":7,"t":"The Magnificent Seven","c":0},{"r":8,"t":"The Hard Corps","c":0},{"r":9,"t":"Wolf Man","c":0},{"r":10,"t":"Demon Slayer: Kimetsu no Yaiba Infinity Castle I","c":0}],"tv":[{"r":1,"t":"Mousetrap","s":"Mousetrap: Limited Series","c":0},{"r":2,"t":"Four Hands, Two Sonatas","s":"Four Hands, Two Sonatas: Limited Series","c":0},{"r":3,"t":"I am Solo","s":"I am Solo: Part 33","c":0},{"r":4,"t":"My Secretary","s":"My Secretary: My Genie Secretary","c":0},{"r":5,"t":"I'm SOLO, Love goes on","s":"I'm SOLO, Love goes on: 2026 Part 2","c":0},{"r":6,"t":"Take a Hike!","s":"Take a Hike!: Season 1","c":0},{"r":7,"t":"Your Honor","s":"Your Honor: Season 1","c":0},{"r":8,"t":"Badly in Love","s":"Badly in Love: Season 2","c":0},{"r":9,"t":"The Early Spring","s":"The Early Spring: Season 1","c":0},{"r":10,"t":"Our Sticky Love","s":"Our Sticky Love: Limited Series","c":0}]},"disney":[{"r":1,"t":"메이드 인 코리아","c":0},{"r":2,"t":"재벌 x 형사","c":0},{"r":3,"t":"킬러들의 쇼핑몰","c":0},{"r":4,"t":"스타워즈: 만달로리안과 그로구","c":0},{"r":5,"t":"연애전쟁","c":0},{"r":6,"t":"악마는 프라다를 입는다 2","c":0},{"r":7,"t":"조각도시","c":0},{"r":8,"t":"레디 오어 낫: 죽음의 숨바꼭질","c":0},{"r":9,"t":"골드랜드","c":0},{"r":10,"t":"어벤져스: 엔드게임","c":0}],"coupang":[{"r":1,"t":"봉주르빵집","c":0},{"r":2,"t":"직장인들","c":0},{"r":3,"t":"지금 불륜이 문제가 아닙니다","c":0},{"r":4,"t":"리센느의 맨시티 어택!","c":0},{"r":5,"t":"국대: 로드 투 노스 아메리카","c":0},{"r":6,"t":"원희는 스무살","c":0},{"r":7,"t":"유부녀 킬러","c":0},{"r":8,"t":"너 말고 다른 연애","c":0},{"r":9,"t":"사랑이 온다","c":0},{"r":10,"t":"왕과 사는 남자","c":0},{"r":11,"t":"살목지","c":0},{"r":12,"t":"랜턴스","c":0},{"r":13,"t":"무한도전","c":0},{"r":14,"t":"히든페이스","c":0},{"r":15,"t":"인턴","c":0},{"r":16,"t":"설계자","c":0},{"r":17,"t":"안나","c":0},{"r":18,"t":"만약에 우리","c":0},{"r":19,"t":"SNL 코리아","c":0},{"r":20,"t":"짱구","c":0}]}
+{
+  "updated_at": "2026-09-15T11:05:46.435575+00:00",
+  "netflix": {
+    "week": "2026-09-06",
+    "movies": [
+      {
+        "r": 1,
+        "t": "Shelter",
+        "c": 0
+      },
+      {
+        "r": 2,
+        "t": "The Whisper Man",
+        "c": 0
+      },
+      {
+        "r": 3,
+        "t": "Choir of God: Anthem",
+        "c": 0
+      },
+      {
+        "r": 4,
+        "t": "The Secret Woman",
+        "c": 0
+      },
+      {
+        "r": 5,
+        "t": "Anacondas: Trail of Blood",
+        "c": 0
+      },
+      {
+        "r": 6,
+        "t": "Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe",
+        "c": 0
+      },
+      {
+        "r": 7,
+        "t": "The Magnificent Seven",
+        "c": 0
+      },
+      {
+        "r": 8,
+        "t": "The Hard Corps",
+        "c": 0
+      },
+      {
+        "r": 9,
+        "t": "Wolf Man",
+        "c": 0
+      },
+      {
+        "r": 10,
+        "t": "Demon Slayer: Kimetsu no Yaiba Infinity Castle I",
+        "c": 0
+      }
+    ],
+    "tv": [
+      {
+        "r": 1,
+        "t": "Mousetrap",
+        "s": "Mousetrap: Limited Series",
+        "c": 0
+      },
+      {
+        "r": 2,
+        "t": "Four Hands, Two Sonatas",
+        "s": "Four Hands, Two Sonatas: Limited Series",
+        "c": 0
+      },
+      {
+        "r": 3,
+        "t": "I am Solo",
+        "s": "I am Solo: Part 33",
+        "c": 0
+      },
+      {
+        "r": 4,
+        "t": "My Secretary",
+        "s": "My Secretary: My Genie Secretary",
+        "c": 0
+      },
+      {
+        "r": 5,
+        "t": "I\\'m SOLO, Love goes on",
+        "s": "I'm SOLO, Love goes on: 2026 Part 2",
+        "c": "NEW"
+      },
+      {
+        "r": 6,
+        "t": "Take a Hike!",
+        "s": "Take a Hike!: Season 1",
+        "c": 0
+      },
+      {
+        "r": 7,
+        "t": "Your Honor",
+        "s": "Your Honor: Season 1",
+        "c": 0
+      },
+      {
+        "r": 8,
+        "t": "Badly in Love",
+        "s": "Badly in Love: Season 2",
+        "c": 0
+      },
+      {
+        "r": 9,
+        "t": "The Early Spring",
+        "s": "The Early Spring: Season 1",
+        "c": 0
+      },
+      {
+        "r": 10,
+        "t": "Our Sticky Love",
+        "s": "Our Sticky Love: Limited Series",
+        "c": 0
+      }
+    ]
+  },
+  "disney": [
+    {
+      "r": 1,
+      "t": "Nav Link - Log In -/identity/login USUF - LATAM, EMEA, CA, AUNZ, APAC",
+      "c": "NEW"
+    },
+    {
+      "r": 2,
+      "t": "Link - Trio - Bundle \\u0026 Save CTA - KR - TVing Bundle - Official",
+      "c": "NEW"
+    },
+    {
+      "r": 3,
+      "t": "Link - Disney+ Standalone [/commerce/plans?default=standalone] - KR ONLY",
+      "c": "NEW"
+    },
+    {
+      "r": 4,
+      "t": "Link - View All plan details - APAC Tiering",
+      "c": "NEW"
+    },
+    {
+      "r": 5,
+      "t": "Link - 'Learn More' - /bundle-terms-and-conditions - KR - Bundle",
+      "c": "NEW"
+    },
+    {
+      "r": 6,
+      "t": "Link - Cancellation and Refund policy - KR Legal Disclaimer",
+      "c": "NEW"
+    },
+    {
+      "r": 7,
+      "t": "메이드 인 코리아",
+      "c": -6
+    },
+    {
+      "r": 8,
+      "t": "재벌 x 형사",
+      "c": -6
+    },
+    {
+      "r": 9,
+      "t": "킬러들의 쇼핑몰",
+      "c": -6
+    },
+    {
+      "r": 10,
+      "t": "스타워즈: 만달로리안과 그로구",
+      "c": -6
+    }
+  ],
+  "coupang": [
+    {
+      "r": 1,
+      "t": "직장인들",
+      "c": 1
+    },
+    {
+      "r": 2,
+      "t": "지금 불륜이 문제가 아닙니다",
+      "c": 1
+    },
+    {
+      "r": 3,
+      "t": "리센느의 맨시티 어택!",
+      "c": 1
+    },
+    {
+      "r": 4,
+      "t": "리센느의 맨시티 어택 모바일히어로",
+      "c": "NEW"
+    },
+    {
+      "r": 5,
+      "t": "국대: 로드 투 노스 아메리카",
+      "c": 0
+    },
+    {
+      "r": 6,
+      "t": "원희는 스무살",
+      "c": 0
+    },
+    {
+      "r": 7,
+      "t": "원희는 스무살 티저 모바일히어로",
+      "c": "NEW"
+    },
+    {
+      "r": 8,
+      "t": "봉주르빵집",
+      "c": -7
+    },
+    {
+      "r": 9,
+      "t": "봉주르빵집_1차티저_히어로",
+      "c": "NEW"
+    },
+    {
+      "r": 10,
+      "t": "봉주르빵집_1차티저_오토",
+      "c": "NEW"
+    },
+    {
+      "r": 11,
+      "t": "SNL 코리아",
+      "c": 8
+    },
+    {
+      "r": 12,
+      "t": "위버맨쉬 지드래곤 2025 월드 투어 더 파이널",
+      "c": "NEW"
+    },
+    {
+      "r": 13,
+      "t": "ÜBERMENSCH G-DRAGON 2025 WORLD TOUR THE FINAL 히어로",
+      "c": "NEW"
+    },
+    {
+      "r": 14,
+      "t": "ÜBERMENSCH G-DRAGON 2025 WORLD TOUR THE FINAL 오토",
+      "c": "NEW"
+    },
+    {
+      "r": 15,
+      "t": "투 브로크 걸즈",
+      "c": "NEW"
+    },
+    {
+      "r": 16,
+      "t": "투 브로크 걸즈_히어로",
+      "c": "NEW"
+    },
+    {
+      "r": 17,
+      "t": "세븐킹덤의 기사",
+      "c": "NEW"
+    },
+    {
+      "r": 18,
+      "t": "HBO",
+      "c": "NEW"
+    },
+    {
+      "r": 19,
+      "t": "세븐킹덤의 기사_히어로",
+      "c": "NEW"
+    },
+    {
+      "r": 20,
+      "t": "자매다방",
+      "c": "NEW"
+    }
+  ]
+}
