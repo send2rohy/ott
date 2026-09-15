@@ -1,9 +1,20 @@
 {
-  "collectedAt": "2026-09-15T09:48:56.807909+00:00",
+  "collectedAt": "2026-09-15T09:51:05.599089+00:00",
   "country": "KR",
   "services": {
     "netflix": {
-      "error": "IncompleteRead(65133 bytes read)"
+      "movies": {
+        "service": "Netflix",
+        "category": "영화",
+        "source": "https://www.netflix.com/tudum/top10/south-korea",
+        "items": []
+      },
+      "tv": {
+        "service": "Netflix",
+        "category": "TV",
+        "source": "https://www.netflix.com/tudum/top10/south-korea/tv",
+        "items": []
+      }
     },
     "disneyplus": {
       "service": "Disney+",
@@ -91,51 +102,51 @@
         },
         {
           "rank": 9,
-          "title": "ÜBERMENSCH G-DRAGON 2025 WORLD TOUR THE FINAL 히어로"
-        },
-        {
-          "rank": 10,
           "title": "투 브로크 걸즈"
         },
         {
-          "rank": 11,
-          "title": "투 브로크 걸즈_히어로"
-        },
-        {
-          "rank": 12,
+          "rank": 10,
           "title": "세븐킹덤의 기사"
         },
         {
-          "rank": 13,
-          "title": "HBO"
-        },
-        {
-          "rank": 14,
-          "title": "세븐킹덤의 기사_히어로"
-        },
-        {
-          "rank": 15,
+          "rank": 11,
           "title": "자매다방"
         },
         {
-          "rank": 16,
-          "title": "자매다방 5회 히어로"
-        },
-        {
-          "rank": 17,
+          "rank": 12,
           "title": "자매다방 5회"
         },
         {
-          "rank": 18,
+          "rank": 13,
           "title": "가족계획"
         },
         {
+          "rank": 14,
+          "title": "소년시대"
+        },
+        {
+          "rank": 15,
+          "title": "안나"
+        },
+        {
+          "rank": 16,
+          "title": "왕좌의 게임"
+        },
+        {
+          "rank": 17,
+          "title": "사랑 후에 오는 것들"
+        },
+        {
+          "rank": 18,
+          "title": "유부녀 킬러"
+        },
+        {
           "rank": 19,
-          "title": "가족계획_트레일러히어로"
+          "title": "너 말고 다른 연애"
         },
         {
           "rank": 20,
-          "title": "가족계획_트레일러"
+          "title": "너다연"
         }
       ]
     }
