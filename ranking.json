@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T11:05:46.435575+00:00",
+  "updated_at": "2026-09-15T15:14:19.587941+00:00",
   "netflix": {
     "week": "2026-09-06",
     "movies": [
@@ -81,7 +81,7 @@
       },
       {
         "r": 5,
-        "t": "I\\'m SOLO, Love goes on",
+        "t": "I'm SOLO, Love goes on",
         "s": "I'm SOLO, Love goes on: 2026 Part 2",
         "c": "NEW"
       },
@@ -121,74 +121,74 @@
     {
       "r": 1,
       "t": "Nav Link - Log In -/identity/login USUF - LATAM, EMEA, CA, AUNZ, APAC",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 2,
       "t": "Link - Trio - Bundle \\u0026 Save CTA - KR - TVing Bundle - Official",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 3,
       "t": "Link - Disney+ Standalone [/commerce/plans?default=standalone] - KR ONLY",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 4,
       "t": "Link - View All plan details - APAC Tiering",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 5,
       "t": "Link - 'Learn More' - /bundle-terms-and-conditions - KR - Bundle",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 6,
       "t": "Link - Cancellation and Refund policy - KR Legal Disclaimer",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 7,
       "t": "메이드 인 코리아",
-      "c": -6
+      "c": 0
     },
     {
       "r": 8,
       "t": "재벌 x 형사",
-      "c": -6
+      "c": 0
     },
     {
       "r": 9,
       "t": "킬러들의 쇼핑몰",
-      "c": -6
+      "c": 0
     },
     {
       "r": 10,
       "t": "스타워즈: 만달로리안과 그로구",
-      "c": -6
+      "c": 0
     }
   ],
   "coupang": [
     {
       "r": 1,
       "t": "직장인들",
-      "c": 1
+      "c": 0
     },
     {
       "r": 2,
       "t": "지금 불륜이 문제가 아닙니다",
-      "c": 1
+      "c": 0
     },
     {
       "r": 3,
       "t": "리센느의 맨시티 어택!",
-      "c": 1
+      "c": 0
     },
     {
       "r": 4,
       "t": "리센느의 맨시티 어택 모바일히어로",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 5,
@@ -203,72 +203,72 @@
     {
       "r": 7,
       "t": "원희는 스무살 티저 모바일히어로",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 8,
       "t": "봉주르빵집",
-      "c": -7
+      "c": 0
     },
     {
       "r": 9,
       "t": "봉주르빵집_1차티저_히어로",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 10,
       "t": "봉주르빵집_1차티저_오토",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 11,
       "t": "SNL 코리아",
-      "c": 8
+      "c": 0
     },
     {
       "r": 12,
       "t": "위버맨쉬 지드래곤 2025 월드 투어 더 파이널",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 13,
       "t": "ÜBERMENSCH G-DRAGON 2025 WORLD TOUR THE FINAL 히어로",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 14,
       "t": "ÜBERMENSCH G-DRAGON 2025 WORLD TOUR THE FINAL 오토",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 15,
       "t": "투 브로크 걸즈",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 16,
       "t": "투 브로크 걸즈_히어로",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 17,
       "t": "세븐킹덤의 기사",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 18,
       "t": "HBO",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 19,
       "t": "세븐킹덤의 기사_히어로",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 20,
       "t": "자매다방",
-      "c": "NEW"
+      "c": 0
     }
   ]
 }
