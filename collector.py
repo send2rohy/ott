@@ -1,87 +1,72 @@
 import json
 import re
-import time
-import urllib.request
+import subprocess
 from datetime import datetime, timezone
 
 
-# =========================================================
-# OTT Ranking Collector
-# Netflix / Disney+ / Coupang Play
-# =========================================================
-
 OUTPUT_FILE = "test_result.json"
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/140.0.0.0 Safari/537.36"
-    ),
-    "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Connection": "close",
-}
-
 
 # =========================================================
-# 공통 함수
+# 공통
 # =========================================================
 
-def fetch_url(url, timeout=60, retries=3):
+def fetch_with_curl(url):
+    """
+    GitHub Actions에 설치되어 있는 curl을 이용한다.
+    urllib의 IncompleteRead 문제를 피하기 위한 방식이다.
+    """
 
-    last_error = None
+    print()
+    print("GET:", url)
 
-    for attempt in range(1, retries + 1):
+    result = subprocess.run(
+        [
+            "curl",
+            "-L",
+            "--compressed",
+            "--silent",
+            "--show-error",
+            "--retry",
+            "3",
+            "--retry-delay",
+            "2",
+            "--max-time",
+            "60",
+            "-A",
+            (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 "
+                "(KHTML, like Gecko) "
+                "Chrome/140.0.0.0 Safari/537.36"
+            ),
+            "-H",
+            "Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+            url
+        ],
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="ignore"
+    )
 
-        try:
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"curl failed: {result.stderr.strip()}"
+        )
 
-            print(f"요청 {attempt}/{retries}: {url}")
+    html = result.stdout
 
-            req = urllib.request.Request(
-                url,
-                headers=HEADERS
-            )
+    if not html:
+        raise RuntimeError("빈 응답")
 
-            with urllib.request.urlopen(
-                req,
-                timeout=timeout
-            ) as response:
+    print(
+        "응답 크기:",
+        f"{len(html):,}",
+        "characters"
+    )
 
-                chunks = []
-
-                while True:
-
-                    chunk = response.read(65536)
-
-                    if not chunk:
-                        break
-
-                    chunks.append(chunk)
-
-                data = b"".join(chunks)
-
-                print(
-                    f"수신 완료: {len(data):,} bytes"
-                )
-
-                return data.decode(
-                    "utf-8",
-                    errors="ignore"
-                )
-
-        except Exception as e:
-
-            last_error = e
-
-            print(
-                f"요청 실패: {type(e).__name__}: {e}"
-            )
-
-            if attempt < retries:
-                time.sleep(3)
-
-    raise last_error
+    return html
 
 
 def clean_text(text):
@@ -96,39 +81,12 @@ def clean_text(text):
         .replace("&amp;", "&")
         .replace("&quot;", '"')
         .replace("&#39;", "'")
+        .replace("&apos;", "'")
     )
 
     text = re.sub(r"\s+", " ", text)
 
     return text.strip()
-
-
-def unique_items(items):
-
-    result = []
-    seen = set()
-
-    for item in items:
-
-        title = clean_text(
-            item.get("title", "")
-        )
-
-        if not title:
-            continue
-
-        key = title.lower()
-
-        if key in seen:
-            continue
-
-        seen.add(key)
-
-        item["title"] = title
-
-        result.append(item)
-
-    return result
 
 
 def save_json(data):
@@ -151,40 +109,42 @@ def save_json(data):
 # Netflix
 # =========================================================
 
-def collect_netflix_page(url, category):
+def collect_netflix(url, category):
 
     print()
     print("=" * 60)
-    print(f"NETFLIX {category}")
+    print("NETFLIX:", category)
     print("=" * 60)
 
-    html = fetch_url(url)
+    html = fetch_with_curl(url)
 
     items = []
 
     # -----------------------------------------------------
-    # 공식 페이지의
+    # 공식 Netflix Top 10 Overview
     #
-    # Image#1 ... Image#2 ...
+    # 01Image[Button: 제목]
+    # 02Image[Button: 제목]
     #
-    # 구조를 이용한다.
+    # 형태를 직접 추출한다.
     # -----------------------------------------------------
 
-    image_pattern = re.compile(
-        r"Image#(\d+)\s+(?:in\s+(?:Movies|Shows))?"
-        r".*?"
-        r"(?:Image:\s*)?"
-        r"([^<\n]{2,180})",
-        re.IGNORECASE | re.DOTALL
+    pattern = re.compile(
+        r"(\d{1,2})\s*"
+        r"(?:Image)?"
+        r"\s*\[Button:\s*"
+        r"([^\]]+?)"
+        r"\]",
+        re.IGNORECASE
     )
 
-    matches = image_pattern.findall(html)
+    matches = pattern.findall(html)
 
-    for rank, title in matches:
+    for rank_text, title in matches:
 
         try:
-            rank = int(rank)
-        except Exception:
+            rank = int(rank_text)
+        except ValueError:
             continue
 
         if rank < 1 or rank > 10:
@@ -195,17 +155,28 @@ def collect_netflix_page(url, category):
         if not title:
             continue
 
-        # 명백한 UI 문구 제거
-        bad_words = [
+        # Netflix 페이지의 일반 버튼은 제외
+        bad = {
             "my list",
             "watch",
             "explore",
-            "limited series",
-            "season",
-            "button",
-        ]
+            "more details",
+            "top 10 search",
+        }
 
-        if title.lower() in bad_words:
+        if title.lower() in bad:
+            continue
+
+        # 동일 순위 중복 방지
+        exists = False
+
+        for item in items:
+
+            if item["rank"] == rank:
+                exists = True
+                break
+
+        if exists:
             continue
 
         items.append({
@@ -213,73 +184,19 @@ def collect_netflix_page(url, category):
             "title": title
         })
 
-    # -----------------------------------------------------
-    # 페이지의 Overview 영역도 보조적으로 검사
-    # -----------------------------------------------------
-
-    overview_pattern = re.compile(
-        r"0?([1-9]|10)"
-        r".{0,80}?"
-        r"\[Button:\s*([^\]]{2,180})\]",
-        re.IGNORECASE | re.DOTALL
+    items.sort(
+        key=lambda x: x["rank"]
     )
 
-    overview_matches = overview_pattern.findall(
-        html
-    )
-
-    for rank, title in overview_matches:
-
-        try:
-            rank = int(rank)
-        except Exception:
-            continue
-
-        title = clean_text(title)
-
-        if not title:
-            continue
-
-        items.append({
-            "rank": rank,
-            "title": title
-        })
-
-    # -----------------------------------------------------
-    # 순위별 정리
-    # -----------------------------------------------------
-
-    ranked = {}
-
-    for item in items:
-
-        rank = item["rank"]
-        title = item["title"]
-
-        if rank not in ranked:
-
-            ranked[rank] = {
-                "rank": rank,
-                "title": title
-            }
-
-    result = []
-
-    for rank in range(1, 11):
-
-        if rank in ranked:
-
-            result.append(
-                ranked[rank]
-            )
+    items = items[:10]
 
     print()
     print(
         f"Netflix {category}: "
-        f"{len(result)}개"
+        f"{len(items)}개"
     )
 
-    for item in result:
+    for item in items:
 
         print(
             f"{item['rank']:2d}. "
@@ -290,11 +207,11 @@ def collect_netflix_page(url, category):
         "service": "Netflix",
         "category": category,
         "source": url,
-        "items": result
+        "items": items
     }
 
 
-def collect_netflix():
+def collect_netflix_all():
 
     movies_url = (
         "https://www.netflix.com/"
@@ -308,12 +225,12 @@ def collect_netflix():
 
     return {
 
-        "movies": collect_netflix_page(
+        "movies": collect_netflix(
             movies_url,
             "영화"
         ),
 
-        "tv": collect_netflix_page(
+        "tv": collect_netflix(
             tv_url,
             "TV"
         )
@@ -324,9 +241,9 @@ def collect_netflix():
 # Disney+
 # =========================================================
 
-def disney_bad_title(title):
+def is_bad_disney_title(title):
 
-    title_lower = title.lower()
+    lower = title.lower()
 
     bad_patterns = [
 
@@ -344,12 +261,15 @@ def disney_bad_title(title):
         "/commerce/",
         "official",
         "terms and conditions",
-
+        "login",
+        "sign up",
+        "subscribe",
+        "watch now",
     ]
 
     for pattern in bad_patterns:
 
-        if pattern in title_lower:
+        if pattern in lower:
             return True
 
     return False
@@ -364,7 +284,7 @@ def collect_disney():
     print("DISNEY+")
     print("=" * 60)
 
-    html = fetch_url(url)
+    html = fetch_with_curl(url)
 
     candidates = []
 
@@ -397,13 +317,13 @@ def collect_disney():
             if not title:
                 continue
 
-            if disney_bad_title(title):
+            if is_bad_disney_title(title):
                 continue
 
             candidates.append(title)
 
     # -----------------------------------------------------
-    # alt/title
+    # img alt/title
     # -----------------------------------------------------
 
     patterns = [
@@ -429,17 +349,16 @@ def collect_disney():
             if not title:
                 continue
 
-            if disney_bad_title(title):
+            if is_bad_disney_title(title):
                 continue
 
             candidates.append(title)
 
     # -----------------------------------------------------
-    # 후보 정리
+    # 중복 제거
     # -----------------------------------------------------
 
     unique = []
-
     seen = set()
 
     for title in candidates:
@@ -454,13 +373,10 @@ def collect_disney():
         unique.append(title)
 
     # -----------------------------------------------------
-    # 너무 짧거나 메뉴성 문구 제거
+    # 명백한 메뉴 제거
     # -----------------------------------------------------
 
-    filtered = []
-
     bad_exact = {
-
         "home",
         "search",
         "movies",
@@ -472,8 +388,9 @@ def collect_disney():
         "watch now",
         "learn more",
         "disney+",
-
     }
+
+    filtered = []
 
     for title in unique:
 
@@ -487,13 +404,10 @@ def collect_disney():
 
     items = []
 
-    for index, title in enumerate(
-        filtered[:10],
-        start=1
-    ):
+    for title in filtered[:10]:
 
         items.append({
-            "rank": index,
+            "rank": len(items) + 1,
             "title": title
         })
 
@@ -525,7 +439,7 @@ def collect_disney():
 # Coupang Play
 # =========================================================
 
-def coupang_bad_title(title):
+def is_bad_coupang_title(title):
 
     lower = title.lower()
 
@@ -535,8 +449,10 @@ def coupang_bad_title(title):
         "오토플레이",
         "오토",
         "모바일",
+        "트레일러",
         "티저",
         "예고",
+        "히어로",
         "trailer",
         "preview",
         "mobile hero",
@@ -553,6 +469,46 @@ def coupang_bad_title(title):
     return False
 
 
+def normalize_coupang_title(title):
+
+    title = clean_text(title)
+
+    # -----------------------------------------------------
+    # 끝에 붙는 파생 콘텐츠 표시 제거
+    # -----------------------------------------------------
+
+    suffixes = [
+
+        "_히어로",
+        "_트레일러",
+        "_티저",
+        "_예고",
+        " 히어로",
+        " 트레일러",
+        " 티저",
+        " 예고",
+
+    ]
+
+    changed = True
+
+    while changed:
+
+        changed = False
+
+        for suffix in suffixes:
+
+            if title.endswith(suffix):
+
+                title = title[
+                    :-len(suffix)
+                ].strip()
+
+                changed = True
+
+    return title
+
+
 def collect_coupang():
 
     url = (
@@ -564,12 +520,12 @@ def collect_coupang():
     print("COUPANG PLAY")
     print("=" * 60)
 
-    html = fetch_url(url)
+    html = fetch_with_curl(url)
 
     candidates = []
 
     # -----------------------------------------------------
-    # JSON 데이터
+    # JSON
     # -----------------------------------------------------
 
     patterns = [
@@ -599,7 +555,7 @@ def collect_coupang():
             if not title:
                 continue
 
-            if coupang_bad_title(title):
+            if is_bad_coupang_title(title):
                 continue
 
             candidates.append(title)
@@ -631,20 +587,27 @@ def collect_coupang():
             if not title:
                 continue
 
-            if coupang_bad_title(title):
+            if is_bad_coupang_title(title):
                 continue
 
             candidates.append(title)
 
     # -----------------------------------------------------
-    # 중복 제거
+    # 작품명 정규화
     # -----------------------------------------------------
 
-    unique = []
+    normalized = []
 
     seen = set()
 
     for title in candidates:
+
+        title = normalize_coupang_title(
+            title
+        )
+
+        if not title:
+            continue
 
         key = title.lower()
 
@@ -653,18 +616,34 @@ def collect_coupang():
 
         seen.add(key)
 
-        unique.append(title)
+        normalized.append(title)
 
     # -----------------------------------------------------
-    # 작품명 정리
+    # HBO 같은 카테고리/브랜드 제거
+    # -----------------------------------------------------
+
+    bad_exact = {
+        "hbo",
+        "coupang play",
+        "쿠팡플레이",
+    }
+
+    filtered = []
+
+    for title in normalized:
+
+        if title.lower() in bad_exact:
+            continue
+
+        filtered.append(title)
+
+    # -----------------------------------------------------
+    # TOP 20
     # -----------------------------------------------------
 
     items = []
 
-    for title in unique:
-
-        if len(items) >= 20:
-            break
+    for title in filtered[:20]:
 
         items.append({
             "rank": len(items) + 1,
@@ -710,8 +689,10 @@ def main():
     print("=" * 60)
     print("OTT RANKING COLLECTOR")
     print("=" * 60)
+
     print(
-        f"Collected: {collected_at}"
+        "Collected:",
+        collected_at
     )
 
     result = {
@@ -731,21 +712,20 @@ def main():
     try:
 
         result["services"]["netflix"] = (
-            collect_netflix()
+            collect_netflix_all()
         )
 
     except Exception as e:
 
         print()
         print(
-            f"Netflix 오류: "
-            f"{type(e).__name__}: {e}"
+            "Netflix ERROR:",
+            type(e).__name__,
+            str(e)
         )
 
         result["services"]["netflix"] = {
-
             "error": str(e)
-
         }
 
     # -----------------------------------------------------
@@ -762,14 +742,13 @@ def main():
 
         print()
         print(
-            f"Disney+ 오류: "
-            f"{type(e).__name__}: {e}"
+            "Disney+ ERROR:",
+            type(e).__name__,
+            str(e)
         )
 
         result["services"]["disneyplus"] = {
-
             "error": str(e)
-
         }
 
     # -----------------------------------------------------
@@ -786,14 +765,13 @@ def main():
 
         print()
         print(
-            f"Coupang Play 오류: "
-            f"{type(e).__name__}: {e}"
+            "Coupang Play ERROR:",
+            type(e).__name__,
+            str(e)
         )
 
         result["services"]["coupangplay"] = {
-
             "error": str(e)
-
         }
 
     # -----------------------------------------------------
@@ -804,12 +782,9 @@ def main():
 
     print()
     print("=" * 60)
-    print(
-        f"저장 완료: {OUTPUT_FILE}"
-    )
+    print("저장 완료:", OUTPUT_FILE)
     print("=" * 60)
 
 
 if __name__ == "__main__":
-
     main()
