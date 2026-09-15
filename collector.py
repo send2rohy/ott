@@ -3,47 +3,40 @@ import re
 import subprocess
 from datetime import datetime, timezone
 
-
 OUTPUT_FILE = "test_result.json"
 
+HEADERS = [
+    "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/140 Safari/537.36",
+    "Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+]
 
-# =========================================================
-# 공통
-# =========================================================
+NETFLIX_MOVIES_URL = "https://www.netflix.com/tudum/top10/south-korea"
+NETFLIX_TV_URL = "https://www.netflix.com/tudum/top10/south-korea/tv"
 
-def fetch_with_curl(url):
-    """
-    GitHub Actions에 설치되어 있는 curl을 이용한다.
-    urllib의 IncompleteRead 문제를 피하기 위한 방식이다.
-    """
+DISNEY_URL = "https://www.disneyplus.com/ko-kr"
+COUPANG_URL = "https://www.coupangplay.com/catalog"
 
-    print()
-    print("GET:", url)
+
+def curl_page(url):
+    cmd = [
+        "curl",
+        "-L",
+        "--compressed",
+        "--max-time",
+        "60",
+        "--retry",
+        "3",
+        "--retry-delay",
+        "2",
+    ]
+
+    for header in HEADERS:
+        cmd += ["-H", header]
+
+    cmd.append(url)
 
     result = subprocess.run(
-        [
-            "curl",
-            "-L",
-            "--compressed",
-            "--silent",
-            "--show-error",
-            "--retry",
-            "3",
-            "--retry-delay",
-            "2",
-            "--max-time",
-            "60",
-            "-A",
-            (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 "
-                "(KHTML, like Gecko) "
-                "Chrome/140.0.0.0 Safari/537.36"
-            ),
-            "-H",
-            "Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
-            url
-        ],
+        cmd,
         capture_output=True,
         text=True,
         encoding="utf-8",
@@ -51,52 +44,500 @@ def fetch_with_curl(url):
     )
 
     if result.returncode != 0:
-        raise RuntimeError(
-            f"curl failed: {result.stderr.strip()}"
-        )
+        raise RuntimeError(result.stderr.strip() or "curl failed")
 
-    html = result.stdout
-
-    if not html:
-        raise RuntimeError("빈 응답")
-
-    print(
-        "응답 크기:",
-        f"{len(html):,}",
-        "characters"
-    )
-
-    return html
+    return result.stdout
 
 
-def clean_text(text):
+def clean_title(title):
+    title = re.sub(r"\s+", " ", title)
+    title = title.strip()
 
-    if not text:
-        return ""
+    # HTML/JSON 잔여 문자 제거
+    title = title.replace("\\u0026", "&")
+    title = title.replace("\\/", "/")
+    title = title.replace("&amp;", "&")
 
-    text = (
-        text
-        .replace("\\u0026", "&")
-        .replace("\\/", "/")
-        .replace("&amp;", "&")
-        .replace("&quot;", '"')
-        .replace("&#39;", "'")
-        .replace("&apos;", "'")
-    )
+    return title
 
+
+def extract_netflix_titles(html):
+    """
+    Netflix Tudum 페이지에서 다음과 같은 구조를 찾는다.
+
+    Image#1 in Movies
+    ...
+    Image#2 in Movies
+
+    또는
+
+    Image#1 in TV
+    ...
+
+    제목은 해당 이미지 앞뒤의 JSON/HTML 구조에서
+    최대한 안전하게 찾는다.
+    """
+
+    results = []
+
+    # ---------------------------------------------------------
+    # 방법 1
+    # alt/title 속성에 제목이 들어있는 경우
+    # ---------------------------------------------------------
+    patterns = [
+        r'<img[^>]+alt=["\']([^"\']+)["\'][^>]*>',
+        r'<img[^>]+title=["\']([^"\']+)["\'][^>]*>',
+    ]
+
+    candidates = []
+
+    for pattern in patterns:
+        for m in re.finditer(pattern, html, re.I):
+            title = clean_title(m.group(1))
+
+            if not title:
+                continue
+
+            if title.lower() in {
+                "image",
+                "logo",
+                "netflix",
+                "my list",
+                "watch",
+                "explore"
+            }:
+                continue
+
+            candidates.append(title)
+
+    # ---------------------------------------------------------
+    # 방법 2
+    # JSON 내부 title 필드
+    # ---------------------------------------------------------
+    json_patterns = [
+        r'"title"\s*:\s*"([^"]+)"',
+        r'"name"\s*:\s*"([^"]+)"',
+        r'"displayName"\s*:\s*"([^"]+)"',
+    ]
+
+    for pattern in json_patterns:
+        for m in re.finditer(pattern, html, re.I):
+            title = clean_title(m.group(1))
+
+            if not title:
+                continue
+
+            candidates.append(title)
+
+    # ---------------------------------------------------------
+    # Netflix가 실제 순위 데이터에 사용하는 제목 후보 제거
+    # ---------------------------------------------------------
+    bad_words = {
+        "movies",
+        "shows",
+        "movie",
+        "tv",
+        "south korea",
+        "my list",
+        "watch",
+        "explore",
+        "netflix",
+        "image",
+        "top 10",
+        "overview",
+        "ranking",
+    }
+
+    seen = set()
+
+    for title in candidates:
+        key = title.lower().strip()
+
+        if key in bad_words:
+            continue
+
+        if len(title) < 2:
+            continue
+
+        if len(title) > 200:
+            continue
+
+        if key in seen:
+            continue
+
+        seen.add(key)
+
+        results.append(title)
+
+    return results
+
+
+def extract_netflix_ranked_titles(html):
+    """
+    페이지에서 'Image#N in Movies' 주변을 기준으로
+    제목 후보를 찾는다.
+
+    제목 순서가 공식 페이지의 순위 순서와 같다는 점을 이용한다.
+    """
+
+    # 페이지 텍스트화
+    text = re.sub(r"<script[^>]*>.*?</script>", " ", html, flags=re.I | re.S)
+    text = re.sub(r"<style[^>]*>.*?</style>", " ", text, flags=re.I | re.S)
+    text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
 
-    return text.strip()
+    # HTML 엔티티
+    text = (
+        text.replace("&amp;", "&")
+            .replace("&quot;", '"')
+            .replace("&#39;", "'")
+            .replace("&apos;", "'")
+    )
+
+    ranked = []
+
+    # 실제 페이지에서 확인되는 형식
+    # Image#1 in Movies ... 제목 ... Image#2 in Movies
+    pattern = re.compile(
+        r"Image#\s*(\d{1,2})\s+in\s+(?:Movies|TV)"
+        r"(.*?)(?=Image#\s*\d{1,2}\s+in\s+(?:Movies|TV)|Top 10 Movies overview|Top 10 Shows overview|$)",
+        re.I
+    )
+
+    for match in pattern.finditer(text):
+        rank = int(match.group(1))
+        section = match.group(2)
+
+        # 앞부분에서 제목 후보 추출
+        section = section.strip()
+
+        # 너무 긴 경우 앞부분만 사용
+        section = section[:500]
+
+        # 흔한 UI 텍스트 제거
+        section = re.sub(
+            r"\b(My List|Watch|Explore|in Movies|in TV)\b",
+            " ",
+            section,
+            flags=re.I
+        )
+
+        section = re.sub(r"\s+", " ", section).strip()
+
+        if not section:
+            continue
+
+        # 제목 앞에 붙는 잡다한 문구 제거
+        section = re.sub(
+            r"^(?:Image\s*)+",
+            "",
+            section,
+            flags=re.I
+        ).strip()
+
+        # 너무 명백한 UI 문구 제외
+        if section.lower() in {
+            "movies",
+            "tv",
+            "watch",
+            "explore",
+            "my list",
+        }:
+            continue
+
+        ranked.append({
+            "rank": rank,
+            "title": section
+        })
+
+    # 순위 정렬
+    ranked.sort(key=lambda x: x["rank"])
+
+    # 중복 순위 제거
+    final = []
+    seen_rank = set()
+
+    for item in ranked:
+        if item["rank"] in seen_rank:
+            continue
+
+        seen_rank.add(item["rank"])
+        final.append(item)
+
+    return final[:10]
 
 
-def save_json(data):
+def collect_netflix():
+    result = {
+        "movies": [],
+        "tv": [],
+        "error": None
+    }
+
+    errors = []
+
+    # ---------------------------------------------------------
+    # Movies
+    # ---------------------------------------------------------
+    try:
+        html = curl_page(NETFLIX_MOVIES_URL)
+
+        movies = extract_netflix_ranked_titles(html)
+
+        result["movies"] = movies
+
+        if not movies:
+            # 보조 방식
+            candidates = extract_netflix_titles(html)
+
+            result["movies"] = [
+                {
+                    "rank": i + 1,
+                    "title": title
+                }
+                for i, title in enumerate(candidates[:10])
+            ]
+
+    except Exception as e:
+        errors.append("movies: " + str(e))
+
+    # ---------------------------------------------------------
+    # TV
+    # ---------------------------------------------------------
+    try:
+        html = curl_page(NETFLIX_TV_URL)
+
+        tv = extract_netflix_ranked_titles(html)
+
+        result["tv"] = tv
+
+        if not tv:
+            candidates = extract_netflix_titles(html)
+
+            result["tv"] = [
+                {
+                    "rank": i + 1,
+                    "title": title
+                }
+                for i, title in enumerate(candidates[:10])
+            ]
+
+    except Exception as e:
+        errors.append("tv: " + str(e))
+
+    if errors:
+        result["error"] = " | ".join(errors)
+
+    return result
+
+
+def extract_disney_titles(html):
+    """
+    Disney+ 페이지에서 실제 콘텐츠 제목 후보를 추출한다.
+    """
+
+    candidates = []
+
+    patterns = [
+        r'"title"\s*:\s*"([^"]+)"',
+        r'"name"\s*:\s*"([^"]+)"',
+        r'"contentTitle"\s*:\s*"([^"]+)"',
+    ]
+
+    for pattern in patterns:
+        for m in re.finditer(pattern, html, re.I):
+            title = clean_title(m.group(1))
+
+            if title:
+                candidates.append(title)
+
+    bad = {
+        "disney+",
+        "disney plus",
+        "home",
+        "search",
+        "login",
+        "sign up",
+        "watch now",
+        "top 10",
+    }
+
+    result = []
+    seen = set()
+
+    for title in candidates:
+        key = title.lower()
+
+        if key in bad:
+            continue
+
+        if len(title) < 2 or len(title) > 150:
+            continue
+
+        if key in seen:
+            continue
+
+        seen.add(key)
+        result.append(title)
+
+    return result[:10]
+
+
+def collect_disney():
+    try:
+        html = curl_page(DISNEY_URL)
+
+        titles = extract_disney_titles(html)
+
+        return {
+            "items": [
+                {
+                    "rank": i + 1,
+                    "title": title
+                }
+                for i, title in enumerate(titles)
+            ],
+            "error": None
+        }
+
+    except Exception as e:
+        return {
+            "items": [],
+            "error": str(e)
+        }
+
+
+def extract_coupang_titles(html):
+    """
+    Coupang Play 페이지의 제목 후보를 추출한다.
+    """
+
+    candidates = []
+
+    patterns = [
+        r'"title"\s*:\s*"([^"]+)"',
+        r'"name"\s*:\s*"([^"]+)"',
+        r'"programTitle"\s*:\s*"([^"]+)"',
+    ]
+
+    for pattern in patterns:
+        for m in re.finditer(pattern, html, re.I):
+            title = clean_title(m.group(1))
+
+            if title:
+                candidates.append(title)
+
+    bad_words = {
+        "coupang play",
+        "home",
+        "search",
+        "login",
+        "sign up",
+        "top 20",
+        "trending now",
+    }
+
+    result = []
+    seen = set()
+
+    for title in candidates:
+        key = title.lower()
+
+        if key in bad_words:
+            continue
+
+        if len(title) < 2 or len(title) > 150:
+            continue
+
+        # 모바일 히어로 / 오토플레이 같은 부가 문구 제거
+        if "모바일히어로" in title:
+            continue
+
+        if "오토플레이" in title:
+            continue
+
+        if key in seen:
+            continue
+
+        seen.add(key)
+        result.append(title)
+
+    return result[:20]
+
+
+def collect_coupang():
+    try:
+        html = curl_page(COUPANG_URL)
+
+        titles = extract_coupang_titles(html)
+
+        return {
+            "items": [
+                {
+                    "rank": i + 1,
+                    "title": title
+                }
+                for i, title in enumerate(titles)
+            ],
+            "error": None
+        }
+
+    except Exception as e:
+        return {
+            "items": [],
+            "error": str(e)
+        }
+
+
+def main():
+
+    print("======================================")
+    print("OTT COLLECTOR TEST")
+    print("======================================")
+
+    print()
+    print("[1] Netflix 수집")
+    netflix = collect_netflix()
+
+    print("Netflix Movies:", len(netflix["movies"]))
+    print("Netflix TV:", len(netflix["tv"]))
+
+    if netflix["error"]:
+        print("Netflix ERROR:", netflix["error"])
+
+    print()
+    print("[2] Disney+ 수집")
+    disney = collect_disney()
+
+    print("Disney+:", len(disney["items"]))
+
+    if disney["error"]:
+        print("Disney+ ERROR:", disney["error"])
+
+    print()
+    print("[3] Coupang Play 수집")
+    coupang = collect_coupang()
+
+    print("Coupang Play:", len(coupang["items"]))
+
+    if coupang["error"]:
+        print("Coupang Play ERROR:", coupang["error"])
+
+    data = {
+        "collected_at": datetime.now(timezone.utc).isoformat(),
+
+        "netflix": netflix,
+
+        "disney_plus": disney,
+
+        "coupang_play": coupang
+    }
 
     with open(
         OUTPUT_FILE,
         "w",
         encoding="utf-8"
     ) as f:
-
         json.dump(
             data,
             f,
@@ -104,686 +545,11 @@ def save_json(data):
             indent=2
         )
 
-
-# =========================================================
-# Netflix
-# =========================================================
-
-def collect_netflix(url, category):
-
     print()
-    print("=" * 60)
-    print("NETFLIX:", category)
-    print("=" * 60)
-
-    html = fetch_with_curl(url)
-
-    items = []
-
-    # -----------------------------------------------------
-    # 공식 Netflix Top 10 Overview
-    #
-    # 01Image[Button: 제목]
-    # 02Image[Button: 제목]
-    #
-    # 형태를 직접 추출한다.
-    # -----------------------------------------------------
-
-    pattern = re.compile(
-        r"(\d{1,2})\s*"
-        r"(?:Image)?"
-        r"\s*\[Button:\s*"
-        r"([^\]]+?)"
-        r"\]",
-        re.IGNORECASE
-    )
-
-    matches = pattern.findall(html)
-
-    for rank_text, title in matches:
-
-        try:
-            rank = int(rank_text)
-        except ValueError:
-            continue
-
-        if rank < 1 or rank > 10:
-            continue
-
-        title = clean_text(title)
-
-        if not title:
-            continue
-
-        # Netflix 페이지의 일반 버튼은 제외
-        bad = {
-            "my list",
-            "watch",
-            "explore",
-            "more details",
-            "top 10 search",
-        }
-
-        if title.lower() in bad:
-            continue
-
-        # 동일 순위 중복 방지
-        exists = False
-
-        for item in items:
-
-            if item["rank"] == rank:
-                exists = True
-                break
-
-        if exists:
-            continue
-
-        items.append({
-            "rank": rank,
-            "title": title
-        })
-
-    items.sort(
-        key=lambda x: x["rank"]
-    )
-
-    items = items[:10]
-
-    print()
-    print(
-        f"Netflix {category}: "
-        f"{len(items)}개"
-    )
-
-    for item in items:
-
-        print(
-            f"{item['rank']:2d}. "
-            f"{item['title']}"
-        )
-
-    return {
-        "service": "Netflix",
-        "category": category,
-        "source": url,
-        "items": items
-    }
-
-
-def collect_netflix_all():
-
-    movies_url = (
-        "https://www.netflix.com/"
-        "tudum/top10/south-korea"
-    )
-
-    tv_url = (
-        "https://www.netflix.com/"
-        "tudum/top10/south-korea/tv"
-    )
-
-    return {
-
-        "movies": collect_netflix(
-            movies_url,
-            "영화"
-        ),
-
-        "tv": collect_netflix(
-            tv_url,
-            "TV"
-        )
-    }
-
-
-# =========================================================
-# Disney+
-# =========================================================
-
-def is_bad_disney_title(title):
-
-    lower = title.lower()
-
-    bad_patterns = [
-
-        "nav link",
-        "link -",
-        "cta",
-        "bundle",
-        "standalone",
-        "view all",
-        "learn more",
-        "cancellation",
-        "refund",
-        "legal disclaimer",
-        "/identity/",
-        "/commerce/",
-        "official",
-        "terms and conditions",
-        "login",
-        "sign up",
-        "subscribe",
-        "watch now",
-    ]
-
-    for pattern in bad_patterns:
-
-        if pattern in lower:
-            return True
-
-    return False
-
-
-def collect_disney():
-
-    url = "https://www.disneyplus.com/ko-kr"
-
-    print()
-    print("=" * 60)
-    print("DISNEY+")
-    print("=" * 60)
-
-    html = fetch_with_curl(url)
-
-    candidates = []
-
-    # -----------------------------------------------------
-    # JSON title/name
-    # -----------------------------------------------------
-
-    patterns = [
-
-        r'"title"\s*:\s*"([^"]{2,180})"',
-
-        r'"name"\s*:\s*"([^"]{2,180})"',
-
-        r'"displayName"\s*:\s*"([^"]{2,180})"',
-
-    ]
-
-    for pattern in patterns:
-
-        matches = re.findall(
-            pattern,
-            html,
-            re.IGNORECASE
-        )
-
-        for title in matches:
-
-            title = clean_text(title)
-
-            if not title:
-                continue
-
-            if is_bad_disney_title(title):
-                continue
-
-            candidates.append(title)
-
-    # -----------------------------------------------------
-    # img alt/title
-    # -----------------------------------------------------
-
-    patterns = [
-
-        r'<img[^>]+alt=["\']([^"\']{2,180})["\']',
-
-        r'<img[^>]+title=["\']([^"\']{2,180})["\']',
-
-    ]
-
-    for pattern in patterns:
-
-        matches = re.findall(
-            pattern,
-            html,
-            re.IGNORECASE
-        )
-
-        for title in matches:
-
-            title = clean_text(title)
-
-            if not title:
-                continue
-
-            if is_bad_disney_title(title):
-                continue
-
-            candidates.append(title)
-
-    # -----------------------------------------------------
-    # 중복 제거
-    # -----------------------------------------------------
-
-    unique = []
-    seen = set()
-
-    for title in candidates:
-
-        key = title.lower()
-
-        if key in seen:
-            continue
-
-        seen.add(key)
-
-        unique.append(title)
-
-    # -----------------------------------------------------
-    # 명백한 메뉴 제거
-    # -----------------------------------------------------
-
-    bad_exact = {
-        "home",
-        "search",
-        "movies",
-        "series",
-        "shows",
-        "login",
-        "sign up",
-        "subscribe",
-        "watch now",
-        "learn more",
-        "disney+",
-    }
-
-    filtered = []
-
-    for title in unique:
-
-        if title.lower() in bad_exact:
-            continue
-
-        if len(title) < 2:
-            continue
-
-        filtered.append(title)
-
-    items = []
-
-    for title in filtered[:10]:
-
-        items.append({
-            "rank": len(items) + 1,
-            "title": title
-        })
-
-    print()
-    print(
-        f"Disney+: {len(items)}개"
-    )
-
-    for item in items:
-
-        print(
-            f"{item['rank']:2d}. "
-            f"{item['title']}"
-        )
-
-    return {
-
-        "service": "Disney+",
-
-        "category": "한국 TOP 10",
-
-        "source": url,
-
-        "items": items
-    }
-
-
-# =========================================================
-# Coupang Play
-# =========================================================
-
-def is_bad_coupang_title(title):
-
-    lower = title.lower()
-
-    bad_patterns = [
-
-        "모바일히어로",
-        "오토플레이",
-        "오토",
-        "모바일",
-        "트레일러",
-        "티저",
-        "예고",
-        "히어로",
-        "trailer",
-        "preview",
-        "mobile hero",
-        "autoplay",
-        "hero",
-
-    ]
-
-    for pattern in bad_patterns:
-
-        if pattern.lower() in lower:
-            return True
-
-    return False
-
-
-def normalize_coupang_title(title):
-
-    title = clean_text(title)
-
-    # -----------------------------------------------------
-    # 끝에 붙는 파생 콘텐츠 표시 제거
-    # -----------------------------------------------------
-
-    suffixes = [
-
-        "_히어로",
-        "_트레일러",
-        "_티저",
-        "_예고",
-        " 히어로",
-        " 트레일러",
-        " 티저",
-        " 예고",
-
-    ]
-
-    changed = True
-
-    while changed:
-
-        changed = False
-
-        for suffix in suffixes:
-
-            if title.endswith(suffix):
-
-                title = title[
-                    :-len(suffix)
-                ].strip()
-
-                changed = True
-
-    return title
-
-
-def collect_coupang():
-
-    url = (
-        "https://www.coupangplay.com/catalog"
-    )
-
-    print()
-    print("=" * 60)
-    print("COUPANG PLAY")
-    print("=" * 60)
-
-    html = fetch_with_curl(url)
-
-    candidates = []
-
-    # -----------------------------------------------------
-    # JSON
-    # -----------------------------------------------------
-
-    patterns = [
-
-        r'"title"\s*:\s*"([^"]{2,180})"',
-
-        r'"name"\s*:\s*"([^"]{2,180})"',
-
-        r'"displayName"\s*:\s*"([^"]{2,180})"',
-
-        r'"programName"\s*:\s*"([^"]{2,180})"',
-
-    ]
-
-    for pattern in patterns:
-
-        matches = re.findall(
-            pattern,
-            html,
-            re.IGNORECASE
-        )
-
-        for title in matches:
-
-            title = clean_text(title)
-
-            if not title:
-                continue
-
-            if is_bad_coupang_title(title):
-                continue
-
-            candidates.append(title)
-
-    # -----------------------------------------------------
-    # 이미지 alt/title
-    # -----------------------------------------------------
-
-    patterns = [
-
-        r'<img[^>]+alt=["\']([^"\']{2,180})["\']',
-
-        r'<img[^>]+title=["\']([^"\']{2,180})["\']',
-
-    ]
-
-    for pattern in patterns:
-
-        matches = re.findall(
-            pattern,
-            html,
-            re.IGNORECASE
-        )
-
-        for title in matches:
-
-            title = clean_text(title)
-
-            if not title:
-                continue
-
-            if is_bad_coupang_title(title):
-                continue
-
-            candidates.append(title)
-
-    # -----------------------------------------------------
-    # 작품명 정규화
-    # -----------------------------------------------------
-
-    normalized = []
-
-    seen = set()
-
-    for title in candidates:
-
-        title = normalize_coupang_title(
-            title
-        )
-
-        if not title:
-            continue
-
-        key = title.lower()
-
-        if key in seen:
-            continue
-
-        seen.add(key)
-
-        normalized.append(title)
-
-    # -----------------------------------------------------
-    # HBO 같은 카테고리/브랜드 제거
-    # -----------------------------------------------------
-
-    bad_exact = {
-        "hbo",
-        "coupang play",
-        "쿠팡플레이",
-    }
-
-    filtered = []
-
-    for title in normalized:
-
-        if title.lower() in bad_exact:
-            continue
-
-        filtered.append(title)
-
-    # -----------------------------------------------------
-    # TOP 20
-    # -----------------------------------------------------
-
-    items = []
-
-    for title in filtered[:20]:
-
-        items.append({
-            "rank": len(items) + 1,
-            "title": title
-        })
-
-    print()
-    print(
-        f"Coupang Play: {len(items)}개"
-    )
-
-    for item in items:
-
-        print(
-            f"{item['rank']:2d}. "
-            f"{item['title']}"
-        )
-
-    return {
-
-        "service": "Coupang Play",
-
-        "category": "이번 주 TOP 20",
-
-        "source": url,
-
-        "items": items
-    }
-
-
-# =========================================================
-# MAIN
-# =========================================================
-
-def main():
-
-    collected_at = (
-        datetime.now(timezone.utc)
-        .isoformat()
-    )
-
-    print()
-    print("=" * 60)
-    print("OTT RANKING COLLECTOR")
-    print("=" * 60)
-
-    print(
-        "Collected:",
-        collected_at
-    )
-
-    result = {
-
-        "collectedAt": collected_at,
-
-        "country": "KR",
-
-        "services": {}
-
-    }
-
-    # -----------------------------------------------------
-    # Netflix
-    # -----------------------------------------------------
-
-    try:
-
-        result["services"]["netflix"] = (
-            collect_netflix_all()
-        )
-
-    except Exception as e:
-
-        print()
-        print(
-            "Netflix ERROR:",
-            type(e).__name__,
-            str(e)
-        )
-
-        result["services"]["netflix"] = {
-            "error": str(e)
-        }
-
-    # -----------------------------------------------------
-    # Disney+
-    # -----------------------------------------------------
-
-    try:
-
-        result["services"]["disneyplus"] = (
-            collect_disney()
-        )
-
-    except Exception as e:
-
-        print()
-        print(
-            "Disney+ ERROR:",
-            type(e).__name__,
-            str(e)
-        )
-
-        result["services"]["disneyplus"] = {
-            "error": str(e)
-        }
-
-    # -----------------------------------------------------
-    # Coupang Play
-    # -----------------------------------------------------
-
-    try:
-
-        result["services"]["coupangplay"] = (
-            collect_coupang()
-        )
-
-    except Exception as e:
-
-        print()
-        print(
-            "Coupang Play ERROR:",
-            type(e).__name__,
-            str(e)
-        )
-
-        result["services"]["coupangplay"] = {
-            "error": str(e)
-        }
-
-    # -----------------------------------------------------
-    # 저장
-    # -----------------------------------------------------
-
-    save_json(result)
-
-    print()
-    print("=" * 60)
-    print("저장 완료:", OUTPUT_FILE)
-    print("=" * 60)
+    print("======================================")
+    print("RESULT SAVED")
+    print("======================================")
+    print(OUTPUT_FILE)
 
 
 if __name__ == "__main__":
