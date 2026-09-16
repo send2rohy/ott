@@ -51,8 +51,6 @@ TMDB_BASE_URL = "https://api.themoviedb.org/3"
 TMDB_LANGUAGE = "ko-KR"
 TMDB_REGION = "KR"
 
-
-# 실행 중 TMDB 캐시
 TMDB_CACHE = {}
 
 
@@ -60,7 +58,8 @@ TMDB_CACHE = {}
 # HTTP
 # ============================================================
 
-def fetch_text(url, timeout=30):
+def make_request(url, timeout=30):
+
     req = urllib.request.Request(
         url,
         headers={
@@ -71,11 +70,30 @@ def fetch_text(url, timeout=30):
                 "(KHTML, like Gecko) "
                 "Chrome/140.0 Safari/537.36"
             ),
-            "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Accept-Language": (
+                "ko-KR,ko;q=0.9,"
+                "en-US;q=0.8,en;q=0.7"
+            ),
+            "Accept": (
+                "text/html,application/xhtml+xml,"
+                "application/json;q=0.9,*/*;q=0.8"
+            ),
         },
     )
 
-    with urllib.request.urlopen(req, timeout=timeout) as response:
+    return urllib.request.urlopen(
+        req,
+        timeout=timeout,
+    )
+
+
+def fetch_text(url, timeout=30):
+
+    with make_request(
+        url,
+        timeout=timeout,
+    ) as response:
+
         data = response.read()
 
         charset = response.headers.get_content_charset()
@@ -83,72 +101,107 @@ def fetch_text(url, timeout=30):
         if not charset:
             charset = "utf-8"
 
-        return data.decode(charset, errors="replace")
+        return data.decode(
+            charset,
+            errors="replace",
+        )
 
 
 def fetch_json(url, timeout=30):
-    text = fetch_text(url, timeout=timeout)
+
+    text = fetch_text(
+        url,
+        timeout=timeout,
+    )
+
     return json.loads(text)
 
 
 # ============================================================
-# 문자열 정리
+# 문자열
 # ============================================================
 
 def normalize_title(text):
+
     if not text:
         return ""
 
-    text = html.unescape(text)
+    text = html.unescape(
+        str(text)
+    )
 
-    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(
+        r"<[^>]+>",
+        " ",
+        text,
+    )
 
-    text = text.replace("\xa0", " ")
+    text = text.replace(
+        "\xa0",
+        " ",
+    )
 
-    text = re.sub(r"\s+", " ", text)
+    text = re.sub(
+        r"\s+",
+        " ",
+        text,
+    )
 
     return text.strip()
 
 
 def normalize_compare(text):
-    text = normalize_title(text).lower()
 
-    # 시즌/파트 표기 등을 비교할 때 어느 정도 무시
+    text = normalize_title(
+        text
+    ).lower()
+
     text = re.sub(
-        r"\b(season|part|limited series|series|movie|tv)\b",
-        " ",
+        r"[^\w가-힣]+",
+        "",
         text,
-        flags=re.I,
     )
-
-    text = re.sub(r"[^\w가-힣]+", "", text)
 
     return text
 
 
 def has_korean(text):
-    if not text:
-        return False
 
-    return bool(re.search(r"[가-힣]", text))
+    return bool(
+        text
+        and re.search(
+            r"[가-힣]",
+            text,
+        )
+    )
 
 
 # ============================================================
-# TMDB API
+# TMDB
 # ============================================================
 
 def check_tmdb_key():
+
     if TMDB_API_KEY:
-        print("TMDB API: 연결 설정됨")
+
+        print(
+            "TMDB API: 연결 설정됨"
+        )
+
         return True
 
-    print("TMDB API: 키 없음")
-    print("TMDB 보정 없이 원래 제목을 사용합니다.")
+    print(
+        "TMDB API: 키 없음"
+    )
 
     return False
 
 
-def tmdb_request(path, params=None):
+def tmdb_request(
+    path,
+    params=None,
+):
+
     if not TMDB_API_KEY:
         return None
 
@@ -163,26 +216,49 @@ def tmdb_request(path, params=None):
         TMDB_BASE_URL
         + path
         + "?"
-        + urllib.parse.urlencode(params)
+        + urllib.parse.urlencode(
+            params
+        )
     )
 
     try:
-        return fetch_json(url, timeout=20)
+
+        return fetch_json(
+            url,
+            timeout=20,
+        )
 
     except Exception as e:
-        print(f"TMDB 오류: {e}")
+
+        print(
+            f"TMDB 오류: {e}"
+        )
+
         return None
 
 
 # ============================================================
-# TMDB 검색 점수
+# TMDB 검색
 # ============================================================
 
-def tmdb_match_score(original_title, result):
+def tmdb_match_score(
+    original_title,
+    result,
+):
+
     if not result:
         return -999
 
-    original_title = normalize_title(original_title)
+    original_title = normalize_title(
+        original_title
+    )
+
+    target = normalize_compare(
+        original_title
+    )
+
+    if not target:
+        return -999
 
     candidates = []
 
@@ -192,74 +268,124 @@ def tmdb_match_score(original_title, result):
         "original_title",
         "original_name",
     ):
+
         value = result.get(key)
 
         if value:
-            candidates.append(normalize_title(value))
-
-    target = normalize_compare(original_title)
-
-    if not target:
-        return -999
+            candidates.append(
+                normalize_title(value)
+            )
 
     best = 0
 
     for candidate in candidates:
 
-        c = normalize_compare(candidate)
+        candidate_normalized = (
+            normalize_compare(
+                candidate
+            )
+        )
 
-        if not c:
+        if not candidate_normalized:
             continue
 
-        if c == target:
-            best = max(best, 100)
+        if candidate_normalized == target:
 
-        elif target in c or c in target:
-            best = max(best, 85)
+            best = max(
+                best,
+                100,
+            )
+
+        elif (
+            target in candidate_normalized
+            or candidate_normalized in target
+        ):
+
+            best = max(
+                best,
+                85,
+            )
 
         else:
-            # 단어 단위 비교
+
             target_words = set(
-                re.findall(r"[a-z0-9가-힣]+", original_title.lower())
+                re.findall(
+                    r"[a-z0-9가-힣]+",
+                    original_title.lower(),
+                )
             )
 
             candidate_words = set(
-                re.findall(r"[a-z0-9가-힣]+", candidate.lower())
+                re.findall(
+                    r"[a-z0-9가-힣]+",
+                    candidate.lower(),
+                )
             )
 
-            if target_words and candidate_words:
+            if (
+                target_words
+                and candidate_words
+            ):
 
-                common = target_words & candidate_words
-
-                ratio = len(common) / max(
-                    len(target_words),
-                    len(candidate_words),
+                common = (
+                    target_words
+                    & candidate_words
                 )
 
-                best = max(best, int(ratio * 80))
+                ratio = (
+                    len(common)
+                    / max(
+                        len(target_words),
+                        len(candidate_words),
+                    )
+                )
 
-    popularity = result.get("popularity", 0)
+                best = max(
+                    best,
+                    int(
+                        ratio * 80
+                    ),
+                )
 
     try:
-        popularity_bonus = min(float(popularity) / 100, 10)
+
+        popularity = float(
+            result.get(
+                "popularity",
+                0,
+            )
+        )
+
+        best += min(
+            popularity / 100,
+            10,
+        )
+
     except Exception:
-        popularity_bonus = 0
 
-    return best + popularity_bonus
+        pass
+
+    return best
 
 
-# ============================================================
-# TMDB 검색
-# ============================================================
+def tmdb_search(
+    endpoint,
+    original_title,
+):
 
-def tmdb_search(endpoint, original_title):
-
-    cache_key = f"search:{endpoint}:{original_title}"
+    cache_key = (
+        f"search:"
+        f"{endpoint}:"
+        f"{original_title}"
+    )
 
     if cache_key in TMDB_CACHE:
-        return TMDB_CACHE[cache_key]
 
-    result = tmdb_request(
+        return TMDB_CACHE[
+            cache_key
+        ]
+
+    data = tmdb_request(
         endpoint,
         {
             "query": original_title,
@@ -270,17 +396,28 @@ def tmdb_search(endpoint, original_title):
         },
     )
 
-    if not result:
-        TMDB_CACHE[cache_key] = None
+    if not data:
+
+        TMDB_CACHE[
+            cache_key
+        ] = None
+
         return None
 
-    results = result.get("results", [])
+    results = data.get(
+        "results",
+        [],
+    )
 
     if not results:
-        TMDB_CACHE[cache_key] = None
+
+        TMDB_CACHE[
+            cache_key
+        ] = None
+
         return None
 
-    best_result = None
+    best = None
     best_score = -999
 
     for item in results[:20]:
@@ -291,16 +428,19 @@ def tmdb_search(endpoint, original_title):
         )
 
         if score > best_score:
+
             best_score = score
-            best_result = item
+            best = item
 
-    # 너무 엉뚱한 검색 결과 방지
     if best_score < 35:
-        best_result = None
 
-    TMDB_CACHE[cache_key] = best_result
+        best = None
 
-    return best_result
+    TMDB_CACHE[
+        cache_key
+    ] = best
+
+    return best
 
 
 # ============================================================
@@ -312,302 +452,401 @@ def tmdb_translation_title(
     tmdb_id,
     fallback_title,
 ):
+
     if not tmdb_id:
+
         return fallback_title
 
-    cache_key = f"translation:{media_type}:{tmdb_id}"
+    cache_key = (
+        f"translation:"
+        f"{media_type}:"
+        f"{tmdb_id}"
+    )
 
     if cache_key in TMDB_CACHE:
-        return TMDB_CACHE[cache_key]
+
+        return TMDB_CACHE[
+            cache_key
+        ]
 
     data = tmdb_request(
         f"/{media_type}/{tmdb_id}/translations"
     )
 
     if not data:
-        TMDB_CACHE[cache_key] = fallback_title
+
+        TMDB_CACHE[
+            cache_key
+        ] = fallback_title
+
         return fallback_title
 
-    translations = data.get("translations", [])
+    translations = data.get(
+        "translations",
+        [],
+    )
 
-    # 한국 KR 우선
     preferred = None
 
+    # 한국 + 한국어
     for item in translations:
-        iso = item.get("iso_639_1")
-        country = item.get("iso_3166_1")
 
-        if iso == "ko" and country == "KR":
+        if (
+            item.get(
+                "iso_639_1"
+            ) == "ko"
+            and
+            item.get(
+                "iso_3166_1"
+            ) == "KR"
+        ):
+
             preferred = item
             break
 
-    # 한국어면 국가코드 상관없이 검색
+    # 한국어만
     if not preferred:
+
         for item in translations:
-            if item.get("iso_639_1") == "ko":
+
+            if (
+                item.get(
+                    "iso_639_1"
+                ) == "ko"
+            ):
+
                 preferred = item
                 break
 
     if preferred:
 
-        data_block = preferred.get("data", {})
+        data_block = (
+            preferred.get(
+                "data",
+                {}
+            )
+        )
 
-        title = (
-            data_block.get("title")
-            or data_block.get("name")
+        title = normalize_title(
+            data_block.get(
+                "title"
+            )
+            or
+            data_block.get(
+                "name"
+            )
             or ""
         )
 
-        title = normalize_title(title)
-
         if title:
-            TMDB_CACHE[cache_key] = title
+
+            TMDB_CACHE[
+                cache_key
+            ] = title
+
             return title
 
-    TMDB_CACHE[cache_key] = fallback_title
+    TMDB_CACHE[
+        cache_key
+    ] = fallback_title
 
     return fallback_title
 
 
 # ============================================================
-# TMDB 영화 제목
+# Netflix 제목 보정
 # ============================================================
 
-def tmdb_movie_title(original_title):
+def tmdb_title(
+    original_title,
+    media_type,
+):
 
     if not TMDB_API_KEY:
-        return original_title
 
-    print(f"TMDB 영화 검색: {original_title}")
-
-    result = tmdb_search(
-        "/search/movie",
-        original_title,
-    )
-
-    if not result:
-        print(f"  → 검색 실패: {original_title}")
-        return original_title
-
-    tmdb_id = result.get("id")
-
-    # 검색 결과의 한국어 제목
-    localized = normalize_title(
-        result.get("title")
-        or ""
-    )
-
-    # 원문과 다른 한국어 제목이 있으면 우선
-    if localized and has_korean(localized):
-
-        translated = tmdb_translation_title(
-            "movie",
-            tmdb_id,
-            localized,
-        )
-
-        if has_korean(translated):
-            print(
-                f"  → {translated} "
-                f"(TMDB: {tmdb_id})"
-            )
-
-            return translated
-
-        print(
-            f"  → {localized} "
-            f"(TMDB: {tmdb_id})"
-        )
-
-        return localized
-
-    translated = tmdb_translation_title(
-        "movie",
-        tmdb_id,
-        original_title,
-    )
-
-    if translated != original_title:
-        print(
-            f"  → {translated} "
-            f"(TMDB: {tmdb_id})"
-        )
-        return translated
-
-    print(
-        f"  → 한국어 번역 없음 "
-        f"(TMDB: {tmdb_id})"
-    )
-
-    return original_title
-
-
-# ============================================================
-# TMDB TV 제목
-# ============================================================
-
-def tmdb_tv_title(original_title):
-
-    if not TMDB_API_KEY:
-        return original_title
-
-    print(f"TMDB TV 검색: {original_title}")
-
-    result = tmdb_search(
-        "/search/tv",
-        original_title,
-    )
-
-    if not result:
-        print(f"  → 검색 실패: {original_title}")
-        return original_title
-
-    tmdb_id = result.get("id")
-
-    localized = normalize_title(
-        result.get("name")
-        or ""
-    )
-
-    if localized and has_korean(localized):
-
-        translated = tmdb_translation_title(
-            "tv",
-            tmdb_id,
-            localized,
-        )
-
-        if has_korean(translated):
-            print(
-                f"  → {translated} "
-                f"(TMDB: {tmdb_id})"
-            )
-
-            return translated
-
-        print(
-            f"  → {localized} "
-            f"(TMDB: {tmdb_id})"
-        )
-
-        return localized
-
-    translated = tmdb_translation_title(
-        "tv",
-        tmdb_id,
-        original_title,
-    )
-
-    if translated != original_title:
-        print(
-            f"  → {translated} "
-            f"(TMDB: {tmdb_id})"
-        )
-
-        return translated
-
-    print(
-        f"  → 한국어 번역 없음 "
-        f"(TMDB: {tmdb_id})"
-    )
-
-    return original_title
-
-
-# ============================================================
-# TMDB 다중 검색
-# Disney+ 보정용
-# ============================================================
-
-def tmdb_multi_title(original_title):
-
-    if not TMDB_API_KEY:
-        return original_title
-
-    original_title = normalize_title(original_title)
-
-    print(f"TMDB 통합 검색: {original_title}")
-
-    result = tmdb_search(
-        "/search/multi",
-        original_title,
-    )
-
-    if not result:
-        print(f"  → 검색 실패")
-        return original_title
-
-    media_type = result.get("media_type")
-
-    tmdb_id = result.get("id")
-
-    if media_type not in ("movie", "tv"):
         return original_title
 
     if media_type == "movie":
 
+        endpoint = "/search/movie"
+
+    else:
+
+        endpoint = "/search/tv"
+
+    print(
+        f"TMDB {media_type} 검색: "
+        f"{original_title}"
+    )
+
+    result = tmdb_search(
+        endpoint,
+        original_title,
+    )
+
+    if not result:
+
+        print(
+            f"  → TMDB 검색 실패"
+        )
+
+        return original_title
+
+    tmdb_id = result.get(
+        "id"
+    )
+
+    if media_type == "movie":
+
         localized = normalize_title(
-            result.get("title")
+            result.get(
+                "title"
+            )
             or ""
         )
 
     else:
 
         localized = normalize_title(
-            result.get("name")
+            result.get(
+                "name"
+            )
             or ""
         )
 
-    if localized and has_korean(localized):
+    if (
+        localized
+        and has_korean(localized)
+    ):
 
-        translated = tmdb_translation_title(
-            media_type,
-            tmdb_id,
-            localized,
+        translated = (
+            tmdb_translation_title(
+                media_type,
+                tmdb_id,
+                localized,
+            )
         )
 
-        if has_korean(translated):
+        if has_korean(
+            translated
+        ):
 
             print(
-                f"  → {translated} "
-                f"(TMDB: {tmdb_id}, {media_type})"
+                f"  → {translated}"
             )
 
             return translated
 
         print(
-            f"  → {localized} "
-            f"(TMDB: {tmdb_id}, {media_type})"
+            f"  → {localized}"
         )
 
         return localized
 
-    translated = tmdb_translation_title(
-        media_type,
-        tmdb_id,
-        original_title,
+    translated = (
+        tmdb_translation_title(
+            media_type,
+            tmdb_id,
+            original_title,
+        )
     )
 
-    if translated != original_title:
+    if (
+        translated
+        != original_title
+        and
+        has_korean(translated)
+    ):
 
         print(
-            f"  → {translated} "
-            f"(TMDB: {tmdb_id}, {media_type})"
+            f"  → {translated}"
         )
 
         return translated
 
     print(
-        f"  → 한국어 번역 없음 "
-        f"(TMDB: {tmdb_id})"
+        "  → 한국어 TMDB 제목 없음"
     )
 
     return original_title
 
 
 # ============================================================
+# Netflix 한국 페이지 파서
+# ============================================================
+
+class NetflixLinkParser(
+    HTMLParser
+):
+
+    def __init__(self):
+
+        super().__init__(
+            convert_charrefs=True
+        )
+
+        self.links = []
+
+        self.current_href = None
+        self.current_text = []
+
+    def handle_starttag(
+        self,
+        tag,
+        attrs,
+    ):
+
+        if tag.lower() != "a":
+            return
+
+        attributes = dict(
+            attrs
+        )
+
+        href = attributes.get(
+            "href",
+            "",
+        )
+
+        if not href:
+            return
+
+        # Netflix 콘텐츠 링크
+        if (
+            "/title/"
+            in href
+        ):
+
+            self.current_href = href
+            self.current_text = []
+
+    def handle_data(
+        self,
+        data,
+    ):
+
+        if (
+            self.current_href
+            is not None
+        ):
+
+            self.current_text.append(
+                data
+            )
+
+    def handle_endtag(
+        self,
+        tag,
+    ):
+
+        if tag.lower() != "a":
+            return
+
+        if (
+            self.current_href
+            is None
+        ):
+
+            return
+
+        title = normalize_title(
+            "".join(
+                self.current_text
+            )
+        )
+
+        if title:
+
+            self.links.append(
+                {
+                    "title": title,
+                    "href": self.current_href,
+                }
+            )
+
+        self.current_href = None
+        self.current_text = []
+
+
+# ============================================================
+# Netflix 한국 페이지 제목 찾기
+# ============================================================
+
+def get_netflix_korean_titles():
+
+    result = {}
+
+    for url in (
+        NETFLIX_KR_MOVIE_URL,
+        NETFLIX_KR_TV_URL,
+    ):
+
+        try:
+
+            text = fetch_text(
+                url,
+                timeout=40,
+            )
+
+        except Exception as e:
+
+            print(
+                f"Netflix 한국 페이지 오류: "
+                f"{e}"
+            )
+
+            continue
+
+        parser = NetflixLinkParser()
+
+        try:
+
+            parser.feed(text)
+
+        except Exception as e:
+
+            print(
+                f"Netflix HTML 파싱 오류: "
+                f"{e}"
+            )
+
+            continue
+
+        for item in parser.links:
+
+            title = normalize_title(
+                item.get(
+                    "title",
+                    "",
+                )
+            )
+
+            if not title:
+                continue
+
+            if not has_korean(
+                title
+            ):
+                continue
+
+            key = normalize_compare(
+                title
+            )
+
+            if key:
+
+                result[key] = title
+
+    print(
+        f"Netflix 한국 페이지 "
+        f"한글 제목 {len(result)}개 확보"
+    )
+
+    return result
+
+
+# ============================================================
 # Netflix
-# 공식 TSV에서 한국 TOP 10
 # ============================================================
 
 def get_netflix():
@@ -617,16 +856,31 @@ def get_netflix():
     print("NETFLIX")
     print("=" * 60)
 
-    print("Netflix TSV 다운로드 중...")
+    # --------------------------------------------------------
+    # Netflix 한국 페이지에서 한글 제목 확보
+    # --------------------------------------------------------
+
+    korean_titles = (
+        get_netflix_korean_titles()
+    )
+
+    # --------------------------------------------------------
+    # TSV
+    # --------------------------------------------------------
 
     try:
+
         text = fetch_text(
             NETFLIX_TSV_URL,
             timeout=60,
         )
 
     except Exception as e:
-        print(f"Netflix TSV 오류: {e}")
+
+        print(
+            f"Netflix TSV 오류: {e}"
+        )
+
         return []
 
     reader = csv.DictReader(
@@ -639,21 +893,33 @@ def get_netflix():
     for row in reader:
 
         country = (
-            row.get("country_iso2")
-            or row.get("country_code")
+            row.get(
+                "country_iso2"
+            )
+            or
+            row.get(
+                "country_code"
+            )
             or ""
         )
 
-        if country.upper() != COUNTRY_CODE:
+        if (
+            country.upper()
+            != COUNTRY_CODE
+        ):
+
             continue
 
         rows.append(row)
 
     if not rows:
-        print("Netflix 한국 데이터 없음")
+
+        print(
+            "Netflix 한국 데이터 없음"
+        )
+
         return []
 
-    # 가장 최근 주차
     weeks = sorted(
         {
             row.get("week")
@@ -664,325 +930,626 @@ def get_netflix():
     )
 
     if not weeks:
-        print("Netflix 주차 데이터 없음")
+
+        print(
+            "Netflix 주차 데이터 없음"
+        )
+
         return []
 
     latest_week = weeks[0]
 
-    print(f"Netflix 최신 주차: {latest_week}")
+    print(
+        f"Netflix 최신 주차: "
+        f"{latest_week}"
+    )
 
     latest_rows = [
         row
         for row in rows
-        if row.get("week") == latest_week
+        if row.get(
+            "week"
+        ) == latest_week
     ]
 
-    # 영화 / TV 각각 처리
     movies = [
         row
         for row in latest_rows
-        if (
-            row.get("category", "")
-            .lower()
-            in ("films", "film", "movies", "movie")
-        )
+        if "film"
+        in row.get(
+            "category",
+            "",
+        ).lower()
     ]
 
     tv = [
         row
         for row in latest_rows
         if (
-            row.get("category", "")
-            .lower()
-            in ("tv", "tv shows", "tv show", "series")
+            "tv"
+            in row.get(
+                "category",
+                "",
+            ).lower()
+            or
+            "series"
+            in row.get(
+                "category",
+                "",
+            ).lower()
         )
     ]
 
-    # 혹시 category 명칭이 변경됐을 경우
-    if not movies:
+    def process(
+        source,
+        media_type,
+    ):
 
-        movies = [
-            row
-            for row in latest_rows
-            if "film" in row.get("category", "").lower()
-        ]
-
-    if not tv:
-
-        tv = [
-            row
-            for row in latest_rows
-            if (
-                "tv" in row.get("category", "").lower()
-                or "series" in row.get("category", "").lower()
-            )
-        ]
-
-    def process_rows(source_rows, media_type):
-
-        source_rows = sorted(
-            source_rows,
+        source = sorted(
+            source,
             key=lambda x: int(
-                x.get("weekly_rank") or 999
+                x.get(
+                    "weekly_rank"
+                )
+                or 999
             ),
         )
 
         output = []
 
-        for row in source_rows[:10]:
+        for row in source[:10]:
 
             rank = int(
-                row.get("weekly_rank") or 0
+                row.get(
+                    "weekly_rank"
+                )
+                or 0
             )
 
-            original_title = normalize_title(
-                row.get("show_title") or ""
+            original_title = (
+                normalize_title(
+                    row.get(
+                        "show_title"
+                    )
+                    or ""
+                )
             )
 
             if not original_title:
                 continue
 
-            # 시즌명은 원제 보관용으로 별도 저장
-            season_title = normalize_title(
-                row.get("season_title") or ""
+            season_title = (
+                normalize_title(
+                    row.get(
+                        "season_title"
+                    )
+                    or "N/A"
+                )
             )
 
-            # 중요:
-            # Netflix TSV 원제는 절대 덮어쓰지 않는다.
-            # TMDB 검색용으로 사용한다.
-            korean_title = original_title
+            korean_title = ""
 
-            if media_type == "movie":
+            # ------------------------------------------------
+            # 1차: TMDB
+            # ------------------------------------------------
 
-                korean_title = tmdb_movie_title(
+            korean_title = tmdb_title(
+                original_title,
+                media_type,
+            )
+
+            # ------------------------------------------------
+            # 2차:
+            # TMDB에서 한국어를 못 찾았으면
+            # Netflix 한국 페이지와 비교
+            # ------------------------------------------------
+
+            if not has_korean(
+                korean_title
+            ):
+
+                original_key = (
+                    normalize_compare(
+                        original_title
+                    )
+                )
+
+                # 제목 전체 비교
+                if (
+                    original_key
+                    in korean_titles
+                ):
+
+                    korean_title = (
+                        korean_titles[
+                            original_key
+                        ]
+                    )
+
+                else:
+
+                    # 한국 제목과 영문 제목을
+                    # 일부 비교
+                    found = None
+
+                    for key, value in (
+                        korean_titles.items()
+                    ):
+
+                        if (
+                            key
+                            and
+                            (
+                                key
+                                in original_key
+                                or
+                                original_key
+                                in key
+                            )
+                        ):
+
+                            found = value
+                            break
+
+                    if found:
+
+                        korean_title = found
+
+            # ------------------------------------------------
+            # 3차: 그래도 없으면 원제
+            # ------------------------------------------------
+
+            if not korean_title:
+
+                korean_title = (
                     original_title
                 )
 
-            else:
-
-                korean_title = tmdb_tv_title(
-                    original_title
-                )
-
-            item = {
-                "rank": rank,
-                "title": korean_title,
-                "original_title": original_title,
-                "season_title": season_title,
-                "platform": "Netflix",
-                "category": media_type,
-                "week": latest_week,
-            }
-
-            output.append(item)
+            output.append(
+                {
+                    "rank": rank,
+                    "title": korean_title,
+                    "original_title": (
+                        original_title
+                    ),
+                    "season_title": (
+                        season_title
+                    ),
+                    "platform": "Netflix",
+                    "category": (
+                        media_type
+                    ),
+                    "week": latest_week,
+                }
+            )
 
         return output
 
-    movie_items = process_rows(
+    movie_items = process(
         movies,
         "movie",
     )
 
-    tv_items = process_rows(
+    tv_items = process(
         tv,
         "tv",
     )
 
     print(
-        f"Netflix 영화 {len(movie_items)}개"
+        f"Netflix 영화 "
+        f"{len(movie_items)}개"
     )
 
     print(
-        f"Netflix TV {len(tv_items)}개"
+        f"Netflix TV "
+        f"{len(tv_items)}개"
     )
 
-    return movie_items + tv_items
+    return (
+        movie_items
+        + tv_items
+    )
 
 
 # ============================================================
-# Disney+ HTML Parser
+# Disney+ HTML parser
 # ============================================================
 
-class DisneyLinkParser(HTMLParser):
+class DisneyTopParser(
+    HTMLParser
+):
 
     def __init__(self):
+
         super().__init__(
             convert_charrefs=True
         )
 
-        self.links = []
+        self.items = []
 
-        self.current_href = None
-        self.current_text = []
+        self.active = None
+        self.depth = 0
 
-    def handle_starttag(self, tag, attrs):
+    def handle_starttag(
+        self,
+        tag,
+        attrs,
+    ):
 
-        if tag.lower() != "a":
+        if (
+            tag.lower()
+            != "a"
+        ):
+
+            if self.active:
+                self.depth += 1
+
             return
 
-        attr = dict(attrs)
+        attributes = dict(
+            attrs
+        )
 
-        href = attr.get("href", "")
+        href = attributes.get(
+            "href",
+            "",
+        )
 
         if not href:
             return
 
-        # 실제 Disney 콘텐츠 링크
-        if re.search(
-            r"/browse/entity-[a-zA-Z0-9-]+",
+        match = re.search(
+            r"/browse/entity-"
+            r"([a-zA-Z0-9-]+)",
             href,
-        ):
-
-            self.current_href = href
-            self.current_text = []
-
-    def handle_data(self, data):
-
-        if self.current_href is not None:
-            self.current_text.append(data)
-
-    def handle_endtag(self, tag):
-
-        if tag.lower() != "a":
-            return
-
-        if self.current_href is None:
-            return
-
-        title = normalize_title(
-            "".join(self.current_text)
         )
 
-        href = self.current_href
+        if not match:
+            return
 
-        if title:
+        self.active = {
+            "href": href,
+            "texts": [],
+        }
 
-            self.links.append(
+        self.depth = 0
+
+    def handle_data(
+        self,
+        data,
+    ):
+
+        if self.active:
+
+            self.active[
+                "texts"
+            ].append(data)
+
+    def handle_endtag(
+        self,
+        tag,
+    ):
+
+        if not self.active:
+            return
+
+        if tag.lower() == "a":
+
+            texts = [
+                normalize_title(x)
+                for x
+                in self.active[
+                    "texts"
+                ]
+            ]
+
+            texts = [
+                x
+                for x in texts
+                if x
+            ]
+
+            self.items.append(
                 {
-                    "title": title,
-                    "href": href,
+                    "href": self.active[
+                        "href"
+                    ],
+                    "texts": texts,
                 }
             )
 
-        self.current_href = None
-        self.current_text = []
+            self.active = None
+            self.depth = 0
 
 
 # ============================================================
-# Disney+ TOP 10 영역 추출
+# Disney+ 제목 판별
 # ============================================================
 
-def extract_disney_top10_links(text):
+def disney_is_metadata(
+    text,
+):
 
-    # HTML entity 복원
-    text = html.unescape(text)
-
-    # --------------------------------------------------------
-    # 한국어 페이지
-    # --------------------------------------------------------
-
-    markers = [
-        "오늘 한국의 TOP 10",
-        "오늘 한국의 TOP10",
-        "한국의 TOP 10",
-        "한국의 TOP10",
-        "Top 10 in South Korea Today",
-    ]
-
-    marker_position = -1
-    marker_used = None
-
-    for marker in markers:
-
-        pos = text.find(marker)
-
-        if pos >= 0:
-
-            marker_position = pos
-            marker_used = marker
-            break
-
-    if marker_position < 0:
-
-        print(
-            "Disney+: TOP 10 섹션 위치를 찾지 못했습니다."
-        )
-
-        return []
-
-    print(
-        f"Disney+: TOP 10 영역 발견 → {marker_used}"
+    text = normalize_title(
+        text
     )
 
-    # --------------------------------------------------------
-    # TOP 10 이후 영역만 잘라낸다.
-    #
-    # 다음 주요 섹션인 Disney+ / TVING / Wavve Bundle,
-    # Collections, FAQ 등을 너무 많이 포함하지 않도록
-    # 적당한 범위만 검사한다.
-    # --------------------------------------------------------
+    if not text:
+        return True
 
-    section = text[
-        marker_position:
-        marker_position + 250000
+    # 예:
+    # 2025•스릴러, 범죄
+    # 2024•어드벤처, 액션
+    if re.match(
+        r"^\d{4}\s*[•·|]",
+        text,
+    ):
+
+        return True
+
+    # 장르만 있는 경우
+    metadata_words = [
+        "드라마",
+        "코미디",
+        "액션",
+        "어드벤처",
+        "모험",
+        "스릴러",
+        "범죄",
+        "리얼리티",
+        "로맨스",
+        "판타지",
+        "호러",
+        "공포",
+        "SF",
+        "다큐멘터리",
+        "경찰/탐정",
+        "애니메이션",
+        "슈퍼 히어로",
     ]
 
-    parser = DisneyLinkParser()
+    # 너무 짧고 장르 단어만 있는 경우
+    parts = re.split(
+        r"[•·,]",
+        text,
+    )
+
+    parts = [
+        p.strip()
+        for p in parts
+        if p.strip()
+    ]
+
+    if parts:
+
+        genre_count = 0
+
+        for part in parts:
+
+            if part in metadata_words:
+                genre_count += 1
+
+        if (
+            genre_count
+            == len(parts)
+        ):
+
+            return True
+
+    return False
+
+
+def choose_disney_title(
+    texts,
+):
+
+    clean = []
+
+    for text in texts:
+
+        text = normalize_title(
+            text
+        )
+
+        if not text:
+            continue
+
+        if disney_is_metadata(
+            text
+        ):
+
+            continue
+
+        if text in clean:
+            continue
+
+        clean.append(text)
+
+    # 제목처럼 보이는 첫 번째 문자열
+    if clean:
+
+        return clean[0]
+
+    return ""
+
+
+# ============================================================
+# Disney+ 상세 페이지 제목
+# ============================================================
+
+def get_disney_detail_title(
+    href,
+):
+
+    if not href:
+        return ""
+
+    if href.startswith("/"):
+        url = (
+            "https://www.disneyplus.com"
+            + href
+        )
+
+    elif href.startswith(
+        "https://"
+    ):
+
+        url = href
+
+    else:
+
+        url = (
+            "https://www.disneyplus.com/"
+            + href.lstrip("/")
+        )
 
     try:
-        parser.feed(section)
+
+        text = fetch_text(
+            url,
+            timeout=25,
+        )
 
     except Exception as e:
 
         print(
-            f"Disney HTML 파싱 오류: {e}"
+            f"Disney 상세 페이지 오류: "
+            f"{e}"
         )
 
-        return []
-
-    links = parser.links
+        return ""
 
     # --------------------------------------------------------
-    # 중복 제거
+    # JSON-LD
     # --------------------------------------------------------
 
-    unique = []
+    jsonld_patterns = [
+        r'"name"\s*:\s*"([^"]+)"',
+        r'"headline"\s*:\s*"([^"]+)"',
+    ]
 
-    seen_href = set()
-    seen_title = set()
+    for pattern in (
+        jsonld_patterns
+    ):
 
-    for item in links:
-
-        title = normalize_title(
-            item.get("title", "")
+        matches = re.findall(
+            pattern,
+            text,
+            flags=re.I,
         )
 
-        href = item.get("href", "")
+        for value in matches:
 
-        if not title or not href:
-            continue
+            value = normalize_title(
+                value
+            )
 
-        title_key = normalize_compare(title)
+            if not value:
+                continue
 
-        href_key = href.split("?")[0]
+            if disney_is_metadata(
+                value
+            ):
 
-        if href_key in seen_href:
-            continue
+                continue
 
-        if title_key in seen_title:
-            continue
+            # 명백한 UI 문구 제거
+            bad = [
+                "Disney+",
+                "Disney Plus",
+                "Standard Monthly",
+                "Premium Monthly",
+                "Link -",
+                "toggle",
+            ]
 
-        seen_href.add(href_key)
-        seen_title.add(title_key)
+            if any(
+                b.lower()
+                in value.lower()
+                for b in bad
+            ):
 
-        unique.append(
-            {
-                "title": title,
-                "href": href,
-            }
+                continue
+
+            return value
+
+    # --------------------------------------------------------
+    # OG title
+    # --------------------------------------------------------
+
+    og_patterns = [
+        r'<meta[^>]+property=["\']og:title'
+        r'["\'][^>]+content=["\']([^"\']+)',
+        r'<meta[^>]+content=["\']([^"\']+)'
+        r'["\'][^>]+property=["\']og:title',
+    ]
+
+    for pattern in (
+        og_patterns
+    ):
+
+        matches = re.findall(
+            pattern,
+            text,
+            flags=re.I,
         )
 
-    return unique[:10]
+        for value in matches:
+
+            value = normalize_title(
+                value
+            )
+
+            if (
+                value
+                and
+                not disney_is_metadata(
+                    value
+                )
+            ):
+
+                return value
+
+    # --------------------------------------------------------
+    # title 태그
+    # --------------------------------------------------------
+
+    title_match = re.search(
+        r"<title[^>]*>"
+        r"(.*?)"
+        r"</title>",
+        text,
+        flags=re.I | re.S,
+    )
+
+    if title_match:
+
+        value = normalize_title(
+            title_match.group(1)
+        )
+
+        value = re.sub(
+            r"\s*\|\s*Disney\+.*$",
+            "",
+            value,
+            flags=re.I,
+        )
+
+        value = normalize_title(
+            value
+        )
+
+        if (
+            value
+            and
+            not disney_is_metadata(
+                value
+            )
+        ):
+
+            return value
+
+    return ""
 
 
 # ============================================================
@@ -1006,79 +1573,236 @@ def get_disney():
     except Exception as e:
 
         print(
-            f"Disney+ 페이지 오류: {e}"
+            f"Disney+ 페이지 오류: "
+            f"{e}"
         )
 
         return []
 
     # --------------------------------------------------------
-    # 실제 TOP 10 링크 추출
+    # TOP 10 위치
     # --------------------------------------------------------
 
-    links = extract_disney_top10_links(
-        text
-    )
+    markers = [
+        "오늘 한국의 TOP 10",
+        "오늘 한국의 TOP10",
+        "한국의 TOP 10",
+        "한국의 TOP10",
+        "Top 10 in South Korea Today",
+    ]
 
-    if not links:
+    position = -1
+    marker = ""
+
+    for item in markers:
+
+        pos = text.find(
+            item
+        )
+
+        if pos >= 0:
+
+            position = pos
+            marker = item
+            break
+
+    if position < 0:
 
         print(
-            "Disney+: TOP 10 콘텐츠를 찾지 못했습니다."
+            "Disney+: TOP 10 영역 없음"
         )
 
         return []
 
     print(
-        f"Disney+: 실제 TOP 10 링크 {len(links)}개 발견"
+        f"Disney+: TOP 10 발견 → "
+        f"{marker}"
+    )
+
+    # TOP 10 뒤 일정 범위
+    section = text[
+        position:
+        position + 180000
+    ]
+
+    parser = DisneyTopParser()
+
+    try:
+
+        parser.feed(
+            section
+        )
+
+    except Exception as e:
+
+        print(
+            f"Disney HTML 파싱 오류: "
+            f"{e}"
+        )
+
+        return []
+
+    # --------------------------------------------------------
+    # entity 링크 중복 제거
+    # --------------------------------------------------------
+
+    entities = []
+
+    seen = set()
+
+    for item in parser.items:
+
+        href = item.get(
+            "href",
+            "",
+        )
+
+        entity_match = re.search(
+            r"/browse/entity-"
+            r"([a-zA-Z0-9-]+)",
+            href,
+        )
+
+        if not entity_match:
+            continue
+
+        entity_id = (
+            entity_match.group(1)
+        )
+
+        if entity_id in seen:
+            continue
+
+        seen.add(
+            entity_id
+        )
+
+        entities.append(
+            {
+                "id": entity_id,
+                "href": href,
+                "texts": item.get(
+                    "texts",
+                    [],
+                ),
+            }
+        )
+
+        if len(entities) >= 10:
+            break
+
+    print(
+        f"Disney+: entity "
+        f"{len(entities)}개 발견"
     )
 
     output = []
 
-    for index, item in enumerate(
-        links[:10],
+    for index, entity in enumerate(
+        entities,
         start=1,
     ):
 
-        original_title = normalize_title(
-            item["title"]
+        # ----------------------------------------------------
+        # 1차: 링크 내부에서 실제 제목 찾기
+        # ----------------------------------------------------
+
+        title = choose_disney_title(
+            entity.get(
+                "texts",
+                [],
+            )
         )
 
         # ----------------------------------------------------
-        # 중요
-        #
-        # Disney+ 페이지 자체가 한국어 제목을 제공한다.
-        # 따라서 여기서는 우선 그 제목을 그대로 사용한다.
-        #
-        # TMDB는 보정용.
+        # 2차: 상세 페이지
         # ----------------------------------------------------
 
-        korean_title = original_title
+        detail_title = (
+            get_disney_detail_title(
+                entity.get(
+                    "href",
+                    "",
+                )
+            )
+        )
 
-        if TMDB_API_KEY:
+        if detail_title:
 
-            # 이미 한글이면 불필요하게 영어로
-            # 되돌리지 않도록 한다.
-            if not has_korean(original_title):
+            # 상세 페이지 제목이
+            # 정상 콘텐츠 제목이면 사용
+            if (
+                not disney_is_metadata(
+                    detail_title
+                )
+            ):
 
-                korean_title = tmdb_multi_title(
-                    original_title
+                title = detail_title
+
+        # ----------------------------------------------------
+        # 제목을 못 찾은 경우
+        # ----------------------------------------------------
+
+        if not title:
+
+            print(
+                f"Disney+ {index:02d}: "
+                f"제목 추출 실패"
+            )
+
+            continue
+
+        # ----------------------------------------------------
+        # 이미 한국어라면 그대로 사용
+        # ----------------------------------------------------
+
+        if has_korean(title):
+
+            korean_title = title
+
+            print(
+                f"Disney+ {index:02d}: "
+                f"{korean_title}"
+            )
+
+        else:
+
+            # 영어 제목인 경우만 TMDB
+            korean_title = (
+                tmdb_title(
+                    title,
+                    "tv",
+                )
+            )
+
+            if (
+                korean_title
+                == title
+            ):
+
+                korean_title = (
+                    tmdb_title(
+                        title,
+                        "movie",
+                    )
                 )
 
-            else:
-
-                print(
-                    f"Disney+ {index:02d}: "
-                    f"{original_title} "
-                    f"(Disney+ 원문 한글 제목)"
-                )
+            print(
+                f"Disney+ {index:02d}: "
+                f"{korean_title}"
+            )
 
         output.append(
             {
                 "rank": index,
                 "title": korean_title,
-                "original_title": original_title,
+                "original_title": title,
                 "platform": "Disney+",
                 "category": "top10",
-                "url": item["href"],
+                "url": entity.get(
+                    "href",
+                    "",
+                ),
             }
         )
 
@@ -1106,14 +1830,11 @@ def get_coupang():
     except Exception as e:
 
         print(
-            f"쿠팡플레이 페이지 오류: {e}"
+            f"쿠팡플레이 페이지 오류: "
+            f"{e}"
         )
 
         return []
-
-    # --------------------------------------------------------
-    # 기존 방식과 호환되는 일반적인 제목 추출
-    # --------------------------------------------------------
 
     titles = []
 
@@ -1133,16 +1854,15 @@ def get_coupang():
 
         for value in matches:
 
-            value = normalize_title(value)
+            value = normalize_title(
+                value
+            )
 
             if not value:
                 continue
 
             if value in titles:
                 continue
-
-            # 너무 명백한 UI 문자열 제거
-            lower = value.lower()
 
             bad_words = [
                 "로그인",
@@ -1151,18 +1871,21 @@ def get_coupang():
                 "무료체험",
                 "검색",
                 "더보기",
-                "menu",
                 "login",
                 "sign up",
             ]
 
             if any(
-                bad.lower() in lower
+                bad.lower()
+                in value.lower()
                 for bad in bad_words
             ):
+
                 continue
 
-            titles.append(value)
+            titles.append(
+                value
+            )
 
             if len(titles) >= 10:
                 break
@@ -1188,19 +1911,26 @@ def get_coupang():
         )
 
     print(
-        f"Coupang Play 제목 {len(output)}개"
+        f"Coupang Play "
+        f"{len(output)}개"
     )
 
     return output
 
 
 # ============================================================
-# 플랫폼별 순위 변화 계산
+# JSON
 # ============================================================
 
-def load_json(filename, default):
+def load_json(
+    filename,
+    default,
+):
 
-    if not os.path.exists(filename):
+    if not os.path.exists(
+        filename
+    ):
+
         return default
 
     try:
@@ -1216,13 +1946,17 @@ def load_json(filename, default):
     except Exception as e:
 
         print(
-            f"{filename} 읽기 오류: {e}"
+            f"{filename} 읽기 오류: "
+            f"{e}"
         )
 
         return default
 
 
-def save_json(filename, data):
+def save_json(
+    filename,
+    data,
+):
 
     with open(
         filename,
@@ -1239,7 +1973,7 @@ def save_json(filename, data):
 
 
 # ============================================================
-# 이전 순위 찾기
+# 이전 순위
 # ============================================================
 
 def find_previous_rank(
@@ -1247,43 +1981,71 @@ def find_previous_rank(
     current_item,
 ):
 
-    current_title = normalize_compare(
-        current_item.get("title", "")
+    current_title = (
+        normalize_compare(
+            current_item.get(
+                "title",
+                "",
+            )
+        )
     )
 
-    original_title = normalize_compare(
-        current_item.get("original_title", "")
+    original_title = (
+        normalize_compare(
+            current_item.get(
+                "original_title",
+                "",
+            )
+        )
     )
 
-    for item in previous_items:
+    for old in previous_items:
 
-        old_title = normalize_compare(
-            item.get("title", "")
+        old_title = (
+            normalize_compare(
+                old.get(
+                    "title",
+                    "",
+                )
+            )
         )
 
-        old_original = normalize_compare(
-            item.get("original_title", "")
+        old_original = (
+            normalize_compare(
+                old.get(
+                    "original_title",
+                    "",
+                )
+            )
         )
 
         if (
             current_title
-            and current_title == old_title
+            and
+            current_title
+            == old_title
         ):
 
-            return item.get("rank")
+            return old.get(
+                "rank"
+            )
 
         if (
             original_title
-            and original_title == old_original
+            and
+            original_title
+            == old_original
         ):
 
-            return item.get("rank")
+            return old.get(
+                "rank"
+            )
 
     return None
 
 
 # ============================================================
-# 순위 변화
+# 변화
 # ============================================================
 
 def calculate_changes(
@@ -1312,14 +2074,18 @@ def calculate_changes(
             "",
         )
 
-        old_items = previous_by_platform.get(
-            platform,
-            [],
+        old_items = (
+            previous_by_platform.get(
+                platform,
+                [],
+            )
         )
 
-        old_rank = find_previous_rank(
-            old_items,
-            item,
+        old_rank = (
+            find_previous_rank(
+                old_items,
+                item,
+            )
         )
 
         current_rank = item.get(
@@ -1328,29 +2094,41 @@ def calculate_changes(
 
         if old_rank is None:
 
-            item["previous_rank"] = None
-            item["change"] = "NEW"
+            item[
+                "previous_rank"
+            ] = None
+
+            item[
+                "change"
+            ] = "NEW"
 
         else:
 
-            item["previous_rank"] = old_rank
+            item[
+                "previous_rank"
+            ] = old_rank
 
             if current_rank < old_rank:
 
-                item["change"] = (
+                item[
+                    "change"
+                ] = (
                     f"+{old_rank - current_rank}"
                 )
 
             elif current_rank > old_rank:
 
-                item["change"] = (
+                item[
+                    "change"
+                ] = (
                     f"-{current_rank - old_rank}"
                 )
 
             else:
 
-                item["change"] = "0"
-
+                item[
+                    "change"
+                ] = "0"
 
     return current
 
@@ -1361,9 +2139,12 @@ def calculate_changes(
 
 def korea_now():
 
-    return datetime.now(
-        timezone.utc
-    ) + timedelta(hours=9)
+    return (
+        datetime.now(
+            timezone.utc
+        )
+        + timedelta(hours=9)
+    )
 
 
 def today_string():
@@ -1374,29 +2155,36 @@ def today_string():
 
 
 # ============================================================
-# 오래된 history 정리
+# History 정리
 # ============================================================
 
-def cleanup_history(history):
+def cleanup_history(
+    history,
+):
 
     cutoff = (
         korea_now()
-        - timedelta(days=KEEP_DAYS)
-    ).strftime("%Y-%m-%d")
+        - timedelta(
+            days=KEEP_DAYS
+        )
+    ).strftime(
+        "%Y-%m-%d"
+    )
 
-    cleaned = []
+    result = []
 
     for item in history:
 
-        date = item.get(
+        if item.get(
             "date",
             "",
-        )
+        ) >= cutoff:
 
-        if date >= cutoff:
-            cleaned.append(item)
+            result.append(
+                item
+            )
 
-    return cleaned
+    return result
 
 
 # ============================================================
@@ -1411,7 +2199,8 @@ def main():
     print("=" * 60)
 
     print(
-        f"실행일: {today_string()}"
+        f"실행일: "
+        f"{today_string()}"
     )
 
     check_tmdb_key()
@@ -1432,29 +2221,8 @@ def main():
         + coupang
     )
 
-    print("")
-    print("=" * 60)
-    print("수집 결과")
-    print("=" * 60)
-
-    print(
-        f"Netflix       : {len(netflix)}"
-    )
-
-    print(
-        f"Disney+       : {len(disney)}"
-    )
-
-    print(
-        f"Coupang Play  : {len(coupang)}"
-    )
-
-    print(
-        f"전체           : {len(current)}"
-    )
-
     # --------------------------------------------------------
-    # 이전 ranking
+    # 기존 ranking.json 읽기
     # --------------------------------------------------------
 
     previous_data = load_json(
@@ -1462,43 +2230,49 @@ def main():
         [],
     )
 
-    # ranking.json이 객체 형태인 경우
+    # 과거에 잘못 저장된
+    # {"items": [...]} 형식도 읽을 수 있게 처리
     if isinstance(
         previous_data,
         dict,
     ):
 
-        previous = previous_data.get(
-            "items",
-            [],
+        previous = (
+            previous_data.get(
+                "items",
+                [],
+            )
         )
 
     else:
 
         previous = previous_data
 
-    current = calculate_changes(
-        current,
-        previous,
+    # --------------------------------------------------------
+    # 순위 변화
+    # --------------------------------------------------------
+
+    current = (
+        calculate_changes(
+            current,
+            previous,
+        )
     )
 
     # --------------------------------------------------------
-    # ranking.json
+    # 중요
+    #
+    # ranking.json은 Blogger가
+    # 기존에 읽던 배열 형식으로 저장
     # --------------------------------------------------------
-
-    ranking_data = {
-        "updated_at": korea_now().isoformat(),
-        "date": today_string(),
-        "items": current,
-    }
 
     save_json(
         RANKING_FILE,
-        ranking_data,
+        current,
     )
 
     # --------------------------------------------------------
-    # history.json
+    # history
     # --------------------------------------------------------
 
     history = load_json(
@@ -1533,13 +2307,13 @@ def main():
     )
 
     # --------------------------------------------------------
-    # 화면 출력
+    # 출력
     # --------------------------------------------------------
 
     print("")
-    print("=" * 60)
+    print("=" * 30)
     print("OTT RANKING")
-    print("=" * 60)
+    print("=" * 30)
 
     for platform in (
         "Netflix",
@@ -1548,22 +2322,20 @@ def main():
     ):
 
         print("")
-        print(f"[{platform}]")
+        print(
+            f"[{platform}]"
+        )
 
-        platform_items = [
-            item
-            for item in current
-            if item.get(
+        items = [
+            x
+            for x in current
+            if x.get(
                 "platform"
-            ) == platform
+            )
+            == platform
         ]
 
-        for item in platform_items:
-
-            change = item.get(
-                "change",
-                "NEW",
-            )
+        for item in items:
 
             title = item.get(
                 "title",
@@ -1575,9 +2347,15 @@ def main():
                 "",
             )
 
+            change = item.get(
+                "change",
+                "NEW",
+            )
+
             if (
                 original
-                and original != title
+                and
+                original != title
             ):
 
                 print(
@@ -1596,14 +2374,19 @@ def main():
                 )
 
     print("")
-    print("=" * 60)
+    print("=" * 30)
     print("저장 완료")
-    print("=" * 60)
+    print("=" * 30)
 
+
+# ============================================================
+# 실행
+# ============================================================
 
 if __name__ == "__main__":
 
     try:
+
         main()
 
     except KeyboardInterrupt:
