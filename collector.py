@@ -488,7 +488,6 @@ def tmdb_translation_title(
 
     preferred = None
 
-    # 한국 + 한국어
     for item in translations:
 
         if (
@@ -504,7 +503,6 @@ def tmdb_translation_title(
             preferred = item
             break
 
-    # 한국어만
     if not preferred:
 
         for item in translations:
@@ -554,7 +552,7 @@ def tmdb_translation_title(
 
 
 # ============================================================
-# Netflix 제목 보정
+# TMDB 제목 보정
 # ============================================================
 
 def tmdb_title(
@@ -587,7 +585,7 @@ def tmdb_title(
     if not result:
 
         print(
-            f"  → TMDB 검색 실패"
+            "  → TMDB 검색 실패"
         )
 
         return original_title
@@ -711,7 +709,6 @@ class NetflixLinkParser(
         if not href:
             return
 
-        # Netflix 콘텐츠 링크
         if (
             "/title/"
             in href
@@ -769,7 +766,7 @@ class NetflixLinkParser(
 
 
 # ============================================================
-# Netflix 한국 페이지 제목 찾기
+# Netflix 한국 페이지 제목
 # ============================================================
 
 def get_netflix_korean_titles():
@@ -856,17 +853,9 @@ def get_netflix():
     print("NETFLIX")
     print("=" * 60)
 
-    # --------------------------------------------------------
-    # Netflix 한국 페이지에서 한글 제목 확보
-    # --------------------------------------------------------
-
     korean_titles = (
         get_netflix_korean_titles()
     )
-
-    # --------------------------------------------------------
-    # TSV
-    # --------------------------------------------------------
 
     try:
 
@@ -1027,22 +1016,10 @@ def get_netflix():
                 )
             )
 
-            korean_title = ""
-
-            # ------------------------------------------------
-            # 1차: TMDB
-            # ------------------------------------------------
-
             korean_title = tmdb_title(
                 original_title,
                 media_type,
             )
-
-            # ------------------------------------------------
-            # 2차:
-            # TMDB에서 한국어를 못 찾았으면
-            # Netflix 한국 페이지와 비교
-            # ------------------------------------------------
 
             if not has_korean(
                 korean_title
@@ -1054,7 +1031,6 @@ def get_netflix():
                     )
                 )
 
-                # 제목 전체 비교
                 if (
                     original_key
                     in korean_titles
@@ -1068,8 +1044,6 @@ def get_netflix():
 
                 else:
 
-                    # 한국 제목과 영문 제목을
-                    # 일부 비교
                     found = None
 
                     for key, value in (
@@ -1095,10 +1069,6 @@ def get_netflix():
 
                         korean_title = found
 
-            # ------------------------------------------------
-            # 3차: 그래도 없으면 원제
-            # ------------------------------------------------
-
             if not korean_title:
 
                 korean_title = (
@@ -1116,9 +1086,7 @@ def get_netflix():
                         season_title
                     ),
                     "platform": "Netflix",
-                    "category": (
-                        media_type
-                    ),
+                    "category": media_type,
                     "week": latest_week,
                 }
             )
@@ -1153,9 +1121,17 @@ def get_netflix():
 
 # ============================================================
 # Disney+ HTML parser
+#
+# 중요:
+# Disney TOP10 링크의 화면 텍스트는
+# 작품명이 아니라
+# "2024•드라마, 액션" 같은 메타정보일 수 있다.
+#
+# 따라서 링크 텍스트를 제목으로 사용하지 않는다.
+# entity href 자체만 추출한다.
 # ============================================================
 
-class DisneyTopParser(
+class DisneyEntityParser(
     HTMLParser
 ):
 
@@ -1165,10 +1141,11 @@ class DisneyTopParser(
             convert_charrefs=True
         )
 
-        self.items = []
+        self.links = []
 
-        self.active = None
-        self.depth = 0
+        self.in_anchor = False
+        self.current_href = ""
+        self.current_attrs = {}
 
     def handle_starttag(
         self,
@@ -1176,14 +1153,7 @@ class DisneyTopParser(
         attrs,
     ):
 
-        if (
-            tag.lower()
-            != "a"
-        ):
-
-            if self.active:
-                self.depth += 1
-
+        if tag.lower() != "a":
             return
 
         attributes = dict(
@@ -1198,72 +1168,52 @@ class DisneyTopParser(
         if not href:
             return
 
-        match = re.search(
+        if not re.search(
             r"/browse/entity-"
-            r"([a-zA-Z0-9-]+)",
+            r"[a-zA-Z0-9-]+",
             href,
-        )
+        ):
 
-        if not match:
             return
 
-        self.active = {
-            "href": href,
-            "texts": [],
-        }
+        self.in_anchor = True
 
-        self.depth = 0
+        self.current_href = href
 
-    def handle_data(
-        self,
-        data,
-    ):
-
-        if self.active:
-
-            self.active[
-                "texts"
-            ].append(data)
+        self.current_attrs = (
+            attributes
+        )
 
     def handle_endtag(
         self,
         tag,
     ):
 
-        if not self.active:
+        if (
+            tag.lower() != "a"
+        ):
+
             return
 
-        if tag.lower() == "a":
+        if not self.in_anchor:
+            return
 
-            texts = [
-                normalize_title(x)
-                for x
-                in self.active[
-                    "texts"
-                ]
-            ]
+        self.links.append(
+            {
+                "href": self.current_href,
+                "attrs": dict(
+                    self.current_attrs
+                ),
+            }
+        )
 
-            texts = [
-                x
-                for x in texts
-                if x
-            ]
-
-            self.items.append(
-                {
-                    "href": self.active[
-                        "href"
-                    ],
-                    "texts": texts,
-                }
-            )
-
-            self.active = None
-            self.depth = 0
+        self.in_anchor = False
+        self.current_href = ""
+        self.current_attrs = {}
 
 
 # ============================================================
-# Disney+ 제목 판별
+# Disney 메타데이터 판별
 # ============================================================
 
 def disney_is_metadata(
@@ -1277,9 +1227,6 @@ def disney_is_metadata(
     if not text:
         return True
 
-    # 예:
-    # 2025•스릴러, 범죄
-    # 2024•어드벤처, 액션
     if re.match(
         r"^\d{4}\s*[•·|]",
         text,
@@ -1287,7 +1234,6 @@ def disney_is_metadata(
 
         return True
 
-    # 장르만 있는 경우
     metadata_words = [
         "드라마",
         "코미디",
@@ -1308,7 +1254,6 @@ def disney_is_metadata(
         "슈퍼 히어로",
     ]
 
-    # 너무 짧고 장르 단어만 있는 경우
     parts = re.split(
         r"[•·,]",
         text,
@@ -1339,33 +1284,120 @@ def disney_is_metadata(
     return False
 
 
+# ============================================================
+# Disney 잘못된 제목 차단
+# ============================================================
+
+def disney_is_bad_title(
+    text,
+):
+
+    text = normalize_title(
+        text
+    )
+
+    if not text:
+        return True
+
+    if disney_is_metadata(
+        text
+    ):
+
+        return True
+
+    bad_titles = {
+        "오스트레일리아",
+        "대한민국",
+        "한국",
+        "미국",
+        "일본",
+        "중국",
+        "캐나다",
+        "영국",
+        "프랑스",
+        "독일",
+        "호주",
+        "Australia",
+        "South Korea",
+        "Korea",
+        "United States",
+        "Japan",
+        "China",
+        "Canada",
+        "United Kingdom",
+        "France",
+        "Germany",
+    }
+
+    if text in bad_titles:
+
+        return True
+
+    bad_patterns = [
+        r"^Disney\+?$",
+        r"^Disney Plus$",
+        r"^로그인$",
+        r"^가입$",
+        r"^더 알아보기$",
+        r"^NEW$",
+        r"^New$",
+        r"^toggle$",
+        r"^standard monthly$",
+        r"^premium monthly$",
+    ]
+
+    for pattern in bad_patterns:
+
+        if re.match(
+            pattern,
+            text,
+            flags=re.I,
+        ):
+
+            return True
+
+    return False
+
+
+# ============================================================
+# Disney 제목 후보 선택
+# ============================================================
+
 def choose_disney_title(
-    texts,
+    candidates,
 ):
 
     clean = []
 
-    for text in texts:
+    for value in candidates:
 
-        text = normalize_title(
-            text
+        value = normalize_title(
+            value
         )
 
-        if not text:
+        if not value:
             continue
 
-        if disney_is_metadata(
-            text
+        if disney_is_bad_title(
+            value
         ):
 
             continue
 
-        if text in clean:
+        if value in clean:
             continue
 
-        clean.append(text)
+        clean.append(
+            value
+        )
 
-    # 제목처럼 보이는 첫 번째 문자열
+    # 한국어 제목 우선
+    for value in clean:
+
+        if has_korean(value):
+
+            return value
+
     if clean:
 
         return clean[0]
@@ -1374,7 +1406,143 @@ def choose_disney_title(
 
 
 # ============================================================
-# Disney+ 상세 페이지 제목
+# Disney 상세 페이지 제목 파서
+#
+# 실제 상세 페이지에서는
+# <h1>작품명</h1>
+# 형태의 제목이 존재한다.
+#
+# 예:
+# 킬러들의 쇼핑몰
+# 악마는 프라다를 입는다 2
+# ============================================================
+
+class DisneyDetailParser(
+    HTMLParser
+):
+
+    def __init__(self):
+
+        super().__init__(
+            convert_charrefs=True
+        )
+
+        self.h1_depth = 0
+        self.h1_text = []
+
+        self.title_depth = 0
+        self.title_text = []
+
+        self.meta_title = ""
+
+        self.in_h1 = False
+        self.in_title = False
+
+    def handle_starttag(
+        self,
+        tag,
+        attrs,
+    ):
+
+        tag = tag.lower()
+
+        attributes = dict(
+            attrs
+        )
+
+        if tag == "h1":
+
+            self.in_h1 = True
+            self.h1_text = []
+
+        elif tag == "title":
+
+            self.in_title = True
+            self.title_text = []
+
+        elif tag == "meta":
+
+            prop = (
+                attributes.get(
+                    "property",
+                    ""
+                )
+                or
+                attributes.get(
+                    "name",
+                    ""
+                )
+            ).lower()
+
+            if prop in (
+                "og:title",
+                "twitter:title",
+            ):
+
+                content = attributes.get(
+                    "content",
+                    "",
+                )
+
+                if content:
+
+                    self.meta_title = (
+                        normalize_title(
+                            content
+                        )
+                    )
+
+    def handle_data(
+        self,
+        data,
+    ):
+
+        if self.in_h1:
+
+            self.h1_text.append(
+                data
+            )
+
+        if self.in_title:
+
+            self.title_text.append(
+                data
+            )
+
+    def handle_endtag(
+        self,
+        tag,
+    ):
+
+        tag = tag.lower()
+
+        if tag == "h1":
+
+            self.in_h1 = False
+
+        elif tag == "title":
+
+            self.in_title = False
+
+    def get_h1(self):
+
+        return normalize_title(
+            "".join(
+                self.h1_text
+            )
+        )
+
+    def get_title(self):
+
+        return normalize_title(
+            "".join(
+                self.title_text
+            )
+        )
+
+
+# ============================================================
+# Disney 상세 페이지 제목
 # ============================================================
 
 def get_disney_detail_title(
@@ -1385,6 +1553,7 @@ def get_disney_detail_title(
         return ""
 
     if href.startswith("/"):
+
         url = (
             "https://www.disneyplus.com"
             + href
@@ -1413,80 +1582,123 @@ def get_disney_detail_title(
     except Exception as e:
 
         print(
-            f"Disney 상세 페이지 오류: "
-            f"{e}"
+            f"  상세 페이지 오류: {e}"
         )
 
         return ""
 
+    parser = DisneyDetailParser()
+
+    try:
+
+        parser.feed(
+            text
+        )
+
+    except Exception as e:
+
+        print(
+            f"  상세 HTML 파싱 오류: {e}"
+        )
+
     # --------------------------------------------------------
-    # JSON-LD
+    # 1. H1
     # --------------------------------------------------------
 
-    jsonld_patterns = [
-        r'"name"\s*:\s*"([^"]+)"',
-        r'"headline"\s*:\s*"([^"]+)"',
-    ]
+    h1 = parser.get_h1()
 
-    for pattern in (
-        jsonld_patterns
+    if (
+        h1
+        and
+        not disney_is_bad_title(h1)
     ):
 
-        matches = re.findall(
-            pattern,
-            text,
+        return h1
+
+    # --------------------------------------------------------
+    # 2. OG title
+    # --------------------------------------------------------
+
+    if (
+        parser.meta_title
+        and
+        not disney_is_bad_title(
+            parser.meta_title
+        )
+    ):
+
+        value = parser.meta_title
+
+        # "제목 | Disney+" 같은 형태 제거
+        value = re.sub(
+            r"\s*\|\s*Disney\+.*$",
+            "",
+            value,
             flags=re.I,
         )
 
-        for value in matches:
+        value = normalize_title(
+            value
+        )
 
-            value = normalize_title(
+        if (
+            value
+            and
+            not disney_is_bad_title(
                 value
             )
-
-            if not value:
-                continue
-
-            if disney_is_metadata(
-                value
-            ):
-
-                continue
-
-            # 명백한 UI 문구 제거
-            bad = [
-                "Disney+",
-                "Disney Plus",
-                "Standard Monthly",
-                "Premium Monthly",
-                "Link -",
-                "toggle",
-            ]
-
-            if any(
-                b.lower()
-                in value.lower()
-                for b in bad
-            ):
-
-                continue
+        ):
 
             return value
 
     # --------------------------------------------------------
-    # OG title
+    # 3. title 태그
     # --------------------------------------------------------
 
-    og_patterns = [
-        r'<meta[^>]+property=["\']og:title'
-        r'["\'][^>]+content=["\']([^"\']+)',
-        r'<meta[^>]+content=["\']([^"\']+)'
-        r'["\'][^>]+property=["\']og:title',
+    page_title = (
+        parser.get_title()
+    )
+
+    if page_title:
+
+        page_title = re.sub(
+            r"\s*\|\s*Disney\+.*$",
+            "",
+            page_title,
+            flags=re.I,
+        )
+
+        page_title = re.sub(
+            r"\s*-\s*Disney\+.*$",
+            "",
+            page_title,
+            flags=re.I,
+        )
+
+        page_title = normalize_title(
+            page_title
+        )
+
+        if (
+            page_title
+            and
+            not disney_is_bad_title(
+                page_title
+            )
+        ):
+
+            return page_title
+
+    # --------------------------------------------------------
+    # 4. JSON-LD / 일반 JSON name
+    # --------------------------------------------------------
+
+    patterns = [
+        r'"headline"\s*:\s*"([^"]+)"',
+        r'"name"\s*:\s*"([^"]+)"',
     ]
 
-    for pattern in (
-        og_patterns
-    ):
+    for pattern in patterns:
 
         matches = re.findall(
             pattern,
@@ -1503,57 +1715,102 @@ def get_disney_detail_title(
             if (
                 value
                 and
-                not disney_is_metadata(
+                not disney_is_bad_title(
                     value
                 )
             ):
 
                 return value
 
-    # --------------------------------------------------------
-    # title 태그
-    # --------------------------------------------------------
-
-    title_match = re.search(
-        r"<title[^>]*>"
-        r"(.*?)"
-        r"</title>",
-        text,
-        flags=re.I | re.S,
-    )
-
-    if title_match:
-
-        value = normalize_title(
-            title_match.group(1)
-        )
-
-        value = re.sub(
-            r"\s*\|\s*Disney\+.*$",
-            "",
-            value,
-            flags=re.I,
-        )
-
-        value = normalize_title(
-            value
-        )
-
-        if (
-            value
-            and
-            not disney_is_metadata(
-                value
-            )
-        ):
-
-            return value
-
     return ""
 
 
 # ============================================================
-# Disney+
+# Disney entity ID
+# ============================================================
+
+def disney_entity_id(
+    href,
+):
+
+    if not href:
+        return ""
+
+    match = re.search(
+        r"/browse/entity-"
+        r"([a-zA-Z0-9-]+)",
+        href,
+    )
+
+    if not match:
+        return ""
+
+    return match.group(1)
+
+
+# ============================================================
+# Disney entity 링크 추출
+# ============================================================
+
+def extract_disney_entities(
+    section,
+):
+
+    parser = DisneyEntityParser()
+
+    try:
+
+        parser.feed(
+            section
+        )
+
+    except Exception as e:
+
+        print(
+            f"Disney entity 파싱 오류: {e}"
+        )
+
+        return []
+
+    result = []
+
+    seen = set()
+
+    for item in parser.links:
+
+        href = item.get(
+            "href",
+            "",
+        )
+
+        entity_id = (
+            disney_entity_id(
+                href
+            )
+        )
+
+        if not entity_id:
+            continue
+
+        if entity_id in seen:
+            continue
+
+        seen.add(
+            entity_id
+        )
+
+        result.append(
+            {
+                "id": entity_id,
+                "href": href,
+            }
+        )
+
+    return result
+
+
+# ============================================================
+# Disney
 # ============================================================
 
 def get_disney():
@@ -1619,155 +1876,175 @@ def get_disney():
         f"{marker}"
     )
 
-    # TOP 10 뒤 일정 범위
+    # --------------------------------------------------------
+    # 중요
+    #
+    # 기존:
+    #   marker 이후 180000자 전체에서
+    #   entity 10개를 무조건 가져옴
+    #
+    # 변경:
+    #   TOP10 영역에서 entity 후보를 가져온 뒤
+    #   상세 페이지 제목을 검증한다.
+    # --------------------------------------------------------
+
     section = text[
         position:
-        position + 180000
+        position + 120000
     ]
 
-    parser = DisneyTopParser()
-
-    try:
-
-        parser.feed(
+    entities = (
+        extract_disney_entities(
             section
         )
+    )
 
-    except Exception as e:
+    print(
+        f"Disney+: entity 후보 "
+        f"{len(entities)}개 발견"
+    )
+
+    if not entities:
 
         print(
-            f"Disney HTML 파싱 오류: "
-            f"{e}"
+            "Disney+: entity를 찾지 못했습니다."
         )
 
         return []
 
+    output = []
+
+    used_ids = set()
+
     # --------------------------------------------------------
-    # entity 링크 중복 제거
+    # entity를 하나씩 검사
+    #
+    # 제목이 실제 작품 제목으로 확인된 경우에만
+    # TOP10 순위를 부여한다.
     # --------------------------------------------------------
 
-    entities = []
+    for entity in entities:
 
-    seen = set()
+        if len(output) >= 10:
+            break
 
-    for item in parser.items:
+        entity_id = entity.get(
+            "id",
+            "",
+        )
 
-        href = item.get(
+        href = entity.get(
             "href",
             "",
         )
 
-        entity_match = re.search(
-            r"/browse/entity-"
-            r"([a-zA-Z0-9-]+)",
-            href,
-        )
+        if (
+            not entity_id
+            or
+            entity_id in used_ids
+        ):
 
-        if not entity_match:
             continue
 
-        entity_id = (
-            entity_match.group(1)
-        )
-
-        if entity_id in seen:
-            continue
-
-        seen.add(
-            entity_id
-        )
-
-        entities.append(
-            {
-                "id": entity_id,
-                "href": href,
-                "texts": item.get(
-                    "texts",
-                    [],
-                ),
-            }
-        )
-
-        if len(entities) >= 10:
-            break
-
-    print(
-        f"Disney+: entity "
-        f"{len(entities)}개 발견"
-    )
-
-    output = []
-
-    for index, entity in enumerate(
-        entities,
-        start=1,
-    ):
-
-        # ----------------------------------------------------
-        # 1차: 링크 내부에서 실제 제목 찾기
-        # ----------------------------------------------------
-
-        title = choose_disney_title(
-            entity.get(
-                "texts",
-                [],
-            )
+        print("")
+        print(
+            f"Disney 후보 "
+            f"{len(output) + 1}: "
+            f"{entity_id}"
         )
 
         # ----------------------------------------------------
-        # 2차: 상세 페이지
+        # 상세 페이지에서 실제 제목 확인
         # ----------------------------------------------------
 
-        detail_title = (
+        title = (
             get_disney_detail_title(
-                entity.get(
-                    "href",
-                    "",
-                )
+                href
             )
         )
 
-        if detail_title:
-
-            # 상세 페이지 제목이
-            # 정상 콘텐츠 제목이면 사용
-            if (
-                not disney_is_metadata(
-                    detail_title
-                )
-            ):
-
-                title = detail_title
-
         # ----------------------------------------------------
-        # 제목을 못 찾은 경우
+        # 제목 검증
         # ----------------------------------------------------
 
         if not title:
 
             print(
-                f"Disney+ {index:02d}: "
-                f"제목 추출 실패"
+                "  → 제목 확인 실패"
+            )
+
+            continue
+
+        if disney_is_bad_title(
+            title
+        ):
+
+            print(
+                f"  → 잘못된 제목 제외: "
+                f"{title}"
             )
 
             continue
 
         # ----------------------------------------------------
-        # 이미 한국어라면 그대로 사용
+        # 국가명이 제목으로 들어오는 문제 방지
         # ----------------------------------------------------
 
-        if has_korean(title):
+        if title in {
+            "오스트레일리아",
+            "대한민국",
+            "한국",
+            "미국",
+            "일본",
+            "중국",
+            "캐나다",
+            "영국",
+            "프랑스",
+            "독일",
+            "Australia",
+            "South Korea",
+            "Korea",
+            "United States",
+            "Japan",
+            "China",
+            "Canada",
+            "United Kingdom",
+            "France",
+            "Germany",
+        }:
+
+            print(
+                f"  → 지역/국가명 제외: "
+                f"{title}"
+            )
+
+            continue
+
+        used_ids.add(
+            entity_id
+        )
+
+        # ----------------------------------------------------
+        # 한국 제목
+        # ----------------------------------------------------
+
+        if has_korean(
+            title
+        ):
 
             korean_title = title
 
             print(
-                f"Disney+ {index:02d}: "
+                f"  → Disney 한국 제목: "
                 f"{korean_title}"
             )
 
         else:
 
-            # 영어 제목인 경우만 TMDB
+            # ------------------------------------------------
+            # 영어 제목이면 TV → MOVIE 순서로 검색
+            # ------------------------------------------------
+
             korean_title = (
                 tmdb_title(
                     title,
@@ -1788,23 +2065,50 @@ def get_disney():
                 )
 
             print(
-                f"Disney+ {index:02d}: "
+                f"  → 최종 제목: "
                 f"{korean_title}"
             )
 
+        # ----------------------------------------------------
+        # 최종 안전장치
+        # ----------------------------------------------------
+
+        if disney_is_bad_title(
+            korean_title
+        ):
+
+            print(
+                f"  → 최종 제목 이상으로 제외: "
+                f"{korean_title}"
+            )
+
+            continue
+
+        rank = (
+            len(output) + 1
+        )
+
         output.append(
             {
-                "rank": index,
+                "rank": rank,
                 "title": korean_title,
                 "original_title": title,
                 "platform": "Disney+",
                 "category": "top10",
-                "url": entity.get(
-                    "href",
-                    "",
-                ),
+                "url": href,
             }
         )
+
+        print(
+            f"Disney+ {rank:02d}: "
+            f"{korean_title}"
+        )
+
+    print("")
+    print(
+        f"Disney+ 최종 TOP 10 "
+        f"{len(output)}개 확보"
+    )
 
     return output
 
@@ -2222,7 +2526,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # 기존 ranking.json 읽기
+    # 기존 ranking.json
     # --------------------------------------------------------
 
     previous_data = load_json(
@@ -2230,8 +2534,6 @@ def main():
         [],
     )
 
-    # 과거에 잘못 저장된
-    # {"items": [...]} 형식도 읽을 수 있게 처리
     if isinstance(
         previous_data,
         dict,
@@ -2260,10 +2562,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # 중요
-    #
-    # ranking.json은 Blogger가
-    # 기존에 읽던 배열 형식으로 저장
+    # ranking.json
     # --------------------------------------------------------
 
     save_json(
