@@ -403,5 +403,420 @@
         "change": "NEW"
       }
     ]
+  },
+  {
+    "date": "2026-09-16",
+    "items": [
+      {
+        "rank": 1,
+        "title": "쉘터",
+        "original_title": "Shelter",
+        "season_title": "N/A",
+        "platform": "Netflix",
+        "category": "movie",
+        "week": "2026-09-13",
+        "previous_rank": 1,
+        "change": "0"
+      },
+      {
+        "rank": 2,
+        "title": "배니싱 포인트",
+        "original_title": "Vanishing Point",
+        "season_title": "N/A",
+        "platform": "Netflix",
+        "category": "movie",
+        "week": "2026-09-13",
+        "previous_rank": 2,
+        "change": "0"
+      },
+      {
+        "rank": 3,
+        "title": "트로이",
+        "original_title": "Troy",
+        "season_title": "N/A",
+        "platform": "Netflix",
+        "category": "movie",
+        "week": "2026-09-13",
+        "previous_rank": 3,
+        "change": "0"
+      },
+      {
+        "rank": 4,
+        "title": "허큘리스",
+        "original_title": "Hercules",
+        "season_title": "N/A",
+        "platform": "Netflix",
+        "category": "movie",
+        "week": "2026-09-13",
+        "previous_rank": 4,
+        "change": "0"
+      },
+      {
+        "rank": 5,
+        "title": "Gandhari",
+        "original_title": "Gandhari",
+        "season_title": "N/A",
+        "platform": "Netflix",
+        "category": "movie",
+        "week": "2026-09-13",
+        "previous_rank": 5,
+        "change": "0"
+      },
+      {
+        "rank": 6,
+        "title": "Choir of God: Anthem",
+        "original_title": "Choir of God: Anthem",
+        "season_title": "N/A",
+        "platform": "Netflix",
+        "category": "movie",
+        "week": "2026-09-13",
+        "previous_rank": 6,
+        "change": "0"
+      },
+      {
+        "rank": 7,
+        "title": "아나콘다 3: 오프스프링",
+        "original_title": "Anaconda 3: Offspring",
+        "season_title": "N/A",
+        "platform": "Netflix",
+        "category": "movie",
+        "week": "2026-09-13",
+        "previous_rank": 7,
+        "change": "0"
+      },
+      {
+        "rank": 8,
+        "title": "위스퍼맨",
+        "original_title": "The Whisper Man",
+        "season_title": "N/A",
+        "platform": "Netflix",
+        "category": "movie",
+        "week": "2026-09-13",
+        "previous_rank": 8,
+        "change": "0"
+      },
+      {
+        "rank": 9,
+        "title": "블라인드 사이드",
+        "original_title": "The Blind Side",
+        "season_title": "N/A",
+        "platform": "Netflix",
+        "category": "movie",
+        "week": "2026-09-13",
+        "previous_rank": 9,
+        "change": "0"
+      },
+      {
+        "rank": 10,
+        "title": "아나콘다 4: 피의 제전",
+        "original_title": "Anacondas: Trail of Blood",
+        "season_title": "N/A",
+        "platform": "Netflix",
+        "category": "movie",
+        "week": "2026-09-13",
+        "previous_rank": 10,
+        "change": "0"
+      },
+      {
+        "rank": 1,
+        "title": "Mousetrap",
+        "original_title": "Mousetrap",
+        "season_title": "Mousetrap: Limited Series",
+        "platform": "Netflix",
+        "category": "tv",
+        "week": "2026-09-13",
+        "previous_rank": 1,
+        "change": "0"
+      },
+      {
+        "rank": 2,
+        "title": "Four Hands, Two Sonatas",
+        "original_title": "Four Hands, Two Sonatas",
+        "season_title": "Four Hands, Two Sonatas: Limited Series",
+        "platform": "Netflix",
+        "category": "tv",
+        "week": "2026-09-13",
+        "previous_rank": 2,
+        "change": "0"
+      },
+      {
+        "rank": 3,
+        "title": "I am Solo",
+        "original_title": "I am Solo",
+        "season_title": "I am Solo: Part 33",
+        "platform": "Netflix",
+        "category": "tv",
+        "week": "2026-09-13",
+        "previous_rank": 3,
+        "change": "0"
+      },
+      {
+        "rank": 4,
+        "title": "My Secretary",
+        "original_title": "My Secretary",
+        "season_title": "My Secretary: My Genie Secretary",
+        "platform": "Netflix",
+        "category": "tv",
+        "week": "2026-09-13",
+        "previous_rank": 4,
+        "change": "0"
+      },
+      {
+        "rank": 5,
+        "title": "I'm SOLO, Love goes on",
+        "original_title": "I'm SOLO, Love goes on",
+        "season_title": "I'm SOLO, Love goes on: 2026 Part 2",
+        "platform": "Netflix",
+        "category": "tv",
+        "week": "2026-09-13",
+        "previous_rank": 5,
+        "change": "0"
+      },
+      {
+        "rank": 6,
+        "title": "Badly in Love",
+        "original_title": "Badly in Love",
+        "season_title": "Badly in Love: Season 2",
+        "platform": "Netflix",
+        "category": "tv",
+        "week": "2026-09-13",
+        "previous_rank": 6,
+        "change": "0"
+      },
+      {
+        "rank": 7,
+        "title": "The Early Spring",
+        "original_title": "The Early Spring",
+        "season_title": "The Early Spring: Season 1",
+        "platform": "Netflix",
+        "category": "tv",
+        "week": "2026-09-13",
+        "previous_rank": 7,
+        "change": "0"
+      },
+      {
+        "rank": 8,
+        "title": "Take a Hike!",
+        "original_title": "Take a Hike!",
+        "season_title": "Take a Hike!: Season 1",
+        "platform": "Netflix",
+        "category": "tv",
+        "week": "2026-09-13",
+        "previous_rank": 8,
+        "change": "0"
+      },
+      {
+        "rank": 9,
+        "title": "Physical 100: Italy",
+        "original_title": "Physical 100: Italy",
+        "season_title": "Physical 100: Italy: Season 1",
+        "platform": "Netflix",
+        "category": "tv",
+        "week": "2026-09-13",
+        "previous_rank": 9,
+        "change": "0"
+      },
+      {
+        "rank": 10,
+        "title": "존경하는 재판장님",
+        "original_title": "Your Honor",
+        "season_title": "Your Honor: Season 1",
+        "platform": "Netflix",
+        "category": "tv",
+        "week": "2026-09-13",
+        "previous_rank": 10,
+        "change": "0"
+      },
+      {
+        "rank": 1,
+        "title": "오스트레일리아",
+        "original_title": "Australia",
+        "platform": "Disney+",
+        "category": "top10",
+        "url": "/ko-kr/browse/entity-5acf7909-5d2f-494e-91a9-2fe0555c220f",
+        "previous_rank": null,
+        "change": "NEW"
+      },
+      {
+        "rank": 2,
+        "title": "오스트레일리아",
+        "original_title": "Australia",
+        "platform": "Disney+",
+        "category": "top10",
+        "url": "/ko-kr/browse/entity-07a3f852-a6a5-42a3-8bd1-ec4fd5a5698a",
+        "previous_rank": null,
+        "change": "NEW"
+      },
+      {
+        "rank": 3,
+        "title": "오스트레일리아",
+        "original_title": "Australia",
+        "platform": "Disney+",
+        "category": "top10",
+        "url": "/ko-kr/browse/entity-b47ba964-c614-4281-a642-cd7dfa7cb457",
+        "previous_rank": null,
+        "change": "NEW"
+      },
+      {
+        "rank": 4,
+        "title": "오스트레일리아",
+        "original_title": "Australia",
+        "platform": "Disney+",
+        "category": "top10",
+        "url": "/ko-kr/browse/entity-7d607023-2f51-40f8-9316-b554b7a05c41",
+        "previous_rank": null,
+        "change": "NEW"
+      },
+      {
+        "rank": 5,
+        "title": "오스트레일리아",
+        "original_title": "Australia",
+        "platform": "Disney+",
+        "category": "top10",
+        "url": "/ko-kr/browse/entity-d830ec57-499e-498c-b6b3-2b85a18a5f51",
+        "previous_rank": null,
+        "change": "NEW"
+      },
+      {
+        "rank": 6,
+        "title": "오스트레일리아",
+        "original_title": "Australia",
+        "platform": "Disney+",
+        "category": "top10",
+        "url": "/ko-kr/browse/entity-34bc6b99-813f-4d5d-bbe7-f3099b45879b",
+        "previous_rank": null,
+        "change": "NEW"
+      },
+      {
+        "rank": 7,
+        "title": "오스트레일리아",
+        "original_title": "Australia",
+        "platform": "Disney+",
+        "category": "top10",
+        "url": "/ko-kr/browse/entity-22e8ccc0-dae8-4171-89ff-342c004e66de",
+        "previous_rank": null,
+        "change": "NEW"
+      },
+      {
+        "rank": 8,
+        "title": "오스트레일리아",
+        "original_title": "Australia",
+        "platform": "Disney+",
+        "category": "top10",
+        "url": "/ko-kr/browse/entity-30e4c038-d7be-4e17-b19c-77aeed3fbd92",
+        "previous_rank": null,
+        "change": "NEW"
+      },
+      {
+        "rank": 9,
+        "title": "오스트레일리아",
+        "original_title": "Australia",
+        "platform": "Disney+",
+        "category": "top10",
+        "url": "/ko-kr/browse/entity-ef7fc846-915b-4560-8640-9b4b9edcfc0e",
+        "previous_rank": null,
+        "change": "NEW"
+      },
+      {
+        "rank": 10,
+        "title": "오스트레일리아",
+        "original_title": "Australia",
+        "platform": "Disney+",
+        "category": "top10",
+        "url": "/ko-kr/browse/entity-b39aa962-be56-4b09-a536-98617031717f",
+        "previous_rank": null,
+        "change": "NEW"
+      },
+      {
+        "rank": 1,
+        "title": "직장인들",
+        "original_title": "직장인들",
+        "platform": "Coupang Play",
+        "category": "top10",
+        "previous_rank": 1,
+        "change": "0"
+      },
+      {
+        "rank": 2,
+        "title": "직장인들3 3회 예고 모바일히어로",
+        "original_title": "직장인들3 3회 예고 모바일히어로",
+        "platform": "Coupang Play",
+        "category": "top10",
+        "previous_rank": 2,
+        "change": "0"
+      },
+      {
+        "rank": 3,
+        "title": "직장인들3 3회 예고 오토플레이",
+        "original_title": "직장인들3 3회 예고 오토플레이",
+        "platform": "Coupang Play",
+        "category": "top10",
+        "previous_rank": 3,
+        "change": "0"
+      },
+      {
+        "rank": 4,
+        "title": "지금 불륜이 문제가 아닙니다",
+        "original_title": "지금 불륜이 문제가 아닙니다",
+        "platform": "Coupang Play",
+        "category": "top10",
+        "previous_rank": 4,
+        "change": "0"
+      },
+      {
+        "rank": 5,
+        "title": "지금 불륜이 문제가 아닙니다 메인예고_히어로",
+        "original_title": "지금 불륜이 문제가 아닙니다 메인예고_히어로",
+        "platform": "Coupang Play",
+        "category": "top10",
+        "previous_rank": 5,
+        "change": "0"
+      },
+      {
+        "rank": 6,
+        "title": "지금 불륜이 문제가 아닙니다 메인예고_오토",
+        "original_title": "지금 불륜이 문제가 아닙니다 메인예고_오토",
+        "platform": "Coupang Play",
+        "category": "top10",
+        "previous_rank": 6,
+        "change": "0"
+      },
+      {
+        "rank": 7,
+        "title": "리센느의 맨시티 어택!",
+        "original_title": "리센느의 맨시티 어택!",
+        "platform": "Coupang Play",
+        "category": "top10",
+        "previous_rank": 7,
+        "change": "0"
+      },
+      {
+        "rank": 8,
+        "title": "리센느의 맨시티 어택 모바일히어로",
+        "original_title": "리센느의 맨시티 어택 모바일히어로",
+        "platform": "Coupang Play",
+        "category": "top10",
+        "previous_rank": 8,
+        "change": "0"
+      },
+      {
+        "rank": 9,
+        "title": "리센느의 맨시티 어택 오토플레이",
+        "original_title": "리센느의 맨시티 어택 오토플레이",
+        "platform": "Coupang Play",
+        "category": "top10",
+        "previous_rank": 9,
+        "change": "0"
+      },
+      {
+        "rank": 10,
+        "title": "국대: 로드 투 노스 아메리카",
+        "original_title": "국대: 로드 투 노스 아메리카",
+        "platform": "Coupang Play",
+        "category": "top10",
+        "previous_rank": 10,
+        "change": "0"
+      }
+    ]
   }
 ]
