@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T00:03:49.511811+00:00",
+  "updated_at": "2026-09-16T00:09:35.550367+00:00",
   "netflix": {
     "week": "2026-09-13",
     "movies": [
@@ -11,47 +11,47 @@
       {
         "r": 2,
         "t": "Vanishing Point",
-        "c": "NEW"
+        "c": 0
       },
       {
         "r": 3,
         "t": "Troy",
-        "c": "NEW"
+        "c": 0
       },
       {
         "r": 4,
         "t": "Hercules",
-        "c": "NEW"
+        "c": 0
       },
       {
         "r": 5,
         "t": "Gandhari",
-        "c": "NEW"
+        "c": 0
       },
       {
         "r": 6,
         "t": "Choir of God: Anthem",
-        "c": -3
+        "c": 0
       },
       {
         "r": 7,
         "t": "Anaconda 3: Offspring",
-        "c": "NEW"
+        "c": 0
       },
       {
         "r": 8,
         "t": "The Whisper Man",
-        "c": -6
+        "c": 0
       },
       {
         "r": 9,
         "t": "The Blind Side",
-        "c": "NEW"
+        "c": 0
       },
       {
         "r": 10,
         "t": "Anacondas: Trail of Blood",
-        "c": -5
+        "c": 0
       }
     ],
     "tv": [
@@ -89,31 +89,31 @@
         "r": 6,
         "t": "Badly in Love",
         "s": "Badly in Love: Season 2",
-        "c": 2
+        "c": 0
       },
       {
         "r": 7,
         "t": "The Early Spring",
         "s": "The Early Spring: Season 1",
-        "c": 2
+        "c": 0
       },
       {
         "r": 8,
         "t": "Take a Hike!",
         "s": "Take a Hike!: Season 1",
-        "c": -2
+        "c": 0
       },
       {
         "r": 9,
         "t": "Physical 100: Italy",
         "s": "Physical 100: Italy: Season 1",
-        "c": "NEW"
+        "c": 0
       },
       {
         "r": 10,
         "t": "Your Honor",
         "s": "Your Honor: Season 1",
-        "c": -3
+        "c": 0
       }
     ]
   },
@@ -126,47 +126,47 @@
     {
       "r": 2,
       "t": "Link - Disney+ Standalone Annual Plan Select - GET THIS OFFER - Korea September Promo 2026",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 3,
       "t": "Link - Trio - SIGN UP NOW - Korea September Promo 2026",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 4,
       "t": "Link - Disney+ Standard Monthly (toggle hidden)",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 5,
       "t": "Link - Disney+ Premium Monthly (toggle hidden)",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 6,
       "t": "Link - View All plan details - APAC Tiering",
-      "c": -2
+      "c": 0
     },
     {
       "r": 7,
       "t": "Link - click here - korea bundle terms",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 8,
       "t": "Link - Click here - Promo Modal - Korea September Promo",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 9,
       "t": "Link - large - Disney+ Standalone Annual Plan Select - GET THIS OFFER - Korea September Promo 2026",
-      "c": "NEW"
+      "c": 0
     },
     {
       "r": 10,
       "t": "Link - Disney+ TVING Wavve Bundle - HISUF",
-      "c": "NEW"
+      "c": 0
     }
   ],
   "coupang": [
