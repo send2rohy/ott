@@ -716,7 +716,22 @@ def tmdb_search(
             [],
         )
 
-        if allowed_media_types:
+        # ------------------------------------------------
+        # 중요:
+        # /search/movie, /search/tv 응답에는 "media_type"
+        # 필드가 아예 없다 (이건 /search/multi에만 있음).
+        # 그래서 여기서 media_type으로 필터링하면
+        # 넷플릭스처럼 media_type을 지정해서 호출하는
+        # 모든 검색 결과가 통째로 걸러져 사라진다.
+        #
+        # /search/movie, /search/tv는 애초에 해당 타입만
+        # 돌려주므로 별도 필터가 필요 없다.
+        # ------------------------------------------------
+
+        if (
+            endpoint == "/search/multi"
+            and allowed_media_types
+        ):
 
             results = [
                 x
@@ -1812,6 +1827,185 @@ def get_disney_detail_safe(
     )
 
 
+# ============================================================
+# Disney+ 보충 (TMDB Discover)
+#
+# 디즈니+ 홈페이지에서 정적으로 얻을 수 있는 항목은
+# "오늘 한국의 TOP 10" 10개(영화/시리즈 혼합)가 사실상 전부다.
+# 그 아래 캐러셀들은 <a href="entity-..."> 링크 없이
+# JS로만 렌더링되기 때문에 후보 URL 자체가 늘어나지 않는다.
+#
+# 그래서 entity 링크만으로 영화 10 + TV 10을 못 채우면,
+# TMDB Discover API(with_watch_providers=디즈니+, watch_region=KR)로
+# 부족한 만큼 인기순으로 채운다.
+#
+# 주의: 이 보충분은 "오늘의 실시간 랭킹"이 아니라
+# "TMDB 기준 한국 디즈니+ 인기작" 목록이다.
+# ============================================================
+
+DISNEY_TMDB_PROVIDER_ID = 337
+
+
+def disney_discover_fill(
+    media_type,
+    exclude_ids,
+    needed,
+):
+
+    if needed <= 0:
+        return []
+
+    endpoint = (
+        "/discover/movie"
+        if media_type == "movie"
+        else "/discover/tv"
+    )
+
+    result = []
+
+    for page in range(1, 4):
+
+        data = tmdb_request(
+            endpoint,
+            {
+                "language":
+                    TMDB_LANGUAGE,
+
+                "watch_region":
+                    TMDB_REGION,
+
+                "with_watch_providers":
+                    DISNEY_TMDB_PROVIDER_ID,
+
+                "sort_by":
+                    "popularity.desc",
+
+                "page": page,
+            },
+        )
+
+        if not data:
+            break
+
+        page_results = data.get(
+            "results",
+            [],
+        )
+
+        if not page_results:
+            break
+
+        for entry in page_results:
+
+            tmdb_id = entry.get(
+                "id"
+            )
+
+            if (
+                not tmdb_id
+                or tmdb_id in exclude_ids
+            ):
+                continue
+
+            if media_type == "movie":
+
+                title = (
+                    entry.get("title")
+                    or entry.get(
+                        "original_title"
+                    )
+                    or ""
+                )
+
+            else:
+
+                title = (
+                    entry.get("name")
+                    or entry.get(
+                        "original_name"
+                    )
+                    or ""
+                )
+
+            title = clean_title(
+                title
+            )
+
+            if not title:
+                continue
+
+            if not has_korean(
+                title
+            ):
+
+                translated = (
+                    tmdb_translation_title(
+                        media_type,
+                        tmdb_id,
+                        title,
+                    )
+                )
+
+                if translated:
+                    title = translated
+
+            exclude_ids.add(
+                tmdb_id
+            )
+
+            result.append(
+                {
+                    "rank": 0,
+
+                    "title": title,
+
+                    "original_title":
+                        title,
+
+                    "season_title":
+                        "",
+
+                    "platform":
+                        "Disney+",
+
+                    "category":
+                        media_type,
+
+                    "media_type":
+                        media_type,
+
+                    "tmdb_id":
+                        tmdb_id,
+
+                    "tmdb_title":
+                        entry.get("title")
+                        or entry.get("name"),
+
+                    "tmdb_original_title":
+                        entry.get(
+                            "original_title"
+                        )
+                        or entry.get(
+                            "original_name"
+                        ),
+
+                    "source":
+                        "tmdb_popular",
+                }
+            )
+
+            if (
+                len(result)
+                >= needed
+            ):
+                return result
+
+        if len(page_results) < 20:
+            break
+
+    return result
+
+
 def get_disney():
 
     print(
@@ -2063,6 +2257,9 @@ def get_disney():
                 resolved.get(
                     "tmdb_original_title"
                 ),
+
+            "source":
+                "top10",
         }
 
         if media_type == "movie":
@@ -2080,6 +2277,48 @@ def get_disney():
                 tv.append(
                     item
                 )
+
+    # --------------------------------------------------------
+    # 부족분 보충 (TMDB Discover)
+    #
+    # "오늘 한국의 TOP 10" 페이지에 실린 entity 링크는
+    # 영화/시리즈를 합쳐서 10개뿐이라, 이것만으로는
+    # 영화 10 + TV 10을 채울 수 없는 경우가 대부분이다.
+    # 부족한 만큼 TMDB 인기순으로 채운다.
+    # --------------------------------------------------------
+
+    if len(movies) < 10 or len(tv) < 10:
+
+        print(
+            "[Disney+] Top10 후보만으로 "
+            "10+10을 못 채워 TMDB 인기작으로 보충..."
+        )
+
+        existing_ids = {
+            item.get("tmdb_id")
+            for item in movies + tv
+            if item.get("tmdb_id")
+        }
+
+        if len(movies) < 10:
+
+            movies.extend(
+                disney_discover_fill(
+                    "movie",
+                    existing_ids,
+                    10 - len(movies),
+                )
+            )
+
+        if len(tv) < 10:
+
+            tv.extend(
+                disney_discover_fill(
+                    "tv",
+                    existing_ids,
+                    10 - len(tv),
+                )
+            )
 
     # --------------------------------------------------------
     # 순위 부여
