@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T00:23:20.698456+00:00",
+  "updated_at": "2026-09-16T00:43:53.883118+00:00",
   "netflix": {
     "week": "2026-09-13",
     "movies": [
@@ -83,7 +83,7 @@
         "r": 5,
         "t": "I\\'m SOLO, Love goes on",
         "s": "I'm SOLO, Love goes on: 2026 Part 2",
-        "c": "NEW"
+        "c": 0
       },
       {
         "r": 6,
