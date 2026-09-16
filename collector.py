@@ -57,12 +57,20 @@ USER_AGENT = (
 
 REQUEST_TIMEOUT = 20
 
-# Disney / Coupang에서 영화 + TV TOP 10을 확보하기 위해
-# TMDB에 넘길 원본 후보 수
-SOURCE_CANDIDATE_LIMIT = 60
+# ------------------------------------------------------------
+# 중요
+# ------------------------------------------------------------
+# Disney / Coupang은 처음부터 20개만 뽑으면
+# 영화/TV 비율 때문에 10+10을 채우지 못할 수 있다.
+#
+# 따라서 충분히 많은 후보를 확보한 뒤
+# TMDB에서 movie / tv를 판별한다.
+# ------------------------------------------------------------
 
-# Disney 상세 페이지 동시 요청 수
-PAGE_WORKERS = 6
+SOURCE_CANDIDATE_LIMIT = 100
+
+# Disney 상세 페이지 동시 요청
+PAGE_WORKERS = 8
 
 
 # ============================================================
@@ -73,6 +81,9 @@ TMDB_CACHE = {
     "search": {},
     "translation": {},
 }
+
+# 현재 실행 중 동일 제목 재검색 방지
+RESOLVE_CACHE = {}
 
 
 # ============================================================
@@ -690,18 +701,6 @@ def tmdb_search(
             [],
         )
 
-        if allowed_media_types:
-
-            results = [
-                x
-                for x in results
-                if x.get(
-                    "media_type"
-                )
-                in allowed_media_types
-                or endpoint != "/search/multi"
-            ]
-
         scored = []
 
         for result in results[:20]:
@@ -719,6 +718,28 @@ def tmdb_search(
                     "tv",
                 ):
                     continue
+
+            elif allowed_media_types:
+
+                if endpoint == "/search/movie":
+
+                    if result.get(
+                        "media_type"
+                    ) not in (
+                        None,
+                        "movie",
+                    ):
+                        continue
+
+                elif endpoint == "/search/tv":
+
+                    if result.get(
+                        "media_type"
+                    ) not in (
+                        None,
+                        "tv",
+                    ):
+                        continue
 
             score = tmdb_match_score(
                 title,
@@ -916,12 +937,29 @@ def tmdb_resolve(
     if not original_title:
         return None
 
+    # 현재 실행 중 동일 검색 방지
+    cache_key = (
+        f"{media_type or 'multi'}|"
+        f"{normalize_compare(original_title)}"
+    )
+
+    if cache_key in RESOLVE_CACHE:
+
+        return RESOLVE_CACHE[
+            cache_key
+        ]
+
     result = tmdb_find_match(
         original_title,
         media_type,
     )
 
     if not result:
+
+        RESOLVE_CACHE[
+            cache_key
+        ] = None
+
         return None
 
     resolved_type = (
@@ -935,6 +973,11 @@ def tmdb_resolve(
         "movie",
         "tv",
     ):
+
+        RESOLVE_CACHE[
+            cache_key
+        ] = None
+
         return None
 
     tmdb_id = result.get(
@@ -942,6 +985,11 @@ def tmdb_resolve(
     )
 
     if not tmdb_id:
+
+        RESOLVE_CACHE[
+            cache_key
+        ] = None
+
         return None
 
     if resolved_type == "movie":
@@ -1005,7 +1053,7 @@ def tmdb_resolve(
                 translated
             )
 
-    return {
+    resolved = {
         "title":
             localized_title,
 
@@ -1021,6 +1069,12 @@ def tmdb_resolve(
         "tmdb_original_title":
             tmdb_original_title,
     }
+
+    RESOLVE_CACHE[
+        cache_key
+    ] = resolved
+
+    return resolved
 
 
 # ============================================================
@@ -1345,10 +1399,6 @@ def get_netflix():
 
     result = []
 
-    # --------------------------------------------------------
-    # Netflix 영화
-    # --------------------------------------------------------
-
     for item in movies:
 
         item["media_type"] = "movie"
@@ -1395,10 +1445,6 @@ def get_netflix():
             )
 
         result.append(item)
-
-    # --------------------------------------------------------
-    # Netflix TV
-    # --------------------------------------------------------
 
     for item in tv:
 
@@ -1572,10 +1618,7 @@ class DisneyDetailParser(
                 content
             )
 
-        elif (
-            prop
-            == "twitter:title"
-        ):
+        elif prop == "twitter:title":
 
             self.meta_twitter.append(
                 content
@@ -1593,6 +1636,7 @@ class DisneyDetailParser(
     ):
 
         if self.in_h1:
+
             self.h1.append(
                 data
             )
@@ -1603,7 +1647,39 @@ class DisneyDetailParser(
     ):
 
         if tag.lower() == "h1":
+
             self.in_h1 = False
+
+
+def disney_strip_suffix(
+    title
+):
+
+    title = clean_title(
+        title
+    )
+
+    suffix_patterns = [
+        r"\s*\|\s*Disney\+.*$",
+        r"\s*-\s*Disney\+.*$",
+        r"\s*\|\s*Disney Plus.*$",
+        r"\s*-\s*Disney Plus.*$",
+        r"\s*\|\s*Disney.*$",
+        r"\s*-\s*Disney.*$",
+    ]
+
+    for pattern in suffix_patterns:
+
+        title = re.sub(
+            pattern,
+            "",
+            title,
+            flags=re.I,
+        )
+
+    return clean_title(
+        title
+    )
 
 
 def disney_is_metadata(
@@ -1616,6 +1692,8 @@ def disney_is_metadata(
 
     if not title:
         return True
+
+    title_lower = title.lower()
 
     bad = {
         "오스트레일리아",
@@ -1636,9 +1714,10 @@ def disney_is_metadata(
         "회원가입",
         "disney+",
         "disney plus",
+        "disney",
     }
 
-    if title.lower() in bad:
+    if title_lower in bad:
         return True
 
     if re.fullmatch(
@@ -1647,15 +1726,6 @@ def disney_is_metadata(
     ):
         return True
 
-    if re.fullmatch(
-        r"new",
-        title,
-        re.I,
-    ):
-        return True
-
-    # Disney 페이지에서 순위 표시로 들어오는
-    # 숫자 + NEW 형태 차단
     if re.fullmatch(
         r"\d{1,2}\s*(NEW)?",
         title,
@@ -1670,25 +1740,21 @@ def disney_is_bad_title(
     title
 ):
 
-    title = clean_title(
+    title = disney_strip_suffix(
         title
     )
 
     if not title:
         return True
 
-    if disney_is_metadata(
-        title
-    ):
-        return True
-
-    # 순위/국가 정보가 제목 앞뒤에 붙는 경우
+    # 순위 제거
     title = re.sub(
-        r"^\d{1,2}\s*",
+        r"^\s*\d{1,2}\s*",
         "",
         title,
     )
 
+    # NEW 제거
     title = re.sub(
         r"\s+(NEW|New)$",
         "",
@@ -1726,19 +1792,21 @@ def choose_disney_title(
         if not title:
             continue
 
-        # HTML title 등에 붙는 NEW 제거
+        title = disney_strip_suffix(
+            title
+        )
+
+        title = re.sub(
+            r"^\s*\d{1,2}\s*",
+            "",
+            title,
+        )
+
         title = re.sub(
             r"\s+(NEW|New)$",
             "",
             title,
             flags=re.I,
-        )
-
-        # 앞쪽 순위 제거
-        title = re.sub(
-            r"^\d{1,2}\s*",
-            "",
-            title,
         )
 
         title = clean_title(
@@ -1757,13 +1825,98 @@ def choose_disney_title(
     if not cleaned:
         return ""
 
-    # 한국어 제목이 있으면 우선
+    # 한국어 제목 우선
     for title in cleaned:
 
         if has_korean(title):
+
             return title
 
     return cleaned[0]
+
+
+def extract_disney_jsonld_names(
+    text
+):
+
+    result = []
+
+    pattern = re.compile(
+        r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>'
+        r'(.*?)'
+        r'</script>',
+        flags=re.I | re.S,
+    )
+
+    for match in pattern.finditer(
+        text
+    ):
+
+        raw = html.unescape(
+            match.group(1)
+        ).strip()
+
+        if not raw:
+            continue
+
+        try:
+
+            data = json.loads(
+                raw
+            )
+
+        except Exception:
+            continue
+
+        objects = []
+
+        if isinstance(
+            data,
+            dict,
+        ):
+            objects.append(data)
+
+            graph = data.get(
+                "@graph"
+            )
+
+            if isinstance(
+                graph,
+                list,
+            ):
+                objects.extend(
+                    graph
+                )
+
+        elif isinstance(
+            data,
+            list,
+        ):
+            objects.extend(
+                data
+            )
+
+        for obj in objects:
+
+            if not isinstance(
+                obj,
+                dict,
+            ):
+                continue
+
+            name = obj.get(
+                "name"
+            )
+
+            if name:
+
+                result.append(
+                    clean_title(
+                        name
+                    )
+                )
+
+    return result
 
 
 def get_disney_detail_title(
@@ -1783,12 +1936,18 @@ def get_disney_detail_title(
     parser = DisneyDetailParser()
 
     try:
-        parser.feed(text)
+
+        parser.feed(
+            text
+        )
+
     except Exception:
+
         return ""
 
     candidates = []
 
+    # h1
     if parser.h1:
 
         candidates.append(
@@ -1797,18 +1956,29 @@ def get_disney_detail_title(
             )
         )
 
+    # JSON-LD
+    candidates.extend(
+        extract_disney_jsonld_names(
+            text
+        )
+    )
+
+    # OG
     candidates.extend(
         parser.meta_og
     )
 
+    # Twitter
     candidates.extend(
         parser.meta_twitter
     )
 
+    # meta title
     candidates.extend(
         parser.meta_title
     )
 
+    # 일반 title
     match = re.search(
         r"<title[^>]*>(.*?)</title>",
         text,
@@ -1856,13 +2026,14 @@ def get_disney():
     parser = DisneyEntityParser()
 
     try:
-        parser.feed(text)
-    except Exception:
-        return []
 
-    # --------------------------------------------------------
-    # Disney entity URL 확보
-    # --------------------------------------------------------
+        parser.feed(
+            text
+        )
+
+    except Exception:
+
+        return []
 
     urls = []
     seen_urls = set()
@@ -1885,7 +2056,10 @@ def get_disney():
             full_url
         )
 
-        if len(urls) >= SOURCE_CANDIDATE_LIMIT:
+        if (
+            len(urls)
+            >= SOURCE_CANDIDATE_LIMIT
+        ):
             break
 
     print(
@@ -1897,20 +2071,20 @@ def get_disney():
         return []
 
     # --------------------------------------------------------
-    # Disney 상세 페이지 병렬 요청
+    # 병렬 상세 페이지 수집
     # --------------------------------------------------------
 
-    page_results = []
+    page_results = {}
 
-    def fetch_candidate(url):
-
-        title = get_disney_detail_title(
-            url
-        )
+    def fetch_candidate(
+        url
+    ):
 
         return (
             url,
-            title,
+            get_disney_detail_title(
+                url
+            ),
         )
 
     with ThreadPoolExecutor(
@@ -1936,6 +2110,7 @@ def get_disney():
                 )
 
             except Exception:
+
                 continue
 
             title = clean_title(
@@ -1954,68 +2129,39 @@ def get_disney():
             if not key:
                 continue
 
-            page_results.append(
-                (
+            if key not in page_results:
+
+                page_results[key] = (
                     url,
                     title,
-                    key,
                 )
-            )
 
     # --------------------------------------------------------
-    # 원래 페이지 순서를 최대한 유지
-    # --------------------------------------------------------
-
-    ordered = []
-
-    result_map = {}
-
-    for url, title, key in page_results:
-
-        if key not in result_map:
-
-            result_map[key] = (
-                url,
-                title,
-            )
-
-    for url in urls:
-
-        title = ""
-
-        for candidate_url, candidate_title in (
-            result_map.values()
-        ):
-
-            if candidate_url == url:
-
-                title = candidate_title
-                break
-
-        if not title:
-            continue
-
-        key = normalize_compare(
-            title
-        )
-
-        if key:
-
-            ordered.append(
-                title
-            )
-
-    # --------------------------------------------------------
-    # 중복 제거
+    # 원래 URL 순서 유지
     # --------------------------------------------------------
 
     candidates = []
     seen_titles = set()
 
-    for title in ordered:
+    for url in urls:
+
+        found = None
+
+        for key, (
+            result_url,
+            title,
+        ) in page_results.items():
+
+            if result_url == url:
+
+                found = title
+                break
+
+        if not found:
+            continue
 
         key = normalize_compare(
-            title
+            found
         )
 
         if not key:
@@ -2029,7 +2175,7 @@ def get_disney():
         )
 
         candidates.append(
-            title
+            found
         )
 
     print(
@@ -2038,9 +2184,7 @@ def get_disney():
     )
 
     # --------------------------------------------------------
-    # TMDB로 영화 / TV 판별
-    #
-    # 20개가 모두 채워지면 즉시 중단
+    # TMDB 영화 / TV 분리
     # --------------------------------------------------------
 
     movies = []
@@ -2048,7 +2192,10 @@ def get_disney():
 
     seen_tmdb = set()
 
-    for title in candidates:
+    for index, title in enumerate(
+        candidates,
+        1,
+    ):
 
         if (
             len(movies) >= 10
@@ -2081,50 +2228,35 @@ def get_disney():
         if not tmdb_id:
             continue
 
-        key = (
+        tmdb_key = (
             f"{media_type}:{tmdb_id}"
         )
 
-        if key in seen_tmdb:
+        if tmdb_key in seen_tmdb:
             continue
 
         seen_tmdb.add(
-            key
+            tmdb_key
         )
 
         item = {
             "rank": 0,
-
             "title":
                 resolved["title"],
-
             "original_title":
                 title,
-
-            "season_title":
-                "",
-
-            "platform":
-                "Disney+",
-
+            "season_title": "",
+            "platform": "Disney+",
             "category":
-                (
-                    "movie"
-                    if media_type == "movie"
-                    else "tv"
-                ),
-
+                media_type,
             "media_type":
                 media_type,
-
             "tmdb_id":
                 tmdb_id,
-
             "tmdb_title":
                 resolved.get(
                     "tmdb_title"
                 ),
-
             "tmdb_original_title":
                 resolved.get(
                     "tmdb_original_title"
@@ -2133,24 +2265,22 @@ def get_disney():
 
         if media_type == "movie":
 
-            if len(movies) >= 10:
-                continue
+            if len(movies) < 10:
 
-            movies.append(
-                item
-            )
+                movies.append(
+                    item
+                )
 
         else:
 
-            if len(tv) >= 10:
-                continue
+            if len(tv) < 10:
 
-            tv.append(
-                item
-            )
+                tv.append(
+                    item
+                )
 
     # --------------------------------------------------------
-    # 영화 / TV 각각 순위 부여
+    # 각각 1~10 순위
     # --------------------------------------------------------
 
     for rank, item in enumerate(
@@ -2201,6 +2331,12 @@ COUPANG_BAD_TITLES = {
     "클립",
     "비하인드",
     "인터뷰",
+    "라이브",
+    "홈",
+    "영화",
+    "드라마",
+    "예능",
+    "스포츠",
 }
 
 
@@ -2215,10 +2351,12 @@ def coupang_is_bad_title(
     if not title:
         return True
 
-    if title.lower() in {
+    bad_lower = {
         x.lower()
         for x in COUPANG_BAD_TITLES
-    }:
+    }
+
+    if title.lower() in bad_lower:
         return True
 
     patterns = [
@@ -2232,6 +2370,9 @@ def coupang_is_bad_title(
         r"^회원가입",
         r"^무료\s*체험",
         r"^더보기",
+        r"^클립",
+        r"^비하인드",
+        r"^인터뷰",
     ]
 
     for pattern in patterns:
@@ -2250,11 +2391,20 @@ def extract_coupang_titles(
     text
 ):
 
+    # --------------------------------------------------------
+    # Coupang Play 페이지는 JSON 형태가 섞여 있으므로
+    # 여러 필드에서 제목 후보를 확보한다.
+    # --------------------------------------------------------
+
     patterns = [
         r'"title"\s*:\s*"([^"]+)"',
         r'"name"\s*:\s*"([^"]+)"',
         r'"contentTitle"\s*:\s*"([^"]+)"',
         r'"displayName"\s*:\s*"([^"]+)"',
+        r'"programTitle"\s*:\s*"([^"]+)"',
+        r'"contentName"\s*:\s*"([^"]+)"',
+        r'"seriesTitle"\s*:\s*"([^"]+)"',
+        r'"movieTitle"\s*:\s*"([^"]+)"',
     ]
 
     result = []
@@ -2281,14 +2431,24 @@ def extract_coupang_titles(
                 title
             )
 
-            if not key or key in seen:
+            if not key:
                 continue
 
-            seen.add(key)
+            if key in seen:
+                continue
 
-            result.append(title)
+            seen.add(
+                key
+            )
 
-            if len(result) >= SOURCE_CANDIDATE_LIMIT:
+            result.append(
+                title
+            )
+
+            if (
+                len(result)
+                >= SOURCE_CANDIDATE_LIMIT
+            ):
                 return result
 
     return result
@@ -2326,10 +2486,6 @@ def get_coupang():
 
     if not titles:
         return []
-
-    # --------------------------------------------------------
-    # 영화 / TV 분리
-    # --------------------------------------------------------
 
     movies = []
     tv = []
@@ -2406,37 +2562,23 @@ def get_coupang():
 
         item = {
             "rank": 0,
-
             "title":
                 resolved["title"],
-
             "original_title":
                 title,
-
-            "season_title":
-                "",
-
+            "season_title": "",
             "platform":
                 "Coupang Play",
-
             "category":
-                (
-                    "movie"
-                    if media_type == "movie"
-                    else "tv"
-                ),
-
+                media_type,
             "media_type":
                 media_type,
-
             "tmdb_id":
                 tmdb_id,
-
             "tmdb_title":
                 resolved.get(
                     "tmdb_title"
                 ),
-
             "tmdb_original_title":
                 resolved.get(
                     "tmdb_original_title"
@@ -2445,24 +2587,22 @@ def get_coupang():
 
         if media_type == "movie":
 
-            if len(movies) >= 10:
-                continue
+            if len(movies) < 10:
 
-            movies.append(
-                item
-            )
+                movies.append(
+                    item
+                )
 
         else:
 
-            if len(tv) >= 10:
-                continue
+            if len(tv) < 10:
 
-            tv.append(
-                item
-            )
+                tv.append(
+                    item
+                )
 
     # --------------------------------------------------------
-    # 영화 / TV 각각 순위
+    # 각각 1~10 순위
     # --------------------------------------------------------
 
     for rank, item in enumerate(
@@ -2595,7 +2735,9 @@ def tmdb_get_detail(
         )
 
         if name:
-            genres.append(name)
+            genres.append(
+                name
+            )
 
     runtime = data.get(
         "runtime"
@@ -2648,7 +2790,9 @@ def tmdb_get_detail(
         )
 
         if name:
-            cast.append(name)
+            cast.append(
+                name
+            )
 
     trailer_key = ""
 
@@ -2781,7 +2925,9 @@ def build_tmdb_details(
         if key in requested:
             continue
 
-        requested.add(key)
+        requested.add(
+            key
+        )
 
         old = result.get(
             key
@@ -2800,6 +2946,7 @@ def build_tmdb_details(
             ):
 
                 if item.get("title"):
+
                     old["title"] = (
                         item["title"]
                     )
@@ -2821,6 +2968,7 @@ def build_tmdb_details(
         if detail:
 
             if item.get("title"):
+
                 detail["title"] = (
                     item["title"]
                 )
@@ -2898,6 +3046,7 @@ def same_content(
         )
 
         if av and bv and av == bv:
+
             return True
 
     return False
@@ -3016,10 +3165,14 @@ def cleanup_history(
             )
 
         except Exception:
+
             continue
 
         if dt >= cutoff:
-            result.append(entry)
+
+            result.append(
+                entry
+            )
 
     return result
 
@@ -3045,7 +3198,6 @@ def print_platform(
         f"========== {platform} =========="
     )
 
-    # 영화
     movie_items = [
         x
         for x in platform_items
@@ -3066,7 +3218,6 @@ def print_platform(
             f"{item.get('change', '')}"
         )
 
-    # TV
     tv_items = [
         x
         for x in platform_items
@@ -3232,6 +3383,7 @@ def main():
         history,
         list,
     ):
+
         history = []
 
     history.append(
@@ -3291,6 +3443,47 @@ def main():
     print()
     print("=" * 60)
 
+    print(
+        "[전체 개수]"
+    )
+
+    for platform in (
+        "Netflix",
+        "Disney+",
+        "Coupang Play",
+    ):
+
+        platform_items = [
+            x
+            for x in current
+            if x.get("platform")
+            == platform
+        ]
+
+        movie_count = sum(
+            1
+            for x in platform_items
+            if x.get(
+                "media_type"
+            ) == "movie"
+        )
+
+        tv_count = sum(
+            1
+            for x in platform_items
+            if x.get(
+                "media_type"
+            ) == "tv"
+        )
+
+        print(
+            f"{platform}: "
+            f"영화 {movie_count} / "
+            f"TV {tv_count} / "
+            f"합계 {len(platform_items)}"
+        )
+
+    print()
     print(
         "[TMDB CACHE]"
     )
