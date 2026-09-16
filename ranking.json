@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-15T15:14:19.587941+00:00",
+  "updated_at": "2026-09-16T00:03:49.511811+00:00",
   "netflix": {
-    "week": "2026-09-06",
+    "week": "2026-09-13",
     "movies": [
       {
         "r": 1,
@@ -10,48 +10,48 @@
       },
       {
         "r": 2,
-        "t": "The Whisper Man",
-        "c": 0
+        "t": "Vanishing Point",
+        "c": "NEW"
       },
       {
         "r": 3,
-        "t": "Choir of God: Anthem",
-        "c": 0
+        "t": "Troy",
+        "c": "NEW"
       },
       {
         "r": 4,
-        "t": "The Secret Woman",
-        "c": 0
+        "t": "Hercules",
+        "c": "NEW"
       },
       {
         "r": 5,
-        "t": "Anacondas: Trail of Blood",
-        "c": 0
+        "t": "Gandhari",
+        "c": "NEW"
       },
       {
         "r": 6,
-        "t": "Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe",
-        "c": 0
+        "t": "Choir of God: Anthem",
+        "c": -3
       },
       {
         "r": 7,
-        "t": "The Magnificent Seven",
-        "c": 0
+        "t": "Anaconda 3: Offspring",
+        "c": "NEW"
       },
       {
         "r": 8,
-        "t": "The Hard Corps",
-        "c": 0
+        "t": "The Whisper Man",
+        "c": -6
       },
       {
         "r": 9,
-        "t": "Wolf Man",
-        "c": 0
+        "t": "The Blind Side",
+        "c": "NEW"
       },
       {
         "r": 10,
-        "t": "Demon Slayer: Kimetsu no Yaiba Infinity Castle I",
-        "c": 0
+        "t": "Anacondas: Trail of Blood",
+        "c": -5
       }
     ],
     "tv": [
@@ -83,37 +83,37 @@
         "r": 5,
         "t": "I'm SOLO, Love goes on",
         "s": "I'm SOLO, Love goes on: 2026 Part 2",
-        "c": "NEW"
+        "c": 0
       },
       {
         "r": 6,
-        "t": "Take a Hike!",
-        "s": "Take a Hike!: Season 1",
-        "c": 0
+        "t": "Badly in Love",
+        "s": "Badly in Love: Season 2",
+        "c": 2
       },
       {
         "r": 7,
-        "t": "Your Honor",
-        "s": "Your Honor: Season 1",
-        "c": 0
+        "t": "The Early Spring",
+        "s": "The Early Spring: Season 1",
+        "c": 2
       },
       {
         "r": 8,
-        "t": "Badly in Love",
-        "s": "Badly in Love: Season 2",
-        "c": 0
+        "t": "Take a Hike!",
+        "s": "Take a Hike!: Season 1",
+        "c": -2
       },
       {
         "r": 9,
-        "t": "The Early Spring",
-        "s": "The Early Spring: Season 1",
-        "c": 0
+        "t": "Physical 100: Italy",
+        "s": "Physical 100: Italy: Season 1",
+        "c": "NEW"
       },
       {
         "r": 10,
-        "t": "Our Sticky Love",
-        "s": "Our Sticky Love: Limited Series",
-        "c": 0
+        "t": "Your Honor",
+        "s": "Your Honor: Season 1",
+        "c": -3
       }
     ]
   },
@@ -125,48 +125,48 @@
     },
     {
       "r": 2,
-      "t": "Link - Trio - Bundle \\u0026 Save CTA - KR - TVing Bundle - Official",
-      "c": 0
+      "t": "Link - Disney+ Standalone Annual Plan Select - GET THIS OFFER - Korea September Promo 2026",
+      "c": "NEW"
     },
     {
       "r": 3,
-      "t": "Link - Disney+ Standalone [/commerce/plans?default=standalone] - KR ONLY",
-      "c": 0
+      "t": "Link - Trio - SIGN UP NOW - Korea September Promo 2026",
+      "c": "NEW"
     },
     {
       "r": 4,
-      "t": "Link - View All plan details - APAC Tiering",
-      "c": 0
+      "t": "Link - Disney+ Standard Monthly (toggle hidden)",
+      "c": "NEW"
     },
     {
       "r": 5,
-      "t": "Link - 'Learn More' - /bundle-terms-and-conditions - KR - Bundle",
-      "c": 0
+      "t": "Link - Disney+ Premium Monthly (toggle hidden)",
+      "c": "NEW"
     },
     {
       "r": 6,
-      "t": "Link - Cancellation and Refund policy - KR Legal Disclaimer",
-      "c": 0
+      "t": "Link - View All plan details - APAC Tiering",
+      "c": -2
     },
     {
       "r": 7,
-      "t": "메이드 인 코리아",
-      "c": 0
+      "t": "Link - click here - korea bundle terms",
+      "c": "NEW"
     },
     {
       "r": 8,
-      "t": "재벌 x 형사",
-      "c": 0
+      "t": "Link - Click here - Promo Modal - Korea September Promo",
+      "c": "NEW"
     },
     {
       "r": 9,
-      "t": "킬러들의 쇼핑몰",
-      "c": 0
+      "t": "Link - large - Disney+ Standalone Annual Plan Select - GET THIS OFFER - Korea September Promo 2026",
+      "c": "NEW"
     },
     {
       "r": 10,
-      "t": "스타워즈: 만달로리안과 그로구",
-      "c": 0
+      "t": "Link - Disney+ TVING Wavve Bundle - HISUF",
+      "c": "NEW"
     }
   ],
   "coupang": [
