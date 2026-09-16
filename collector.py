@@ -58,16 +58,23 @@ USER_AGENT = (
 REQUEST_TIMEOUT = 20
 
 # Disney 상세페이지 동시 요청
-DISNEY_DETAIL_WORKERS = 6
+DISNEY_DETAIL_WORKERS = 10
 
 # TMDB 검색 동시 요청
 TMDB_SEARCH_WORKERS = 6
 
 # Disney 후보
-DISNEY_CANDIDATE_LIMIT = 60
+#
+# 예전에는 60개로 캡을 걸어서, 앞부분에 영화/TV가 아닌 항목이
+# 많이 섞여 있으면 10+10을 못 채우고 후보가 끊기는 문제가 있었다.
+# 실제 페이지에서 찾은 entity 링크는 최대한 다 가져와서
+# 10+10이 채워질 때까지 계속 시도한다.
+DISNEY_CANDIDATE_LIMIT = 300
 
 # Coupang 후보
-COUPANG_CANDIDATE_LIMIT = 60
+#
+# 동일한 이유로 한도를 크게 늘린다.
+COUPANG_CANDIDATE_LIMIT = 300
 
 
 # ============================================================
@@ -2650,6 +2657,53 @@ def tmdb_get_detail(
     }
 
 
+def detail_needs_refresh(
+    item,
+    old_item,
+):
+    """
+    캐시된 TMDB 상세정보를 그대로 쓸지, 다시 요청할지 결정한다.
+
+    다음 중 하나라도 해당하면 캐시가 '신선'해도 다시 요청한다:
+    - 캐시 자체가 없거나 만료된 경우
+    - trailer_key(예고편)를 아직 못 찾은 경우
+    - 넷플릭스 항목인데 title이 아직 한글이 아닌 경우
+      (다음 실행에서 한글 매칭이 성공할 수 있으므로 계속 재시도)
+
+    그 외에는 불필요한 TMDB 요청을 줄이기 위해 캐시를 그대로 쓴다.
+    """
+
+    if not isinstance(
+        old_item,
+        dict,
+    ):
+        return True
+
+    if not is_cache_fresh(
+        old_item.get(
+            "cached_at"
+        ),
+        TMDB_DETAIL_CACHE_DAYS,
+    ):
+        return True
+
+    if not old_item.get(
+        "trailer_key"
+    ):
+        return True
+
+    if (
+        item.get("platform")
+        == "Netflix"
+        and not has_korean(
+            item.get("title")
+        )
+    ):
+        return True
+
+    return False
+
+
 def update_tmdb_details(
     items
 ):
@@ -2700,17 +2754,9 @@ def update_tmdb_details(
             key
         )
 
-        if (
-            isinstance(
-                old_item,
-                dict,
-            )
-            and is_cache_fresh(
-                old_item.get(
-                    "cached_at"
-                ),
-                TMDB_DETAIL_CACHE_DAYS,
-            )
+        if not detail_needs_refresh(
+            item,
+            old_item,
         ):
 
             if item.get("title"):
