@@ -4,9 +4,10 @@ import json
 import os
 import re
 import sys
-import urllib.parse
 import urllib.request
 from datetime import datetime, timezone, timedelta
+from html.parser import HTMLParser
+from urllib.parse import quote
 
 
 # =========================================================
@@ -27,7 +28,7 @@ NETFLIX_KR_TV_URL = (
 
 # Netflix 한국 검색
 NETFLIX_KR_SEARCH_URL = (
-    "https://www.netflix.com/kr/search?q="
+    "https://www.netflix.com/kr/search?q={}"
 )
 
 DISNEY_URL = "https://www.disneyplus.com/ko-kr"
@@ -42,13 +43,8 @@ COUNTRY_CODE = "KR"
 
 KEEP_DAYS = 30
 
-# Netflix 검색 요청 횟수
-# TOP10 영화 10개 + TV 10개 정도이므로
-# 너무 많은 요청을 하지 않도록 제한
-NETFLIX_SEARCH_LIMIT = 20
 
-
-# Netflix TSV의 큰 필드 때문에 필요
+# Netflix TSV의 큰 필드 때문에 필요한 설정
 csv.field_size_limit(sys.maxsize)
 
 
@@ -56,8 +52,9 @@ csv.field_size_limit(sys.maxsize)
 # HTTP
 # =========================================================
 
-def make_request(url, timeout=30):
-    return urllib.request.Request(
+def fetch_text(url, timeout=30):
+
+    req = urllib.request.Request(
         url,
         headers={
             "User-Agent": (
@@ -66,28 +63,15 @@ def make_request(url, timeout=30):
                 "(KHTML, like Gecko) "
                 "Chrome/140.0 Safari/537.36"
             ),
-            "Accept": (
-                "text/html,application/xhtml+xml,application/xml;"
-                "q=0.9,image/avif,image/webp,*/*;q=0.8"
-            ),
             "Accept-Language": (
-                "ko-KR,ko;q=0.95,en-US;q=0.8,en;q=0.7"
+                "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
             ),
-            "Referer": "https://www.netflix.com/kr/",
         },
-    )
-
-
-def fetch_text(url, timeout=30):
-
-    req = make_request(
-        url,
-        timeout=timeout,
     )
 
     with urllib.request.urlopen(
         req,
-        timeout=timeout,
+        timeout=timeout
     ) as response:
 
         raw = response.read()
@@ -97,12 +81,12 @@ def fetch_text(url, timeout=30):
         if charset:
             return raw.decode(
                 charset,
-                errors="replace",
+                errors="replace"
             )
 
         return raw.decode(
             "utf-8",
-            errors="replace",
+            errors="replace"
         )
 
 
@@ -117,14 +101,25 @@ def normalize_title(value):
 
     value = str(value)
 
-    value = value.replace("\xa0", " ")
-    value = value.replace("\u200b", "")
-    value = value.replace("\ufeff", "")
+    value = value.replace(
+        "\xa0",
+        " "
+    )
+
+    value = value.replace(
+        "\u200b",
+        ""
+    )
+
+    value = value.replace(
+        "\ufeff",
+        ""
+    )
 
     value = re.sub(
         r"\s+",
         " ",
-        value,
+        value
     )
 
     return value.strip()
@@ -139,51 +134,10 @@ def normalize_key(value):
     value = re.sub(
         r"[^0-9a-z가-힣]+",
         "",
-        value,
-    )
-
-    return value
-
-
-def remove_season_suffix(value):
-
-    value = normalize_title(
         value
     )
 
-    if not value:
-        return ""
-
-    patterns = [
-
-        # Season 1
-        r"\s*:\s*Season\s+\d+$",
-
-        # Season 2
-        r"\s+Season\s+\d+$",
-
-        # Limited Series
-        r"\s*:\s*Limited Series$",
-
-        # Part 1
-        r"\s*:\s*Part\s+[\w\d]+$",
-
-    ]
-
-    result = value
-
-    for pattern in patterns:
-
-        result = re.sub(
-            pattern,
-            "",
-            result,
-            flags=re.IGNORECASE,
-        )
-
-    return normalize_title(
-        result
-    )
+    return value
 
 
 # =========================================================
@@ -227,14 +181,14 @@ def parse_netflix_tsv(text):
         country_iso = normalize_title(
             row.get(
                 "country_iso2",
-                "",
+                ""
             )
         ).upper()
 
         country_name = normalize_title(
             row.get(
                 "country_name",
-                "",
+                ""
             )
         )
 
@@ -242,9 +196,13 @@ def parse_netflix_tsv(text):
             country_iso == COUNTRY_CODE
             or country_name.lower() == "south korea"
         ):
-            kr_rows.append(row)
+
+            kr_rows.append(
+                row
+            )
 
     if not kr_rows:
+
         raise RuntimeError(
             "Netflix 한국 데이터를 찾지 못했습니다."
         )
@@ -258,7 +216,7 @@ def parse_netflix_tsv(text):
             normalize_title(
                 row.get(
                     "week",
-                    "",
+                    ""
                 )
             )
             for row in kr_rows
@@ -267,6 +225,7 @@ def parse_netflix_tsv(text):
     )
 
     if not weeks:
+
         raise RuntimeError(
             "Netflix 한국 주차 정보를 찾지 못했습니다."
         )
@@ -279,7 +238,7 @@ def parse_netflix_tsv(text):
         if normalize_title(
             row.get(
                 "week",
-                "",
+                ""
             )
         ) == latest_week
     ]
@@ -297,7 +256,7 @@ def parse_netflix_tsv(text):
         category = normalize_title(
             row.get(
                 "category",
-                "",
+                ""
             )
         ).lower()
 
@@ -307,7 +266,7 @@ def parse_netflix_tsv(text):
                 normalize_title(
                     row.get(
                         "weekly_rank",
-                        "",
+                        ""
                     )
                 )
             )
@@ -319,14 +278,14 @@ def parse_netflix_tsv(text):
         title = normalize_title(
             row.get(
                 "show_title",
-                "",
+                ""
             )
         )
 
         season = normalize_title(
             row.get(
                 "season_title",
-                "",
+                ""
             )
         )
 
@@ -338,7 +297,7 @@ def parse_netflix_tsv(text):
             "t": title,
         }
 
-        # 시즌명이 작품명과 실제로 다를 경우 저장
+        # 시즌명이 작품명과 실제로 다를 경우만 저장
         if (
             season
             and season.upper() != "N/A"
@@ -349,27 +308,39 @@ def parse_netflix_tsv(text):
 
         if category == "films":
 
-            movies.append(item)
+            movies.append(
+                item
+            )
 
         elif category == "tv":
 
-            tv.append(item)
+            tv.append(
+                item
+            )
 
         elif category == "shows":
 
-            tv.append(item)
+            tv.append(
+                item
+            )
 
         elif "film" in category:
 
-            movies.append(item)
+            movies.append(
+                item
+            )
 
         elif "tv" in category:
 
-            tv.append(item)
+            tv.append(
+                item
+            )
 
         elif "show" in category:
 
-            tv.append(item)
+            tv.append(
+                item
+            )
 
     movies.sort(
         key=lambda x: x["r"]
@@ -387,338 +358,352 @@ def parse_netflix_tsv(text):
 
 
 # =========================================================
-# Netflix Tudum 제목 추출
+# Netflix 한국 공식 제목 확인
+#
+# 원칙
+# 1. 자동 번역하지 않는다.
+# 2. Netflix 한국 사이트에서 실제로 확인되는 제목만 사용한다.
+# 3. Netflix 한국 사이트가 영어 제목을 사용하면 영어 그대로 둔다.
+# 4. 확실한 결과가 없으면 Netflix TSV 원래 제목을 유지한다.
 # =========================================================
 
-def extract_netflix_titles_from_page(html):
 
-    titles = []
+class NetflixSearchParser(HTMLParser):
 
-    if not html:
-        return titles
+    def __init__(self):
 
-    patterns = [
+        super().__init__(
+            convert_charrefs=True
+        )
 
-        # Tudum 현재 구조
-        r"\[Button:\s*([^\]]+)\]",
+        self.results = []
 
-        # 일반 JSON
-        r'"title"\s*:\s*"([^"]{1,200})"',
+        self.current_href = ""
 
-        r'"name"\s*:\s*"([^"]{1,200})"',
+        self.current_text = []
 
-        r'"show_title"\s*:\s*"([^"]{1,200})"',
+        self.current_aria = ""
 
-        # alt/title
-        r'alt="([^"]{1,200})"',
+        self.current_title = ""
 
-        r'title="([^"]{1,200})"',
-    ]
+        self.current_alt = ""
 
-    for pattern in patterns:
 
-        try:
+    def handle_starttag(
+        self,
+        tag,
+        attrs
+    ):
 
-            matches = re.findall(
-                pattern,
-                html,
-                flags=re.IGNORECASE,
+        attrs = dict(
+            attrs
+        )
+
+        if tag.lower() == "a":
+
+            href = attrs.get(
+                "href",
+                ""
             )
 
-        except Exception:
+            if re.search(
+                r"/kr(?:-[a-z]{2})?/title/\d+",
+                href,
+                flags=re.IGNORECASE
+            ):
 
-            continue
+                self.current_href = href
 
-        for value in matches:
+                self.current_text = []
+
+                self.current_aria = normalize_title(
+                    attrs.get(
+                        "aria-label",
+                        ""
+                    )
+                )
+
+                self.current_title = normalize_title(
+                    attrs.get(
+                        "title",
+                        ""
+                    )
+                )
+
+                self.current_alt = ""
+
+        elif tag.lower() == "img":
+
+            if self.current_href:
+
+                self.current_alt = normalize_title(
+                    attrs.get(
+                        "alt",
+                        ""
+                    )
+                )
+
+
+    def handle_data(
+        self,
+        data
+    ):
+
+        if self.current_href:
 
             value = normalize_title(
-                value
+                data
             )
 
-            if not value:
-                continue
+            if value:
 
-            if len(value) > 200:
-                continue
-
-            low = value.lower()
-
-            # UI 문자열 제거
-            if low in {
-                "my list",
-                "watch",
-                "explore",
-                "image",
-                "movies",
-                "shows",
-                "movie",
-                "tv",
-                "home",
-                "sign in",
-                "sign up",
-                "search",
-                "menu",
-                "top 10",
-            }:
-                continue
-
-            if value not in titles:
-
-                titles.append(
+                self.current_text.append(
                     value
                 )
 
-    return titles
+
+    def handle_endtag(
+        self,
+        tag
+    ):
+
+        if tag.lower() == "a":
+
+            if self.current_href:
+
+                values = []
+
+                if self.current_aria:
+
+                    values.append(
+                        self.current_aria
+                    )
+
+                if self.current_title:
+
+                    values.append(
+                        self.current_title
+                    )
+
+                if self.current_alt:
+
+                    values.append(
+                        self.current_alt
+                    )
+
+                if self.current_text:
+
+                    text = normalize_title(
+                        " ".join(
+                            self.current_text
+                        )
+                    )
+
+                    if text:
+
+                        values.append(
+                            text
+                        )
+
+                for value in values:
+
+                    value = normalize_title(
+                        value
+                    )
+
+                    if (
+                        value
+                        and value not in self.results
+                    ):
+
+                        self.results.append(
+                            value
+                        )
+
+            self.current_href = ""
+
+            self.current_text = []
+
+            self.current_aria = ""
+
+            self.current_title = ""
+
+            self.current_alt = ""
 
 
-# =========================================================
-# Netflix 공식 페이지 제목 Map
-# =========================================================
-
-def build_title_map(page_titles):
-
-    mapping = {}
-
-    for title in page_titles:
-
-        title = normalize_title(
-            title
-        )
-
-        if not title:
-            continue
-
-        key = normalize_key(
-            title
-        )
-
-        if not key:
-            continue
-
-        mapping[key] = title
-
-    return mapping
-
-
-# =========================================================
-# 정확히 동일한 공식 제목 찾기
-# =========================================================
-
-def find_exact_official_title(
-    original_title,
-    title_map,
+def is_valid_netflix_title(
+    value
 ):
 
-    original_title = normalize_title(
-        original_title
+    value = normalize_title(
+        value
     )
 
-    if not original_title:
-        return original_title
+    if not value:
+        return False
 
-    key = normalize_key(
-        original_title
+    if len(value) < 2:
+        return False
+
+    if len(value) > 200:
+        return False
+
+    low = value.lower()
+
+    bad_values = {
+        "image",
+        "watch",
+        "watch now",
+        "my list",
+        "more",
+        "more details",
+        "details",
+        "play",
+        "trailer",
+        "teaser",
+        "netflix",
+        "netflix korea",
+        "sign in",
+        "sign up",
+        "login",
+        "search",
+        "menu",
+        "home",
+        "movies",
+        "shows",
+        "series",
+        "movie",
+        "tv",
+    }
+
+    if low in bad_values:
+        return False
+
+    if "http://" in low:
+        return False
+
+    if "https://" in low:
+        return False
+
+    if "javascript:" in low:
+        return False
+
+    return True
+
+
+def has_korean(
+    value
+):
+
+    return bool(
+        re.search(
+            r"[가-힣]",
+            value
+        )
     )
 
-    if key in title_map:
 
-        return title_map[key]
+def netflix_title_similarity(
+    original,
+    candidate
+):
 
-    return original_title
+    original = normalize_title(
+        original
+    )
+
+    candidate = normalize_title(
+        candidate
+    )
+
+    if not original or not candidate:
+        return 0
+
+    original_key = normalize_key(
+        original
+    )
+
+    candidate_key = normalize_key(
+        candidate
+    )
+
+    if not original_key or not candidate_key:
+        return 0
+
+    # 완전히 같은 제목
+    if original_key == candidate_key:
+
+        return 1000
+
+    score = 0
+
+    # 영문 원제가 후보 제목에 그대로 포함
+    if original_key in candidate_key:
+
+        score += 500
+
+    if candidate_key in original_key:
+
+        score += 450
+
+    # 한국어 제목 우선
+    if has_korean(
+        candidate
+    ):
+
+        score += 100
+
+    # 지나치게 긴 설명문 방지
+    if len(candidate) <= 80:
+
+        score += 20
+
+    return score
 
 
-# =========================================================
-# Netflix 한국 검색 페이지
-#
-# 핵심:
-# TSV 원제 → Netflix 한국 검색 → 공식 검색 결과 제목
-#
-# 자동 번역은 하지 않는다.
-# Netflix에서 실제 제공하는 제목만 사용한다.
-# =========================================================
+def extract_netflix_search_titles(
+    html
+):
 
-def extract_search_result_titles(html):
+    if not html:
+        return []
+
+    parser = NetflixSearchParser()
+
+    try:
+
+        parser.feed(
+            html
+        )
+
+    except Exception:
+
+        return []
 
     results = []
 
-    if not html:
-        return results
+    for value in parser.results:
 
-    # -----------------------------------------------------
-    # Netflix 검색 결과에서 제목 후보 추출
-    # -----------------------------------------------------
+        value = normalize_title(
+            value
+        )
 
-    patterns = [
-
-        r'"title"\s*:\s*"([^"]{1,200})"',
-
-        r'"name"\s*:\s*"([^"]{1,200})"',
-
-        r'"displayName"\s*:\s*"([^"]{1,200})"',
-
-        r'"display_name"\s*:\s*"([^"]{1,200})"',
-
-        r'"text"\s*:\s*"([^"]{1,200})"',
-
-        r'aria-label="([^"]{1,200})"',
-
-        r'alt="([^"]{1,200})"',
-    ]
-
-    for pattern in patterns:
-
-        try:
-
-            matches = re.findall(
-                pattern,
-                html,
-                flags=re.IGNORECASE,
-            )
-
-        except Exception:
+        if not is_valid_netflix_title(
+            value
+        ):
 
             continue
 
-        for value in matches:
+        if value not in results:
 
-            value = normalize_title(
+            results.append(
                 value
             )
-
-            if not value:
-                continue
-
-            if len(value) < 2:
-                continue
-
-            if len(value) > 200:
-                continue
-
-            low = value.lower()
-
-            # UI 문자열
-            bad_words = {
-                "netflix",
-                "search",
-                "검색",
-                "로그인",
-                "회원가입",
-                "sign in",
-                "sign up",
-                "home",
-                "menu",
-                "my list",
-                "watch",
-                "explore",
-                "movies",
-                "shows",
-                "series",
-                "movie",
-                "tv",
-            }
-
-            if low in bad_words:
-                continue
-
-            if value not in results:
-
-                results.append(
-                    value
-                )
 
     return results
 
 
-def find_best_search_title(
-    original_title,
-    candidates,
-):
-
-    original_title = normalize_title(
-        original_title
-    )
-
-    if not original_title:
-        return None
-
-    original_key = normalize_key(
-        original_title
-    )
-
-    if not original_key:
-        return None
-
-    # -----------------------------------------------------
-    # 1. 완전 동일
-    # -----------------------------------------------------
-
-    for candidate in candidates:
-
-        candidate_key = normalize_key(
-            candidate
-        )
-
-        if candidate_key == original_key:
-
-            return candidate
-
-    # -----------------------------------------------------
-    # 2. 시즌/부제 제거 후 비교
-    # -----------------------------------------------------
-
-    original_base = normalize_key(
-        remove_season_suffix(
-            original_title
-        )
-    )
-
-    if original_base:
-
-        for candidate in candidates:
-
-            candidate_base = normalize_key(
-                remove_season_suffix(
-                    candidate
-                )
-            )
-
-            if (
-                candidate_base
-                and candidate_base == original_base
-            ):
-
-                return candidate
-
-    # -----------------------------------------------------
-    # 3. 후보가 하나이고 원제 핵심어가 포함된 경우
-    #
-    # 잘못된 작품으로 바뀌는 것을 막기 위해
-    # 매우 제한적으로 사용한다.
-    # -----------------------------------------------------
-
-    if len(candidates) == 1:
-
-        candidate = candidates[0]
-
-        candidate_key = normalize_key(
-            candidate
-        )
-
-        if (
-            original_key
-            and candidate_key
-            and (
-                original_key in candidate_key
-                or candidate_key in original_key
-            )
-        ):
-
-            return candidate
-
-    return None
-
-
-def search_netflix_korea_title(
+def get_netflix_official_title(
     original_title
 ):
 
@@ -727,129 +712,137 @@ def search_netflix_korea_title(
     )
 
     if not original_title:
+
         return original_title
 
-    query = urllib.parse.quote(
-        original_title
-    )
-
-    url = (
-        NETFLIX_KR_SEARCH_URL
-        + query
+    url = NETFLIX_KR_SEARCH_URL.format(
+        quote(
+            original_title,
+            safe=""
+        )
     )
 
     try:
 
+        print(
+            "Netflix 한국 제목 검색:",
+            original_title
+        )
+
         html = fetch_text(
             url,
-            timeout=20,
+            timeout=30,
         )
 
     except Exception as e:
 
         print(
-            "  Netflix 한국 검색 실패:",
+            "Netflix 한국 검색 실패:",
             original_title,
-            e,
+            e
         )
 
         return original_title
 
-    candidates = extract_search_result_titles(
+    candidates = extract_netflix_search_titles(
         html
     )
 
-    result = find_best_search_title(
-        original_title,
-        candidates,
+    if not candidates:
+
+        print(
+            "  → 검색 결과 제목 없음:",
+            original_title
+        )
+
+        return original_title
+
+    scored = []
+
+    for candidate in candidates:
+
+        score = netflix_title_similarity(
+            original_title,
+            candidate
+        )
+
+        if score > 0:
+
+            scored.append(
+                (
+                    score,
+                    candidate
+                )
+            )
+
+    if not scored:
+
+        print(
+            "  → 일치 제목 없음:",
+            original_title
+        )
+
+        return original_title
+
+    scored.sort(
+        key=lambda x: (
+            x[0],
+            -len(x[1])
+        ),
+        reverse=True
     )
 
-    if result:
+    best_score, best_title = scored[0]
 
-        return result
+    # 정확히 같은 제목
+    if best_score >= 1000:
+
+        print(
+            "  → Netflix 공식 제목:",
+            best_title
+        )
+
+        return best_title
+
+    # 원제가 검색 결과에 포함
+    if best_score >= 500:
+
+        print(
+            "  → Netflix 공식 제목:",
+            best_title
+        )
+
+        return best_title
+
+    # 한국어 제목
+    if (
+        has_korean(best_title)
+        and best_score >= 100
+    ):
+
+        print(
+            "  → Netflix 한국 제목:",
+            best_title
+        )
+
+        return best_title
+
+    print(
+        "  → 확실하지 않아 원제 유지:",
+        original_title
+    )
 
     return original_title
 
 
-# =========================================================
-# Netflix 공식 제목 적용
-# =========================================================
-
-def apply_netflix_official_titles(data):
+def apply_netflix_official_titles(
+    data
+):
 
     print("")
+
     print(
         "Netflix 한국 공식 제목 확인 중..."
-    )
-
-    movie_titles = []
-
-    tv_titles = []
-
-    # -----------------------------------------------------
-    # Netflix Tudum 영화 페이지
-    # -----------------------------------------------------
-
-    try:
-
-        movie_html = fetch_text(
-            NETFLIX_KR_MOVIE_URL,
-            timeout=30,
-        )
-
-        movie_titles = (
-            extract_netflix_titles_from_page(
-                movie_html
-            )
-        )
-
-        print(
-            "Netflix 영화 공식 제목 후보:",
-            len(movie_titles),
-        )
-
-    except Exception as e:
-
-        print(
-            "Netflix 영화 공식 페이지 확인 실패:",
-            e,
-        )
-
-    # -----------------------------------------------------
-    # Netflix Tudum TV 페이지
-    # -----------------------------------------------------
-
-    try:
-
-        tv_html = fetch_text(
-            NETFLIX_KR_TV_URL,
-            timeout=30,
-        )
-
-        tv_titles = (
-            extract_netflix_titles_from_page(
-                tv_html
-            )
-        )
-
-        print(
-            "Netflix TV 공식 제목 후보:",
-            len(tv_titles),
-        )
-
-    except Exception as e:
-
-        print(
-            "Netflix TV 공식 페이지 확인 실패:",
-            e,
-        )
-
-    movie_map = build_title_map(
-        movie_titles
-    )
-
-    tv_map = build_title_map(
-        tv_titles
     )
 
     # -----------------------------------------------------
@@ -858,52 +851,24 @@ def apply_netflix_official_titles(data):
 
     for item in data.get(
         "movies",
-        [],
+        []
     ):
 
         original = normalize_title(
             item.get(
                 "t",
-                "",
+                ""
             )
         )
 
         if not original:
             continue
 
-        # 1차: Tudum 페이지에서 동일 제목
-        official = find_exact_official_title(
-            original,
-            movie_map,
+        official = get_netflix_official_title(
+            original
         )
 
-        # -------------------------------------------------
-        # 동일 제목을 찾지 못하면
-        # Netflix 한국 검색 페이지에서 확인
-        # -------------------------------------------------
-
-        if official == original:
-
-            searched = search_netflix_korea_title(
-                original
-            )
-
-            if searched:
-
-                official = searched
-
-        if official:
-
-            if official != original:
-
-                print(
-                    "  Netflix 영화 제목:",
-                    original,
-                    "->",
-                    official,
-                )
-
-            item["t"] = official
+        item["t"] = official
 
     # -----------------------------------------------------
     # TV
@@ -911,51 +876,28 @@ def apply_netflix_official_titles(data):
 
     for item in data.get(
         "tv",
-        [],
+        []
     ):
 
         original = normalize_title(
             item.get(
                 "t",
-                "",
+                ""
             )
         )
 
         if not original:
             continue
 
-        # 1차: Tudum 페이지에서 동일 제목
-        official = find_exact_official_title(
-            original,
-            tv_map,
+        official = get_netflix_official_title(
+            original
         )
 
-        # -------------------------------------------------
-        # Netflix 한국 검색
-        # -------------------------------------------------
+        item["t"] = official
 
-        if official == original:
-
-            searched = search_netflix_korea_title(
-                original
-            )
-
-            if searched:
-
-                official = searched
-
-        if official:
-
-            if official != original:
-
-                print(
-                    "  Netflix TV 제목:",
-                    original,
-                    "->",
-                    official,
-                )
-
-            item["t"] = official
+    print(
+        "Netflix 한국 공식 제목 확인 완료"
+    )
 
     return data
 
@@ -972,19 +914,19 @@ def get_disney():
 
     html = fetch_text(
         DISNEY_URL,
-        timeout=30,
+        timeout=30
     )
 
     titles = []
 
+    # -----------------------------------------------------
+    # Disney+ 페이지 제목 후보
+    # -----------------------------------------------------
+
     patterns = [
-
         r'"title"\s*:\s*"([^"]+)"',
-
         r'"name"\s*:\s*"([^"]+)"',
-
         r'"contentTitle"\s*:\s*"([^"]+)"',
-
         r'aria-label="([^"]+)"',
     ]
 
@@ -995,7 +937,7 @@ def get_disney():
             matches = re.findall(
                 pattern,
                 html,
-                flags=re.IGNORECASE,
+                flags=re.IGNORECASE
             )
 
         except Exception:
@@ -1077,6 +1019,7 @@ def get_disney():
             "t": title,
             "c": 0,
         }
+
         for index, title
         in enumerate(
             filtered[:10]
@@ -1096,17 +1039,18 @@ def get_coupang():
 
     html = fetch_text(
         COUPANG_URL,
-        timeout=30,
+        timeout=30
     )
 
     titles = []
 
+    # -----------------------------------------------------
+    # 제목 후보
+    # -----------------------------------------------------
+
     patterns = [
-
         r'"title"\s*:\s*"([^"]+)"',
-
         r'"name"\s*:\s*"([^"]+)"',
-
         r'"contentTitle"\s*:\s*"([^"]+)"',
     ]
 
@@ -1117,7 +1061,7 @@ def get_coupang():
             matches = re.findall(
                 pattern,
                 html,
-                flags=re.IGNORECASE,
+                flags=re.IGNORECASE
             )
 
         except Exception:
@@ -1147,7 +1091,6 @@ def get_coupang():
     # -----------------------------------------------------
 
     bad_patterns = [
-
         "autoplay",
         "auto play",
         "hero",
@@ -1194,12 +1137,17 @@ def get_coupang():
                 title
             )
 
+    # -----------------------------------------------------
+    # TOP 20
+    # -----------------------------------------------------
+
     return [
         {
             "r": index + 1,
             "t": title,
             "c": 0,
         }
+
         for index, title
         in enumerate(
             filtered[:20]
@@ -1224,10 +1172,12 @@ def load_ranking():
         with open(
             RANKING_FILE,
             "r",
-            encoding="utf-8",
+            encoding="utf-8"
         ) as f:
 
-            return json.load(f)
+            return json.load(
+                f
+            )
 
     except Exception:
 
@@ -1238,7 +1188,9 @@ def load_ranking():
 # 순위 맵
 # =========================================================
 
-def previous_rank_map(items):
+def previous_rank_map(
+    items
+):
 
     result = {}
 
@@ -1247,7 +1199,7 @@ def previous_rank_map(items):
         title = normalize_title(
             item.get(
                 "t",
-                "",
+                ""
             )
         )
 
@@ -1264,11 +1216,16 @@ def previous_rank_map(items):
 
 # =========================================================
 # 순위 변동 계산
+#
+# 이전 5위 → 현재 2위 = +3
+# 이전 2위 → 현재 5위 = -3
+# 동일 = 0
+# 처음 등장 = NEW
 # =========================================================
 
 def calculate_changes(
     current_items,
-    previous_items,
+    previous_items
 ):
 
     previous = previous_rank_map(
@@ -1280,7 +1237,7 @@ def calculate_changes(
         title = normalize_title(
             item.get(
                 "t",
-                "",
+                ""
             )
         )
 
@@ -1320,10 +1277,12 @@ def make_history_entry(
     date_string,
     netflix,
     disney,
-    coupang,
+    coupang
 ):
 
-    def rank_map(items):
+    def rank_map(
+        items
+    ):
 
         result = {}
 
@@ -1332,7 +1291,7 @@ def make_history_entry(
             title = normalize_title(
                 item.get(
                     "t",
-                    "",
+                    ""
                 )
             )
 
@@ -1347,7 +1306,6 @@ def make_history_entry(
         return result
 
     return {
-
         "d": date_string,
 
         "n": {
@@ -1355,14 +1313,14 @@ def make_history_entry(
             "m": rank_map(
                 netflix.get(
                     "movies",
-                    [],
+                    []
                 )
             ),
 
             "t": rank_map(
                 netflix.get(
                     "tv",
-                    [],
+                    []
                 )
             ),
         },
@@ -1396,14 +1354,16 @@ def load_history():
         with open(
             HISTORY_FILE,
             "r",
-            encoding="utf-8",
+            encoding="utf-8"
         ) as f:
 
-            data = json.load(f)
+            data = json.load(
+                f
+            )
 
         if not isinstance(
             data,
-            dict,
+            dict
         ):
 
             return {
@@ -1412,7 +1372,7 @@ def load_history():
 
         if not isinstance(
             data.get("h"),
-            list,
+            list
         ):
 
             data["h"] = []
@@ -1433,7 +1393,7 @@ def load_history():
 def save_history(
     netflix,
     disney,
-    coupang,
+    coupang
 ):
 
     history = load_history()
@@ -1459,7 +1419,7 @@ def save_history(
         today,
         netflix,
         disney,
-        coupang,
+        coupang
     )
 
     # -----------------------------------------------------
@@ -1487,7 +1447,7 @@ def save_history(
     history["h"].sort(
         key=lambda x: x.get(
             "d",
-            "",
+            ""
         )
     )
 
@@ -1502,14 +1462,14 @@ def save_history(
     with open(
         HISTORY_FILE,
         "w",
-        encoding="utf-8",
+        encoding="utf-8"
     ) as f:
 
         json.dump(
             history,
             f,
             ensure_ascii=False,
-            indent=2,
+            indent=2
         )
 
 
@@ -1519,20 +1479,20 @@ def save_history(
 
 def save_json(
     filename,
-    data,
+    data
 ):
 
     with open(
         filename,
         "w",
-        encoding="utf-8",
+        encoding="utf-8"
     ) as f:
 
         json.dump(
             data,
             f,
             ensure_ascii=False,
-            indent=2,
+            indent=2
         )
 
 
@@ -1543,19 +1503,19 @@ def save_json(
 def set_initial_changes(
     netflix,
     disney,
-    coupang,
+    coupang
 ):
 
     for item in netflix.get(
         "movies",
-        [],
+        []
     ):
 
         item["c"] = 0
 
     for item in netflix.get(
         "tv",
-        [],
+        []
     ):
 
         item["c"] = 0
@@ -1576,9 +1536,19 @@ def set_initial_changes(
 def main():
 
     print("")
-    print("=" * 60)
-    print("OTT RANKING COLLECTOR")
-    print("=" * 60)
+
+    print(
+        "=" * 60
+    )
+
+    print(
+        "OTT RANKING COLLECTOR"
+    )
+
+    print(
+        "=" * 60
+    )
+
     print("")
 
     # -----------------------------------------------------
@@ -1592,7 +1562,10 @@ def main():
     # -----------------------------------------------------
 
     print("")
-    print("[1/3] Netflix")
+
+    print(
+        "[1/3] Netflix"
+    )
 
     netflix_tsv = get_netflix_tsv()
 
@@ -1600,56 +1573,20 @@ def main():
         netflix_tsv
     )
 
-    print(
-        "Netflix TSV 주차:",
-        netflix.get("week"),
+    # 공식 한국 페이지 제목 확인
+    netflix = apply_netflix_official_titles(
+        netflix
     )
-
-    print(
-        "Netflix TSV 영화:",
-        len(
-            netflix.get(
-                "movies",
-                [],
-            )
-        ),
-    )
-
-    print(
-        "Netflix TSV TV:",
-        len(
-            netflix.get(
-                "tv",
-                [],
-            )
-        ),
-    )
-
-    # -----------------------------------------------------
-    # Netflix 공식 한국 제목 확인
-    # -----------------------------------------------------
-
-    try:
-
-        netflix = apply_netflix_official_titles(
-            netflix
-        )
-
-    except Exception as e:
-
-        # 제목 확인 실패하더라도
-        # TSV 순위 데이터 자체는 유지
-        print(
-            "Netflix 공식 제목 확인 중 오류:",
-            e,
-        )
 
     # -----------------------------------------------------
     # Disney+
     # -----------------------------------------------------
 
     print("")
-    print("[2/3] Disney+")
+
+    print(
+        "[2/3] Disney+"
+    )
 
     try:
 
@@ -1659,7 +1596,7 @@ def main():
 
         print(
             "Disney+ 수집 실패:",
-            e,
+            e
         )
 
         disney = []
@@ -1669,7 +1606,10 @@ def main():
     # -----------------------------------------------------
 
     print("")
-    print("[3/3] Coupang Play")
+
+    print(
+        "[3/3] Coupang Play"
+    )
 
     try:
 
@@ -1679,7 +1619,7 @@ def main():
 
         print(
             "Coupang Play 수집 실패:",
-            e,
+            e
         )
 
         coupang = []
@@ -1689,23 +1629,26 @@ def main():
     # -----------------------------------------------------
 
     print("")
-    print("순위 변동 계산 중...")
+
+    print(
+        "순위 변동 계산 중..."
+    )
 
     if previous:
 
         old_netflix = previous.get(
             "netflix",
-            {},
+            {}
         )
 
         old_disney = previous.get(
             "disney",
-            [],
+            []
         )
 
         old_coupang = previous.get(
             "coupang",
-            [],
+            []
         )
 
         # Netflix 영화
@@ -1713,8 +1656,8 @@ def main():
             netflix["movies"],
             old_netflix.get(
                 "movies",
-                [],
-            ),
+                []
+            )
         )
 
         # Netflix TV
@@ -1722,33 +1665,32 @@ def main():
             netflix["tv"],
             old_netflix.get(
                 "tv",
-                [],
-            ),
+                []
+            )
         )
 
         # Disney+
         calculate_changes(
             disney,
-            old_disney,
+            old_disney
         )
 
         # Coupang Play
         calculate_changes(
             coupang,
-            old_coupang,
+            old_coupang
         )
 
     else:
 
         print(
-            "기존 ranking.json이 없어 "
-            "최초 실행으로 처리합니다."
+            "기존 ranking.json이 없어 최초 실행으로 처리합니다."
         )
 
         set_initial_changes(
             netflix,
             disney,
-            coupang,
+            coupang
         )
 
     # -----------------------------------------------------
@@ -1780,7 +1722,7 @@ def main():
 
     save_json(
         RANKING_FILE,
-        ranking,
+        ranking
     )
 
     # -----------------------------------------------------
@@ -1790,7 +1732,7 @@ def main():
     save_history(
         netflix,
         disney,
-        coupang,
+        coupang
     )
 
     # -----------------------------------------------------
@@ -1798,17 +1740,27 @@ def main():
     # -----------------------------------------------------
 
     print("")
-    print("=" * 60)
-    print("수집 완료")
-    print("=" * 60)
+
+    print(
+        "=" * 60
+    )
+
+    print(
+        "수집 완료"
+    )
+
+    print(
+        "=" * 60
+    )
+
     print("")
 
     print(
         "Netflix 주차:",
         netflix.get(
             "week",
-            "",
-        ),
+            ""
+        )
     )
 
     print(
@@ -1816,9 +1768,9 @@ def main():
         len(
             netflix.get(
                 "movies",
-                [],
+                []
             )
-        ),
+        )
     )
 
     print(
@@ -1826,19 +1778,19 @@ def main():
         len(
             netflix.get(
                 "tv",
-                [],
+                []
             )
-        ),
+        )
     )
 
     print(
         "Disney+:",
-        len(disney),
+        len(disney)
     )
 
     print(
         "Coupang Play:",
-        len(coupang),
+        len(coupang)
     )
 
     print("")
@@ -1853,14 +1805,14 @@ def main():
 
     for item in netflix.get(
         "movies",
-        [],
+        []
     ):
 
         print(
             item.get("r"),
             item.get("t"),
             "change=",
-            item.get("c"),
+            item.get("c")
         )
 
     print("")
@@ -1875,17 +1827,17 @@ def main():
 
     for item in netflix.get(
         "tv",
-        [],
+        []
     ):
 
         title = item.get(
             "t",
-            "",
+            ""
         )
 
         season = item.get(
             "s",
-            "",
+            ""
         )
 
         if season:
@@ -1897,7 +1849,7 @@ def main():
                 season,
                 ")",
                 "change=",
-                item.get("c"),
+                item.get("c")
             )
 
         else:
@@ -1906,7 +1858,7 @@ def main():
                 item.get("r"),
                 title,
                 "change=",
-                item.get("c"),
+                item.get("c")
             )
 
     print("")
@@ -1925,7 +1877,7 @@ def main():
             item.get("r"),
             item.get("t"),
             "change=",
-            item.get("c"),
+            item.get("c")
         )
 
     print("")
@@ -1944,7 +1896,7 @@ def main():
             item.get("r"),
             item.get("t"),
             "change=",
-            item.get("c"),
+            item.get("c")
         )
 
     print("")
