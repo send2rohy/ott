@@ -45,33 +45,63 @@ csv.field_size_limit(sys.maxsize)
 # HTTP
 # =========================================================
 
-def fetch_text(url, timeout=30):
+def fetch_text(url, timeout=30, retries=4):
 
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 "
-                "(KHTML, like Gecko) "
-                "Chrome/140.0 Safari/537.36"
-            ),
-            "Accept-Language": (
-                "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
-            ),
-        },
-    )
+    last_error = None
 
-    with urllib.request.urlopen(req, timeout=timeout) as response:
+    for attempt in range(1, retries + 1):
 
-        raw = response.read()
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) "
+                    "Chrome/140.0 Safari/537.36"
+                ),
+                "Accept-Language": (
+                    "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
+                ),
+                "Accept-Encoding": "identity",
+                "Connection": "close",
+            },
+        )
 
-        charset = response.headers.get_content_charset()
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                # Netflix TSV가 약 32MB라서 response.read() 한 번에
+                # 받는 과정에서 IncompleteRead가 발생할 수 있다.
+                # 작은 조각으로 반복해서 읽어 누락을 방지한다.
+                chunks = []
 
-        if charset:
-            return raw.decode(charset, errors="replace")
+                while True:
+                    chunk = response.read(1024 * 1024)
+                    if not chunk:
+                        break
+                    chunks.append(chunk)
 
-        return raw.decode("utf-8", errors="replace")
+                raw = b"".join(chunks)
+
+                charset = response.headers.get_content_charset()
+
+                if charset:
+                    return raw.decode(charset, errors="replace")
+
+                return raw.decode("utf-8", errors="replace")
+
+        except Exception as e:
+            last_error = e
+
+            print(
+                f"다운로드 재시도 {attempt}/{retries}: {url} -> {e}"
+            )
+
+            if attempt < retries:
+                import time
+                time.sleep(2 * attempt)
+
+    raise last_error
 
 
 # =========================================================
@@ -117,7 +147,8 @@ def get_netflix_tsv():
 
     return fetch_text(
         NETFLIX_TSV_URL,
-        timeout=60,
+        timeout=180,
+        retries=5,
     )
 
 
