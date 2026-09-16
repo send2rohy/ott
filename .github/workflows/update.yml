@@ -1,4 +1,3 @@
-
 name: Update OTT Ranking
 
 on:
@@ -28,6 +27,8 @@ jobs:
           python-version: "3.x"
 
       - name: Run collector
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
           python collector.py
 
