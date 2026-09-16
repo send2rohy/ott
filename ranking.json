@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T00:14:58.937613+00:00",
+  "updated_at": "2026-09-16T00:20:48.161457+00:00",
   "netflix": {
     "week": "2026-09-13",
     "movies": [
@@ -120,53 +120,53 @@
   "disney": [
     {
       "r": 1,
-      "t": "Link - Disney+ Standalone Annual Plan Select - GET THIS OFFER - Korea September Promo 2026",
-      "c": 1
+      "t": "Nav Link - Log In -/identity/login USUF - LATAM, EMEA, CA, AUNZ, APAC",
+      "c": "NEW"
     },
     {
       "r": 2,
-      "t": "Link - Trio - SIGN UP NOW - Korea September Promo 2026",
-      "c": 1
+      "t": "Link - Disney+ Standalone Annual Plan Select - GET THIS OFFER - Korea September Promo 2026",
+      "c": -1
     },
     {
       "r": 3,
-      "t": "Link - Disney+ Standard Monthly (toggle hidden)",
-      "c": 1
+      "t": "Link - Trio - SIGN UP NOW - Korea September Promo 2026",
+      "c": -1
     },
     {
       "r": 4,
-      "t": "Link - Disney+ Premium Monthly (toggle hidden)",
-      "c": 1
+      "t": "Link - Disney+ Standard Monthly (toggle hidden)",
+      "c": -1
     },
     {
       "r": 5,
-      "t": "Link - click here - korea bundle terms",
-      "c": 2
+      "t": "Link - Disney+ Premium Monthly (toggle hidden)",
+      "c": -1
     },
     {
       "r": 6,
-      "t": "Link - Click here - Promo Modal - Korea September Promo",
-      "c": 2
+      "t": "Link - View All plan details - APAC Tiering",
+      "c": "NEW"
     },
     {
       "r": 7,
-      "t": "Link - large - Disney+ Standalone Annual Plan Select - GET THIS OFFER - Korea September Promo 2026",
-      "c": 2
+      "t": "Link - click here - korea bundle terms",
+      "c": -2
     },
     {
       "r": 8,
-      "t": "Link - Disney+ TVING Wavve Bundle - HISUF",
-      "c": 2
+      "t": "Link - Click here - Promo Modal - Korea September Promo",
+      "c": -2
     },
     {
       "r": 9,
-      "t": "Link - Disney+ TVING Bundle - HISUF",
-      "c": "NEW"
+      "t": "Link - large - Disney+ Standalone Annual Plan Select - GET THIS OFFER - Korea September Promo 2026",
+      "c": -2
     },
     {
       "r": 10,
-      "t": "메이드 인 코리아",
-      "c": "NEW"
+      "t": "Link - Disney+ TVING Wavve Bundle - HISUF",
+      "c": -2
     }
   ],
   "coupang": [
