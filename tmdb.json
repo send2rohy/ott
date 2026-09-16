@@ -71,7 +71,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-16T03:29:57.109827+00:00"
+    "cached_at": "2026-09-16T15:14:40.234243+00:00"
   },
   "movie:652": {
     "id": 652,
@@ -176,7 +176,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-16T03:29:57.219362+00:00"
+    "cached_at": "2026-09-16T15:14:40.348849+00:00"
   },
   "movie:14863": {
     "id": 14863,
@@ -213,7 +213,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-16T03:29:57.329812+00:00"
+    "cached_at": "2026-09-16T15:14:40.450160+00:00"
   },
   "movie:860508": {
     "id": 860508,
@@ -294,8 +294,8 @@
     "original_title": "Anacondas: Trail of Blood",
     "poster_path": "/fpGeFcadrFi81dKjkLc6QXzO817.jpg",
     "backdrop_path": "/zzJxwLTX5QCWkWsq7RnRhNKFBBo.jpg",
-    "vote_average": 4.601,
-    "vote_count": 367,
+    "vote_average": 4.599,
+    "vote_count": 368,
     "release_date": "2009-07-16",
     "genres": [
       "모험",
@@ -322,7 +322,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-16T03:29:57.433851+00:00"
+    "cached_at": "2026-09-16T15:14:40.573633+00:00"
   },
   "tv:133730": {
     "id": 133730,
@@ -343,7 +343,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "https://www.bbc.co.uk/programmes/m000zqs0",
-    "cached_at": "2026-09-16T03:29:57.538171+00:00"
+    "cached_at": "2026-09-16T15:14:40.677041+00:00"
   },
   "tv:86430": {
     "id": 86430,
@@ -375,7 +375,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.sho.com/your-honor",
-    "cached_at": "2026-09-16T03:29:57.653698+00:00"
+    "cached_at": "2026-09-16T15:14:40.776124+00:00"
   },
   "tv:246473": {
     "id": 246473,
@@ -464,7 +464,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-09-16T03:29:58.501762+00:00"
+    "cached_at": "2026-09-16T15:14:41.036693+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -896,7 +896,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-09-16T03:29:59.119775+00:00"
+    "cached_at": "2026-09-16T15:14:41.655672+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -934,8 +934,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.429,
-    "vote_count": 1167,
+    "vote_average": 8.428,
+    "vote_count": 1169,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -951,7 +951,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-09-16T03:29:59.212459+00:00"
+    "cached_at": "2026-09-16T15:14:41.765740+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -972,7 +972,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-16T03:29:59.309862+00:00"
+    "cached_at": "2026-09-16T15:14:41.876484+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -997,7 +997,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-16T03:29:59.444550+00:00"
+    "cached_at": "2026-09-16T15:14:41.990297+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1632,7 +1632,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-09-16T03:29:58.709699+00:00"
+    "cached_at": "2026-09-16T15:14:41.134513+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1660,7 +1660,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER001101XODY/american-dad",
-    "cached_at": "2026-09-16T03:29:58.807537+00:00"
+    "cached_at": "2026-09-16T15:14:41.237711+00:00"
   },
   "tv:1416": {
     "id": 1416,
@@ -1669,8 +1669,8 @@
     "original_title": "Grey's Anatomy",
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
-    "vote_average": 8.205,
-    "vote_count": 11049,
+    "vote_average": 8.2,
+    "vote_count": 11051,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1685,7 +1685,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-09-16T03:29:58.919636+00:00"
+    "cached_at": "2026-09-16T15:14:41.384683+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1694,8 +1694,8 @@
     "original_title": "Bones",
     "poster_path": "/24Mi1oDrdc1zbHju7FVHJA4sgYt.jpg",
     "backdrop_path": "/aSye04zKzWtUP3U6Cl4bOXc5Ih9.jpg",
-    "vote_average": 8.2,
-    "vote_count": 3585,
+    "vote_average": 8.177,
+    "vote_count": 3586,
     "release_date": "2005-09-13",
     "genres": [
       "범죄",
@@ -1714,6 +1714,42 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.fox.com/bones",
-    "cached_at": "2026-09-16T03:29:59.025993+00:00"
+    "cached_at": "2026-09-16T15:14:41.527829+00:00"
+  },
+  "movie:24428": {
+    "id": 24428,
+    "media_type": "movie",
+    "title": "어벤져스",
+    "original_title": "The Avengers",
+    "poster_path": "/krgjV3rJtBcEpQehODKXNCt6uFL.jpg",
+    "backdrop_path": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+    "vote_average": 8.075,
+    "vote_count": 39723,
+    "release_date": "2012-04-25",
+    "genres": [
+      "SF",
+      "액션",
+      "모험"
+    ],
+    "runtime": 142,
+    "overview": "에너지원 큐브를 이용한 적의 등장으로 인류가 위험에 처하자 국제평화유지기구인 쉴드의 국장 닉 퓨리는 어벤져스 작전을 위해 전 세계에 흩어져 있던 슈퍼히어로들을 찾아나선다. 아이언맨부터 토르, 헐크, 캡틴 아메리카는 물론, 쉴드의 요원인 블랙 위도우, 호크 아이까지, 최고의 슈퍼히어로들이 어벤져스의 멤버로 모이게 되지만, 각기 개성이 강한 이들의 만남은 예상치 못한 방향으로 흘러가는데...",
+    "director": [
+      "조스 웨던"
+    ],
+    "cast": [
+      "로버트 다우니 주니어",
+      "크리스 에반스",
+      "마크 러팔로",
+      "크리스 헴스워스",
+      "스칼렛 요한슨",
+      "제레미 레너",
+      "톰 히들스턴",
+      "클라크 그렉",
+      "코비 스멀더스",
+      "스텔란 스카스가드"
+    ],
+    "trailer_key": "mck3JCl2uwQ",
+    "homepage": "",
+    "cached_at": "2026-09-16T15:14:40.937351+00:00"
   }
 }

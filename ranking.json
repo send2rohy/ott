@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "items": [
     {
       "rank": 1,
@@ -358,51 +358,6 @@
     },
     {
       "rank": 6,
-      "title": "백설공주",
-      "original_title": "백설공주",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 447273,
-      "tmdb_title": "백설공주",
-      "tmdb_original_title": "Snow White",
-      "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 7,
-      "title": "어벤져스: 인피니티 워",
-      "original_title": "어벤져스: 인피니티 워",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 299536,
-      "tmdb_title": "어벤져스: 인피니티 워",
-      "tmdb_original_title": "Avengers: Infinity War",
-      "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 8,
-      "title": "주토피아 2",
-      "original_title": "주토피아 2",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1084242,
-      "tmdb_title": "주토피아 2",
-      "tmdb_original_title": "Zootopia 2",
-      "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 9,
       "title": "아바타",
       "original_title": "아바타",
       "season_title": "",
@@ -413,11 +368,41 @@
       "tmdb_title": "아바타",
       "tmdb_original_title": "Avatar",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 9,
+      "change": 3
     },
     {
-      "rank": 10,
+      "rank": 7,
+      "title": "주토피아 2",
+      "original_title": "주토피아 2",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1084242,
+      "tmdb_title": "주토피아 2",
+      "tmdb_original_title": "Zootopia 2",
+      "source": "tmdb_popular",
+      "previous_rank": 8,
+      "change": 1
+    },
+    {
+      "rank": 8,
+      "title": "어벤져스: 인피니티 워",
+      "original_title": "어벤져스: 인피니티 워",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 299536,
+      "tmdb_title": "어벤져스: 인피니티 워",
+      "tmdb_original_title": "Avengers: Infinity War",
+      "source": "tmdb_popular",
+      "previous_rank": 7,
+      "change": -1
+    },
+    {
+      "rank": 9,
       "title": "아바타: 불과 재",
       "original_title": "아바타: 불과 재",
       "season_title": "",
@@ -427,6 +412,21 @@
       "tmdb_id": 83533,
       "tmdb_title": "아바타: 불과 재",
       "tmdb_original_title": "Avatar: Fire and Ash",
+      "source": "tmdb_popular",
+      "previous_rank": 10,
+      "change": 1
+    },
+    {
+      "rank": 10,
+      "title": "어벤져스",
+      "original_title": "어벤져스",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 24428,
+      "tmdb_title": "어벤져스",
+      "tmdb_original_title": "The Avengers",
       "source": "tmdb_popular",
       "previous_rank": null,
       "change": "NEW"
@@ -518,8 +518,8 @@
       "tmdb_title": "심슨 가족",
       "tmdb_original_title": "The Simpsons",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -533,8 +533,8 @@
       "tmdb_title": "패밀리 가이",
       "tmdb_original_title": "Family Guy",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -548,8 +548,8 @@
       "tmdb_title": "아메리칸 대드!",
       "tmdb_original_title": "American Dad!",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -563,8 +563,8 @@
       "tmdb_title": "그레이 아나토미",
       "tmdb_original_title": "Grey's Anatomy",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -578,8 +578,8 @@
       "tmdb_title": "본즈",
       "tmdb_original_title": "Bones",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
