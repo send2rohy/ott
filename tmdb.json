@@ -470,10 +470,9 @@
       "이효리",
       "김희철"
     ],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "ranking_original_title": "연애전쟁",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-16T03:22:06.795101+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -903,10 +902,9 @@
       "정상훈",
       "김민교"
     ],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "ranking_original_title": "SNL 코리아",
-    "cached_at": "2026-09-16T02:29:04.585308+00:00"
+    "cached_at": "2026-09-16T03:22:06.824347+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -954,18 +952,14 @@
     ],
     "runtime": null,
     "overview": "왕좌의 게임이 일어나기 백여 년 전, 타르가르옌 가문이 철왕좌를 지키고, 최후의 드래곤에 대한 기억이 살아 있던 시절. 웨스테로스를 떠돌던 영웅이 있었다. 젊고 순진하지만 용맹한 기사 던칸 경과 그의 작은 종자 에그. 이 둘의 앞엔 운명과 강적, 그리고 모험이 기다리고 있는데.",
-    "director": [
-      "조지 R. R. 마틴",
-      "아이라 파커"
-    ],
+    "director": [],
     "cast": [
       "피터 클래피",
       "덱스터 솔 안셀"
     ],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "ranking_original_title": "세븐킹덤의 기사",
-    "cached_at": "2026-09-16T02:29:04.585308+00:00"
+    "cached_at": "2026-09-16T03:22:06.855238+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -984,10 +978,9 @@
     "overview": "",
     "director": [],
     "cast": [],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "",
-    "ranking_original_title": "HBO",
-    "cached_at": "2026-09-16T02:29:04.585308+00:00"
+    "cached_at": "2026-09-16T03:22:06.886689+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -1010,10 +1003,9 @@
       "이수지",
       "정이랑"
     ],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "",
-    "ranking_original_title": "자매다방",
-    "cached_at": "2026-09-16T02:29:04.585308+00:00"
+    "cached_at": "2026-09-16T03:22:06.916700+00:00"
   },
   "movie:11970": {
     "id": 11970,

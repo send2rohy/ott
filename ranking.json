@@ -12,8 +12,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 998
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -26,8 +26,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 997
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -40,8 +40,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 996
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -54,8 +54,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 995
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -68,8 +68,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 994
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -82,8 +82,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 993
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -96,8 +96,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 992
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -110,8 +110,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 991
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -124,8 +124,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 990
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -138,8 +138,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 989
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -152,8 +152,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 998
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -166,8 +166,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 997
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -180,8 +180,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 996
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -194,8 +194,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 995
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -208,8 +208,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 994
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -222,8 +222,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 993
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -236,8 +236,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 992
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -250,8 +250,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 991
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -264,8 +264,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 990
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -278,8 +278,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 999,
-      "change": 989
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -462,6 +462,104 @@
       "tmdb_original_title": "살목지",
       "previous_rank": 3,
       "change": 0
+    },
+    {
+      "rank": 4,
+      "title": "히든페이스",
+      "original_title": "히든페이스",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 936245,
+      "tmdb_title": "히든페이스",
+      "tmdb_original_title": "히든페이스",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 5,
+      "title": "인턴",
+      "original_title": "인턴",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 257211,
+      "tmdb_title": "인턴",
+      "tmdb_original_title": "The Intern",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 6,
+      "title": "설계자",
+      "original_title": "설계자",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 865910,
+      "tmdb_title": "설계자",
+      "tmdb_original_title": "설계자",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 7,
+      "title": "만약에 우리",
+      "original_title": "만약에 우리",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1264805,
+      "tmdb_title": "만약에 우리",
+      "tmdb_original_title": "만약에 우리",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 8,
+      "title": "짱구",
+      "original_title": "짱구",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1406652,
+      "tmdb_title": "짱구",
+      "tmdb_original_title": "짱구",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 9,
+      "title": "엑소시스트: 더 바티칸",
+      "original_title": "엑소시스트: 더 바티칸",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 758323,
+      "tmdb_title": "엑소시스트: 더 바티칸",
+      "tmdb_original_title": "The Pope's Exorcist",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 10,
+      "title": "원 배틀 애프터 어나더",
+      "original_title": "원 배틀 애프터 어나더",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1054867,
+      "tmdb_title": "원 배틀 애프터 어나더",
+      "tmdb_original_title": "One Battle After Another",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
