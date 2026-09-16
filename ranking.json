@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T00:55:48.677896+00:00",
+  "updated_at": "2026-09-16T01:06:57.248791+00:00",
   "netflix": {
     "week": "2026-09-13",
     "movies": [
@@ -76,51 +76,58 @@
     "tv": [
       {
         "r": 1,
-        "t": "Mousetrap",
+        "t": "들쥐",
         "s": "Mousetrap: Limited Series",
         "ot": "Mousetrap",
+        "tmdb_id": 290193,
         "c": 0
       },
       {
         "r": 2,
-        "t": "Four Hands, Two Sonatas",
+        "t": "포핸즈",
         "s": "Four Hands, Two Sonatas: Limited Series",
         "ot": "Four Hands, Two Sonatas",
+        "tmdb_id": 305644,
         "c": 0
       },
       {
         "r": 3,
-        "t": "I am Solo",
+        "t": "나는 SOLO",
         "s": "I am Solo: Part 33",
         "ot": "I am Solo",
+        "tmdb_id": 129236,
         "c": 0
       },
       {
         "r": 4,
-        "t": "My Secretary",
+        "t": "비서진",
         "s": "My Secretary: My Genie Secretary",
         "ot": "My Secretary",
+        "tmdb_id": 302173,
         "c": 0
       },
       {
         "r": 5,
-        "t": "I'm SOLO, Love goes on",
+        "t": "나는 SOLO, 그 후 사랑은 계속된다",
         "s": "I'm SOLO, Love goes on: 2026 Part 2",
         "ot": "I'm SOLO, Love goes on",
+        "tmdb_id": 207924,
         "c": 0
       },
       {
         "r": 6,
-        "t": "Badly in Love",
+        "t": "불량 연애",
         "s": "Badly in Love: Season 2",
         "ot": "Badly in Love",
+        "tmdb_id": 305379,
         "c": 0
       },
       {
         "r": 7,
-        "t": "The Early Spring",
+        "t": "조춘청랑",
         "s": "The Early Spring: Season 1",
         "ot": "The Early Spring",
+        "tmdb_id": 299952,
         "c": 0
       },
       {
