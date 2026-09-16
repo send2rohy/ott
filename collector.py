@@ -5,8 +5,6 @@ import os
 import re
 import sys
 import urllib.request
-import urllib.parse
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 
 
@@ -37,9 +35,6 @@ HISTORY_FILE = "history.json"
 COUNTRY_CODE = "KR"
 
 KEEP_DAYS = 30
-
-NETFLIX_TITLE_CACHE_FILE = "netflix_title_cache.json"
-NETFLIX_TITLE_CACHE_DAYS = 7
 
 
 # Netflix TSV의 큰 필드 때문에 필요한 설정
@@ -276,241 +271,151 @@ def parse_netflix_tsv(text):
 
 
 # =========================================================
-# Netflix 공식 한국 제목 확인
+# =========================================================
+# Netflix 공식 한국 페이지 제목 확인
 #
-# 속도 개선:
-# 1. 기존 Tudum 영화/TV 페이지는 그대로 1회씩 확인
-# 2. 한국 제목이 필요한 경우에만 Netflix 한국 검색 페이지를 사용
-# 3. 영화/TV 제목 조회는 동시에 실행
-# 4. 이미 확인한 제목은 netflix_title_cache.json에 저장
-# 5. 공식 제목을 확인하지 못하면 TSV 제목을 그대로 유지
+# Netflix Tudum은 언어별 페이지를 제공한다.
+# 한국어 페이지에서 같은 주차의 순위 제목을 순위 번호로 대응시킨다.
+#
+# 중요:
+# - 기계 번역하지 않는다.
+# - 제목별 검색을 하지 않는다.
+# - 한국어 공식 페이지를 가져오지 못하면 TSV 원제 유지.
+# - Disney+ / Coupang Play 코드는 이 부분에서 건드리지 않는다.
 # =========================================================
 
-def load_netflix_title_cache():
-    if not os.path.exists(NETFLIX_TITLE_CACHE_FILE):
-        return {}
-    try:
-        with open(NETFLIX_TITLE_CACHE_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return data if isinstance(data, dict) else {}
-    except Exception:
-        return {}
+NETFLIX_KR_LOCAL_MOVIE_URL = (
+    "https://www.netflix.com/tudum/top10/ko/south-korea/films.html"
+)
+
+NETFLIX_KR_LOCAL_TV_URL = (
+    "https://www.netflix.com/tudum/top10/ko/south-korea/tv.html"
+)
 
 
-def save_netflix_title_cache(cache):
-    try:
-        with open(NETFLIX_TITLE_CACHE_FILE, "w", encoding="utf-8") as f:
-            json.dump(cache, f, ensure_ascii=False, indent=2)
-    except Exception as e:
-        print("Netflix 제목 캐시 저장 실패:", e)
+def extract_netflix_rank_titles_from_page(html):
+    """Netflix Tudum 페이지의 [Button: 제목] 순위만 순서대로 추출."""
 
-
-def cache_is_fresh(entry):
-    if not isinstance(entry, dict):
-        return False
-    checked = entry.get("checked", "")
-    try:
-        checked_at = datetime.fromisoformat(checked)
-        now = datetime.now(timezone.utc)
-        return (now - checked_at).days < NETFLIX_TITLE_CACHE_DAYS
-    except Exception:
-        return False
-
-
-
-def extract_netflix_titles_from_page(html):
-    """Tudum Top 10 페이지의 실제 순위 버튼 제목만 추출."""
     titles = []
+
     if not html:
         return titles
 
-    # Tudum 현재 페이지에 실제 순위 데이터로 표시되는 형태:
-    # [Button: Shelter]
-    matches = re.findall(r'\[Button:\s*([^\]]+)\]', html, flags=re.IGNORECASE)
-    for value in matches:
-        value = normalize_title(value)
-        if not value:
-            continue
-        low = value.lower()
-        if low in {"more details", "top 10 search", "my list", "watch", "explore"}:
-            continue
-        if value not in titles:
-            titles.append(value)
-    return titles
-
-
-def extract_netflix_search_titles(html):
-    """Netflix 한국 검색 HTML에서 콘텐츠 제목 후보를 추출한다."""
-    titles = []
-    if not html:
-        return titles
-
-    # 검색 결과의 title/name/alt/aria-label 후보
-    patterns = [
-        r'"title"\s*:\s*"([^"\\]{1,200})"',
-        r'"name"\s*:\s*"([^"\\]{1,200})"',
-        r'aria-label\s*=\s*["\']([^"\']{1,200})["\']',
-        r'\balt\s*=\s*["\']([^"\']{1,200})["\']',
-    ]
-
-    for pattern in patterns:
-        for value in re.findall(pattern, html, flags=re.IGNORECASE):
-            value = normalize_title(value)
-            if not value or len(value) > 200:
-                continue
-            low = value.lower()
-            if low in {
-                "netflix", "home", "movies", "shows", "my list", "watch",
-                "explore", "search", "sign in", "sign up", "image"
-            }:
-                continue
-            if "http://" in low or "https://" in low:
-                continue
-            if value not in titles:
-                titles.append(value)
-
-    return titles
-
-
-def get_netflix_search_title(original_title):
-    """Netflix 한국 검색에서 공식 표시 제목을 찾는다.
-
-    검색 결과가 없거나 확실한 결과가 없으면 None을 반환한다.
-    """
-    original_title = normalize_title(original_title)
-    if not original_title:
-        return None
-
-    url = (
-        "https://www.netflix.com/kr/search?q="
-        + urllib.parse.quote(original_title)
+    matches = re.findall(
+        r"\[Button:\s*([^\]]+)\]",
+        html,
+        flags=re.IGNORECASE,
     )
 
-    try:
-        html = fetch_text(url, timeout=12)
-    except Exception:
-        return None
+    for value in matches:
+        value = normalize_title(value)
 
-    candidates = extract_netflix_search_titles(html)
-    if not candidates:
-        return None
+        if not value:
+            continue
 
-    original_key = normalize_key(original_title)
+        if len(value) > 200:
+            continue
 
-    # 원제와 완전히 같은 제목이면 번역된 제목이 아니므로 그대로 사용.
-    for candidate in candidates:
-        if normalize_key(candidate) == original_key:
-            return candidate
+        low = value.lower()
 
-    # 한국어가 포함된 후보를 우선한다.
-    korean_candidates = [
-        x for x in candidates
-        if re.search(r'[가-힣]', x)
-    ]
+        if low in {
+            "my list",
+            "watch",
+            "explore",
+            "image",
+            "movies",
+            "shows",
+            "movie",
+            "tv",
+            "more details",
+            "top 10 search",
+        }:
+            continue
 
-    # 검색 결과 첫 후보가 UI 문구일 가능성을 낮추기 위해
-    # 지나치게 짧은 값은 제외한다.
-    korean_candidates = [x for x in korean_candidates if len(x.strip()) >= 2]
+        if value not in titles:
+            titles.append(value)
 
-    if korean_candidates:
-        return korean_candidates[0]
+        if len(titles) >= 10:
+            break
 
-    # Netflix 한국 페이지에서 영어 제목으로 공식 표시하는 경우
-    # 원래 TSV 제목을 유지한다.
-    return None
-
-
-def build_netflix_search_map(data, cache):
-    """현재 TOP10 중 최근 7일 이내 확인하지 않은 제목만 병렬로 확인한다."""
-    items = []
-    for group in ("movies", "tv"):
-        for item in data.get(group, []):
-            title = normalize_title(item.get("t", ""))
-            if not title:
-                continue
-            entry = cache.get(title)
-            if cache_is_fresh(entry):
-                continue
-            items.append(title)
-
-    items = list(dict.fromkeys(items))
-    if not items:
-        return cache
-
-    print("Netflix 한국 제목 신규 확인:", len(items), "개")
-
-    max_workers = min(10, len(items))
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {
-            executor.submit(get_netflix_search_title, title): title
-            for title in items
-        }
-        for future in as_completed(futures):
-            original = futures[future]
-            try:
-                result = future.result()
-            except Exception:
-                result = None
-
-            cache[original] = {
-                "title": result if result else original,
-                "checked": datetime.now(timezone.utc).isoformat(),
-            }
-
-    return cache
-
+    return titles[:10]
 
 
 def apply_netflix_official_titles(data):
     print("Netflix 한국 공식 제목 확인 중...")
 
-    # Tudum 페이지는 실제 공식 Top 10 데이터 확인용으로 유지한다.
-    # 영화/TV 페이지를 동시에 요청해 불필요한 대기 시간을 줄인다.
-    def fetch_movie():
-        try:
-            return extract_netflix_titles_from_page(
-                fetch_text(NETFLIX_KR_MOVIE_URL, timeout=20)
-            )
-        except Exception as e:
-            print("Netflix 영화 공식 페이지 확인 실패:", e)
-            return []
+    # 한국어 Tudum 페이지를 영화/TV 동시에 요청한다.
+    # 하나가 실패해도 다른 쪽에는 영향을 주지 않는다.
+    from concurrent.futures import ThreadPoolExecutor
 
-    def fetch_tv():
+    urls = {
+        "movies": NETFLIX_KR_LOCAL_MOVIE_URL,
+        "tv": NETFLIX_KR_LOCAL_TV_URL,
+    }
+
+    results = {
+        "movies": [],
+        "tv": [],
+    }
+
+    def fetch_one(kind):
         try:
-            return extract_netflix_titles_from_page(
-                fetch_text(NETFLIX_KR_TV_URL, timeout=20)
+            html = fetch_text(
+                urls[kind],
+                timeout=20,
             )
+            return kind, extract_netflix_rank_titles_from_page(html)
         except Exception as e:
-            print("Netflix TV 공식 페이지 확인 실패:", e)
-            return []
+            print(
+                "Netflix 한국어 공식 페이지 확인 실패:",
+                kind,
+                e,
+            )
+            return kind, []
 
     with ThreadPoolExecutor(max_workers=2) as executor:
-        movie_future = executor.submit(fetch_movie)
-        tv_future = executor.submit(fetch_tv)
-        movie_titles = movie_future.result()
-        tv_titles = tv_future.result()
+        futures = [
+            executor.submit(fetch_one, kind)
+            for kind in ("movies", "tv")
+        ]
 
-    print("Netflix 영화 Top10 공식 제목:", len(movie_titles))
-    print("Netflix TV Top10 공식 제목:", len(tv_titles))
+        for future in futures:
+            kind, titles = future.result()
+            results[kind] = titles
 
-    # 현재 TSV의 제목을 기준으로 한국 Netflix 검색에서 공식 표시 제목을 확인한다.
-    cache = load_netflix_title_cache()
-    cache = build_netflix_search_map(data, cache)
-    save_netflix_title_cache(cache)
+    print(
+        "Netflix 한국어 영화 제목 확인:",
+        len(results["movies"]),
+    )
+    print(
+        "Netflix 한국어 TV 제목 확인:",
+        len(results["tv"]),
+    )
 
-    for group in ("movies", "tv"):
-        for item in data.get(group, []):
-            original = normalize_title(item.get("t", ""))
-            if not original:
-                continue
-            entry = cache.get(original)
-            if isinstance(entry, dict):
-                official = entry.get("title", original)
-            else:
-                # 이전 버전 캐시 호환
-                official = entry if entry else original
-            if official and normalize_title(official):
-                item["t"] = normalize_title(official)
+    # -----------------------------------------------------
+    # 순위 번호로 대응
+    #
+    # Netflix TSV와 Tudum 페이지는 같은 국가/주차의 Top 10이다.
+    # 따라서 제목 자체를 억지로 매칭하지 않고 rank 1~10으로 대응한다.
+    # -----------------------------------------------------
+
+    for item in data.get("movies", []):
+        rank = item.get("r")
+
+        if isinstance(rank, int) and 1 <= rank <= len(results["movies"]):
+            official = results["movies"][rank - 1]
+
+            if official:
+                item["t"] = official
+
+    for item in data.get("tv", []):
+        rank = item.get("r")
+
+        if isinstance(rank, int) and 1 <= rank <= len(results["tv"]):
+            official = results["tv"][rank - 1]
+
+            if official:
+                item["t"] = official
 
     return data
 
@@ -533,38 +438,48 @@ def get_disney():
     titles = []
 
     # -----------------------------------------------------
-    # Disney+ 콘텐츠 데이터만 사용
+    # Disney+ 페이지 제목 후보
     # -----------------------------------------------------
-    # aria-label에는 Nav Link / Log In / 지역코드 등
-    # UI 접근성 문구가 섞이므로 사용하지 않는다.
+
     patterns = [
-        r'"title"\s*:\s*"([^"\\]+)"',
-        r'"name"\s*:\s*"([^"\\]+)"',
-        r'"contentTitle"\s*:\s*"([^"\\]+)"',
+        r'"title"\s*:\s*"([^"]+)"',
+        r'"name"\s*:\s*"([^"]+)"',
+        r'"contentTitle"\s*:\s*"([^"]+)"',
+        r'aria-label="([^"]+)"',
     ]
 
     for pattern in patterns:
+
         try:
+
             matches = re.findall(
                 pattern,
                 html,
                 flags=re.IGNORECASE,
             )
+
         except Exception:
             continue
 
         for value in matches:
-            value = normalize_title(value)
+
+            value = normalize_title(
+                value
+            )
+
             if not value:
                 continue
+
             if len(value) > 100:
                 continue
+
             if value not in titles:
                 titles.append(value)
 
     # -----------------------------------------------------
-    # UI / 로그인 / 지역코드 / 시스템 문자열 제거
+    # 불필요한 UI 문자열
     # -----------------------------------------------------
+
     bad_words = {
         "Disney+",
         "Disney Plus",
@@ -580,37 +495,15 @@ def get_disney():
         "프로필",
         "account",
         "login",
-        "log in",
         "search",
         "menu",
         "home",
-        "nav link",
-        "identity",
-        "usuf",
-        "latam",
-        "emea",
-        "aunz",
-        "apac",
-        "ca",
     }
-
-    bad_fragments = [
-        "nav link",
-        "/identity/",
-        "identity/login",
-        "us/uf",
-        "usufu",
-        "latam",
-        "emea",
-        "aunz",
-        "apac",
-        "log in",
-        "login",
-    ]
 
     filtered = []
 
     for title in titles:
+
         if title in bad_words:
             continue
 
@@ -619,13 +512,10 @@ def get_disney():
 
         low = title.lower()
 
-        if any(fragment in low for fragment in bad_fragments):
+        if "http://" in low:
             continue
 
-        if re.search(r'\b(?:USUF|LATAM|EMEA|AUNZ|APAC)\b', title, re.I):
-            continue
-
-        if "http://" in low or "https://" in low:
+        if "https://" in low:
             continue
 
         if "javascript" in low:
