@@ -69,10 +69,9 @@
       "Paul Koslo",
       "Cherie Foster"
     ],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "",
-    "ranking_original_title": "Vanishing Point",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-16T03:29:57.109827+00:00"
   },
   "movie:652": {
     "id": 652,
@@ -175,10 +174,9 @@
       "Siddique",
       "Jagathy Sreekumar"
     ],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "",
-    "ranking_original_title": "Gandhari",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-16T03:29:57.219362+00:00"
   },
   "movie:14863": {
     "id": 14863,
@@ -213,10 +211,9 @@
       "Bogdan Uritescu",
       "Mihaela Elena Oros"
     ],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "",
-    "ranking_original_title": "Anaconda 3: Offspring",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-16T03:29:57.329812+00:00"
   },
   "movie:860508": {
     "id": 860508,
@@ -323,10 +320,9 @@
       "에밀 호스티나",
       "Alexandru Potocean"
     ],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "",
-    "ranking_original_title": "Anacondas: Trail of Blood",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-16T03:29:57.433851+00:00"
   },
   "tv:133730": {
     "id": 133730,
@@ -345,10 +341,9 @@
     "overview": "",
     "director": [],
     "cast": [],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "https://www.bbc.co.uk/programmes/m000zqs0",
-    "ranking_original_title": "Take a Hike!",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-16T03:29:57.538171+00:00"
   },
   "tv:86430": {
     "id": 86430,
@@ -366,9 +361,7 @@
     ],
     "runtime": null,
     "overview": "뉴올리언스 지역에서 존경받는 판사 마이클은 하나뿐인 아들을 두고 세상을 떠난 아내 대신 아들에게 최선을 다하며, 열심히 살아갑니다.그러나 아들이 자동차를 타고 운전을 하던 중에 누군가를 치게 되는 사고가 일어나고 아들은 그 순간 당황한 나머지 그대로 도망치게 됩니다. 드러나 아버지의 직업이 직업인지라 결국 아버지인 마이클에게 사실을 말하고 마이클도 이 상황이 당혹스럽지만 자수를 권유하고 같이 경찰서에 가게되는데..",
-    "director": [
-      "Peter Moffat"
-    ],
+    "director": [],
     "cast": [
       "브라이언 크랜스턴",
       "호프 데이비스",
@@ -380,10 +373,9 @@
       "Keith Machekanyanga",
       "Andrene Ward-Hammond"
     ],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "https://www.sho.com/your-honor",
-    "ranking_original_title": "Your Honor",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-16T03:29:57.653698+00:00"
   },
   "tv:246473": {
     "id": 246473,
@@ -472,7 +464,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-09-16T03:22:06.795101+00:00"
+    "cached_at": "2026-09-16T03:29:58.501762+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -904,7 +896,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-09-16T03:22:06.824347+00:00"
+    "cached_at": "2026-09-16T03:29:59.119775+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -959,7 +951,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-09-16T03:22:06.855238+00:00"
+    "cached_at": "2026-09-16T03:29:59.212459+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -980,7 +972,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-16T03:22:06.886689+00:00"
+    "cached_at": "2026-09-16T03:29:59.309862+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -1005,7 +997,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-16T03:22:06.916700+00:00"
+    "cached_at": "2026-09-16T03:29:59.444550+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1400,5 +1392,328 @@
     "trailer_key": "AO6xpxNyqdg",
     "homepage": "",
     "cached_at": "2026-09-16T03:02:55.998447+00:00"
+  },
+  "movie:447273": {
+    "id": 447273,
+    "media_type": "movie",
+    "title": "백설공주",
+    "original_title": "Snow White",
+    "poster_path": "/7EruTgYzDFM8kWhr2ysuuwoXFqk.jpg",
+    "backdrop_path": "/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
+    "vote_average": 4.3,
+    "vote_count": 1732,
+    "release_date": "2025-03-19",
+    "genres": [
+      "가족",
+      "판타지"
+    ],
+    "runtime": 109,
+    "overview": "눈보라가 몰아치던 겨울 밤 태어난 백설공주. 온정이 넘치던 왕국에서 모두의 사랑을 받았지만, 강력한 어둠의 힘으로 왕국을 빼앗은 여왕의 위협에 숲으로 도망친다. 마법의 숲에서 간신히 살아남은 백설공주는 신비로운 일곱 광부들과 만나게 되며 새로운 세상을 마주하고, 마음속 깊이 숨겨진 용기와 선한 힘을 깨닫게 된다. 그리고 마침내, 빼앗긴 왕국을 되찾기 위해 여왕과 맞서 싸우기로 결심하는데…",
+    "director": [
+      "마크 웹"
+    ],
+    "cast": [
+      "레이첼 제글러",
+      "갤 가돗",
+      "앤드류 버냅",
+      "Andrew Barth Feldman",
+      "제레미 스위프트",
+      "마틴 클레바",
+      "제이슨 크래비츠",
+      "조지 살라자르",
+      "타이터스 버지스",
+      "앤디 그로털루션"
+    ],
+    "trailer_key": "G05dir6mCrw",
+    "homepage": "",
+    "cached_at": "2026-09-16T03:29:57.759327+00:00"
+  },
+  "movie:299536": {
+    "id": 299536,
+    "media_type": "movie",
+    "title": "어벤져스: 인피니티 워",
+    "original_title": "Avengers: Infinity War",
+    "poster_path": "/kmP6viwzcEkZeoi1LaVcQemcvZh.jpg",
+    "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+    "vote_average": 8.242,
+    "vote_count": 32892,
+    "release_date": "2018-04-25",
+    "genres": [
+      "모험",
+      "액션",
+      "SF"
+    ],
+    "runtime": 149,
+    "overview": "타노스는 6개의 인피니티 스톤을 획득해 신으로 군림하려 한다. 그것은 곧 인류의 절반을 학살해 우주의 균형을 맞추겠다는 뜻. 타노스는 닥터 스트레인지가 소유한 타임 스톤, 비전의 이마에 박혀 있는 마인드 스톤을 차지하기 위해 지구를 침략한다. 아이언맨과 스파이더맨은 가디언즈 오브 갤럭시의 멤버들과 타노스를 상대한다. 지구에선 캡틴 아메리카, 완다, 블랙 위도우, 블랙 팬서 등이 비전을 지키기 위해 뭉친다.",
+    "director": [
+      "조 루소",
+      "안소니 루소"
+    ],
+    "cast": [
+      "로버트 다우니 주니어",
+      "크리스 에반스",
+      "크리스 헴스워스",
+      "조쉬 브롤린",
+      "마크 러팔로",
+      "스칼렛 요한슨",
+      "돈 치들",
+      "베네딕트 컴버배치",
+      "톰 홀랜드",
+      "채드윅 보스만"
+    ],
+    "trailer_key": "F0kvfk1ghjA",
+    "homepage": "",
+    "cached_at": "2026-09-16T03:29:57.993006+00:00"
+  },
+  "movie:1084242": {
+    "id": 1084242,
+    "media_type": "movie",
+    "title": "주토피아 2",
+    "original_title": "Zootopia 2",
+    "poster_path": "/ib6v6qUXzez1x2qIOLN7C0yJNPQ.jpg",
+    "backdrop_path": "/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+    "vote_average": 7.675,
+    "vote_count": 3426,
+    "release_date": "2025-11-26",
+    "genres": [
+      "애니메이션",
+      "모험",
+      "코미디",
+      "미스터리",
+      "가족"
+    ],
+    "runtime": 108,
+    "overview": "미스터리한 뱀 게리가 나타난 순간, 주토피아가 다시 흔들리기 시작했다! 혼란에 빠진 도시를 구하기 위해 환상의 콤비 주디와 닉이 잠입 수사에 나서고 상상 그 이상의 진실과 위협을 마주하게 되는데...!",
+    "director": [
+      "재러드 부시",
+      "바이런 하워드"
+    ],
+    "cast": [
+      "지니퍼 굿윈",
+      "제이슨 베이트먼",
+      "키호이콴",
+      "포춘 페임스터",
+      "앤디 샘버그",
+      "데이비드 스트러세언",
+      "이드리스 엘바",
+      "샤키라",
+      "패트릭 워버턴",
+      "퀸타 브런슨"
+    ],
+    "trailer_key": "H9boDm0J67w",
+    "homepage": "",
+    "cached_at": "2026-09-16T03:29:58.181933+00:00"
+  },
+  "movie:19995": {
+    "id": 19995,
+    "media_type": "movie",
+    "title": "아바타",
+    "original_title": "Avatar",
+    "poster_path": "/m5lCha2XcbDowDoYHPc0DTNaCPU.jpg",
+    "backdrop_path": "/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
+    "vote_average": 7.609,
+    "vote_count": 34660,
+    "release_date": "2009-12-16",
+    "genres": [
+      "SF",
+      "액션",
+      "모험"
+    ],
+    "runtime": 162,
+    "overview": "가까운 미래, 지구는 에너지 고갈 문제를 해결하기 위해 머나먼 행성 판도라에서 대체 자원을 채굴하기 시작한다. 하지만 판도라의 독성을 지닌 대기로 인해 자원 획득에 어려움을 겪게 된 인류는 판도라의 토착민 나비의 외형에 인간의 의식을 주입, 원격 조종이 가능한 새로운 생명체를 탄생시키는 프로그램을 개발한다. 한편 하반신이 마비된 전직 해병대원 제이크 설리는 아바타 프로그램에 참가할 것을 제안받는다. 그 곳에서 자신의 아바타를 통해 자유롭게 걸을 수 있게 된 제이크는 자원 채굴을 막으려는 나비의 무리에 침투하라는 임무를 부여받는데...",
+    "director": [
+      "제임스 카메론"
+    ],
+    "cast": [
+      "샘 워싱턴",
+      "조 샐다나",
+      "시고니 위버",
+      "스티븐 랭",
+      "미셸 로드리게즈",
+      "조반니 리비시",
+      "조엘 무어",
+      "C. C. H. 파운더",
+      "웨스 스투디",
+      "라즈 알론소"
+    ],
+    "trailer_key": "IZpaMT1H85o",
+    "homepage": "",
+    "cached_at": "2026-09-16T03:29:58.302074+00:00"
+  },
+  "movie:83533": {
+    "id": 83533,
+    "media_type": "movie",
+    "title": "아바타: 불과 재",
+    "original_title": "Avatar: Fire and Ash",
+    "poster_path": "/l18o0AK18KS118tWeROOKYkF0ng.jpg",
+    "backdrop_path": "/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg",
+    "vote_average": 7.643,
+    "vote_count": 4316,
+    "release_date": "2025-12-17",
+    "genres": [
+      "SF",
+      "모험",
+      "판타지"
+    ],
+    "runtime": 198,
+    "overview": "인간들과의 전쟁으로 첫째 아들 ‘네테이얌’을 잃은 후, ‘제이크’와 ‘네이티리’는 깊은 슬픔에 빠진다. 상실에 빠진 이들 앞에 '바랑'이 이끄는 재의 부족이 등장하면서, 판도라는 더욱 큰 위험에 빠지게 되고, ‘설리’ 가족은 선택의 기로에 서게 되는데…",
+    "director": [
+      "제임스 카메론"
+    ],
+    "cast": [
+      "샘 워싱턴",
+      "조 샐다나",
+      "시고니 위버",
+      "스티븐 랭",
+      "우나 채플린",
+      "잭 챔피언",
+      "케이트 윈슬렛",
+      "클리프 커티스",
+      "조엘 무어",
+      "C. C. H. 파운더"
+    ],
+    "trailer_key": "fIaXDSQRA6o",
+    "homepage": "",
+    "cached_at": "2026-09-16T03:29:58.411130+00:00"
+  },
+  "tv:456": {
+    "id": 456,
+    "media_type": "tv",
+    "title": "심슨 가족",
+    "original_title": "The Simpsons",
+    "poster_path": "/7HKQieF8YqXgTwBVjWFGWaEKNS7.jpg",
+    "backdrop_path": "/ncQ8D4j8GSuL9CzncLEXnhHDxHy.jpg",
+    "vote_average": 8.021,
+    "vote_count": 11005,
+    "release_date": "1989-12-17",
+    "genres": [
+      "애니메이션",
+      "코미디"
+    ],
+    "runtime": null,
+    "overview": "1989년 12월 FOX에서 방영을 시작한 애니메이션. 미국의 스프링필드를 배경으로 먹는 걸 유난히 밝히고 게으르며 독특한 성격의 가장 호머, 항상 사고만 치고 다니는 남편과 아이들의 뒤치다꺼리를 도맡아 하는 엄마 마지, 하루라도 장난을 치지 않고 넘어가는 날이 없는 장난꾸러기 아들 바트, 나이에 비해 꽤나 어른스럽고 똑똑한 리사, 그리고 말은 한마디도 못하지만 의외의 대활약을 보여주는 막내 메기 등 각각의 개성 만점 가족 구성원들이 펼치는 극적인 하루하루를 그리고 있다.",
+    "director": [],
+    "cast": [
+      "댄 카스텔라네타",
+      "줄리 캐브너",
+      "낸시 카트라이트",
+      "야들리 스미스",
+      "행크 아자리아",
+      "해리 쉬어러"
+    ],
+    "trailer_key": "IEkFk2k0b08",
+    "homepage": "https://www.fox.com/detail/series/SER000852IRHK/the-simpsons",
+    "cached_at": "2026-09-16T03:29:58.599743+00:00"
+  },
+  "tv:1434": {
+    "id": 1434,
+    "media_type": "tv",
+    "title": "패밀리 가이",
+    "original_title": "Family Guy",
+    "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
+    "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
+    "vote_average": 7.41,
+    "vote_count": 5110,
+    "release_date": "1999-01-31",
+    "genres": [
+      "애니메이션",
+      "코미디"
+    ],
+    "runtime": null,
+    "overview": "로드 아일랜드의 쿼호그라는 도시에서 살아가는 가장 피터, 아내 로이스, 장녀 메그, 차남 크리스, 막내 스튜이, 개 브라이언으로 이루어진 그리핀 가족과 그 주변인들의 일상을 다루고 있다.",
+    "director": [],
+    "cast": [
+      "세스 맥팔레인",
+      "앨릭스 보스틴",
+      "밀라 쿠니스",
+      "세스 그린",
+      "패트릭 워버턴",
+      "Arif Zahir"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
+    "cached_at": "2026-09-16T03:29:58.709699+00:00"
+  },
+  "tv:1433": {
+    "id": 1433,
+    "media_type": "tv",
+    "title": "아메리칸 대드!",
+    "original_title": "American Dad!",
+    "poster_path": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
+    "backdrop_path": "/iixxhk3ycXmFqBn616pAsC3lu53.jpg",
+    "vote_average": 7.02,
+    "vote_count": 2442,
+    "release_date": "2005-02-06",
+    "genres": [
+      "애니메이션",
+      "코미디"
+    ],
+    "runtime": null,
+    "overview": "랭글리 폴즈라는 도시에서 사는 CIA에서 근무하는 수꼴에 과대망상이 매우 심한 아버지(스탠 스미스)와 전형적인 금발백치 어머니(프랜신 스미스), 반항아에 좌빨인 장녀(헤일리 스미스)에 Nerd 아들(스티브 스미스), 변장을 좋아하는 양성애자자웅동체[1] 외계인(로저), 그리고 동독 스키점퍼의 기억을 가지고 있는 금붕어(클라우스 하이슬러)로 이루어진 스미스 가족과 그 주변인물들을 다루고 있다",
+    "director": [],
+    "cast": [
+      "세스 맥팔레인",
+      "Wendy Schaal",
+      "Rachael MacFarlane",
+      "스콧 그라임스",
+      "디 브래들리 베이커"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.fox.com/detail/series/SER001101XODY/american-dad",
+    "cached_at": "2026-09-16T03:29:58.807537+00:00"
+  },
+  "tv:1416": {
+    "id": 1416,
+    "media_type": "tv",
+    "title": "그레이 아나토미",
+    "original_title": "Grey's Anatomy",
+    "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
+    "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
+    "vote_average": 8.205,
+    "vote_count": 11049,
+    "release_date": "2005-03-27",
+    "genres": [
+      "드라마"
+    ],
+    "runtime": null,
+    "overview": "시애틀에 있는 병원 의사들의 삶에 대한 이야기. 의사로서의 감정과 개인적인 감정에 대한 묘사가 적절히 조화를 이루어 그려진다. 인턴이지만 결국 레지던트가 되는 메러디스 그레이는 시애틀 병원의 동료 의사들과 함께 사적, 직업적인 열정에 휩쓸리는 자신을 발견한다.",
+    "director": [],
+    "cast": [
+      "엘렌 폼페오",
+      "챈드라 윌슨",
+      "제임스 픽켄스 주니어"
+    ],
+    "trailer_key": "",
+    "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
+    "cached_at": "2026-09-16T03:29:58.919636+00:00"
+  },
+  "tv:1911": {
+    "id": 1911,
+    "media_type": "tv",
+    "title": "본즈",
+    "original_title": "Bones",
+    "poster_path": "/24Mi1oDrdc1zbHju7FVHJA4sgYt.jpg",
+    "backdrop_path": "/aSye04zKzWtUP3U6Cl4bOXc5Ih9.jpg",
+    "vote_average": 8.2,
+    "vote_count": 3585,
+    "release_date": "2005-09-13",
+    "genres": [
+      "범죄",
+      "드라마"
+    ],
+    "runtime": null,
+    "overview": "워싱턴 D.C.의 제퍼소니안 재단의 연구소 소속 법인류학자인 템퍼런스 브레넌 박사와 FBI 워싱턴 지국 요원인 실리 부스, 그리고 브레넌 박사의 팀이 뼈만 남다시피한 시신을 조사해 해결하는 내용으로 실제 법인류학자인 '캐시 라익스'의 소설을 각색해 제작되었으며 국내에도 '본즈'라는 제목으로 원작 소설 시리즈가 발매되었다.",
+    "director": [],
+    "cast": [
+      "에밀리 디샤넬",
+      "데이비드 보리아너스",
+      "John Boyd",
+      "Michaela Conlin",
+      "타마라 테일러",
+      "T.J. Thyne"
+    ],
+    "trailer_key": "",
+    "homepage": "http://www.fox.com/bones",
+    "cached_at": "2026-09-16T03:29:59.025993+00:00"
   }
 }
