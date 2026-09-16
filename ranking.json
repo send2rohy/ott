@@ -2,77 +2,77 @@
   "date": "2026-09-16",
   "items": [
     {
-      "rank": 999,
-      "title": "쉘터",
+      "rank": 1,
+      "title": "Shelter",
       "original_title": "Shelter",
       "season_title": "N/A",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "movie",
-      "tmdb_id": 1290821,
-      "tmdb_title": "쉘터",
-      "tmdb_original_title": "Shelter",
-      "previous_rank": 1,
-      "change": -998
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 998
     },
     {
-      "rank": 999,
-      "title": "배니싱 포인트",
+      "rank": 2,
+      "title": "Vanishing Point",
       "original_title": "Vanishing Point",
       "season_title": "N/A",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "movie",
-      "tmdb_id": 11951,
-      "tmdb_title": "배니싱 포인트",
-      "tmdb_original_title": "Vanishing Point",
-      "previous_rank": 2,
-      "change": -997
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 997
     },
     {
-      "rank": 999,
-      "title": "트로이",
+      "rank": 3,
+      "title": "Troy",
       "original_title": "Troy",
       "season_title": "N/A",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "movie",
-      "tmdb_id": 652,
-      "tmdb_title": "트로이",
-      "tmdb_original_title": "Troy",
-      "previous_rank": 3,
-      "change": -996
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 996
     },
     {
-      "rank": 999,
-      "title": "헤라클레스",
+      "rank": 4,
+      "title": "Hercules",
       "original_title": "Hercules",
       "season_title": "N/A",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "movie",
-      "tmdb_id": 11970,
-      "tmdb_title": "헤라클레스",
-      "tmdb_original_title": "Hercules",
-      "previous_rank": 4,
-      "change": -995
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 995
     },
     {
-      "rank": 999,
+      "rank": 5,
       "title": "Gandhari",
       "original_title": "Gandhari",
       "season_title": "N/A",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "movie",
-      "tmdb_id": 729461,
-      "tmdb_title": "Gandhari",
-      "tmdb_original_title": "Gandhari",
-      "previous_rank": 5,
-      "change": -994
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 994
     },
     {
-      "rank": 999,
+      "rank": 6,
       "title": "Choir of God: Anthem",
       "original_title": "Choir of God: Anthem",
       "season_title": "N/A",
@@ -82,67 +82,67 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 6,
-      "change": -993
+      "previous_rank": 999,
+      "change": 993
     },
     {
-      "rank": 999,
-      "title": "아나콘다 3: 오프스프링",
+      "rank": 7,
+      "title": "Anaconda 3: Offspring",
       "original_title": "Anaconda 3: Offspring",
       "season_title": "N/A",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "movie",
-      "tmdb_id": 14863,
-      "tmdb_title": "아나콘다 3: 오프스프링",
-      "tmdb_original_title": "Anaconda 3: Offspring",
-      "previous_rank": 7,
-      "change": -992
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 992
     },
     {
-      "rank": 999,
-      "title": "위스퍼맨",
+      "rank": 8,
+      "title": "The Whisper Man",
       "original_title": "The Whisper Man",
       "season_title": "N/A",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "movie",
-      "tmdb_id": 860508,
-      "tmdb_title": "위스퍼맨",
-      "tmdb_original_title": "The Whisper Man",
-      "previous_rank": 8,
-      "change": -991
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 991
     },
     {
-      "rank": 999,
-      "title": "블라인드 사이드",
+      "rank": 9,
+      "title": "The Blind Side",
       "original_title": "The Blind Side",
       "season_title": "N/A",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "movie",
-      "tmdb_id": 22881,
-      "tmdb_title": "블라인드 사이드",
-      "tmdb_original_title": "The Blind Side",
-      "previous_rank": 9,
-      "change": -990
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 990
     },
     {
-      "rank": 999,
-      "title": "아나콘다 4: 피의 제전",
+      "rank": 10,
+      "title": "Anacondas: Trail of Blood",
       "original_title": "Anacondas: Trail of Blood",
       "season_title": "N/A",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "movie",
-      "tmdb_id": 19543,
-      "tmdb_title": "아나콘다 4: 피의 제전",
-      "tmdb_original_title": "Anacondas: Trail of Blood",
-      "previous_rank": 10,
-      "change": -989
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 989
     },
     {
-      "rank": 999,
+      "rank": 1,
       "title": "Mousetrap",
       "original_title": "Mousetrap",
       "season_title": "Mousetrap: Limited Series",
@@ -152,11 +152,11 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 1,
-      "change": -998
+      "previous_rank": 999,
+      "change": 998
     },
     {
-      "rank": 999,
+      "rank": 2,
       "title": "Four Hands, Two Sonatas",
       "original_title": "Four Hands, Two Sonatas",
       "season_title": "Four Hands, Two Sonatas: Limited Series",
@@ -166,11 +166,11 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 2,
-      "change": -997
+      "previous_rank": 999,
+      "change": 997
     },
     {
-      "rank": 999,
+      "rank": 3,
       "title": "I am Solo",
       "original_title": "I am Solo",
       "season_title": "I am Solo: Part 33",
@@ -180,11 +180,11 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 3,
-      "change": -996
+      "previous_rank": 999,
+      "change": 996
     },
     {
-      "rank": 999,
+      "rank": 4,
       "title": "My Secretary",
       "original_title": "My Secretary",
       "season_title": "My Secretary: My Genie Secretary",
@@ -194,11 +194,11 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 4,
-      "change": -995
+      "previous_rank": 999,
+      "change": 995
     },
     {
-      "rank": 999,
+      "rank": 5,
       "title": "I'm SOLO, Love goes on",
       "original_title": "I'm SOLO, Love goes on",
       "season_title": "I'm SOLO, Love goes on: 2026 Part 2",
@@ -208,11 +208,11 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 5,
-      "change": -994
+      "previous_rank": 999,
+      "change": 994
     },
     {
-      "rank": 999,
+      "rank": 6,
       "title": "Badly in Love",
       "original_title": "Badly in Love",
       "season_title": "Badly in Love: Season 2",
@@ -222,11 +222,11 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 6,
-      "change": -993
+      "previous_rank": 999,
+      "change": 993
     },
     {
-      "rank": 999,
+      "rank": 7,
       "title": "The Early Spring",
       "original_title": "The Early Spring",
       "season_title": "The Early Spring: Season 1",
@@ -236,25 +236,25 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 7,
-      "change": -992
+      "previous_rank": 999,
+      "change": 992
     },
     {
-      "rank": 999,
-      "title": "Take a Hike",
+      "rank": 8,
+      "title": "Take a Hike!",
       "original_title": "Take a Hike!",
       "season_title": "Take a Hike!: Season 1",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "tv",
-      "tmdb_id": 133730,
-      "tmdb_title": "Take a Hike",
-      "tmdb_original_title": "Take a Hike",
-      "previous_rank": 8,
-      "change": -991
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 991
     },
     {
-      "rank": 999,
+      "rank": 9,
       "title": "Physical 100: Italy",
       "original_title": "Physical 100: Italy",
       "season_title": "Physical 100: Italy: Season 1",
@@ -264,22 +264,22 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 9,
-      "change": -990
+      "previous_rank": 999,
+      "change": 990
     },
     {
-      "rank": 999,
-      "title": "존경하는 재판장님",
+      "rank": 10,
+      "title": "Your Honor",
       "original_title": "Your Honor",
       "season_title": "Your Honor: Season 1",
       "platform": "Netflix",
       "week": "2026-09-13",
       "media_type": "tv",
-      "tmdb_id": 86430,
-      "tmdb_title": "존경하는 재판장님",
-      "tmdb_original_title": "Your Honor",
-      "previous_rank": 10,
-      "change": -989
+      "tmdb_id": null,
+      "tmdb_title": null,
+      "tmdb_original_title": null,
+      "previous_rank": 999,
+      "change": 989
     },
     {
       "rank": 1,
@@ -292,8 +292,8 @@
       "tmdb_id": 1228710,
       "tmdb_title": "만달로리안과 그로구",
       "tmdb_original_title": "The Mandalorian and Grogu",
-      "previous_rank": 5,
-      "change": 4
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -306,8 +306,8 @@
       "tmdb_id": 1314481,
       "tmdb_title": "악마는 프라다를 입는다 2",
       "tmdb_original_title": "The Devil Wears Prada 2",
-      "previous_rank": 6,
-      "change": 4
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -320,8 +320,8 @@
       "tmdb_id": 1266127,
       "tmdb_title": "레디 오어 낫: 죽음의 숨바꼭질",
       "tmdb_original_title": "Ready or Not: Here I Come",
-      "previous_rank": 8,
-      "change": 5
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -334,8 +334,8 @@
       "tmdb_id": 1017163,
       "tmdb_title": "범죄도시 4",
       "tmdb_original_title": "범죄도시 4",
-      "previous_rank": 9,
-      "change": 5
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -348,8 +348,8 @@
       "tmdb_id": 299534,
       "tmdb_title": "어벤져스: 엔드게임",
       "tmdb_original_title": "Avengers: Endgame",
-      "previous_rank": 10,
-      "change": 5
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 1,
@@ -418,8 +418,8 @@
       "tmdb_id": 239385,
       "tmdb_title": "조각도시",
       "tmdb_original_title": "조각도시",
-      "previous_rank": 7,
-      "change": 2
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 1,
@@ -432,8 +432,8 @@
       "tmdb_id": 1658705,
       "tmdb_title": "위버맨쉬 지드래곤 2025 월드 투어 더 파이널",
       "tmdb_original_title": "위버맨쉬 지드래곤 2025 월드 투어 더 파이널",
-      "previous_rank": 7,
-      "change": 6
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -446,8 +446,8 @@
       "tmdb_id": 1321179,
       "tmdb_title": "왕과 사는 남자",
       "tmdb_original_title": "왕과 사는 남자",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -460,106 +460,8 @@
       "tmdb_id": 1461254,
       "tmdb_title": "살목지",
       "tmdb_original_title": "살목지",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 4,
-      "title": "히든페이스",
-      "original_title": "히든페이스",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 936245,
-      "tmdb_title": "히든페이스",
-      "tmdb_original_title": "히든페이스",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 5,
-      "title": "인턴",
-      "original_title": "인턴",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 257211,
-      "tmdb_title": "인턴",
-      "tmdb_original_title": "The Intern",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 6,
-      "title": "설계자",
-      "original_title": "설계자",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 865910,
-      "tmdb_title": "설계자",
-      "tmdb_original_title": "설계자",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 7,
-      "title": "만약에 우리",
-      "original_title": "만약에 우리",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1264805,
-      "tmdb_title": "만약에 우리",
-      "tmdb_original_title": "만약에 우리",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 8,
-      "title": "짱구",
-      "original_title": "짱구",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1406652,
-      "tmdb_title": "짱구",
-      "tmdb_original_title": "짱구",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 9,
-      "title": "엑소시스트: 더 바티칸",
-      "original_title": "엑소시스트: 더 바티칸",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 758323,
-      "tmdb_title": "엑소시스트: 더 바티칸",
-      "tmdb_original_title": "The Pope's Exorcist",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 10,
-      "title": "원 배틀 애프터 어나더",
-      "original_title": "원 배틀 애프터 어나더",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1054867,
-      "tmdb_title": "원 배틀 애프터 어나더",
-      "tmdb_original_title": "One Battle After Another",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 1,
@@ -656,8 +558,8 @@
       "tmdb_id": 224372,
       "tmdb_title": "세븐킹덤의 기사",
       "tmdb_original_title": "A Knight of the Seven Kingdoms",
-      "previous_rank": 8,
-      "change": 1
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -670,8 +572,8 @@
       "tmdb_id": 33833,
       "tmdb_title": "HBO First Look",
       "tmdb_original_title": "HBO First Look",
-      "previous_rank": 9,
-      "change": 1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -684,8 +586,8 @@
       "tmdb_id": 305719,
       "tmdb_title": "자매다방",
       "tmdb_original_title": "자매다방",
-      "previous_rank": 10,
-      "change": 1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -698,8 +600,8 @@
       "tmdb_id": 236356,
       "tmdb_title": "가족계획",
       "tmdb_original_title": "가족계획",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 10,
+      "change": 0
     }
   ]
 }
