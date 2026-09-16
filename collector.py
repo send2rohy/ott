@@ -45,63 +45,33 @@ csv.field_size_limit(sys.maxsize)
 # HTTP
 # =========================================================
 
-def fetch_text(url, timeout=30, retries=4):
+def fetch_text(url, timeout=30):
 
-    last_error = None
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 "
+                "(KHTML, like Gecko) "
+                "Chrome/140.0 Safari/537.36"
+            ),
+            "Accept-Language": (
+                "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
+            ),
+        },
+    )
 
-    for attempt in range(1, retries + 1):
+    with urllib.request.urlopen(req, timeout=timeout) as response:
 
-        req = urllib.request.Request(
-            url,
-            headers={
-                "User-Agent": (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 "
-                    "(KHTML, like Gecko) "
-                    "Chrome/140.0 Safari/537.36"
-                ),
-                "Accept-Language": (
-                    "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
-                ),
-                "Accept-Encoding": "identity",
-                "Connection": "close",
-            },
-        )
+        raw = response.read()
 
-        try:
-            with urllib.request.urlopen(req, timeout=timeout) as response:
-                # Netflix TSV가 약 32MB라서 response.read() 한 번에
-                # 받는 과정에서 IncompleteRead가 발생할 수 있다.
-                # 작은 조각으로 반복해서 읽어 누락을 방지한다.
-                chunks = []
+        charset = response.headers.get_content_charset()
 
-                while True:
-                    chunk = response.read(1024 * 1024)
-                    if not chunk:
-                        break
-                    chunks.append(chunk)
+        if charset:
+            return raw.decode(charset, errors="replace")
 
-                raw = b"".join(chunks)
-
-                charset = response.headers.get_content_charset()
-
-                if charset:
-                    return raw.decode(charset, errors="replace")
-
-                return raw.decode("utf-8", errors="replace")
-
-        except Exception as e:
-            last_error = e
-
-            print(
-                f"다운로드 재시도 {attempt}/{retries}: {url} -> {e}"
-            )
-
-            if attempt < retries:
-                import time
-                time.sleep(2 * attempt)
-
-    raise last_error
+        return raw.decode("utf-8", errors="replace")
 
 
 # =========================================================
@@ -147,8 +117,7 @@ def get_netflix_tsv():
 
     return fetch_text(
         NETFLIX_TSV_URL,
-        timeout=180,
-        retries=5,
+        timeout=60,
     )
 
 
@@ -302,151 +271,235 @@ def parse_netflix_tsv(text):
 
 
 # =========================================================
-# =========================================================
 # Netflix 공식 한국 페이지 제목 확인
 #
-# Netflix Tudum은 언어별 페이지를 제공한다.
-# 한국어 페이지에서 같은 주차의 순위 제목을 순위 번호로 대응시킨다.
+# 주의:
+# 자동 번역하지 않는다.
 #
-# 중요:
-# - 기계 번역하지 않는다.
-# - 제목별 검색을 하지 않는다.
-# - 한국어 공식 페이지를 가져오지 못하면 TSV 원제 유지.
-# - Disney+ / Coupang Play 코드는 이 부분에서 건드리지 않는다.
+# Netflix 공식 페이지에서 실제로 확인되는 제목이
+# TSV 제목과 동일할 경우에만 사용한다.
+# 확인되지 않으면 TSV 원래 제목을 그대로 유지한다.
 # =========================================================
 
-NETFLIX_KR_LOCAL_MOVIE_URL = (
-    "https://www.netflix.com/tudum/top10/ko/south-korea/films.html"
-)
-
-NETFLIX_KR_LOCAL_TV_URL = (
-    "https://www.netflix.com/tudum/top10/ko/south-korea/tv.html"
-)
-
-
-def extract_netflix_rank_titles_from_page(html):
-    """Netflix Tudum 페이지의 [Button: 제목] 순위만 순서대로 추출."""
+def extract_netflix_titles_from_page(html):
 
     titles = []
 
     if not html:
         return titles
 
-    matches = re.findall(
+    # -----------------------------------------------------
+    # [Button: 제목] 형태
+    # -----------------------------------------------------
+
+    patterns = [
         r"\[Button:\s*([^\]]+)\]",
-        html,
-        flags=re.IGNORECASE,
+        r'"title"\s*:\s*"([^"]{1,200})"',
+        r'"name"\s*:\s*"([^"]{1,200})"',
+        r'"show_title"\s*:\s*"([^"]{1,200})"',
+    ]
+
+    for pattern in patterns:
+
+        try:
+
+            matches = re.findall(
+                pattern,
+                html,
+                flags=re.IGNORECASE,
+            )
+
+        except Exception:
+            continue
+
+        for value in matches:
+
+            value = normalize_title(value)
+
+            if not value:
+                continue
+
+            if len(value) > 200:
+                continue
+
+            low = value.lower()
+
+            # UI 문구 제거
+            if low in {
+                "my list",
+                "watch",
+                "explore",
+                "image",
+                "movies",
+                "shows",
+                "movie",
+                "tv",
+            }:
+                continue
+
+            if value not in titles:
+                titles.append(value)
+
+    return titles
+
+
+def build_title_map(page_titles):
+
+    mapping = {}
+
+    for title in page_titles:
+
+        title = normalize_title(title)
+
+        if not title:
+            continue
+
+        key = normalize_key(title)
+
+        if not key:
+            continue
+
+        mapping[key] = title
+
+    return mapping
+
+
+def find_official_title(
+    original_title,
+    title_map,
+):
+
+    original_title = normalize_title(
+        original_title
     )
 
-    for value in matches:
-        value = normalize_title(value)
+    if not original_title:
+        return original_title
 
-        if not value:
-            continue
+    key = normalize_key(
+        original_title
+    )
 
-        if len(value) > 200:
-            continue
+    if key in title_map:
+        return title_map[key]
 
-        low = value.lower()
-
-        if low in {
-            "my list",
-            "watch",
-            "explore",
-            "image",
-            "movies",
-            "shows",
-            "movie",
-            "tv",
-            "more details",
-            "top 10 search",
-        }:
-            continue
-
-        if value not in titles:
-            titles.append(value)
-
-        if len(titles) >= 10:
-            break
-
-    return titles[:10]
+    # 공식 페이지에서 정확히 확인되지 않으면
+    # 원래 Netflix TSV 제목 유지
+    return original_title
 
 
 def apply_netflix_official_titles(data):
-    print("Netflix 한국 공식 제목 확인 중...")
-
-    # 한국어 Tudum 페이지를 영화/TV 동시에 요청한다.
-    # 하나가 실패해도 다른 쪽에는 영향을 주지 않는다.
-    from concurrent.futures import ThreadPoolExecutor
-
-    urls = {
-        "movies": NETFLIX_KR_LOCAL_MOVIE_URL,
-        "tv": NETFLIX_KR_LOCAL_TV_URL,
-    }
-
-    results = {
-        "movies": [],
-        "tv": [],
-    }
-
-    def fetch_one(kind):
-        try:
-            html = fetch_text(
-                urls[kind],
-                timeout=20,
-            )
-            return kind, extract_netflix_rank_titles_from_page(html)
-        except Exception as e:
-            print(
-                "Netflix 한국어 공식 페이지 확인 실패:",
-                kind,
-                e,
-            )
-            return kind, []
-
-    with ThreadPoolExecutor(max_workers=2) as executor:
-        futures = [
-            executor.submit(fetch_one, kind)
-            for kind in ("movies", "tv")
-        ]
-
-        for future in futures:
-            kind, titles = future.result()
-            results[kind] = titles
 
     print(
-        "Netflix 한국어 영화 제목 확인:",
-        len(results["movies"]),
+        "Netflix 한국 공식 페이지 제목 확인 중..."
     )
-    print(
-        "Netflix 한국어 TV 제목 확인:",
-        len(results["tv"]),
+
+    movie_titles = []
+    tv_titles = []
+
+    # -----------------------------------------------------
+    # 영화
+    # -----------------------------------------------------
+
+    try:
+
+        movie_html = fetch_text(
+            NETFLIX_KR_MOVIE_URL,
+            timeout=30,
+        )
+
+        movie_titles = (
+            extract_netflix_titles_from_page(
+                movie_html
+            )
+        )
+
+        print(
+            "Netflix 영화 공식 제목 확인:",
+            len(movie_titles),
+        )
+
+    except Exception as e:
+
+        print(
+            "Netflix 영화 공식 페이지 확인 실패:",
+            e,
+        )
+
+    # -----------------------------------------------------
+    # TV
+    # -----------------------------------------------------
+
+    try:
+
+        tv_html = fetch_text(
+            NETFLIX_KR_TV_URL,
+            timeout=30,
+        )
+
+        tv_titles = (
+            extract_netflix_titles_from_page(
+                tv_html
+            )
+        )
+
+        print(
+            "Netflix TV 공식 제목 확인:",
+            len(tv_titles),
+        )
+
+    except Exception as e:
+
+        print(
+            "Netflix TV 공식 페이지 확인 실패:",
+            e,
+        )
+
+    movie_map = build_title_map(
+        movie_titles
+    )
+
+    tv_map = build_title_map(
+        tv_titles
     )
 
     # -----------------------------------------------------
-    # 순위 번호로 대응
-    #
-    # Netflix TSV와 Tudum 페이지는 같은 국가/주차의 Top 10이다.
-    # 따라서 제목 자체를 억지로 매칭하지 않고 rank 1~10으로 대응한다.
+    # 영화 제목 적용
     # -----------------------------------------------------
 
-    for item in data.get("movies", []):
-        rank = item.get("r")
+    for item in data.get(
+        "movies",
+        [],
+    ):
 
-        if isinstance(rank, int) and 1 <= rank <= len(results["movies"]):
-            official = results["movies"][rank - 1]
+        original = item.get(
+            "t",
+            "",
+        )
 
-            if official:
-                item["t"] = official
+        item["t"] = find_official_title(
+            original,
+            movie_map,
+        )
 
-    for item in data.get("tv", []):
-        rank = item.get("r")
+    # -----------------------------------------------------
+    # TV 제목 적용
+    # -----------------------------------------------------
 
-        if isinstance(rank, int) and 1 <= rank <= len(results["tv"]):
-            official = results["tv"][rank - 1]
+    for item in data.get(
+        "tv",
+        [],
+    ):
 
-            if official:
-                item["t"] = official
+        original = item.get(
+            "t",
+            "",
+        )
+
+        item["t"] = find_official_title(
+            original,
+            tv_map,
+        )
 
     return data
 
