@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "items": [
     {
       "rank": 1,
@@ -313,21 +313,6 @@
     },
     {
       "rank": 3,
-      "title": "레디 오어 낫: 죽음의 숨바꼭질",
-      "original_title": "레디 오어 낫: 죽음의 숨바꼭질",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1266127,
-      "tmdb_title": "레디 오어 낫: 죽음의 숨바꼭질",
-      "tmdb_original_title": "Ready or Not: Here I Come",
-      "source": "top10",
-      "previous_rank": 3,
-      "change": 0
-    },
-    {
-      "rank": 4,
       "title": "범죄도시 4",
       "original_title": "범죄도시4",
       "season_title": "",
@@ -339,7 +324,22 @@
       "tmdb_original_title": "범죄도시 4",
       "source": "top10",
       "previous_rank": 4,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 4,
+      "title": "레디 오어 낫: 죽음의 숨바꼭질",
+      "original_title": "레디 오어 낫: 죽음의 숨바꼭질",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1266127,
+      "tmdb_title": "레디 오어 낫: 죽음의 숨바꼭질",
+      "tmdb_original_title": "Ready or Not: Here I Come",
+      "source": "top10",
+      "previous_rank": 3,
+      "change": -1
     },
     {
       "rank": 5,
@@ -368,26 +368,11 @@
       "tmdb_title": "아바타",
       "tmdb_original_title": "Avatar",
       "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": 3
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
-      "title": "주토피아 2",
-      "original_title": "주토피아 2",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1084242,
-      "tmdb_title": "주토피아 2",
-      "tmdb_original_title": "Zootopia 2",
-      "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": 1
-    },
-    {
-      "rank": 8,
       "title": "어벤져스: 인피니티 워",
       "original_title": "어벤져스: 인피니티 워",
       "season_title": "",
@@ -398,11 +383,11 @@
       "tmdb_title": "어벤져스: 인피니티 워",
       "tmdb_original_title": "Avengers: Infinity War",
       "source": "tmdb_popular",
-      "previous_rank": 7,
-      "change": -1
+      "previous_rank": 8,
+      "change": 1
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "아바타: 불과 재",
       "original_title": "아바타: 불과 재",
       "season_title": "",
@@ -413,8 +398,23 @@
       "tmdb_title": "아바타: 불과 재",
       "tmdb_original_title": "Avatar: Fire and Ash",
       "source": "tmdb_popular",
-      "previous_rank": 10,
+      "previous_rank": 9,
       "change": 1
+    },
+    {
+      "rank": 9,
+      "title": "주토피아 2",
+      "original_title": "주토피아 2",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1084242,
+      "tmdb_title": "주토피아 2",
+      "tmdb_original_title": "Zootopia 2",
+      "source": "tmdb_popular",
+      "previous_rank": 7,
+      "change": -2
     },
     {
       "rank": 10,
@@ -428,8 +428,8 @@
       "tmdb_title": "어벤져스",
       "tmdb_original_title": "The Avengers",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -493,36 +493,21 @@
     },
     {
       "rank": 5,
-      "title": "조각도시",
-      "original_title": "조각도시",
+      "title": "골드랜드",
+      "original_title": "골드랜드",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 239385,
-      "tmdb_title": "조각도시",
-      "tmdb_original_title": "조각도시",
+      "tmdb_id": 278113,
+      "tmdb_title": "골드랜드",
+      "tmdb_original_title": "골드랜드",
       "source": "top10",
-      "previous_rank": 5,
-      "change": 0
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 6,
-      "title": "심슨 가족",
-      "original_title": "심슨 가족",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 456,
-      "tmdb_title": "심슨 가족",
-      "tmdb_original_title": "The Simpsons",
-      "source": "tmdb_popular",
-      "previous_rank": 6,
-      "change": 0
-    },
-    {
-      "rank": 7,
       "title": "패밀리 가이",
       "original_title": "패밀리 가이",
       "season_title": "",
@@ -534,22 +519,37 @@
       "tmdb_original_title": "Family Guy",
       "source": "tmdb_popular",
       "previous_rank": 7,
-      "change": 0
+      "change": 1
     },
     {
-      "rank": 8,
-      "title": "아메리칸 대드!",
-      "original_title": "아메리칸 대드!",
+      "rank": 7,
+      "title": "심슨 가족",
+      "original_title": "심슨 가족",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 1433,
-      "tmdb_title": "아메리칸 대드!",
-      "tmdb_original_title": "American Dad!",
+      "tmdb_id": 456,
+      "tmdb_title": "심슨 가족",
+      "tmdb_original_title": "The Simpsons",
       "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": 0
+      "previous_rank": 6,
+      "change": -1
+    },
+    {
+      "rank": 8,
+      "title": "본즈",
+      "original_title": "본즈",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 1911,
+      "tmdb_title": "본즈",
+      "tmdb_original_title": "Bones",
+      "source": "tmdb_popular",
+      "previous_rank": 10,
+      "change": 2
     },
     {
       "rank": 9,
@@ -568,18 +568,18 @@
     },
     {
       "rank": 10,
-      "title": "본즈",
-      "original_title": "본즈",
+      "title": "아메리칸 대드!",
+      "original_title": "아메리칸 대드!",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 1911,
-      "tmdb_title": "본즈",
-      "tmdb_original_title": "Bones",
+      "tmdb_id": 1433,
+      "tmdb_title": "아메리칸 대드!",
+      "tmdb_original_title": "American Dad!",
       "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 0
+      "previous_rank": 8,
+      "change": -2
     },
     {
       "rank": 1,
@@ -653,20 +653,6 @@
     },
     {
       "rank": 6,
-      "title": "설계자",
-      "original_title": "설계자",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 865910,
-      "tmdb_title": "설계자",
-      "tmdb_original_title": "설계자",
-      "previous_rank": 6,
-      "change": 0
-    },
-    {
-      "rank": 7,
       "title": "만약에 우리",
       "original_title": "만약에 우리",
       "season_title": "",
@@ -677,7 +663,21 @@
       "tmdb_title": "만약에 우리",
       "tmdb_original_title": "만약에 우리",
       "previous_rank": 7,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 7,
+      "title": "설계자",
+      "original_title": "설계자",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 865910,
+      "tmdb_title": "설계자",
+      "tmdb_original_title": "설계자",
+      "previous_rank": 6,
+      "change": -1
     },
     {
       "rank": 8,
