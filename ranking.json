@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "items": [
     {
       "rank": 1,
@@ -298,6 +298,36 @@
     },
     {
       "rank": 2,
+      "title": "어벤져스: 엔드게임",
+      "original_title": "어벤져스: 엔드게임",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 299534,
+      "tmdb_title": "어벤져스: 엔드게임",
+      "tmdb_original_title": "Avengers: Endgame",
+      "source": "top10",
+      "previous_rank": 4,
+      "change": 2
+    },
+    {
+      "rank": 3,
+      "title": "어벤져스: 인피니티 워",
+      "original_title": "어벤져스: 인피니티 워",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 299536,
+      "tmdb_title": "어벤져스: 인피니티 워",
+      "tmdb_original_title": "Avengers: Infinity War",
+      "source": "top10",
+      "previous_rank": 5,
+      "change": 2
+    },
+    {
+      "rank": 4,
       "title": "악마는 프라다를 입는다 2",
       "original_title": "악마는 프라다를 입는다 2",
       "season_title": "",
@@ -309,10 +339,10 @@
       "tmdb_original_title": "The Devil Wears Prada 2",
       "source": "top10",
       "previous_rank": 2,
-      "change": 0
+      "change": -2
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "범죄도시 4",
       "original_title": "범죄도시4",
       "season_title": "",
@@ -324,40 +354,25 @@
       "tmdb_original_title": "범죄도시 4",
       "source": "top10",
       "previous_rank": 3,
-      "change": 0
-    },
-    {
-      "rank": 4,
-      "title": "어벤져스: 엔드게임",
-      "original_title": "어벤져스: 엔드게임",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 299534,
-      "tmdb_title": "어벤져스: 엔드게임",
-      "tmdb_original_title": "Avengers: Endgame",
-      "source": "top10",
-      "previous_rank": 5,
-      "change": 1
-    },
-    {
-      "rank": 5,
-      "title": "어벤져스: 인피니티 워",
-      "original_title": "어벤져스: 인피니티 워",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 299536,
-      "tmdb_title": "어벤져스: 인피니티 워",
-      "tmdb_original_title": "Avengers: Infinity War",
-      "source": "top10",
-      "previous_rank": 7,
-      "change": 2
+      "change": -2
     },
     {
       "rank": 6,
+      "title": "1승",
+      "original_title": "1승",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 714650,
+      "tmdb_title": "1승",
+      "tmdb_original_title": "1승",
+      "source": "top10",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 7,
       "title": "주토피아 2",
       "original_title": "주토피아 2",
       "season_title": "",
@@ -368,11 +383,11 @@
       "tmdb_title": "주토피아 2",
       "tmdb_original_title": "Zootopia 2",
       "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": 3
+      "previous_rank": 6,
+      "change": -1
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "아바타",
       "original_title": "아바타",
       "season_title": "",
@@ -383,23 +398,8 @@
       "tmdb_title": "아바타",
       "tmdb_original_title": "Avatar",
       "source": "tmdb_popular",
-      "previous_rank": 6,
+      "previous_rank": 7,
       "change": -1
-    },
-    {
-      "rank": 8,
-      "title": "아바타: 불과 재",
-      "original_title": "아바타: 불과 재",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 83533,
-      "tmdb_title": "아바타: 불과 재",
-      "tmdb_original_title": "Avatar: Fire and Ash",
-      "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": 0
     },
     {
       "rank": 9,
@@ -413,23 +413,23 @@
       "tmdb_title": "어벤져스",
       "tmdb_original_title": "The Avengers",
       "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
-      "title": "캡틴 아메리카: 브레이브 뉴 월드",
-      "original_title": "캡틴 아메리카: 브레이브 뉴 월드",
+      "title": "아바타: 불과 재",
+      "original_title": "아바타: 불과 재",
       "season_title": "",
       "platform": "Disney+",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 822119,
-      "tmdb_title": "캡틴 아메리카: 브레이브 뉴 월드",
-      "tmdb_original_title": "Captain America: Brave New World",
+      "tmdb_id": 83533,
+      "tmdb_title": "아바타: 불과 재",
+      "tmdb_original_title": "Avatar: Fire and Ash",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 8,
+      "change": -2
     },
     {
       "rank": 1,
@@ -463,21 +463,6 @@
     },
     {
       "rank": 3,
-      "title": "연애전쟁",
-      "original_title": "연애전쟁",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 325114,
-      "tmdb_title": "연애전쟁",
-      "tmdb_original_title": "연애전쟁",
-      "source": "top10",
-      "previous_rank": 3,
-      "change": 0
-    },
-    {
-      "rank": 4,
       "title": "킬러들의 쇼핑몰",
       "original_title": "킬러들의 쇼핑몰",
       "season_title": "",
@@ -489,25 +474,25 @@
       "tmdb_original_title": "킬러들의 쇼핑몰",
       "source": "top10",
       "previous_rank": 4,
-      "change": 0
+      "change": 1
     },
     {
-      "rank": 5,
-      "title": "골드랜드",
-      "original_title": "골드랜드",
+      "rank": 4,
+      "title": "연애전쟁",
+      "original_title": "연애전쟁",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 278113,
-      "tmdb_title": "골드랜드",
-      "tmdb_original_title": "골드랜드",
+      "tmdb_id": 325114,
+      "tmdb_title": "연애전쟁",
+      "tmdb_original_title": "연애전쟁",
       "source": "top10",
-      "previous_rank": 5,
-      "change": 0
+      "previous_rank": 3,
+      "change": -1
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "아메리칸 대드!",
       "original_title": "아메리칸 대드!",
       "season_title": "",
@@ -518,11 +503,11 @@
       "tmdb_title": "아메리칸 대드!",
       "tmdb_original_title": "American Dad!",
       "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 4
+      "previous_rank": 6,
+      "change": 1
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "패밀리 가이",
       "original_title": "패밀리 가이",
       "season_title": "",
@@ -533,11 +518,11 @@
       "tmdb_title": "패밀리 가이",
       "tmdb_original_title": "Family Guy",
       "source": "tmdb_popular",
-      "previous_rank": 6,
-      "change": -1
+      "previous_rank": 7,
+      "change": 1
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "심슨 가족",
       "original_title": "심슨 가족",
       "season_title": "",
@@ -548,11 +533,11 @@
       "tmdb_title": "심슨 가족",
       "tmdb_original_title": "The Simpsons",
       "source": "tmdb_popular",
-      "previous_rank": 7,
-      "change": -1
+      "previous_rank": 8,
+      "change": 1
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "스트레인",
       "original_title": "스트레인",
       "season_title": "",
@@ -563,11 +548,11 @@
       "tmdb_title": "스트레인",
       "tmdb_original_title": "The Strain",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 9,
+      "change": 1
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "그레이 아나토미",
       "original_title": "그레이 아나토미",
       "season_title": "",
@@ -578,8 +563,23 @@
       "tmdb_title": "그레이 아나토미",
       "tmdb_original_title": "Grey's Anatomy",
       "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": -1
+      "previous_rank": 10,
+      "change": 1
+    },
+    {
+      "rank": 10,
+      "title": "본즈",
+      "original_title": "본즈",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 1911,
+      "tmdb_title": "본즈",
+      "tmdb_original_title": "Bones",
+      "source": "tmdb_popular",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
@@ -695,6 +695,20 @@
     },
     {
       "rank": 9,
+      "title": "테넷",
+      "original_title": "테넷",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 577922,
+      "tmdb_title": "테넷",
+      "tmdb_original_title": "Tenet",
+      "previous_rank": 10,
+      "change": 1
+    },
+    {
+      "rank": 10,
       "title": "엑소시스트: 더 바티칸",
       "original_title": "엑소시스트: 더 바티칸",
       "season_title": "",
@@ -705,21 +719,7 @@
       "tmdb_title": "엑소시스트: 더 바티칸",
       "tmdb_original_title": "The Pope's Exorcist",
       "previous_rank": 9,
-      "change": 0
-    },
-    {
-      "rank": 10,
-      "title": "테넷",
-      "original_title": "테넷",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 577922,
-      "tmdb_title": "테넷",
-      "tmdb_original_title": "Tenet",
-      "previous_rank": null,
-      "change": "NEW"
+      "change": -1
     },
     {
       "rank": 1,
@@ -746,8 +746,8 @@
       "tmdb_id": 314939,
       "tmdb_title": "너 말고 다른 연애",
       "tmdb_original_title": "너 말고 다른 연애",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -760,8 +760,8 @@
       "tmdb_id": 301418,
       "tmdb_title": "지금 불륜이 문제가 아닙니다",
       "tmdb_original_title": "지금 불륜이 문제가 아닙니다",
-      "previous_rank": 2,
-      "change": -1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -774,8 +774,8 @@
       "tmdb_id": 325269,
       "tmdb_title": "국대: 로드 투 노스 아메리카",
       "tmdb_original_title": "국대: 로드 투 노스 아메리카",
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -788,8 +788,8 @@
       "tmdb_id": 325157,
       "tmdb_title": "원희는 스무살",
       "tmdb_original_title": "원희는 스무살",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -802,8 +802,8 @@
       "tmdb_id": 321885,
       "tmdb_title": "봉주르빵집",
       "tmdb_original_title": "봉주르빵집",
-      "previous_rank": 5,
-      "change": -1
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -816,8 +816,8 @@
       "tmdb_id": 73048,
       "tmdb_title": "SNL 코리아",
       "tmdb_original_title": "SNL 코리아",
-      "previous_rank": 6,
-      "change": -1
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -830,8 +830,8 @@
       "tmdb_id": 224372,
       "tmdb_title": "세븐킹덤의 기사",
       "tmdb_original_title": "A Knight of the Seven Kingdoms",
-      "previous_rank": 7,
-      "change": -1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -844,8 +844,8 @@
       "tmdb_id": 33833,
       "tmdb_title": "HBO First Look",
       "tmdb_original_title": "HBO First Look",
-      "previous_rank": 8,
-      "change": -1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -858,8 +858,8 @@
       "tmdb_id": 305719,
       "tmdb_title": "자매다방",
       "tmdb_original_title": "자매다방",
-      "previous_rank": 9,
-      "change": -1
+      "previous_rank": 10,
+      "change": 0
     }
   ]
 }
