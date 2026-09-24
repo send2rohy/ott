@@ -6,8 +6,8 @@
     "original_title": "Shelter",
     "poster_path": "/tS3UZlVfESO4z8inIZXGiHNgDfE.jpg",
     "backdrop_path": "/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
-    "vote_average": 7.766,
-    "vote_count": 1863,
+    "vote_average": 7.761,
+    "vote_count": 1902,
     "release_date": "2026-01-28",
     "genres": [
       "액션",
@@ -33,8 +33,7 @@
     ],
     "trailer_key": "4rCpzhMxbWY",
     "homepage": "",
-    "ranking_original_title": "Shelter",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:17.581470+00:00"
   },
   "movie:11951": {
     "id": 11951,
@@ -71,7 +70,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-22T15:14:05.271869+00:00"
+    "cached_at": "2026-09-24T15:15:17.460201+00:00"
   },
   "movie:652": {
     "id": 652,
@@ -80,8 +79,8 @@
     "original_title": "Troy",
     "poster_path": "/1TsdNMKodmOKyo4xPacxq7opo3p.jpg",
     "backdrop_path": "/ZPcC5hJh21QiW0jmhMQhZeSoGu.jpg",
-    "vote_average": 7.2,
-    "vote_count": 11505,
+    "vote_average": 7.191,
+    "vote_count": 11540,
     "release_date": "2004-05-13",
     "genres": [
       "액션",
@@ -106,8 +105,7 @@
     ],
     "trailer_key": "1lRQc-YugZE",
     "homepage": "",
-    "ranking_original_title": "Troy",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:17.381408+00:00"
   },
   "movie:184315": {
     "id": 184315,
@@ -393,19 +391,16 @@
     ],
     "runtime": null,
     "overview": "격동의 1970년대, 부와 권력에 대한 야망을 지닌 백기태와 그를 막기 위해 모든 것을 내던진 검사 장건영이 시대를 관통하는 거대한 사건과 직면하며 펼쳐지는 이야기",
-    "director": [
-      "우민호"
-    ],
+    "director": [],
     "cast": [
       "현빈",
       "정우성",
       "차희",
       "이세호"
     ],
-    "trailer_key": "UmUedQhYuSU",
+    "trailer_key": "RgbDMRpTHxk",
     "homepage": "https://www.disneyplus.com/browse/entity-5acf7909-5d2f-494e-91a9-2fe0555c220f",
-    "ranking_original_title": "메이드 인 코리아",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:18.719200+00:00"
   },
   "tv:220074": {
     "id": 220074,
@@ -414,8 +409,8 @@
     "original_title": "재벌X형사",
     "poster_path": "/aLrGyfe2nbfM9PvtSYoKy5jEOJu.jpg",
     "backdrop_path": "/nOGPxfYqd0f3oeFGGinpDOP68MQ.jpg",
-    "vote_average": 7.833,
-    "vote_count": 48,
+    "vote_average": 7.8,
+    "vote_count": 49,
     "release_date": "2024-01-26",
     "genres": [
       "드라마",
@@ -436,10 +431,9 @@
       "김명수",
       "정가희"
     ],
-    "trailer_key": "J5aUccH12fE",
+    "trailer_key": "UcaVgeNQZd0",
     "homepage": "http://programs.sbs.co.kr/drama/flexxcop",
-    "ranking_original_title": "재벌 x 형사",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:18.791190+00:00"
   },
   "tv:325114": {
     "id": 325114,
@@ -464,7 +458,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-09-22T15:14:05.656813+00:00"
+    "cached_at": "2026-09-24T15:15:18.862581+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -472,9 +466,9 @@
     "title": "킬러들의 쇼핑몰",
     "original_title": "킬러들의 쇼핑몰",
     "poster_path": "/gfw41bHY2boxVse5l8M6m0sft5n.jpg",
-    "backdrop_path": "/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg",
+    "backdrop_path": "/lg134VJrvY3ZdOlP4lTu1onOhcf.jpg",
     "vote_average": 8.5,
-    "vote_count": 241,
+    "vote_count": 242,
     "release_date": "2024-01-17",
     "genres": [
       "드라마",
@@ -483,10 +477,7 @@
     ],
     "runtime": null,
     "overview": "부모를 잃고 쇼핑몰을 운영하는 삼촌 손에 자란 조카가 삼촌의 갑작스러운 죽음 이후 고객들에게 부고를 알리며 벌어지는 이야기. 강지영의 동멸 소설 원작.",
-    "director": [
-      "이언희",
-      "이권"
-    ],
+    "director": [],
     "cast": [
       "이동욱",
       "김혜준",
@@ -501,8 +492,7 @@
     ],
     "trailer_key": "3VrAwFB2Bm8",
     "homepage": "https://www.disneyplus.com/series/a-shop-for-killers/6pcuvK0SUuHI",
-    "ranking_original_title": "킬러들의 쇼핑몰",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:18.935366+00:00"
   },
   "movie:1228710": {
     "id": 1228710,
@@ -511,8 +501,8 @@
     "original_title": "The Mandalorian and Grogu",
     "poster_path": "/tMP99wq45GQMoeZwITgjAS8Wihm.jpg",
     "backdrop_path": "/ysLlsAxwgNSxBWHCgTKJrmjxpRQ.jpg",
-    "vote_average": 7.483,
-    "vote_count": 1620,
+    "vote_average": 7.475,
+    "vote_count": 1707,
     "release_date": "2026-05-20",
     "genres": [
       "액션",
@@ -538,8 +528,7 @@
     ],
     "trailer_key": "o58w-fU3Fbo",
     "homepage": "",
-    "ranking_original_title": "스타워즈: 만달로리안과 그로구",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:18.050697+00:00"
   },
   "movie:1314481": {
     "id": 1314481,
@@ -548,8 +537,8 @@
     "original_title": "The Devil Wears Prada 2",
     "poster_path": "/28A1VUDML1RzENYNtIU1WkBLT9V.jpg",
     "backdrop_path": "/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
-    "vote_average": 7.044,
-    "vote_count": 2322,
+    "vote_average": 7.047,
+    "vote_count": 2360,
     "release_date": "2026-04-29",
     "genres": [
       "코미디",
@@ -574,8 +563,7 @@
     ],
     "trailer_key": "rfMfnZPvzAY",
     "homepage": "",
-    "ranking_original_title": "악마는 프라다를 입는다 2",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:18.131999+00:00"
   },
   "tv:239385": {
     "id": 239385,
@@ -691,8 +679,8 @@
     "original_title": "Avengers: Endgame",
     "poster_path": "/z7ilT5rNN9kDo8JZmgyhM6ej2xv.jpg",
     "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-    "vote_average": 8.243,
-    "vote_count": 28657,
+    "vote_average": 8.2,
+    "vote_count": 28754,
     "release_date": "2019-04-24",
     "genres": [
       "모험",
@@ -717,10 +705,9 @@
       "폴 러드",
       "베네딕트 컴버배치"
     ],
-    "trailer_key": "Ko2NWhXI9e8",
+    "trailer_key": "nsSUJOaSEMo",
     "homepage": "",
-    "ranking_original_title": "어벤져스: 엔드게임",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:18.334374+00:00"
   },
   "tv:284884": {
     "id": 284884,
@@ -737,14 +724,11 @@
     ],
     "runtime": null,
     "overview": "그간 숱하게 사업 실패를 해왔던 연예인 신동엽이 마케팅 회사를 차렸다? 제각각으로 노답인 사원들과 신동엽 대표, 그리고 스타 의뢰인 사이에 벌어지는 고도의 심리전이 펼쳐지는 DY 기획. 아재(AZ) 사원들과 MZ 사원들, 그 사이의 낀대사원들이 말아주는 현미경 극세사 공감 오피스물.",
-    "director": [
-      "Ahn Sang-hwi"
-    ],
+    "director": [],
     "cast": [],
     "trailer_key": "0u8q095rp-4",
     "homepage": "https://www.coupangplay.com/content/d2b06b64-60ca-4b06-a2bc-004006d47402",
-    "ranking_original_title": "직장인들",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:20.145685+00:00"
   },
   "tv:301418": {
     "id": 301418,
@@ -776,8 +760,7 @@
     ],
     "trailer_key": "HKj9yCm2R4A",
     "homepage": "https://www.viki.com/tv/41612c-the-affair-was-just-the-beginning",
-    "ranking_original_title": "지금 불륜이 문제가 아닙니다",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:20.220629+00:00"
   },
   "tv:325269": {
     "id": 325269,
@@ -794,9 +777,7 @@
     ],
     "runtime": null,
     "overview": "대한민국 축구 황금세대의 운명이 걸린 북중미 월드컵, 승리를 위해 국대 축구팀이 달려온 594일간의 여정을 담은 쿠팡플레이 다큐멘터리",
-    "director": [
-      "김준형"
-    ],
+    "director": [],
     "cast": [
       "손흥민",
       "이강인",
@@ -805,8 +786,7 @@
     ],
     "trailer_key": "uUizQtn5sPQ",
     "homepage": "https://www.coupangplay.com/titles/b5af6191-196c-4d72-87ac-8580a2a4c277?type=TVSHOW&availability=SVOD&live=&channel=&rowId=e66158de-1dc8-4516-84c7-76fcf93d22c9&src=page_discover_feed%3AMulti-Hero-Curation-Content%3AALL&sourceType=&supportLive=",
-    "ranking_original_title": "국대: 로드 투 노스 아메리카",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-24T15:15:20.311875+00:00"
   },
   "tv:325157": {
     "id": 325157,
@@ -823,18 +803,13 @@
     ],
     "runtime": null,
     "overview": "아직 처음인 것 투성이인 원희의 스무 살 버킷 리스트를 언니들과 함께 경험하며 성장해 가는 공감형 리얼 버라이어티 예능.",
-    "director": [
-      "조혜진",
-      "김화영",
-      "정향민"
-    ],
+    "director": [],
     "cast": [
       "이원희"
     ],
-    "trailer_key": "QEHOSUil7Ok",
+    "trailer_key": "NACxtfU6wNw",
     "homepage": "https://www.coupangplay.com/titles/77218b6c-c58d-4e83-8a00-9264d6dce174?type=TVSHOW&availability=SVOD&live=&channel=&rowId=&trackId=MLRedis&src=page_search%3Aall&sourceType=page_discover_title_detail%3Apage_search&supportLive=",
-    "ranking_original_title": "원희는 스무살",
-    "cached_at": "2026-09-16T02:29:04.585308+00:00"
+    "cached_at": "2026-09-24T15:15:20.406152+00:00"
   },
   "tv:321885": {
     "id": 321885,
@@ -860,8 +835,7 @@
     ],
     "trailer_key": "_A340qygxeM",
     "homepage": "https://www.coupangplay.com/content/19f65d86-36cf-48bc-a343-c2fcfdd37dd4",
-    "ranking_original_title": "봉주르빵집",
-    "cached_at": "2026-09-16T02:29:04.585308+00:00"
+    "cached_at": "2026-09-24T15:15:20.524362+00:00"
   },
   "tv:73048": {
     "id": 73048,
@@ -896,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-09-22T15:14:06.268109+00:00"
+    "cached_at": "2026-09-24T15:15:20.612596+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -924,8 +898,7 @@
     ],
     "trailer_key": "MT6IiqWxWB0",
     "homepage": "",
-    "ranking_original_title": "위버맨쉬 지드래곤 2025 월드 투어 더 파이널",
-    "cached_at": "2026-09-16T02:29:04.585308+00:00"
+    "cached_at": "2026-09-24T15:15:19.465286+00:00"
   },
   "tv:224372": {
     "id": 224372,
@@ -934,8 +907,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.425,
-    "vote_count": 1184,
+    "vote_average": 8.4,
+    "vote_count": 1188,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -951,7 +924,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-09-22T15:14:06.306947+00:00"
+    "cached_at": "2026-09-24T15:15:20.688976+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -972,7 +945,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-22T15:14:06.348271+00:00"
+    "cached_at": "2026-09-24T15:15:20.779326+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -997,7 +970,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-22T15:14:06.413926+00:00"
+    "cached_at": "2026-09-24T15:15:20.854434+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1007,7 +980,7 @@
     "poster_path": "/b1qxxjws8UPcZ12B6Heg1CEWpnR.jpg",
     "backdrop_path": "/oG9dcGSSu13fjFp1Uly15ZXjRKV.jpg",
     "vote_average": 7.499,
-    "vote_count": 8098,
+    "vote_count": 8118,
     "release_date": "1997-06-13",
     "genres": [
       "애니메이션",
@@ -1037,7 +1010,7 @@
     ],
     "trailer_key": "ZvtspevZxpg",
     "homepage": "",
-    "cached_at": "2026-09-16T03:02:55.526043+00:00"
+    "cached_at": "2026-09-24T15:15:17.706781+00:00"
   },
   "movie:1321179": {
     "id": 1321179,
@@ -1072,7 +1045,7 @@
     ],
     "trailer_key": "TpG4W2WwYBU",
     "homepage": "",
-    "cached_at": "2026-09-16T03:02:55.574831+00:00"
+    "cached_at": "2026-09-24T15:15:19.545392+00:00"
   },
   "movie:1461254": {
     "id": 1461254,
@@ -1082,7 +1055,7 @@
     "poster_path": "/uVJyWlSPCWftRUXRM6lxTqOzPY6.jpg",
     "backdrop_path": "/edVIvTc8RofOTxoAZN7a5kxIAay.jpg",
     "vote_average": 6.1,
-    "vote_count": 28,
+    "vote_count": 29,
     "release_date": "2026-04-08",
     "genres": [
       "공포",
@@ -1107,7 +1080,7 @@
     ],
     "trailer_key": "46fcD067Qwo",
     "homepage": "",
-    "cached_at": "2026-09-16T03:02:55.613557+00:00"
+    "cached_at": "2026-09-24T15:15:19.824606+00:00"
   },
   "movie:936245": {
     "id": 936245,
@@ -1142,7 +1115,7 @@
     ],
     "trailer_key": "f4kfsf6C6eU",
     "homepage": "",
-    "cached_at": "2026-09-16T03:02:55.653221+00:00"
+    "cached_at": "2026-09-24T15:15:19.759765+00:00"
   },
   "movie:257211": {
     "id": 257211,
@@ -1151,8 +1124,8 @@
     "original_title": "The Intern",
     "poster_path": "/p61xAS4xprjWbHUkRX7rmI37ImL.jpg",
     "backdrop_path": "/i8Q2Ei2dPliMLgPWYhRTxIDzh7r.jpg",
-    "vote_average": 7.227,
-    "vote_count": 7487,
+    "vote_average": 7.225,
+    "vote_count": 7501,
     "release_date": "2015-09-23",
     "genres": [
       "코미디"
@@ -1176,7 +1149,7 @@
     ],
     "trailer_key": "bwylOLy5ir0",
     "homepage": "",
-    "cached_at": "2026-09-16T03:02:55.692078+00:00"
+    "cached_at": "2026-09-24T15:15:19.674091+00:00"
   },
   "movie:865910": {
     "id": 865910,
@@ -1221,7 +1194,7 @@
     "poster_path": "/3ajXIRwoTGvnlLWVPgZPrHgXIW.jpg",
     "backdrop_path": "/2xtajuwR5EGFQm4pXuykWoEu4u0.jpg",
     "vote_average": 7.8,
-    "vote_count": 24,
+    "vote_count": 25,
     "release_date": "2025-12-31",
     "genres": [
       "로맨스",
@@ -1246,7 +1219,7 @@
     ],
     "trailer_key": "J_RddSZnATU",
     "homepage": "",
-    "cached_at": "2026-09-16T03:02:55.769833+00:00"
+    "cached_at": "2026-09-24T15:15:19.906212+00:00"
   },
   "movie:1406652": {
     "id": 1406652,
@@ -1282,7 +1255,7 @@
     ],
     "trailer_key": "SCZYOE3VYP0",
     "homepage": "",
-    "cached_at": "2026-09-16T03:02:55.804629+00:00"
+    "cached_at": "2026-09-24T15:15:19.966981+00:00"
   },
   "movie:758323": {
     "id": 758323,
@@ -1435,8 +1408,8 @@
     "original_title": "Avengers: Infinity War",
     "poster_path": "/kmP6viwzcEkZeoi1LaVcQemcvZh.jpg",
     "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-    "vote_average": 8.242,
-    "vote_count": 32892,
+    "vote_average": 8.243,
+    "vote_count": 32968,
     "release_date": "2018-04-25",
     "genres": [
       "모험",
@@ -1463,7 +1436,7 @@
     ],
     "trailer_key": "F0kvfk1ghjA",
     "homepage": "",
-    "cached_at": "2026-09-16T03:29:57.993006+00:00"
+    "cached_at": "2026-09-24T15:15:18.231083+00:00"
   },
   "movie:1084242": {
     "id": 1084242,
@@ -1473,7 +1446,7 @@
     "poster_path": "/ib6v6qUXzez1x2qIOLN7C0yJNPQ.jpg",
     "backdrop_path": "/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
     "vote_average": 7.675,
-    "vote_count": 3426,
+    "vote_count": 3453,
     "release_date": "2025-11-26",
     "genres": [
       "애니메이션",
@@ -1502,7 +1475,7 @@
     ],
     "trailer_key": "H9boDm0J67w",
     "homepage": "",
-    "cached_at": "2026-09-16T03:29:58.181933+00:00"
+    "cached_at": "2026-09-24T15:15:18.457584+00:00"
   },
   "movie:19995": {
     "id": 19995,
@@ -1546,9 +1519,9 @@
     "title": "아바타: 불과 재",
     "original_title": "Avatar: Fire and Ash",
     "poster_path": "/l18o0AK18KS118tWeROOKYkF0ng.jpg",
-    "backdrop_path": "/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg",
-    "vote_average": 7.643,
-    "vote_count": 4316,
+    "backdrop_path": "/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
+    "vote_average": 7.642,
+    "vote_count": 4365,
     "release_date": "2025-12-17",
     "genres": [
       "SF",
@@ -1574,7 +1547,7 @@
     ],
     "trailer_key": "fIaXDSQRA6o",
     "homepage": "",
-    "cached_at": "2026-09-16T03:29:58.411130+00:00"
+    "cached_at": "2026-09-24T15:15:18.541897+00:00"
   },
   "tv:456": {
     "id": 456,
@@ -1582,9 +1555,9 @@
     "title": "심슨 가족",
     "original_title": "The Simpsons",
     "poster_path": "/7HKQieF8YqXgTwBVjWFGWaEKNS7.jpg",
-    "backdrop_path": "/ncQ8D4j8GSuL9CzncLEXnhHDxHy.jpg",
-    "vote_average": 8.021,
-    "vote_count": 11005,
+    "backdrop_path": "/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+    "vote_average": 8.022,
+    "vote_count": 11031,
     "release_date": "1989-12-17",
     "genres": [
       "애니메이션",
@@ -1603,7 +1576,7 @@
     ],
     "trailer_key": "IEkFk2k0b08",
     "homepage": "https://www.fox.com/detail/series/SER000852IRHK/the-simpsons",
-    "cached_at": "2026-09-16T03:29:58.599743+00:00"
+    "cached_at": "2026-09-24T15:15:18.999006+00:00"
   },
   "tv:1434": {
     "id": 1434,
@@ -1612,8 +1585,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
-    "vote_average": 7.411,
-    "vote_count": 5121,
+    "vote_average": 7.41,
+    "vote_count": 5122,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1632,7 +1605,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-09-22T15:14:06.152946+00:00"
+    "cached_at": "2026-09-24T15:15:19.141402+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1642,7 +1615,7 @@
     "poster_path": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
     "backdrop_path": "/iixxhk3ycXmFqBn616pAsC3lu53.jpg",
     "vote_average": 7.019,
-    "vote_count": 2451,
+    "vote_count": 2452,
     "release_date": "2005-02-06",
     "genres": [
       "애니메이션",
@@ -1660,7 +1633,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER001101XODY/american-dad",
-    "cached_at": "2026-09-22T15:14:05.692999+00:00"
+    "cached_at": "2026-09-24T15:15:19.071145+00:00"
   },
   "tv:1416": {
     "id": 1416,
@@ -1669,8 +1642,8 @@
     "original_title": "Grey's Anatomy",
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
-    "vote_average": 8.2,
-    "vote_count": 11055,
+    "vote_average": 8.206,
+    "vote_count": 11059,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1692,7 +1665,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-09-22T15:14:06.197469+00:00"
+    "cached_at": "2026-09-24T15:15:19.249366+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1702,7 +1675,7 @@
     "poster_path": "/24Mi1oDrdc1zbHju7FVHJA4sgYt.jpg",
     "backdrop_path": "/aSye04zKzWtUP3U6Cl4bOXc5Ih9.jpg",
     "vote_average": 8.176,
-    "vote_count": 3588,
+    "vote_count": 3591,
     "release_date": "2005-09-13",
     "genres": [
       "범죄",
@@ -1721,7 +1694,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.fox.com/bones",
-    "cached_at": "2026-09-21T15:13:15.478276+00:00"
+    "cached_at": "2026-09-24T15:15:19.386504+00:00"
   },
   "movie:24428": {
     "id": 24428,
@@ -1730,8 +1703,8 @@
     "original_title": "The Avengers",
     "poster_path": "/krgjV3rJtBcEpQehODKXNCt6uFL.jpg",
     "backdrop_path": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
-    "vote_average": 8.075,
-    "vote_count": 39723,
+    "vote_average": 8.077,
+    "vote_count": 39812,
     "release_date": "2012-04-25",
     "genres": [
       "SF",
@@ -1757,7 +1730,7 @@
     ],
     "trailer_key": "mck3JCl2uwQ",
     "homepage": "",
-    "cached_at": "2026-09-16T15:14:40.937351+00:00"
+    "cached_at": "2026-09-24T15:15:18.653692+00:00"
   },
   "tv:278113": {
     "id": 278113,
@@ -2009,7 +1982,7 @@
     "poster_path": "/A5hvLZpYcpT2GFA3j8LtI6eINFr.jpg",
     "backdrop_path": "/tUtXfyVy54BY7eJnRtI8Xnmr1ZL.jpg",
     "vote_average": 8.295,
-    "vote_count": 4175,
+    "vote_count": 4176,
     "release_date": "2005-09-22",
     "genres": [
       "범죄",
@@ -2031,7 +2004,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-09-22T15:14:06.234996+00:00"
+    "cached_at": "2026-09-24T15:15:19.312801+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
@@ -2141,5 +2114,243 @@
     "trailer_key": "1KGZtWbZtq8",
     "homepage": "",
     "cached_at": "2026-09-22T15:14:05.607758+00:00"
+  },
+  "movie:11474": {
+    "id": 11474,
+    "media_type": "movie",
+    "title": "워리어",
+    "original_title": "The Warriors",
+    "poster_path": "/d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
+    "backdrop_path": "/i4Fp0AJsqAzbeVQyCoG0adRRfdh.jpg",
+    "vote_average": 7.679,
+    "vote_count": 2479,
+    "release_date": "1979-02-01",
+    "genres": [
+      "액션",
+      "스릴러"
+    ],
+    "runtime": 94,
+    "overview": "뉴욕 전체를 아우르는 최강 갱단의 리더가 암살당했다! 억울하게 살해 세력으로 몰린 한 갱단. 덕분에 경찰에게 쫓기는 것은 물론 다른 조직들의 먹잇감이 되고 마는데. 다시 본거지로 돌아가기 위한 이들의 사투가 뉴욕 한복판에서 펼쳐진다.",
+    "director": [
+      "월터 힐"
+    ],
+    "cast": [
+      "마이클 벡",
+      "제임스 리마",
+      "David Patrick Kelly",
+      "Dorsey Wright",
+      "David Harris",
+      "Deborah Van Valkenburgh",
+      "Brian Tyler",
+      "Tom McKitterick",
+      "Marcelino Sánchez",
+      "Roger Hill"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-09-24T15:15:17.210039+00:00"
+  },
+  "movie:1233575": {
+    "id": 1233575,
+    "media_type": "movie",
+    "title": "블랙 백",
+    "original_title": "Black Bag",
+    "poster_path": "/5004eGQ1VsSzc9nVCg52Gw09fqI.jpg",
+    "backdrop_path": "/gxO51FVgADhYGGnnRPIlutVqb30.jpg",
+    "vote_average": 6.377,
+    "vote_count": 1384,
+    "release_date": "2025-03-12",
+    "genres": [
+      "드라마",
+      "미스터리",
+      "스릴러"
+    ],
+    "runtime": 94,
+    "overview": "뛰어난 정보력과 고도의 심리전에 능통한 요원 ‘조지’와 날카로운 직관력을 가진 정보 분석가 ‘캐슬린’은 모두가 선망하는 정보국 대표 부부. 어느 날, 수천 명을 죽음에 빠트릴 수 있는 정보국의 기밀 기술이 내부 배신자에 의해 사라지고 ‘조지’는 사건에 얽힌 5명의 요원을 주목하지만 모든 증거는 그의 아내 ‘캐슬린’을 향하는데…",
+    "director": [
+      "스티븐 소더버그"
+    ],
+    "cast": [
+      "케이트 블란쳇",
+      "마이클 패스벤더",
+      "톰 버크",
+      "마리사 아벨라",
+      "레게장 페이지",
+      "나오미 해리스",
+      "구스타프 스카르스고르드",
+      "카에 알렉산더",
+      "Martin Bassindale",
+      "피어스 브로스넌"
+    ],
+    "trailer_key": "RdAkNlnxbKo",
+    "homepage": "",
+    "cached_at": "2026-09-24T15:15:17.286215+00:00"
+  },
+  "movie:846778": {
+    "id": 846778,
+    "media_type": "movie",
+    "title": "마고",
+    "original_title": "Margaux",
+    "poster_path": "/uNzgeMetu9l4q9NDw7gtiUFwPOJ.jpg",
+    "backdrop_path": "/sCOHkah9RbFeZfFnfBrcykKCMNa.jpg",
+    "vote_average": 5.9,
+    "vote_count": 235,
+    "release_date": "2022-09-09",
+    "genres": [
+      "공포",
+      "SF"
+    ],
+    "runtime": 104,
+    "overview": "주말 파티를 위해 에어비앤비 숙소를 렌트한 한 무리의 대학생들이, 숙소를 관리하는 인공지능 시스템 \"마고\"의 사악한 본성과 맞닥뜨리게 되는 이야기",
+    "director": [
+      "Steven C. Miller"
+    ],
+    "cast": [
+      "Jedidiah Goodacre",
+      "Madison Pettis",
+      "버네사 모건",
+      "리처드 하몬",
+      "Lochlyn Munro",
+      "Phoebe Miu",
+      "Jordan Buhat",
+      "Brittany Mitchell",
+      "Louis Lay",
+      "Susan Bennett"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-09-24T15:15:17.517944+00:00"
+  },
+  "movie:71868": {
+    "id": 71868,
+    "media_type": "movie",
+    "title": "One Way Trip",
+    "original_title": "One Way Trip",
+    "poster_path": "/mm9q5luDalDDSxMHysQlSH0cqvC.jpg",
+    "backdrop_path": null,
+    "vote_average": 5.3,
+    "vote_count": 26,
+    "release_date": "2011-09-22",
+    "genres": [
+      "공포"
+    ],
+    "runtime": 86,
+    "overview": "",
+    "director": [
+      "Markus Welter"
+    ],
+    "cast": [
+      "Sabrina Reiter",
+      "Melanie Winiger",
+      "Herbert Leiser",
+      "Martin Loos"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-09-24T15:15:17.800463+00:00"
+  },
+  "tv:39269": {
+    "id": 39269,
+    "media_type": "tv",
+    "title": "스캔들",
+    "original_title": "Scandal",
+    "poster_path": "/4XmF8PMSqtHCGNoL15oHbjr5ZuO.jpg",
+    "backdrop_path": "/hpvw89Vq6rYx1bzrE3zdnWBGLfS.jpg",
+    "vote_average": 7.196,
+    "vote_count": 623,
+    "release_date": "2012-04-05",
+    "genres": [
+      "드라마"
+    ],
+    "runtime": null,
+    "overview": "백악관에서 커뮤니케이션 디렉터로 일했던 올리비아 포프가 새로운 삶을 찾아 자신만의 위기관리 사무소를 오픈하게 되면서 유능한 직원들과 함께 성공을 향해 고군분투하는 이야기.",
+    "director": [],
+    "cast": [
+      "케리 워싱턴",
+      "다비 스탠치필드",
+      "케이티 로스",
+      "기예르모 디아스",
+      "제프 페리",
+      "토니 골드윈",
+      "Joshua Malina",
+      "Bellamy Young",
+      "George Newbern",
+      "Scott Foley"
+    ],
+    "trailer_key": "",
+    "homepage": "http://www.abc.go.com/shows/scandal",
+    "cached_at": "2026-09-24T15:15:17.881204+00:00"
+  },
+  "movie:1084244": {
+    "id": 1084244,
+    "media_type": "movie",
+    "title": "토이 스토리 5",
+    "original_title": "Toy Story 5",
+    "poster_path": "/AqrJx3nVVMlKWXGaPIH32GzjEJA.jpg",
+    "backdrop_path": "/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+    "vote_average": 8.348,
+    "vote_count": 2271,
+    "release_date": "2026-06-17",
+    "genres": [
+      "애니메이션",
+      "가족",
+      "코미디",
+      "모험"
+    ],
+    "runtime": 102,
+    "overview": "“시대는 변해도, 친구들은 영원하다\" 스마트 태블릿 ’릴리패드'의 등장으로 온라인 세계에 모여들게 된 아이들. 친구들과 어울리기 위해 ‘보니’에게도 ‘릴리패드’가 생기게 되고, 장난감들은 점점 일상에서 밀려나게 된다. '제시'는 이 위기를 해결하기 위해 자신만의 길을 떠났던 '우디'에게 도움을 요청하게 되는데… 다시 뭉친 '제시', '우디', '버즈'는 '보니'의 마음을 되돌리고 ‘보니’의 진정한 친구를 찾아줄 수 있을까? \"장난감 VS 전자기기! 새로운 세상 속, 멈춰있던 장난감들이 다시 움직이기 시작한다!\"",
+    "director": [
+      "앤드류 스탠튼"
+    ],
+    "cast": [
+      "조앤 쿠삭",
+      "톰 행크스",
+      "팀 앨런",
+      "코난 오브라이언",
+      "스칼렛 스피어스",
+      "그레타 리",
+      "쉘비 라바라",
+      "미칼 미셸 해리스",
+      "크레이그 로빈슨",
+      "Jay Hernandez"
+    ],
+    "trailer_key": "oCtyRCnPQXY",
+    "homepage": "",
+    "cached_at": "2026-09-24T15:15:17.969238+00:00"
+  },
+  "movie:671": {
+    "id": 671,
+    "media_type": "movie",
+    "title": "해리 포터와 마법사의 돌",
+    "original_title": "Harry Potter and the Philosopher's Stone",
+    "poster_path": "/8YaP48tVfngbURGldWk1I5odsBK.jpg",
+    "backdrop_path": "/lvOLivVeX3DVVcwfVkxKf0R22D8.jpg",
+    "vote_average": 7.903,
+    "vote_count": 30274,
+    "release_date": "2001-11-16",
+    "genres": [
+      "모험",
+      "판타지"
+    ],
+    "runtime": 152,
+    "overview": "해리 포터는 위압적인 버논 숙부와 냉담한 이모 페투니아, 욕심 많고 버릇없는 사촌 더즐리 밑에서 갖은 구박을 견디며 계단 밑 벽장에서 생활한다. 이모네 식구들 역시 해리와의 동거가 불편하기는 마찬가지. 이모 페투니아에겐 해리가 이상한 언니 부부에 관한 기억을 떠올리게 만드는 달갑지 않은 존재다. 11살 생일이 며칠 앞으로 다가왔지만 한번도 생일파티를 치르거나 제대로 된 생일선물을 받아 본 적이 없는 해리로서는 특별히 신날 것도 기대 할 것도 없다. 11살 생일을 며칠 앞둔 어느 날 해리에게 초록색 잉크로 쓰여진 한 통의 편지가 배달된다. 그 편지의 내용은 다름 아닌 해리의 11살 생일을 맞이하여 호그와트에서 보낸 입학 초대장이었다. 그리고 해리의 생일을 축하하러 온 거인 해그리드는 해리가 모르고 있었던 해리의 진정한 정체를 알려주는데...",
+    "director": [
+      "크리스 콜럼버스"
+    ],
+    "cast": [
+      "다니엘 래드클리프",
+      "루퍼트 그린트",
+      "엠마 왓슨",
+      "리처드 해리스",
+      "톰 펠튼",
+      "앨런 릭먼",
+      "로비 콜트레인",
+      "매기 스미스",
+      "Richard Griffiths",
+      "이안 하트"
+    ],
+    "trailer_key": "vtJ6eZRanHc",
+    "homepage": "",
+    "cached_at": "2026-09-24T15:15:20.068388+00:00"
   }
 }
