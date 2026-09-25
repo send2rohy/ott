@@ -458,7 +458,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-09-24T15:15:18.862581+00:00"
+    "cached_at": "2026-09-25T15:15:46.336609+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -870,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-09-24T15:15:20.612596+00:00"
+    "cached_at": "2026-09-25T15:15:46.715047+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -907,8 +907,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.4,
-    "vote_count": 1188,
+    "vote_average": 8.424,
+    "vote_count": 1190,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -924,7 +924,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-09-24T15:15:20.688976+00:00"
+    "cached_at": "2026-09-25T15:15:46.792701+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -945,7 +945,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-24T15:15:20.779326+00:00"
+    "cached_at": "2026-09-25T15:15:46.857104+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -970,7 +970,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-24T15:15:20.854434+00:00"
+    "cached_at": "2026-09-25T15:15:46.934721+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1485,7 +1485,7 @@
     "poster_path": "/m5lCha2XcbDowDoYHPc0DTNaCPU.jpg",
     "backdrop_path": "/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
     "vote_average": 7.609,
-    "vote_count": 34660,
+    "vote_count": 34719,
     "release_date": "2009-12-16",
     "genres": [
       "SF",
@@ -1511,7 +1511,7 @@
     ],
     "trailer_key": "IZpaMT1H85o",
     "homepage": "",
-    "cached_at": "2026-09-16T03:29:58.302074+00:00"
+    "cached_at": "2026-09-25T15:15:46.288249+00:00"
   },
   "movie:83533": {
     "id": 83533,
@@ -1585,8 +1585,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
-    "vote_average": 7.41,
-    "vote_count": 5122,
+    "vote_average": 7.411,
+    "vote_count": 5123,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1605,7 +1605,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-09-24T15:15:19.141402+00:00"
+    "cached_at": "2026-09-25T15:15:46.429546+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1615,7 +1615,7 @@
     "poster_path": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
     "backdrop_path": "/iixxhk3ycXmFqBn616pAsC3lu53.jpg",
     "vote_average": 7.019,
-    "vote_count": 2452,
+    "vote_count": 2453,
     "release_date": "2005-02-06",
     "genres": [
       "애니메이션",
@@ -1633,7 +1633,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER001101XODY/american-dad",
-    "cached_at": "2026-09-24T15:15:19.071145+00:00"
+    "cached_at": "2026-09-25T15:15:46.474402+00:00"
   },
   "tv:1416": {
     "id": 1416,
@@ -1665,7 +1665,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-09-24T15:15:19.249366+00:00"
+    "cached_at": "2026-09-25T15:15:46.385117+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1675,7 +1675,7 @@
     "poster_path": "/24Mi1oDrdc1zbHju7FVHJA4sgYt.jpg",
     "backdrop_path": "/aSye04zKzWtUP3U6Cl4bOXc5Ih9.jpg",
     "vote_average": 8.176,
-    "vote_count": 3591,
+    "vote_count": 3593,
     "release_date": "2005-09-13",
     "genres": [
       "범죄",
@@ -1694,7 +1694,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.fox.com/bones",
-    "cached_at": "2026-09-24T15:15:19.386504+00:00"
+    "cached_at": "2026-09-25T15:15:46.567865+00:00"
   },
   "movie:24428": {
     "id": 24428,
@@ -1842,7 +1842,7 @@
     "poster_path": "/i91wnVqkJf5ykDJq0XmIusvPFL3.jpg",
     "backdrop_path": "/mQOUyqDybTqxl73hO5LujCZsM1o.jpg",
     "vote_average": 7.171,
-    "vote_count": 11515,
+    "vote_count": 11548,
     "release_date": "2020-08-22",
     "genres": [
       "액션",
@@ -1863,12 +1863,12 @@
       "마이클 케인",
       "마틴 도노반",
       "피오나 도리프",
-      "Юрий Колокольников",
+      "유리 콜로콜니코프",
       "히메쉬 파텔"
     ],
     "trailer_key": "7oKAPbnl7mQ",
     "homepage": "",
-    "cached_at": "2026-09-18T15:14:02.736610+00:00"
+    "cached_at": "2026-09-25T15:15:46.632760+00:00"
   },
   "tv:314939": {
     "id": 314939,
@@ -1877,8 +1877,8 @@
     "original_title": "너 말고 다른 연애",
     "poster_path": "/mryeyCsFApnwYDpDcy3I6fYx2Dd.jpg",
     "backdrop_path": "/moUjiEzpJVNZc7hyNRBbLPt0CPX.jpg",
-    "vote_average": 8.0,
-    "vote_count": 1,
+    "vote_average": 9.0,
+    "vote_count": 2,
     "release_date": "2026-09-12",
     "genres": [
       "드라마",
@@ -1901,7 +1901,7 @@
     ],
     "trailer_key": "nQWv70PTHFM",
     "homepage": "https://program.kbs.co.kr/2tv/drama/loveotherthanyours",
-    "cached_at": "2026-09-18T15:14:02.802153+00:00"
+    "cached_at": "2026-09-25T15:15:46.673575+00:00"
   },
   "movie:714650": {
     "id": 714650,
@@ -2004,7 +2004,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-09-24T15:15:19.312801+00:00"
+    "cached_at": "2026-09-25T15:15:46.515035+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
