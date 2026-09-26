@@ -458,7 +458,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-09-25T15:15:46.336609+00:00"
+    "cached_at": "2026-09-26T15:13:17.678932+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -870,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-09-25T15:15:46.715047+00:00"
+    "cached_at": "2026-09-26T15:13:17.964306+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -907,8 +907,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.424,
-    "vote_count": 1190,
+    "vote_average": 8.421,
+    "vote_count": 1194,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -924,7 +924,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-09-25T15:15:46.792701+00:00"
+    "cached_at": "2026-09-26T15:13:18.011992+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -945,7 +945,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-25T15:15:46.857104+00:00"
+    "cached_at": "2026-09-26T15:13:18.094488+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -970,7 +970,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-25T15:15:46.934721+00:00"
+    "cached_at": "2026-09-26T15:13:18.139810+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1586,7 +1586,7 @@
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
     "vote_average": 7.411,
-    "vote_count": 5123,
+    "vote_count": 5124,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1605,7 +1605,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-09-25T15:15:46.429546+00:00"
+    "cached_at": "2026-09-26T15:13:17.768575+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1614,8 +1614,8 @@
     "original_title": "American Dad!",
     "poster_path": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
     "backdrop_path": "/iixxhk3ycXmFqBn616pAsC3lu53.jpg",
-    "vote_average": 7.019,
-    "vote_count": 2453,
+    "vote_average": 7.021,
+    "vote_count": 2455,
     "release_date": "2005-02-06",
     "genres": [
       "애니메이션",
@@ -1633,7 +1633,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER001101XODY/american-dad",
-    "cached_at": "2026-09-25T15:15:46.474402+00:00"
+    "cached_at": "2026-09-26T15:13:17.823858+00:00"
   },
   "tv:1416": {
     "id": 1416,
@@ -1642,8 +1642,8 @@
     "original_title": "Grey's Anatomy",
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
-    "vote_average": 8.206,
-    "vote_count": 11059,
+    "vote_average": 8.2,
+    "vote_count": 11060,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1665,7 +1665,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-09-25T15:15:46.385117+00:00"
+    "cached_at": "2026-09-26T15:13:17.723359+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1982,7 +1982,7 @@
     "poster_path": "/A5hvLZpYcpT2GFA3j8LtI6eINFr.jpg",
     "backdrop_path": "/tUtXfyVy54BY7eJnRtI8Xnmr1ZL.jpg",
     "vote_average": 8.295,
-    "vote_count": 4176,
+    "vote_count": 4177,
     "release_date": "2005-09-22",
     "genres": [
       "범죄",
@@ -2004,7 +2004,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-09-25T15:15:46.515035+00:00"
+    "cached_at": "2026-09-26T15:13:17.867940+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
@@ -2352,5 +2352,39 @@
     "trailer_key": "vtJ6eZRanHc",
     "homepage": "",
     "cached_at": "2026-09-24T15:15:20.068388+00:00"
+  },
+  "tv:1413": {
+    "id": 1413,
+    "media_type": "tv",
+    "title": "아메리칸 호러 스토리",
+    "original_title": "American Horror Story",
+    "poster_path": "/ovgdkSfkIRsYbgS99GmuMsy03fF.jpg",
+    "backdrop_path": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
+    "vote_average": 8.1,
+    "vote_count": 6189,
+    "release_date": "2011-10-05",
+    "genres": [
+      "드라마",
+      "미스터리",
+      "Sci-Fi & Fantasy"
+    ],
+    "runtime": null,
+    "overview": "'공포'라는 주제로 시즌마다 다른 이야기를 풀어가는 앤솔로지 시리즈. 인간이 가지고 있는 사악한 근성을 탐구하는 동시에 인간이 느끼는 초자연적 두려움과 일상 속의 공포를 조명한다.",
+    "director": [],
+    "cast": [
+      "사라 폴슨",
+      "에반 피터스",
+      "안젤라 바셋",
+      "캐시 베이츠",
+      "엠마 로버츠",
+      "빌리 루드",
+      "개버레이 시디베이",
+      "레슬리 그로스만",
+      "조이 폴라리",
+      "제시카 랭"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.fxnetworks.com/shows/american-horror-story",
+    "cached_at": "2026-09-26T15:13:17.903236+00:00"
   }
 }
