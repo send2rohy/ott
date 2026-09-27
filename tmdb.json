@@ -70,7 +70,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-24T15:15:17.460201+00:00"
+    "cached_at": "2026-09-27T15:13:35.944838+00:00"
   },
   "movie:652": {
     "id": 652,
@@ -114,8 +114,8 @@
     "original_title": "Hercules",
     "poster_path": "/hmWwoUXorZyyymGdmrX46lEIrnf.jpg",
     "backdrop_path": "/nl18gyzai02Tu99VkURu7kCFrR8.jpg",
-    "vote_average": 5.807,
-    "vote_count": 4436,
+    "vote_average": 5.81,
+    "vote_count": 4450,
     "release_date": "2014-07-23",
     "genres": [
       "액션",
@@ -138,10 +138,9 @@
       "토비아스 산틀만",
       "피터 뮬런"
     ],
-    "trailer_key": null,
+    "trailer_key": "",
     "homepage": "",
-    "ranking_original_title": "Hercules",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-27T15:13:36.116241+00:00"
   },
   "movie:729461": {
     "id": 729461,
@@ -458,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-09-26T15:13:17.678932+00:00"
+    "cached_at": "2026-09-27T15:13:36.587986+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -870,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-09-26T15:13:17.964306+00:00"
+    "cached_at": "2026-09-27T15:13:37.142249+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -908,7 +907,7 @@
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
     "vote_average": 8.421,
-    "vote_count": 1194,
+    "vote_count": 1195,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -924,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-09-26T15:13:18.011992+00:00"
+    "cached_at": "2026-09-27T15:13:37.225498+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -945,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-26T15:13:18.094488+00:00"
+    "cached_at": "2026-09-27T15:13:37.341910+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -970,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-26T15:13:18.139810+00:00"
+    "cached_at": "2026-09-27T15:13:37.438102+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1586,7 +1585,7 @@
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
     "vote_average": 7.411,
-    "vote_count": 5124,
+    "vote_count": 5125,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1605,7 +1604,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-09-26T15:13:17.768575+00:00"
+    "cached_at": "2026-09-27T15:13:36.742799+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1614,8 +1613,8 @@
     "original_title": "American Dad!",
     "poster_path": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
     "backdrop_path": "/iixxhk3ycXmFqBn616pAsC3lu53.jpg",
-    "vote_average": 7.021,
-    "vote_count": 2455,
+    "vote_average": 7.022,
+    "vote_count": 2456,
     "release_date": "2005-02-06",
     "genres": [
       "애니메이션",
@@ -1633,7 +1632,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER001101XODY/american-dad",
-    "cached_at": "2026-09-26T15:13:17.823858+00:00"
+    "cached_at": "2026-09-27T15:13:36.901397+00:00"
   },
   "tv:1416": {
     "id": 1416,
@@ -1642,8 +1641,8 @@
     "original_title": "Grey's Anatomy",
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
-    "vote_average": 8.2,
-    "vote_count": 11060,
+    "vote_average": 8.205,
+    "vote_count": 11062,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1665,7 +1664,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-09-26T15:13:17.723359+00:00"
+    "cached_at": "2026-09-27T15:13:36.665241+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1945,8 +1944,8 @@
     "original_title": "Deadpool & Wolverine",
     "poster_path": "/dsfAcQ5J7TPOpJgcX8R1lRBqiMK.jpg",
     "backdrop_path": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
-    "vote_average": 7.589,
-    "vote_count": 9474,
+    "vote_average": 7.588,
+    "vote_count": 9507,
     "release_date": "2024-07-24",
     "genres": [
       "액션",
@@ -1972,7 +1971,7 @@
     ],
     "trailer_key": "NVDLUJa5dac",
     "homepage": "",
-    "cached_at": "2026-09-20T15:13:32.860262+00:00"
+    "cached_at": "2026-09-27T15:13:36.492959+00:00"
   },
   "tv:4057": {
     "id": 4057,
@@ -2004,7 +2003,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-09-26T15:13:17.867940+00:00"
+    "cached_at": "2026-09-27T15:13:36.821205+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
@@ -2013,8 +2012,8 @@
     "original_title": "Normal",
     "poster_path": "/A7TN0R78eenIf7hED3k96POTJMX.jpg",
     "backdrop_path": "/1YU6Hy3x7fUh7dfOzSfjifTp20g.jpg",
-    "vote_average": 7.272,
-    "vote_count": 591,
+    "vote_average": 7.26,
+    "vote_count": 607,
     "release_date": "2026-04-16",
     "genres": [
       "액션",
@@ -2040,7 +2039,7 @@
     ],
     "trailer_key": "1aC9sPT4Af8",
     "homepage": "",
-    "cached_at": "2026-09-20T15:13:33.428939+00:00"
+    "cached_at": "2026-09-27T15:13:37.056120+00:00"
   },
   "movie:602296": {
     "id": 602296,
@@ -2122,8 +2121,8 @@
     "original_title": "The Warriors",
     "poster_path": "/d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
     "backdrop_path": "/i4Fp0AJsqAzbeVQyCoG0adRRfdh.jpg",
-    "vote_average": 7.679,
-    "vote_count": 2479,
+    "vote_average": 7.68,
+    "vote_count": 2483,
     "release_date": "1979-02-01",
     "genres": [
       "액션",
@@ -2148,7 +2147,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-24T15:15:17.210039+00:00"
+    "cached_at": "2026-09-27T15:13:35.866715+00:00"
   },
   "movie:1233575": {
     "id": 1233575,
@@ -2193,8 +2192,8 @@
     "original_title": "Margaux",
     "poster_path": "/uNzgeMetu9l4q9NDw7gtiUFwPOJ.jpg",
     "backdrop_path": "/sCOHkah9RbFeZfFnfBrcykKCMNa.jpg",
-    "vote_average": 5.9,
-    "vote_count": 235,
+    "vote_average": 5.892,
+    "vote_count": 236,
     "release_date": "2022-09-09",
     "genres": [
       "공포",
@@ -2219,7 +2218,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-24T15:15:17.517944+00:00"
+    "cached_at": "2026-09-27T15:13:36.030204+00:00"
   },
   "movie:71868": {
     "id": 71868,
@@ -2247,7 +2246,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-24T15:15:17.800463+00:00"
+    "cached_at": "2026-09-27T15:13:36.209638+00:00"
   },
   "tv:39269": {
     "id": 39269,
@@ -2256,7 +2255,7 @@
     "original_title": "Scandal",
     "poster_path": "/4XmF8PMSqtHCGNoL15oHbjr5ZuO.jpg",
     "backdrop_path": "/hpvw89Vq6rYx1bzrE3zdnWBGLfS.jpg",
-    "vote_average": 7.196,
+    "vote_average": 7.199,
     "vote_count": 623,
     "release_date": "2012-04-05",
     "genres": [
@@ -2279,7 +2278,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-09-24T15:15:17.881204+00:00"
+    "cached_at": "2026-09-27T15:13:36.286195+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2361,7 +2360,7 @@
     "poster_path": "/ovgdkSfkIRsYbgS99GmuMsy03fF.jpg",
     "backdrop_path": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
     "vote_average": 8.1,
-    "vote_count": 6189,
+    "vote_count": 6194,
     "release_date": "2011-10-05",
     "genres": [
       "드라마",
@@ -2385,6 +2384,6 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/american-horror-story",
-    "cached_at": "2026-09-26T15:13:17.903236+00:00"
+    "cached_at": "2026-09-27T15:13:36.974696+00:00"
   }
 }
