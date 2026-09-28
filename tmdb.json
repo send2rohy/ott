@@ -42,7 +42,7 @@
     "original_title": "Vanishing Point",
     "poster_path": "/1ThnpFx2G2HPhecvODGFEQxfOpO.jpg",
     "backdrop_path": "/sYn05iS9AxV9rsjqBSHrI4azji1.jpg",
-    "vote_average": 7.088,
+    "vote_average": 7.1,
     "vote_count": 546,
     "release_date": "1971-01-15",
     "genres": [
@@ -70,7 +70,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-27T15:13:35.944838+00:00"
+    "cached_at": "2026-09-28T15:17:26.644716+00:00"
   },
   "movie:652": {
     "id": 652,
@@ -115,7 +115,7 @@
     "poster_path": "/hmWwoUXorZyyymGdmrX46lEIrnf.jpg",
     "backdrop_path": "/nl18gyzai02Tu99VkURu7kCFrR8.jpg",
     "vote_average": 5.81,
-    "vote_count": 4450,
+    "vote_count": 4451,
     "release_date": "2014-07-23",
     "genres": [
       "액션",
@@ -140,7 +140,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-27T15:13:36.116241+00:00"
+    "cached_at": "2026-09-28T15:17:26.811776+00:00"
   },
   "movie:729461": {
     "id": 729461,
@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-09-27T15:13:36.587986+00:00"
+    "cached_at": "2026-09-28T15:17:27.356558+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-09-27T15:13:37.142249+00:00"
+    "cached_at": "2026-09-28T15:17:27.849920+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.421,
-    "vote_count": 1195,
+    "vote_average": 8.42,
+    "vote_count": 1196,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-09-27T15:13:37.225498+00:00"
+    "cached_at": "2026-09-28T15:17:27.928701+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -932,7 +932,7 @@
     "original_title": "HBO First Look",
     "poster_path": "/1R6pR4X5usNA7rPbt9q7a96S6HK.jpg",
     "backdrop_path": null,
-    "vote_average": 5.538,
+    "vote_average": 5.5,
     "vote_count": 13,
     "release_date": "1992-06-12",
     "genres": [
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-27T15:13:37.341910+00:00"
+    "cached_at": "2026-09-28T15:17:28.047857+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-27T15:13:37.438102+00:00"
+    "cached_at": "2026-09-28T15:17:28.133861+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1583,8 +1583,8 @@
     "title": "패밀리 가이",
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
-    "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
-    "vote_average": 7.411,
+    "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
+    "vote_average": 7.4,
     "vote_count": 5125,
     "release_date": "1999-01-31",
     "genres": [
@@ -1604,7 +1604,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-09-27T15:13:36.742799+00:00"
+    "cached_at": "2026-09-28T15:17:27.441121+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1613,7 +1613,7 @@
     "original_title": "American Dad!",
     "poster_path": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
     "backdrop_path": "/iixxhk3ycXmFqBn616pAsC3lu53.jpg",
-    "vote_average": 7.022,
+    "vote_average": 7.0,
     "vote_count": 2456,
     "release_date": "2005-02-06",
     "genres": [
@@ -1632,7 +1632,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER001101XODY/american-dad",
-    "cached_at": "2026-09-27T15:13:36.901397+00:00"
+    "cached_at": "2026-09-28T15:17:27.689518+00:00"
   },
   "tv:1416": {
     "id": 1416,
@@ -1642,7 +1642,7 @@
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
     "vote_average": 8.205,
-    "vote_count": 11062,
+    "vote_count": 11063,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1664,7 +1664,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-09-27T15:13:36.665241+00:00"
+    "cached_at": "2026-09-28T15:17:27.526101+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1980,8 +1980,8 @@
     "original_title": "Criminal Minds",
     "poster_path": "/A5hvLZpYcpT2GFA3j8LtI6eINFr.jpg",
     "backdrop_path": "/tUtXfyVy54BY7eJnRtI8Xnmr1ZL.jpg",
-    "vote_average": 8.295,
-    "vote_count": 4177,
+    "vote_average": 8.3,
+    "vote_count": 4178,
     "release_date": "2005-09-22",
     "genres": [
       "범죄",
@@ -2003,7 +2003,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-09-27T15:13:36.821205+00:00"
+    "cached_at": "2026-09-28T15:17:27.609182+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
@@ -2049,7 +2049,7 @@
     "poster_path": "/8xWV5umarehP0WvfZr9rmFE9wSl.jpg",
     "backdrop_path": "/t7d0ybowQgeLGPppePJHlwRGcxn.jpg",
     "vote_average": 7.7,
-    "vote_count": 110,
+    "vote_count": 111,
     "release_date": "2020-06-10",
     "genres": [
       "범죄",
@@ -2074,7 +2074,7 @@
     ],
     "trailer_key": "EKmQHauIeJo",
     "homepage": "",
-    "cached_at": "2026-09-21T15:13:15.586909+00:00"
+    "cached_at": "2026-09-28T15:17:27.768304+00:00"
   },
   "movie:150540": {
     "id": 150540,
@@ -2147,7 +2147,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-27T15:13:35.866715+00:00"
+    "cached_at": "2026-09-28T15:17:26.547487+00:00"
   },
   "movie:1233575": {
     "id": 1233575,
@@ -2192,7 +2192,7 @@
     "original_title": "Margaux",
     "poster_path": "/uNzgeMetu9l4q9NDw7gtiUFwPOJ.jpg",
     "backdrop_path": "/sCOHkah9RbFeZfFnfBrcykKCMNa.jpg",
-    "vote_average": 5.892,
+    "vote_average": 5.9,
     "vote_count": 236,
     "release_date": "2022-09-09",
     "genres": [
@@ -2218,7 +2218,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-27T15:13:36.030204+00:00"
+    "cached_at": "2026-09-28T15:17:26.724927+00:00"
   },
   "movie:71868": {
     "id": 71868,
@@ -2246,7 +2246,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-27T15:13:36.209638+00:00"
+    "cached_at": "2026-09-28T15:17:26.909131+00:00"
   },
   "tv:39269": {
     "id": 39269,
@@ -2255,7 +2255,7 @@
     "original_title": "Scandal",
     "poster_path": "/4XmF8PMSqtHCGNoL15oHbjr5ZuO.jpg",
     "backdrop_path": "/hpvw89Vq6rYx1bzrE3zdnWBGLfS.jpg",
-    "vote_average": 7.199,
+    "vote_average": 7.2,
     "vote_count": 623,
     "release_date": "2012-04-05",
     "genres": [
@@ -2278,7 +2278,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-09-27T15:13:36.286195+00:00"
+    "cached_at": "2026-09-28T15:17:26.990665+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2385,5 +2385,75 @@
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/american-horror-story",
     "cached_at": "2026-09-27T15:13:36.974696+00:00"
+  },
+  "movie:1327819": {
+    "id": 1327819,
+    "media_type": "movie",
+    "title": "호퍼스",
+    "original_title": "Hoppers",
+    "poster_path": "/vJu9THzQ26Q5sWOVnhOkuRH5M1P.jpg",
+    "backdrop_path": "/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+    "vote_average": 8.148,
+    "vote_count": 2376,
+    "release_date": "2026-03-04",
+    "genres": [
+      "모험",
+      "애니메이션",
+      "코미디",
+      "가족",
+      "SF"
+    ],
+    "runtime": 104,
+    "overview": "오랜 연구 끝에 개발한 ‘호핑’ 기술로 동물 세계에 가까이 갈 수 있음을 알게 된 주인공 ‘메이블’은 마치 ‘아바타’ 같다며 신기해하고, 직접 로봇 비버가 되어 동물들의 세계에 잠입한다. 그들의 말을 알아듣게 된 ‘메이블’은 진짜 동물이 된 것처럼 동물 세상을 경험하는 가운데, 연못에 있던 다른 비버에게 달려드는 곰을 막아서지만 그들에겐 그들만의 질서와 법칙이 있다는 사실을 알게 된다. ‘호핑‘ 기술을 개발한 박사는 이 기술을 자연계 질서를 어지럽히는 데 쓰면 안 된다고 경고하지만, ‘메이블’은 통신을 끊어버려 이후 예측불가의 모험이 펼쳐질 것을 예고한다.",
+    "director": [
+      "다니엘 총"
+    ],
+    "cast": [
+      "파이퍼 쿠르다",
+      "바비 모니한",
+      "존 햄",
+      "캐시 나지미",
+      "데이브 프랭코",
+      "에두아르도 프랑코",
+      "아파르나 난첼라",
+      "Tom Law",
+      "샘 리차드슨",
+      "멜리사 비야세뇨르"
+    ],
+    "trailer_key": "qNIYD3yzG-U",
+    "homepage": "",
+    "cached_at": "2026-09-28T15:17:27.164549+00:00"
+  },
+  "tv:316197": {
+    "id": 316197,
+    "media_type": "tv",
+    "title": "너에게 다이브",
+    "original_title": "너에게 다이브",
+    "poster_path": "/hLBNb9tUcYnJ879XKxJD68Ort2y.jpg",
+    "backdrop_path": "/jseW3HucgNjN2CwJa3MiOlF4xMO.jpg",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "release_date": "2026-09-26",
+    "genres": [
+      "코미디",
+      "드라마",
+      "Sci-Fi & Fantasy"
+    ],
+    "runtime": null,
+    "overview": "톱배우 윤하나는 자신을 지키다 세상을 떠난 첫사랑이자 경호원 정우재를 살리기 위해 추억이 담긴 캠코더를 들고 과거로 시간여행을 시작한다. 하지만 과거로 돌아갈 때마다 유도선수인 쌍둥이 오빠 윤하루와 몸과 영혼이 뒤바뀌는 뜻밖의 시련을 겪는다.",
+    "director": [],
+    "cast": [
+      "보나",
+      "박서함",
+      "장세혁",
+      "문승유",
+      "하도권",
+      "박미현",
+      "김한영",
+      "강형석"
+    ],
+    "trailer_key": "WXfB28CNU9c",
+    "homepage": "https://ichannela.com/program/detail/program_detail_renew.do?cateCode=0502340000",
+    "cached_at": "2026-09-28T15:17:27.245895+00:00"
   }
 }
