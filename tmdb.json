@@ -42,8 +42,8 @@
     "original_title": "Vanishing Point",
     "poster_path": "/1ThnpFx2G2HPhecvODGFEQxfOpO.jpg",
     "backdrop_path": "/sYn05iS9AxV9rsjqBSHrI4azji1.jpg",
-    "vote_average": 7.1,
-    "vote_count": 546,
+    "vote_average": 7.091,
+    "vote_count": 547,
     "release_date": "1971-01-15",
     "genres": [
       "액션",
@@ -70,7 +70,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-28T15:17:26.644716+00:00"
+    "cached_at": "2026-09-29T15:17:26.538382+00:00"
   },
   "movie:652": {
     "id": 652,
@@ -115,7 +115,7 @@
     "poster_path": "/hmWwoUXorZyyymGdmrX46lEIrnf.jpg",
     "backdrop_path": "/nl18gyzai02Tu99VkURu7kCFrR8.jpg",
     "vote_average": 5.81,
-    "vote_count": 4451,
+    "vote_count": 4453,
     "release_date": "2014-07-23",
     "genres": [
       "액션",
@@ -140,7 +140,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-28T15:17:26.811776+00:00"
+    "cached_at": "2026-09-29T15:17:26.749316+00:00"
   },
   "movie:729461": {
     "id": 729461,
@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-09-28T15:17:27.356558+00:00"
+    "cached_at": "2026-09-29T15:17:27.616480+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -571,8 +571,8 @@
     "original_title": "조각도시",
     "poster_path": "/pwin3qnVXs9tD3nU5hkl70wO1dx.jpg",
     "backdrop_path": "/ngP3rIU1KY7ek0r6hSJFnVsrh9g.jpg",
-    "vote_average": 8.384,
-    "vote_count": 145,
+    "vote_average": 8.404,
+    "vote_count": 151,
     "release_date": "2025-11-05",
     "genres": [
       "범죄",
@@ -580,22 +580,20 @@
     ],
     "runtime": 50,
     "overview": "평범하게 살아가던 한 남자가 어느 날 갑자기 삶이 송두리째 조작돼 나락에 떨어지자 지옥에서 돌아와 벌이는 핏빛 복수극",
-    "director": [
-      "오상호"
-    ],
+    "director": [],
     "cast": [
       "지창욱",
       "도경수",
       "이광수",
       "조윤수",
+      "정헌",
       "김종수",
       "양동근",
       "이종현"
     ],
     "trailer_key": "Euq5LsZUuWg",
     "homepage": "https://www.disneyplus.com/browse/entity-22e8ccc0-dae8-4171-89ff-342c004e66de",
-    "ranking_original_title": "조각도시",
-    "cached_at": "2026-09-16T01:55:46.450639+00:00"
+    "cached_at": "2026-09-29T15:17:27.818564+00:00"
   },
   "movie:1266127": {
     "id": 1266127,
@@ -869,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-09-28T15:17:27.849920+00:00"
+    "cached_at": "2026-09-29T15:17:28.253176+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +904,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.42,
-    "vote_count": 1196,
+    "vote_average": 8.423,
+    "vote_count": 1198,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-09-28T15:17:27.928701+00:00"
+    "cached_at": "2026-09-29T15:17:28.405580+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-28T15:17:28.047857+00:00"
+    "cached_at": "2026-09-29T15:17:28.518439+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-28T15:17:28.133861+00:00"
+    "cached_at": "2026-09-29T15:17:28.650168+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1604,7 +1602,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-09-28T15:17:27.441121+00:00"
+    "cached_at": "2026-09-29T15:17:27.919258+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1641,8 +1639,8 @@
     "original_title": "Grey's Anatomy",
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
-    "vote_average": 8.205,
-    "vote_count": 11063,
+    "vote_average": 8.2,
+    "vote_count": 11064,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1664,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-09-28T15:17:27.526101+00:00"
+    "cached_at": "2026-09-29T15:17:28.031191+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2083,8 +2081,8 @@
     "original_title": "Inside Out",
     "poster_path": "/rMXHvHzpuYZXrJUhRVJ3TvDSwe5.jpg",
     "backdrop_path": "/jJKZaTBNenlFclQyjrnvzkRmvWE.jpg",
-    "vote_average": 7.906,
-    "vote_count": 23907,
+    "vote_average": 7.905,
+    "vote_count": 23940,
     "release_date": "2015-06-17",
     "genres": [
       "애니메이션",
@@ -2112,7 +2110,7 @@
     ],
     "trailer_key": "1KGZtWbZtq8",
     "homepage": "",
-    "cached_at": "2026-09-22T15:14:05.607758+00:00"
+    "cached_at": "2026-09-29T15:17:27.240533+00:00"
   },
   "movie:11474": {
     "id": 11474,
@@ -2122,7 +2120,7 @@
     "poster_path": "/d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
     "backdrop_path": "/i4Fp0AJsqAzbeVQyCoG0adRRfdh.jpg",
     "vote_average": 7.68,
-    "vote_count": 2483,
+    "vote_count": 2485,
     "release_date": "1979-02-01",
     "genres": [
       "액션",
@@ -2147,7 +2145,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-28T15:17:26.547487+00:00"
+    "cached_at": "2026-09-29T15:17:26.427140+00:00"
   },
   "movie:1233575": {
     "id": 1233575,
@@ -2192,8 +2190,8 @@
     "original_title": "Margaux",
     "poster_path": "/uNzgeMetu9l4q9NDw7gtiUFwPOJ.jpg",
     "backdrop_path": "/sCOHkah9RbFeZfFnfBrcykKCMNa.jpg",
-    "vote_average": 5.9,
-    "vote_count": 236,
+    "vote_average": 5.892,
+    "vote_count": 237,
     "release_date": "2022-09-09",
     "genres": [
       "공포",
@@ -2218,7 +2216,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-28T15:17:26.724927+00:00"
+    "cached_at": "2026-09-29T15:17:26.648318+00:00"
   },
   "movie:71868": {
     "id": 71868,
@@ -2246,7 +2244,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-28T15:17:26.909131+00:00"
+    "cached_at": "2026-09-29T15:17:26.855484+00:00"
   },
   "tv:39269": {
     "id": 39269,
@@ -2278,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-09-28T15:17:26.990665+00:00"
+    "cached_at": "2026-09-29T15:17:26.956410+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2455,5 +2453,99 @@
     "trailer_key": "WXfB28CNU9c",
     "homepage": "https://ichannela.com/program/detail/program_detail_renew.do?cateCode=0502340000",
     "cached_at": "2026-09-28T15:17:27.245895+00:00"
+  },
+  "movie:126889": {
+    "id": 126889,
+    "media_type": "movie",
+    "title": "에이리언: 커버넌트",
+    "original_title": "Alien: Covenant",
+    "poster_path": "/qTiZhRh4y152Gj5jvEXMPmQZ71m.jpg",
+    "backdrop_path": "/iXXPaQPfQowpQ5UvhsHLj9BgFhe.jpg",
+    "vote_average": 6.189,
+    "vote_count": 9699,
+    "release_date": "2017-05-09",
+    "genres": [
+      "공포",
+      "SF"
+    ],
+    "runtime": 122,
+    "overview": "2천명의 승객과 12명의 승무원을 실은 커버넌트호는 새로운 행성의 개척과 이주를 위해 항해 중이다. 인공지능 로봇 월터가 홀로 깨어 승무원들의 건강을 관리하던 중 예기치 못한 사고로 선장이 사망하고 승무원들이 깨어난다. 이들은 커버넌트호를 정비하던 중 인근의 행성으로부터 알 수 없는 신호를 감지한다. 여행에 지친 승무원들은 다니엘스의 반대에도 불구하고 행성을 탐사하기로 결정한다. 이들은 정체불명의 생명체에 감염되어 위기에 빠지지만 10년 전 사라졌던 프로메테우스호의 인공지능 로봇 데이비드의 도움을 받아 상황을 모면하는데...",
+    "director": [
+      "리들리 스콧"
+    ],
+    "cast": [
+      "마이클 패스벤더",
+      "캐서린 워터스톤",
+      "빌리 크루덥",
+      "대니 맥브라이드",
+      "데미안 비치르",
+      "카먼 이조고",
+      "Jussie Smollett",
+      "칼리 헤르난데스",
+      "Amy Seimetz",
+      "Nathaniel Dean"
+    ],
+    "trailer_key": "4U1viI928DM",
+    "homepage": "",
+    "cached_at": "2026-09-29T15:17:27.514785+00:00"
+  },
+  "tv:336181": {
+    "id": 336181,
+    "media_type": "tv",
+    "title": "디스이즈 현무로드",
+    "original_title": "디스이즈 현무로드",
+    "poster_path": "/904ugLoQib2bzEcD3jhRUwr1BfC.jpg",
+    "backdrop_path": "/zQQp0BtVRV9TieEffVFCFPi312z.jpg",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "release_date": "2026-09-20",
+    "genres": [
+      "Reality"
+    ],
+    "runtime": null,
+    "overview": "정해진 길은 없지만 기준은 분명하다. 전현무와 이준이 마음 가는 대로 발걸음을 옮기며 현지인만 아는 골목과 맛집을 찾아 나선다. 눈앞의 풍경에 멈추고 우연히 만난 사람의 한마디에 방향을 트는 두 사람. 불확실한 선택이 뜻밖의 만남과 새로운 여정으로 이어지는 예측불가 로드 트립이 시작된다.",
+    "director": [],
+    "cast": [
+      "전현무",
+      "이준"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.mbn.co.kr/vod/programMain/1039",
+    "cached_at": "2026-09-29T15:17:27.719464+00:00"
+  },
+  "movie:1315303": {
+    "id": 1315303,
+    "media_type": "movie",
+    "title": "프라이메이트",
+    "original_title": "Primate",
+    "poster_path": "/4Q5IClJJyKUHKNLywQaqwcK00OF.jpg",
+    "backdrop_path": "/d5C5Wsx4fnMRA0tj9BK1kTPcgQe.jpg",
+    "vote_average": 6.5,
+    "vote_count": 910,
+    "release_date": "2026-01-01",
+    "genres": [
+      "공포",
+      "스릴러"
+    ],
+    "runtime": 89,
+    "overview": "광견병에 걸린 침팬지 '벤'에게서 벗어나 생존하려는 주인공 '루시'와 친구들의 이야기를 그린 공포 영화",
+    "director": [
+      "Johannes Roberts"
+    ],
+    "cast": [
+      "쟈니 시쿼야",
+      "제시카 알렉산더",
+      "트로이 코처",
+      "빅토리아 와이언트",
+      "지아 헌터",
+      "벤자민 쳉",
+      "찰리 만",
+      "티엔느 사이먼",
+      "미겔 토레스 움바",
+      "Amina Abdi"
+    ],
+    "trailer_key": "9fd7tiNoFEo",
+    "homepage": "",
+    "cached_at": "2026-09-29T15:17:28.128394+00:00"
   }
 }
