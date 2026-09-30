@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-09-29T15:17:27.616480+00:00"
+    "cached_at": "2026-09-30T15:19:22.078373+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-09-29T15:17:28.253176+00:00"
+    "cached_at": "2026-09-30T15:19:22.498808+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -904,7 +904,7 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.423,
+    "vote_average": 8.4,
     "vote_count": 1198,
     "release_date": "2026-01-18",
     "genres": [
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-09-29T15:17:28.405580+00:00"
+    "cached_at": "2026-09-30T15:19:22.604170+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-29T15:17:28.518439+00:00"
+    "cached_at": "2026-09-30T15:19:22.714148+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-29T15:17:28.650168+00:00"
+    "cached_at": "2026-09-30T15:19:22.830004+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1602,7 +1602,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-09-29T15:17:27.919258+00:00"
+    "cached_at": "2026-09-30T15:19:22.392604+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1639,8 +1639,8 @@
     "original_title": "Grey's Anatomy",
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
-    "vote_average": 8.2,
-    "vote_count": 11064,
+    "vote_average": 8.205,
+    "vote_count": 11065,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1662,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-09-29T15:17:28.031191+00:00"
+    "cached_at": "2026-09-30T15:19:22.290320+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2119,8 +2119,8 @@
     "original_title": "The Warriors",
     "poster_path": "/d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
     "backdrop_path": "/i4Fp0AJsqAzbeVQyCoG0adRRfdh.jpg",
-    "vote_average": 7.68,
-    "vote_count": 2485,
+    "vote_average": 7.681,
+    "vote_count": 2486,
     "release_date": "1979-02-01",
     "genres": [
       "액션",
@@ -2145,7 +2145,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-09-29T15:17:26.427140+00:00"
+    "cached_at": "2026-09-30T15:19:21.550907+00:00"
   },
   "movie:1233575": {
     "id": 1233575,
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-09-29T15:17:26.956410+00:00"
+    "cached_at": "2026-09-30T15:19:21.802010+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2511,7 +2511,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.mbn.co.kr/vod/programMain/1039",
-    "cached_at": "2026-09-29T15:17:27.719464+00:00"
+    "cached_at": "2026-09-30T15:19:22.182453+00:00"
   },
   "movie:1315303": {
     "id": 1315303,
@@ -2547,5 +2547,107 @@
     "trailer_key": "9fd7tiNoFEo",
     "homepage": "",
     "cached_at": "2026-09-29T15:17:28.128394+00:00"
+  },
+  "movie:1492640": {
+    "id": 1492640,
+    "media_type": "movie",
+    "title": "유나바머: 비밀 실험",
+    "original_title": "UNABOMBER",
+    "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
+    "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
+    "vote_average": 6.776,
+    "vote_count": 210,
+    "release_date": "2026-09-25",
+    "genres": [
+      "스릴러",
+      "드라마",
+      "범죄"
+    ],
+    "runtime": 101,
+    "overview": "실화를 바탕으로 한 드라마. 어린 나이에 하버드에 입학한 천재이자 심리 실험에 참여했던 테드 카진스키가 폭탄 테러범 유나바머가 되기까지의 과정과 그를 추적하는 FBI의 수사가 펼쳐진다. 실화를 바탕으로 한 《유나바머: 비밀 실험》은 16세에 하버드에 입학한 천재 테드 카진스키(제이컵 트람블레이)가 악명 높은 폭탄 테러범 유나바머로 변해 가는 과정을 그린다. 헨리 머리 교수(러셀 크로)의 논란 많은 심리 실험 대상이 된 카진스키. 수십 년 후 FBI 요원 조앤 밀러(셰일린 우들리)가 이끄는 추적 수사가 시작되면서 그의 어두운 과거가 다시 수면 위로 떠오르고, 야망과 고립이 낳은 섬뜩한 결과가 밝혀진다.",
+    "director": [
+      "야누스 메츠"
+    ],
+    "cast": [
+      "러셀 크로우",
+      "제이컵 트람블레이",
+      "쉐일린 우들리",
+      "애너벨 월리스",
+      "알렉산더 루드위그",
+      "마크 멘차카",
+      "Steven Ogg",
+      "Mark Camacho",
+      "David Webster",
+      "Bruce Ramsay"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.netflix.com/kr/title/82010386",
+    "cached_at": "2026-09-30T15:19:21.448454+00:00"
+  },
+  "movie:10323": {
+    "id": 10323,
+    "media_type": "movie",
+    "title": "타이탄족의 멸망",
+    "original_title": "Clash of the Titans",
+    "poster_path": "/5JCLODNLJH6alc3KmyoiC21Nlob.jpg",
+    "backdrop_path": "/rX42FtLbTQC0936u12pYNeuRGyF.jpg",
+    "vote_average": 6.93,
+    "vote_count": 898,
+    "release_date": "1981-06-12",
+    "genres": [
+      "모험",
+      "판타지",
+      "액션"
+    ],
+    "runtime": 118,
+    "overview": "아르고스 왕, 아크리우스는 제우스신의 아들을 낳은 자기 딸과 페르세우스를 바다에다 내다 버린다. 이에 화가 난 제우스는 그와 그 왕국을 파괴해버리고 그 모자를 안전한 곳으로 보내 행복하게 살게 한다. 한편, 바다의 여신 테티스는 자신의 아들 캘러보스가 제우스의 미움을 사 그 벌로 흉측한 모습이 되자, 분노하고 그 분노의 화살은 페르세우스에게로 향한다. 테티스에 의해 낯선 땅 조파 시에 오게 된 페르세우스는 아몬이라는 노인을 만나게 되고 그 왕국의 공주인 안드로메다를 보고 첫 눈에 반해 버린다.",
+    "director": [
+      "Desmond Davis"
+    ],
+    "cast": [
+      "해리 햄린",
+      "Judi Bowker",
+      "버지스 메러디스",
+      "매기 스미스",
+      "우르줄라 안드레스",
+      "Claire Bloom",
+      "시안 필립스",
+      "Flora Robson",
+      "로렌스 올리비에",
+      "Tim Pigott-Smith"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-09-30T15:19:21.664903+00:00"
+  },
+  "tv:299939": {
+    "id": 299939,
+    "media_type": "tv",
+    "title": "괴물: 리지 보든 이야기",
+    "original_title": "Monster: The Lizzie Borden Story",
+    "poster_path": "/Gubvg67ciTEsuMOC2Mwlas0iJU.jpg",
+    "backdrop_path": "/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
+    "vote_average": 7.057,
+    "vote_count": 132,
+    "release_date": "2026-09-17",
+    "genres": [
+      "드라마",
+      "범죄"
+    ],
+    "runtime": null,
+    "overview": "빅토리아 시대, 모진 가정 환경 속에 갇혀 자란 리지 보든. 결국, 도끼로 부모를 잔혹하게 살해해 미국 전역을 충격에 빠뜨린다.",
+    "director": [],
+    "cast": [
+      "엘라 비티",
+      "비키 크립스",
+      "사라 폴슨",
+      "찰리 허냄",
+      "레베카 홀",
+      "빌리 루드",
+      "제시카 바든"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.netflix.com/title/82068293",
+    "cached_at": "2026-09-30T15:19:21.952219+00:00"
   }
 }
