@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "items": [
     {
       "rank": 1,
@@ -12,8 +12,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -26,8 +26,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -40,8 +40,8 @@
       "tmdb_id": 1233575,
       "tmdb_title": "블랙 백",
       "tmdb_original_title": "Black Bag",
-      "previous_rank": 2,
-      "change": -1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -54,8 +54,8 @@
       "tmdb_id": 1290821,
       "tmdb_title": "쉘터",
       "tmdb_original_title": "Shelter",
-      "previous_rank": 6,
-      "change": 2
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -68,8 +68,8 @@
       "tmdb_id": 577922,
       "tmdb_title": "테넷",
       "tmdb_original_title": "Tenet",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -82,8 +82,8 @@
       "tmdb_id": 1492640,
       "tmdb_title": "유나바머: 비밀 실험",
       "tmdb_original_title": "UNABOMBER",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -96,8 +96,8 @@
       "tmdb_id": 652,
       "tmdb_title": "트로이",
       "tmdb_original_title": "Troy",
-      "previous_rank": 3,
-      "change": -4
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -110,8 +110,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 10,
-      "change": 2
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -124,8 +124,8 @@
       "tmdb_id": 11474,
       "tmdb_title": "워리어",
       "tmdb_original_title": "The Warriors",
-      "previous_rank": 1,
-      "change": -8
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -138,8 +138,8 @@
       "tmdb_id": 10323,
       "tmdb_title": "타이탄족의 멸망",
       "tmdb_original_title": "Clash of the Titans",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -152,8 +152,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -166,8 +166,8 @@
       "tmdb_id": 39269,
       "tmdb_title": "스캔들",
       "tmdb_original_title": "Scandal",
-      "previous_rank": 1,
-      "change": -1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -180,8 +180,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 2,
-      "change": -1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -194,8 +194,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -208,8 +208,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -222,8 +222,8 @@
       "tmdb_id": 299939,
       "tmdb_title": "괴물: 리지 보든 이야기",
       "tmdb_original_title": "Monster: The Lizzie Borden Story",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -250,8 +250,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 9,
-      "change": 1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -264,8 +264,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 5,
-      "change": -4
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -278,8 +278,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 1,
+      "change": -9
     },
     {
       "rank": 1,
@@ -293,8 +293,8 @@
       "tmdb_title": "토이 스토리 5",
       "tmdb_original_title": "Toy Story 5",
       "source": "top10",
-      "previous_rank": 2,
-      "change": 1
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -308,8 +308,8 @@
       "tmdb_title": "어벤져스: 엔드게임",
       "tmdb_original_title": "Avengers: Endgame",
       "source": "top10",
-      "previous_rank": 1,
-      "change": -1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -328,21 +328,6 @@
     },
     {
       "rank": 4,
-      "title": "아바타: 불과 재",
-      "original_title": "아바타: 불과 재",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 83533,
-      "tmdb_title": "아바타: 불과 재",
-      "tmdb_original_title": "Avatar: Fire and Ash",
-      "source": "tmdb_popular",
-      "previous_rank": 4,
-      "change": 0
-    },
-    {
-      "rank": 5,
       "title": "주토피아 2",
       "original_title": "주토피아 2",
       "season_title": "",
@@ -354,25 +339,25 @@
       "tmdb_original_title": "Zootopia 2",
       "source": "tmdb_popular",
       "previous_rank": 5,
-      "change": 0
+      "change": 1
     },
     {
-      "rank": 6,
-      "title": "만달로리안과 그로구",
-      "original_title": "만달로리안과 그로구",
+      "rank": 5,
+      "title": "아바타: 불과 재",
+      "original_title": "아바타: 불과 재",
       "season_title": "",
       "platform": "Disney+",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 1228710,
-      "tmdb_title": "만달로리안과 그로구",
-      "tmdb_original_title": "The Mandalorian and Grogu",
+      "tmdb_id": 83533,
+      "tmdb_title": "아바타: 불과 재",
+      "tmdb_original_title": "Avatar: Fire and Ash",
       "source": "tmdb_popular",
-      "previous_rank": 6,
-      "change": 0
+      "previous_rank": 4,
+      "change": -1
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "어벤져스",
       "original_title": "어벤져스",
       "season_title": "",
@@ -384,7 +369,22 @@
       "tmdb_original_title": "The Avengers",
       "source": "tmdb_popular",
       "previous_rank": 7,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 7,
+      "title": "만달로리안과 그로구",
+      "original_title": "만달로리안과 그로구",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1228710,
+      "tmdb_title": "만달로리안과 그로구",
+      "tmdb_original_title": "The Mandalorian and Grogu",
+      "source": "tmdb_popular",
+      "previous_rank": 6,
+      "change": -1
     },
     {
       "rank": 8,
@@ -448,36 +448,21 @@
     },
     {
       "rank": 2,
-      "title": "연애전쟁",
-      "original_title": "연애전쟁",
+      "title": "술래게임",
+      "original_title": "술래게임",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 325114,
-      "tmdb_title": "연애전쟁",
-      "tmdb_original_title": "연애전쟁",
+      "tmdb_id": 330932,
+      "tmdb_title": "술래게임",
+      "tmdb_original_title": "술래게임",
       "source": "top10",
-      "previous_rank": 5,
-      "change": 3
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 3,
-      "title": "너에게 다이브",
-      "original_title": "너에게 다이브",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 316197,
-      "tmdb_title": "너에게 다이브",
-      "tmdb_original_title": "너에게 다이브",
-      "source": "top10",
-      "previous_rank": 2,
-      "change": -1
-    },
-    {
-      "rank": 4,
       "title": "재벌X형사",
       "original_title": "재벌 x 형사",
       "season_title": "",
@@ -488,8 +473,23 @@
       "tmdb_title": "재벌X형사",
       "tmdb_original_title": "재벌X형사",
       "source": "top10",
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 4,
+      "change": 1
+    },
+    {
+      "rank": 4,
+      "title": "연애전쟁",
+      "original_title": "연애전쟁",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 325114,
+      "tmdb_title": "연애전쟁",
+      "tmdb_original_title": "연애전쟁",
+      "source": "top10",
+      "previous_rank": 2,
+      "change": -2
     },
     {
       "rank": 5,
@@ -503,23 +503,23 @@
       "tmdb_title": "킬러들의 쇼핑몰",
       "tmdb_original_title": "킬러들의 쇼핑몰",
       "source": "top10",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
-      "title": "디스이즈 현무로드",
-      "original_title": "디스이즈 현무로드",
+      "title": "너에게 다이브",
+      "original_title": "너에게 다이브",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 336181,
-      "tmdb_title": "디스이즈 현무로드",
-      "tmdb_original_title": "디스이즈 현무로드",
+      "tmdb_id": 316197,
+      "tmdb_title": "너에게 다이브",
+      "tmdb_original_title": "너에게 다이브",
       "source": "top10",
-      "previous_rank": 6,
-      "change": 0
+      "previous_rank": 3,
+      "change": -3
     },
     {
       "rank": 7,
@@ -563,8 +563,8 @@
       "tmdb_title": "그레이 아나토미",
       "tmdb_original_title": "Grey's Anatomy",
       "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -578,8 +578,8 @@
       "tmdb_title": "패밀리 가이",
       "tmdb_original_title": "Family Guy",
       "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": -1
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -681,6 +681,20 @@
     },
     {
       "rank": 8,
+      "title": "프라이메이트",
+      "original_title": "프라이메이트",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1315303,
+      "tmdb_title": "프라이메이트",
+      "tmdb_original_title": "Primate",
+      "previous_rank": 9,
+      "change": 1
+    },
+    {
+      "rank": 9,
       "title": "결백",
       "original_title": "결백",
       "season_title": "",
@@ -691,21 +705,7 @@
       "tmdb_title": "결백",
       "tmdb_original_title": "결백",
       "previous_rank": 8,
-      "change": 0
-    },
-    {
-      "rank": 9,
-      "title": "프라이메이트",
-      "original_title": "프라이메이트",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1315303,
-      "tmdb_title": "프라이메이트",
-      "tmdb_original_title": "Primate",
-      "previous_rank": 10,
-      "change": 1
+      "change": -1
     },
     {
       "rank": 10,
@@ -718,8 +718,8 @@
       "tmdb_id": 671,
       "tmdb_title": "해리 포터와 마법사의 돌",
       "tmdb_original_title": "Harry Potter and the Philosopher's Stone",
-      "previous_rank": 9,
-      "change": -1
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
