@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-01T23:19:54.945380+00:00"
+    "cached_at": "2026-10-02T15:17:07.360759+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-01T23:19:56.608205+00:00"
+    "cached_at": "2026-10-02T15:17:07.912449+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -904,8 +904,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.424,
-    "vote_count": 1199,
+    "vote_average": 8.423,
+    "vote_count": 1200,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-01T23:19:56.697086+00:00"
+    "cached_at": "2026-10-02T15:17:08.020665+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-01T23:19:56.786581+00:00"
+    "cached_at": "2026-10-02T15:17:08.168592+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-01T23:19:56.882909+00:00"
+    "cached_at": "2026-10-02T15:17:08.285207+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1581,7 +1581,7 @@
     "title": "패밀리 가이",
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
-    "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
+    "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
     "vote_average": 7.411,
     "vote_count": 5125,
     "release_date": "1999-01-31",
@@ -1602,7 +1602,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-10-01T23:19:55.277018+00:00"
+    "cached_at": "2026-10-02T15:17:07.570368+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1662,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-01T23:19:55.195169+00:00"
+    "cached_at": "2026-10-02T15:17:07.463267+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1838,8 +1838,8 @@
     "original_title": "Tenet",
     "poster_path": "/i91wnVqkJf5ykDJq0XmIusvPFL3.jpg",
     "backdrop_path": "/mQOUyqDybTqxl73hO5LujCZsM1o.jpg",
-    "vote_average": 7.171,
-    "vote_count": 11548,
+    "vote_average": 7.172,
+    "vote_count": 11579,
     "release_date": "2020-08-22",
     "genres": [
       "액션",
@@ -1865,7 +1865,7 @@
     ],
     "trailer_key": "7oKAPbnl7mQ",
     "homepage": "",
-    "cached_at": "2026-09-25T15:15:46.632760+00:00"
+    "cached_at": "2026-10-02T15:17:06.531351+00:00"
   },
   "tv:314939": {
     "id": 314939,
@@ -1898,7 +1898,7 @@
     ],
     "trailer_key": "nQWv70PTHFM",
     "homepage": "https://program.kbs.co.kr/2tv/drama/loveotherthanyours",
-    "cached_at": "2026-09-25T15:15:46.673575+00:00"
+    "cached_at": "2026-10-02T15:17:07.780970+00:00"
   },
   "movie:714650": {
     "id": 714650,
@@ -2145,7 +2145,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-01T23:19:53.413151+00:00"
+    "cached_at": "2026-10-02T15:17:06.771518+00:00"
   },
   "movie:1233575": {
     "id": 1233575,
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-10-01T23:19:53.630082+00:00"
+    "cached_at": "2026-10-02T15:17:07.015642+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2555,8 +2555,8 @@
     "original_title": "UNABOMBER",
     "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
     "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-    "vote_average": 6.707,
-    "vote_count": 241,
+    "vote_average": 6.686,
+    "vote_count": 258,
     "release_date": "2026-09-25",
     "genres": [
       "스릴러",
@@ -2582,7 +2582,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82010386",
-    "cached_at": "2026-10-01T23:19:53.194800+00:00"
+    "cached_at": "2026-10-02T15:17:06.658976+00:00"
   },
   "movie:10323": {
     "id": 10323,
@@ -2618,7 +2618,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-01T23:19:53.529083+00:00"
+    "cached_at": "2026-10-02T15:17:06.913717+00:00"
   },
   "tv:299939": {
     "id": 299939,
@@ -2627,8 +2627,8 @@
     "original_title": "Monster: The Lizzie Borden Story",
     "poster_path": "/Gubvg67ciTEsuMOC2Mwlas0iJU.jpg",
     "backdrop_path": "/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
-    "vote_average": 7.062,
-    "vote_count": 137,
+    "vote_average": 7.076,
+    "vote_count": 144,
     "release_date": "2026-09-17",
     "genres": [
       "드라마",
@@ -2648,7 +2648,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/82068293",
-    "cached_at": "2026-10-01T23:19:53.730282+00:00"
+    "cached_at": "2026-10-02T15:17:07.121989+00:00"
   },
   "tv:330932": {
     "id": 330932,
@@ -2681,5 +2681,77 @@
     "trailer_key": "xP-E5CC8SkI",
     "homepage": "https://www.disneyplus.com/browse/entity-246585f6-2139-40a3-b7aa-f97abf656589",
     "cached_at": "2026-10-01T23:19:54.770639+00:00"
+  },
+  "movie:10138": {
+    "id": 10138,
+    "media_type": "movie",
+    "title": "아이언맨 2",
+    "original_title": "Iron Man 2",
+    "poster_path": "/ebJbC9OYAZJxy7bRUGryR72hfa2.jpg",
+    "backdrop_path": "/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg",
+    "vote_average": 6.9,
+    "vote_count": 22977,
+    "release_date": "2010-04-28",
+    "genres": [
+      "모험",
+      "액션",
+      "SF"
+    ],
+    "runtime": 125,
+    "overview": "세계 최강의 무기업체를 이끄는 CEO이자, 타고난 매력으로 화려한 삶을 살아가던 토니 스타크. 기자회견을 통해 자신이 아이언맨이라고 정체를 밝힌 이후, 정부로부터 아이언맨 수트를 국가에 귀속시키라는 압박을 받지만 이를 거부한다. 스타크 인더스트리의 운영권까지 수석 비서였던 페퍼 포츠에게 일임하고 히어로로서의 인기를 만끽하며 지내던 토니 스타크. 하지만 그 시각, 아이언맨의 수트 기술을 스타크 가문에 빼앗긴 후 쓸쓸히 돌아가신 아버지의 복수를 다짐해 온 위플래시는 수트의 원천 기술 개발에 성공, 치명적인 무기를 들고 직접 토니 스타크를 찾아 나선다.",
+    "director": [
+      "존 파브로"
+    ],
+    "cast": [
+      "로버트 다우니 주니어",
+      "기네스 팰트로",
+      "돈 치들",
+      "스칼렛 요한슨",
+      "샘 록웰",
+      "미키 루크",
+      "사무엘 L. 잭슨",
+      "클라크 그렉",
+      "존 슬래터리",
+      "Garry Shandling"
+    ],
+    "trailer_key": "JtDlKDhP4BY",
+    "homepage": "",
+    "cached_at": "2026-10-02T15:17:07.254828+00:00"
+  },
+  "movie:1375646": {
+    "id": 1375646,
+    "media_type": "movie",
+    "title": "군체",
+    "original_title": "군체",
+    "poster_path": "/thK6glS5pklrlijsgSN6Hw9GLQK.jpg",
+    "backdrop_path": "/hpBGCnzOvdtQoMyE48gvwp2y5yx.jpg",
+    "vote_average": 8.108,
+    "vote_count": 995,
+    "release_date": "2026-05-21",
+    "genres": [
+      "공포",
+      "액션",
+      "SF"
+    ],
+    "runtime": 123,
+    "overview": "서울 도심의 초고층 빌딩에서 정체불명의 집단 감염사태가 발생한다. 건물은 순식간에 봉쇄되고, 그 안에 있던 사람들은 그대로 고립된다. 처음에는 짐승처럼 기어다니던 감염자들은 점점 진화하며 두 발로 걷기 시작하고, 사람을 식별하며 무리를 지어 생존자들을 공격한다. 생명공학자 권세정과 생존자들은 자신의 몸에 백신을 주입했다고 신고한 서영철을 찾아 구조대가 기다리는 옥상으로 향한다. 하지만 올라갈수록 상황은 점점 더 예측할 수 없게 변해가고, 서영철은 감염자들을 앞세워 생존자들 앞을 막아서는데...",
+    "director": [
+      "연상호"
+    ],
+    "cast": [
+      "전지현",
+      "구교환",
+      "지창욱",
+      "김신록",
+      "신현빈",
+      "고수",
+      "이중옥",
+      "김종태",
+      "황재열",
+      "이담희"
+    ],
+    "trailer_key": "AZ6zGFKO1xQ",
+    "homepage": "",
+    "cached_at": "2026-10-02T15:17:07.681368+00:00"
   }
 }
