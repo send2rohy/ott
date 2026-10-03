@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "items": [
     {
       "rank": 1,
@@ -322,7 +322,7 @@
       "tmdb_id": 299536,
       "tmdb_title": "어벤져스: 인피니티 워",
       "tmdb_original_title": "Avengers: Infinity War",
-      "source": "tmdb_popular",
+      "source": "top10",
       "previous_rank": 3,
       "change": 0
     },
@@ -358,6 +358,36 @@
     },
     {
       "rank": 6,
+      "title": "데드풀과 울버린",
+      "original_title": "데드풀과 울버린",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 533535,
+      "tmdb_title": "데드풀과 울버린",
+      "tmdb_original_title": "Deadpool & Wolverine",
+      "source": "tmdb_popular",
+      "previous_rank": 7,
+      "change": 1
+    },
+    {
+      "rank": 7,
+      "title": "만달로리안과 그로구",
+      "original_title": "만달로리안과 그로구",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1228710,
+      "tmdb_title": "만달로리안과 그로구",
+      "tmdb_original_title": "The Mandalorian and Grogu",
+      "source": "tmdb_popular",
+      "previous_rank": 8,
+      "change": 1
+    },
+    {
+      "rank": 8,
       "title": "어벤져스",
       "original_title": "어벤져스",
       "season_title": "",
@@ -369,40 +399,25 @@
       "tmdb_original_title": "The Avengers",
       "source": "tmdb_popular",
       "previous_rank": 6,
-      "change": 0
-    },
-    {
-      "rank": 7,
-      "title": "데드풀과 울버린",
-      "original_title": "데드풀과 울버린",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 533535,
-      "tmdb_title": "데드풀과 울버린",
-      "tmdb_original_title": "Deadpool & Wolverine",
-      "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": 1
-    },
-    {
-      "rank": 8,
-      "title": "만달로리안과 그로구",
-      "original_title": "만달로리안과 그로구",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1228710,
-      "tmdb_title": "만달로리안과 그로구",
-      "tmdb_original_title": "The Mandalorian and Grogu",
-      "source": "tmdb_popular",
-      "previous_rank": 7,
-      "change": -1
+      "change": -2
     },
     {
       "rank": 9,
+      "title": "에이리언",
+      "original_title": "에이리언",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 348,
+      "tmdb_title": "에이리언",
+      "tmdb_original_title": "Alien",
+      "source": "tmdb_popular",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 10,
       "title": "인사이드 아웃",
       "original_title": "인사이드 아웃",
       "season_title": "",
@@ -414,22 +429,7 @@
       "tmdb_original_title": "Inside Out",
       "source": "tmdb_popular",
       "previous_rank": 9,
-      "change": 0
-    },
-    {
-      "rank": 10,
-      "title": "아이언맨 2",
-      "original_title": "아이언맨 2",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 10138,
-      "tmdb_title": "아이언맨 2",
-      "tmdb_original_title": "Iron Man 2",
-      "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "change": -1
     },
     {
       "rank": 1,
@@ -478,21 +478,6 @@
     },
     {
       "rank": 4,
-      "title": "연애전쟁",
-      "original_title": "연애전쟁",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 325114,
-      "tmdb_title": "연애전쟁",
-      "tmdb_original_title": "연애전쟁",
-      "source": "top10",
-      "previous_rank": 4,
-      "change": 0
-    },
-    {
-      "rank": 5,
       "title": "킬러들의 쇼핑몰",
       "original_title": "킬러들의 쇼핑몰",
       "season_title": "",
@@ -504,10 +489,10 @@
       "tmdb_original_title": "킬러들의 쇼핑몰",
       "source": "top10",
       "previous_rank": 5,
-      "change": 0
+      "change": 1
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "너에게 다이브",
       "original_title": "너에게 다이브",
       "season_title": "",
@@ -519,22 +504,37 @@
       "tmdb_original_title": "너에게 다이브",
       "source": "top10",
       "previous_rank": 6,
-      "change": 0
+      "change": 1
     },
     {
-      "rank": 7,
-      "title": "조각도시",
-      "original_title": "조각도시",
+      "rank": 6,
+      "title": "연애전쟁",
+      "original_title": "연애전쟁",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 239385,
-      "tmdb_title": "조각도시",
-      "tmdb_original_title": "조각도시",
+      "tmdb_id": 325114,
+      "tmdb_title": "연애전쟁",
+      "tmdb_original_title": "연애전쟁",
       "source": "top10",
-      "previous_rank": 7,
-      "change": 0
+      "previous_rank": 4,
+      "change": -2
+    },
+    {
+      "rank": 7,
+      "title": "그레이 아나토미",
+      "original_title": "그레이 아나토미",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 1416,
+      "tmdb_title": "그레이 아나토미",
+      "tmdb_original_title": "Grey's Anatomy",
+      "source": "tmdb_popular",
+      "previous_rank": 9,
+      "change": 2
     },
     {
       "rank": 8,
@@ -553,21 +553,6 @@
     },
     {
       "rank": 9,
-      "title": "그레이 아나토미",
-      "original_title": "그레이 아나토미",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 1416,
-      "tmdb_title": "그레이 아나토미",
-      "tmdb_original_title": "Grey's Anatomy",
-      "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": 0
-    },
-    {
-      "rank": 10,
       "title": "패밀리 가이",
       "original_title": "패밀리 가이",
       "season_title": "",
@@ -579,7 +564,22 @@
       "tmdb_original_title": "Family Guy",
       "source": "tmdb_popular",
       "previous_rank": 10,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 10,
+      "title": "아메리칸 대드!",
+      "original_title": "아메리칸 대드!",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 1433,
+      "tmdb_title": "아메리칸 대드!",
+      "tmdb_original_title": "American Dad!",
+      "source": "tmdb_popular",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
@@ -597,6 +597,20 @@
     },
     {
       "rank": 2,
+      "title": "군체",
+      "original_title": "군체",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1375646,
+      "tmdb_title": "군체",
+      "tmdb_original_title": "군체",
+      "previous_rank": 3,
+      "change": 1
+    },
+    {
+      "rank": 3,
       "title": "왕과 사는 남자",
       "original_title": "왕과 사는 남자",
       "season_title": "",
@@ -607,21 +621,7 @@
       "tmdb_title": "왕과 사는 남자",
       "tmdb_original_title": "왕과 사는 남자",
       "previous_rank": 2,
-      "change": 0
-    },
-    {
-      "rank": 3,
-      "title": "군체",
-      "original_title": "군체",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1375646,
-      "tmdb_title": "군체",
-      "tmdb_original_title": "군체",
-      "previous_rank": null,
-      "change": "NEW"
+      "change": -1
     },
     {
       "rank": 4,
@@ -634,8 +634,8 @@
       "tmdb_id": 257211,
       "tmdb_title": "인턴",
       "tmdb_original_title": "The Intern",
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -648,25 +648,11 @@
       "tmdb_id": 1242332,
       "tmdb_title": "노멀",
       "tmdb_original_title": "Normal",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
-      "title": "살목지",
-      "original_title": "살목지",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1461254,
-      "tmdb_title": "살목지",
-      "tmdb_original_title": "살목지",
-      "previous_rank": 5,
-      "change": -1
-    },
-    {
-      "rank": 7,
       "title": "히든페이스",
       "original_title": "히든페이스",
       "season_title": "",
@@ -676,6 +662,20 @@
       "tmdb_id": 936245,
       "tmdb_title": "히든페이스",
       "tmdb_original_title": "히든페이스",
+      "previous_rank": 7,
+      "change": 1
+    },
+    {
+      "rank": 7,
+      "title": "살목지",
+      "original_title": "살목지",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1461254,
+      "tmdb_title": "살목지",
+      "tmdb_original_title": "살목지",
       "previous_rank": 6,
       "change": -1
     },
@@ -690,8 +690,8 @@
       "tmdb_id": 1264805,
       "tmdb_title": "만약에 우리",
       "tmdb_original_title": "만약에 우리",
-      "previous_rank": 7,
-      "change": -1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -704,22 +704,22 @@
       "tmdb_id": 1315303,
       "tmdb_title": "프라이메이트",
       "tmdb_original_title": "Primate",
-      "previous_rank": 8,
-      "change": -1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
-      "title": "결백",
-      "original_title": "결백",
+      "title": "해리 포터와 마법사의 돌",
+      "original_title": "해리 포터와 마법사의 돌",
       "season_title": "",
       "platform": "Coupang Play",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 602296,
-      "tmdb_title": "결백",
-      "tmdb_original_title": "결백",
-      "previous_rank": 9,
-      "change": -1
+      "tmdb_id": 671,
+      "tmdb_title": "해리 포터와 마법사의 돌",
+      "tmdb_original_title": "Harry Potter and the Philosopher's Stone",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
