@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-03T18:54:47.784933+00:00"
+    "cached_at": "2026-10-04T20:38:33.919101+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-03T18:54:48.078517+00:00"
+    "cached_at": "2026-10-04T20:38:34.475129+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-03T18:54:48.151202+00:00"
+    "cached_at": "2026-10-04T20:38:34.500593+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-03T18:54:48.216073+00:00"
+    "cached_at": "2026-10-04T20:38:34.525048+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-03T18:54:48.297407+00:00"
+    "cached_at": "2026-10-04T20:38:34.551332+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1582,8 +1582,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
-    "vote_average": 7.411,
-    "vote_count": 5126,
+    "vote_average": 7.41,
+    "vote_count": 5128,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1602,7 +1602,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-10-03T18:54:47.936020+00:00"
+    "cached_at": "2026-10-04T20:38:34.397768+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1611,8 +1611,8 @@
     "original_title": "American Dad!",
     "poster_path": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
     "backdrop_path": "/iixxhk3ycXmFqBn616pAsC3lu53.jpg",
-    "vote_average": 7.021,
-    "vote_count": 2457,
+    "vote_average": 7.023,
+    "vote_count": 2458,
     "release_date": "2005-02-06",
     "genres": [
       "애니메이션",
@@ -1630,7 +1630,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER001101XODY/american-dad",
-    "cached_at": "2026-10-03T18:54:48.006775+00:00"
+    "cached_at": "2026-10-04T20:38:34.423391+00:00"
   },
   "tv:1416": {
     "id": 1416,
@@ -1657,12 +1657,12 @@
       "Jason George",
       "Chris Carmack",
       "Anthony Hill",
-      "Adelaide Kane",
+      "애들레이드 케인",
       "Alexis Floyd"
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-03T18:54:47.869374+00:00"
+    "cached_at": "2026-10-04T20:38:33.944724+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1943,7 +1943,7 @@
     "poster_path": "/dsfAcQ5J7TPOpJgcX8R1lRBqiMK.jpg",
     "backdrop_path": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
     "vote_average": 7.588,
-    "vote_count": 9507,
+    "vote_count": 9554,
     "release_date": "2024-07-24",
     "genres": [
       "액션",
@@ -1969,7 +1969,7 @@
     ],
     "trailer_key": "NVDLUJa5dac",
     "homepage": "",
-    "cached_at": "2026-09-27T15:13:36.492959+00:00"
+    "cached_at": "2026-10-04T20:38:33.889074+00:00"
   },
   "tv:4057": {
     "id": 4057,
@@ -2010,8 +2010,8 @@
     "original_title": "Normal",
     "poster_path": "/A7TN0R78eenIf7hED3k96POTJMX.jpg",
     "backdrop_path": "/1YU6Hy3x7fUh7dfOzSfjifTp20g.jpg",
-    "vote_average": 7.26,
-    "vote_count": 607,
+    "vote_average": 7.235,
+    "vote_count": 647,
     "release_date": "2026-04-16",
     "genres": [
       "액션",
@@ -2037,7 +2037,7 @@
     ],
     "trailer_key": "1aC9sPT4Af8",
     "homepage": "",
-    "cached_at": "2026-09-27T15:13:37.056120+00:00"
+    "cached_at": "2026-10-04T20:38:34.444845+00:00"
   },
   "movie:602296": {
     "id": 602296,
@@ -2119,7 +2119,7 @@
     "original_title": "The Warriors",
     "poster_path": "/d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
     "backdrop_path": "/i4Fp0AJsqAzbeVQyCoG0adRRfdh.jpg",
-    "vote_average": 7.7,
+    "vote_average": 7.681,
     "vote_count": 2488,
     "release_date": "1979-02-01",
     "genres": [
@@ -2145,7 +2145,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-03T18:54:47.435628+00:00"
+    "cached_at": "2026-10-04T20:38:33.739745+00:00"
   },
   "movie:1233575": {
     "id": 1233575,
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-10-03T18:54:47.576816+00:00"
+    "cached_at": "2026-10-04T20:38:33.822524+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2555,8 +2555,8 @@
     "original_title": "UNABOMBER",
     "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
     "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-    "vote_average": 6.596,
-    "vote_count": 297,
+    "vote_average": 6.576,
+    "vote_count": 323,
     "release_date": "2026-09-25",
     "genres": [
       "스릴러",
@@ -2582,7 +2582,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82010386",
-    "cached_at": "2026-10-03T18:54:47.366972+00:00"
+    "cached_at": "2026-10-04T20:38:33.709215+00:00"
   },
   "movie:10323": {
     "id": 10323,
@@ -2627,8 +2627,8 @@
     "original_title": "Monster: The Lizzie Borden Story",
     "poster_path": "/Gubvg67ciTEsuMOC2Mwlas0iJU.jpg",
     "backdrop_path": "/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
-    "vote_average": 7.128,
-    "vote_count": 148,
+    "vote_average": 7.049,
+    "vote_count": 152,
     "release_date": "2026-09-17",
     "genres": [
       "드라마",
@@ -2648,7 +2648,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/82068293",
-    "cached_at": "2026-10-03T18:54:47.645809+00:00"
+    "cached_at": "2026-10-04T20:38:33.849827+00:00"
   },
   "tv:330932": {
     "id": 330932,
@@ -2787,5 +2787,41 @@
     "trailer_key": "",
     "homepage": "",
     "cached_at": "2026-10-03T18:54:47.711958+00:00"
+  },
+  "movie:18823": {
+    "id": 18823,
+    "media_type": "movie",
+    "title": "타이탄",
+    "original_title": "Clash of the Titans",
+    "poster_path": "/vqW2aUt9BvBj4PiRklU6NCwHQNW.jpg",
+    "backdrop_path": "/zRx1HyM1wF6wqEvxV12Ha2WrvlJ.jpg",
+    "vote_average": 5.926,
+    "vote_count": 6874,
+    "release_date": "2010-03-26",
+    "genres": [
+      "모험",
+      "판타지",
+      "액션"
+    ],
+    "runtime": 106,
+    "overview": "신들의 왕 제우스(리암 니슨)와 그의 전지전능함을 질투한 지옥의 신 하데스(레이프 파인즈) 사이에서 일어난 전쟁으로 인해 인간세상이 혼란과 고통을 겪게 된다. 이에 아버지 제우스에게서 물려 받은 강인함과 인간인 어머니에게서 물려 받은 자비로움을 갖춘 영웅 페르세우스(샘 워싱턴)는 인간들을 구할 수 있는 절대적인 힘을 얻기 위해 금지된 땅으로 떠난다. 천마(天馬) 페가수스를 탄 채 군대를 진두 지휘한 페르세우스 앞에는 전설의 메두사를 거쳐 해저괴물 크라켄까지 험난한 여정이 예고되는데…",
+    "director": [
+      "루이스 레테리어"
+    ],
+    "cast": [
+      "샘 워싱턴",
+      "젬마 아터턴",
+      "매즈 미켈슨",
+      "Alexa Davalos",
+      "제이슨 플레밍",
+      "랄프 파인즈",
+      "리암 니슨",
+      "피트 포스틀스웨이트",
+      "폴리 워커",
+      "Ashraf Barhom"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-04T20:38:33.793913+00:00"
   }
 }
