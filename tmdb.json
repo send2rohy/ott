@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-04T20:38:33.919101+00:00"
+    "cached_at": "2026-10-05T15:18:27.878086+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-04T20:38:34.475129+00:00"
+    "cached_at": "2026-10-05T15:18:28.216300+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -904,8 +904,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.419,
-    "vote_count": 1203,
+    "vote_average": 8.418,
+    "vote_count": 1204,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-04T20:38:34.500593+00:00"
+    "cached_at": "2026-10-05T15:18:28.282226+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-04T20:38:34.525048+00:00"
+    "cached_at": "2026-10-05T15:18:28.356372+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-04T20:38:34.551332+00:00"
+    "cached_at": "2026-10-05T15:18:28.422479+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1582,8 +1582,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
-    "vote_average": 7.41,
-    "vote_count": 5128,
+    "vote_average": 7.409,
+    "vote_count": 5130,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1602,7 +1602,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-10-04T20:38:34.397768+00:00"
+    "cached_at": "2026-10-05T15:18:28.011892+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1662,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-04T20:38:33.944724+00:00"
+    "cached_at": "2026-10-05T15:18:27.947724+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1979,7 +1979,7 @@
     "poster_path": "/A5hvLZpYcpT2GFA3j8LtI6eINFr.jpg",
     "backdrop_path": "/tUtXfyVy54BY7eJnRtI8Xnmr1ZL.jpg",
     "vote_average": 8.3,
-    "vote_count": 4178,
+    "vote_count": 4185,
     "release_date": "2005-09-22",
     "genres": [
       "범죄",
@@ -2001,7 +2001,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-09-28T15:17:27.609182+00:00"
+    "cached_at": "2026-10-05T15:18:28.073013+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
@@ -2072,7 +2072,7 @@
     ],
     "trailer_key": "EKmQHauIeJo",
     "homepage": "",
-    "cached_at": "2026-09-28T15:17:27.768304+00:00"
+    "cached_at": "2026-10-05T15:18:28.149217+00:00"
   },
   "movie:150540": {
     "id": 150540,
@@ -2145,7 +2145,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-04T20:38:33.739745+00:00"
+    "cached_at": "2026-10-05T15:18:27.367052+00:00"
   },
   "movie:1233575": {
     "id": 1233575,
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-10-04T20:38:33.822524+00:00"
+    "cached_at": "2026-10-05T15:18:27.539942+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2427,10 +2427,10 @@
     "media_type": "tv",
     "title": "너에게 다이브",
     "original_title": "너에게 다이브",
-    "poster_path": "/hLBNb9tUcYnJ879XKxJD68Ort2y.jpg",
+    "poster_path": "/21pLXbvuyfgUaAhhxkuvoX1pAN1.jpg",
     "backdrop_path": "/jseW3HucgNjN2CwJa3MiOlF4xMO.jpg",
-    "vote_average": 0.0,
-    "vote_count": 0,
+    "vote_average": 8.0,
+    "vote_count": 1,
     "release_date": "2026-09-26",
     "genres": [
       "코미디",
@@ -2452,7 +2452,7 @@
     ],
     "trailer_key": "WXfB28CNU9c",
     "homepage": "https://ichannela.com/program/detail/program_detail_renew.do?cateCode=0502340000",
-    "cached_at": "2026-09-28T15:17:27.245895+00:00"
+    "cached_at": "2026-10-05T15:18:27.798322+00:00"
   },
   "movie:126889": {
     "id": 126889,
@@ -2555,8 +2555,8 @@
     "original_title": "UNABOMBER",
     "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
     "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-    "vote_average": 6.576,
-    "vote_count": 323,
+    "vote_average": 6.587,
+    "vote_count": 344,
     "release_date": "2026-09-25",
     "genres": [
       "스릴러",
@@ -2582,7 +2582,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82010386",
-    "cached_at": "2026-10-04T20:38:33.709215+00:00"
+    "cached_at": "2026-10-05T15:18:27.300070+00:00"
   },
   "movie:10323": {
     "id": 10323,
@@ -2627,8 +2627,8 @@
     "original_title": "Monster: The Lizzie Borden Story",
     "poster_path": "/Gubvg67ciTEsuMOC2Mwlas0iJU.jpg",
     "backdrop_path": "/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
-    "vote_average": 7.049,
-    "vote_count": 152,
+    "vote_average": 7.089,
+    "vote_count": 157,
     "release_date": "2026-09-17",
     "genres": [
       "드라마",
@@ -2648,7 +2648,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/82068293",
-    "cached_at": "2026-10-04T20:38:33.849827+00:00"
+    "cached_at": "2026-10-05T15:18:27.621221+00:00"
   },
   "tv:330932": {
     "id": 330932,
@@ -2796,7 +2796,7 @@
     "poster_path": "/vqW2aUt9BvBj4PiRklU6NCwHQNW.jpg",
     "backdrop_path": "/zRx1HyM1wF6wqEvxV12Ha2WrvlJ.jpg",
     "vote_average": 5.926,
-    "vote_count": 6874,
+    "vote_count": 6877,
     "release_date": "2010-03-26",
     "genres": [
       "모험",
@@ -2822,6 +2822,42 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-04T20:38:33.793913+00:00"
+    "cached_at": "2026-10-05T15:18:27.474723+00:00"
+  },
+  "movie:9479": {
+    "id": 9479,
+    "media_type": "movie",
+    "title": "팀 버튼의 크리스마스 악몽",
+    "original_title": "The Nightmare Before Christmas",
+    "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
+    "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
+    "vote_average": 7.846,
+    "vote_count": 10666,
+    "release_date": "1993-10-09",
+    "genres": [
+      "판타지",
+      "애니메이션",
+      "가족"
+    ],
+    "runtime": 76,
+    "overview": "1년에 한 번 할로윈 축제를 위해서 사는 할로윈 마을의 리더인 잭은 해골 귀신이다. 여느 때와 마찬가지로 할로윈을 준비해야 하는 잭은 반복되는 일상에 염증을 느낀다. 어느 날 잭은 우연히 할로윈 마을을 벗어나 크리스마스 마을에 도착한다. 할로윈 마을과는 판이하게 다른 크리스마스 마을을 보고 잭은 할로윈 마을에서 크리스마스 축제를 맡기로 한다. 잭과 그의 일당은 산타를 납치하고 산타 대신 해골이나 거미, 뱀 등을 크리스마스 선물로 준비해서 아이들에게 나누어주지만, 크리스마스의 들뜬 기분은 사라지고 온통 소동만 일어나는데...",
+    "director": [
+      "헨리 셀릭"
+    ],
+    "cast": [
+      "대니 엘프먼",
+      "Chris Sarandon",
+      "캐서린 오하라",
+      "William Hickey",
+      "글렌 셰딕스",
+      "폴 루벤스",
+      "Ken Page",
+      "Edward Ivory",
+      "Susan McBride",
+      "Debi Durst"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-05T15:18:27.710570+00:00"
   }
 }
