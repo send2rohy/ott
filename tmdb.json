@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-05T15:18:27.878086+00:00"
+    "cached_at": "2026-10-06T15:16:17.103282+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-05T15:18:28.216300+00:00"
+    "cached_at": "2026-10-06T15:16:17.506975+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -904,8 +904,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.418,
-    "vote_count": 1204,
+    "vote_average": 8.4,
+    "vote_count": 1205,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-05T15:18:28.282226+00:00"
+    "cached_at": "2026-10-06T15:16:17.606387+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-05T15:18:28.356372+00:00"
+    "cached_at": "2026-10-06T15:16:17.719702+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-05T15:18:28.422479+00:00"
+    "cached_at": "2026-10-06T15:16:17.817260+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1582,8 +1582,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
-    "vote_average": 7.409,
-    "vote_count": 5130,
+    "vote_average": 7.4,
+    "vote_count": 5134,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1602,7 +1602,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-10-05T15:18:28.011892+00:00"
+    "cached_at": "2026-10-06T15:16:17.308718+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1640,7 +1640,7 @@
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
     "vote_average": 8.2,
-    "vote_count": 11065,
+    "vote_count": 11067,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1662,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-05T15:18:27.947724+00:00"
+    "cached_at": "2026-10-06T15:16:17.202295+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1979,7 +1979,7 @@
     "poster_path": "/A5hvLZpYcpT2GFA3j8LtI6eINFr.jpg",
     "backdrop_path": "/tUtXfyVy54BY7eJnRtI8Xnmr1ZL.jpg",
     "vote_average": 8.3,
-    "vote_count": 4185,
+    "vote_count": 4186,
     "release_date": "2005-09-22",
     "genres": [
       "범죄",
@@ -2001,7 +2001,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-10-05T15:18:28.073013+00:00"
+    "cached_at": "2026-10-06T15:16:17.405530+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
@@ -2119,8 +2119,8 @@
     "original_title": "The Warriors",
     "poster_path": "/d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
     "backdrop_path": "/i4Fp0AJsqAzbeVQyCoG0adRRfdh.jpg",
-    "vote_average": 7.681,
-    "vote_count": 2488,
+    "vote_average": 7.7,
+    "vote_count": 2490,
     "release_date": "1979-02-01",
     "genres": [
       "액션",
@@ -2145,7 +2145,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-05T15:18:27.367052+00:00"
+    "cached_at": "2026-10-06T15:16:16.570909+00:00"
   },
   "movie:1233575": {
     "id": 1233575,
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-10-05T15:18:27.539942+00:00"
+    "cached_at": "2026-10-06T15:16:16.783688+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2555,8 +2555,8 @@
     "original_title": "UNABOMBER",
     "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
     "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-    "vote_average": 6.587,
-    "vote_count": 344,
+    "vote_average": 6.568,
+    "vote_count": 353,
     "release_date": "2026-09-25",
     "genres": [
       "스릴러",
@@ -2582,7 +2582,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82010386",
-    "cached_at": "2026-10-05T15:18:27.300070+00:00"
+    "cached_at": "2026-10-06T15:16:16.431977+00:00"
   },
   "movie:10323": {
     "id": 10323,
@@ -2627,8 +2627,8 @@
     "original_title": "Monster: The Lizzie Borden Story",
     "poster_path": "/Gubvg67ciTEsuMOC2Mwlas0iJU.jpg",
     "backdrop_path": "/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
-    "vote_average": 7.089,
-    "vote_count": 157,
+    "vote_average": 7.1,
+    "vote_count": 164,
     "release_date": "2026-09-17",
     "genres": [
       "드라마",
@@ -2648,7 +2648,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/82068293",
-    "cached_at": "2026-10-05T15:18:27.621221+00:00"
+    "cached_at": "2026-10-06T15:16:16.895057+00:00"
   },
   "tv:330932": {
     "id": 330932,
@@ -2795,8 +2795,8 @@
     "original_title": "Clash of the Titans",
     "poster_path": "/vqW2aUt9BvBj4PiRklU6NCwHQNW.jpg",
     "backdrop_path": "/zRx1HyM1wF6wqEvxV12Ha2WrvlJ.jpg",
-    "vote_average": 5.926,
-    "vote_count": 6877,
+    "vote_average": 5.9,
+    "vote_count": 6878,
     "release_date": "2010-03-26",
     "genres": [
       "모험",
@@ -2822,7 +2822,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-05T15:18:27.474723+00:00"
+    "cached_at": "2026-10-06T15:16:16.690072+00:00"
   },
   "movie:9479": {
     "id": 9479,
@@ -2831,8 +2831,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.846,
-    "vote_count": 10666,
+    "vote_average": 7.845,
+    "vote_count": 10671,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2858,6 +2858,6 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-05T15:18:27.710570+00:00"
+    "cached_at": "2026-10-06T15:16:16.992299+00:00"
   }
 }
