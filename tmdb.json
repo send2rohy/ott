@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-07T15:26:22.172321+00:00"
+    "cached_at": "2026-10-08T15:16:48.320874+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-07T15:26:22.552049+00:00"
+    "cached_at": "2026-10-08T15:16:48.759681+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -905,7 +905,7 @@
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
     "vote_average": 8.4,
-    "vote_count": 1207,
+    "vote_count": 1209,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-07T15:26:22.630258+00:00"
+    "cached_at": "2026-10-08T15:16:48.854156+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-07T15:26:22.716335+00:00"
+    "cached_at": "2026-10-08T15:16:48.990960+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-07T15:26:22.802377+00:00"
+    "cached_at": "2026-10-08T15:16:49.098281+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1640,7 +1640,7 @@
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
     "vote_average": 8.2,
-    "vote_count": 11068,
+    "vote_count": 11070,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1662,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-07T15:26:22.251302+00:00"
+    "cached_at": "2026-10-08T15:16:48.663663+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2253,8 +2253,8 @@
     "original_title": "Scandal",
     "poster_path": "/4XmF8PMSqtHCGNoL15oHbjr5ZuO.jpg",
     "backdrop_path": "/hpvw89Vq6rYx1bzrE3zdnWBGLfS.jpg",
-    "vote_average": 7.2,
-    "vote_count": 623,
+    "vote_average": 7.194,
+    "vote_count": 625,
     "release_date": "2012-04-05",
     "genres": [
       "드라마"
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-10-07T15:26:21.644792+00:00"
+    "cached_at": "2026-10-08T15:16:48.047164+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2555,8 +2555,8 @@
     "original_title": "UNABOMBER",
     "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
     "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-    "vote_average": 6.564,
-    "vote_count": 368,
+    "vote_average": 6.569,
+    "vote_count": 382,
     "release_date": "2026-09-25",
     "genres": [
       "스릴러",
@@ -2582,7 +2582,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82010386",
-    "cached_at": "2026-10-07T15:26:21.091318+00:00"
+    "cached_at": "2026-10-08T15:16:47.439187+00:00"
   },
   "movie:10323": {
     "id": 10323,
@@ -2796,7 +2796,7 @@
     "poster_path": "/vqW2aUt9BvBj4PiRklU6NCwHQNW.jpg",
     "backdrop_path": "/zRx1HyM1wF6wqEvxV12Ha2WrvlJ.jpg",
     "vote_average": 5.926,
-    "vote_count": 6881,
+    "vote_count": 6883,
     "release_date": "2010-03-26",
     "genres": [
       "모험",
@@ -2822,7 +2822,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-07T15:26:21.177404+00:00"
+    "cached_at": "2026-10-08T15:16:47.547157+00:00"
   },
   "movie:9479": {
     "id": 9479,
@@ -2831,8 +2831,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.845,
-    "vote_count": 10676,
+    "vote_average": 7.8,
+    "vote_count": 10682,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2858,7 +2858,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-07T15:26:21.728333+00:00"
+    "cached_at": "2026-10-08T15:16:48.198222+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -2867,8 +2867,8 @@
     "original_title": "The Silence of the Lambs",
     "poster_path": "/hOr56UKAsB9waNDHhriOntCjHTJ.jpg",
     "backdrop_path": "/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
-    "vote_average": 8.346,
-    "vote_count": 18610,
+    "vote_average": 8.345,
+    "vote_count": 18614,
     "release_date": "1991-02-14",
     "genres": [
       "범죄",
@@ -2894,7 +2894,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-07T15:26:21.259759+00:00"
+    "cached_at": "2026-10-08T15:16:47.643397+00:00"
   },
   "movie:564": {
     "id": 564,
@@ -2903,8 +2903,8 @@
     "original_title": "The Mummy",
     "poster_path": "/31lxBgDl51HYnAnIV41aPyK4em7.jpg",
     "backdrop_path": "/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
-    "vote_average": 7.0,
-    "vote_count": 10457,
+    "vote_average": 6.998,
+    "vote_count": 10461,
     "release_date": "1999-04-16",
     "genres": [
       "모험",
@@ -2930,7 +2930,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-07T15:26:21.346849+00:00"
+    "cached_at": "2026-10-08T15:16:47.743674+00:00"
   },
   "movie:22803": {
     "id": 22803,
@@ -2939,8 +2939,8 @@
     "original_title": "Law Abiding Citizen",
     "poster_path": "/7qwALNOqzoqYJmRV3zgXIJ19BXo.jpg",
     "backdrop_path": "/nazre7z7MoUwAqimnrSlMlfLR5t.jpg",
-    "vote_average": 7.395,
-    "vote_count": 5882,
+    "vote_average": 7.396,
+    "vote_count": 5885,
     "release_date": "2009-10-15",
     "genres": [
       "드라마",
@@ -2966,7 +2966,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-07T15:26:21.434671+00:00"
+    "cached_at": "2026-10-08T15:16:47.839043+00:00"
   },
   "movie:49872": {
     "id": 49872,
@@ -3038,5 +3038,89 @@
     "trailer_key": "4HsK_-QQE5Y",
     "homepage": "https://ktena.co.kr/bbs/board.php?bo_table=drama&wr_id=51",
     "cached_at": "2026-10-07T15:26:22.069387+00:00"
+  },
+  "movie:1293070": {
+    "id": 1293070,
+    "media_type": "movie",
+    "title": "Hansel & Gretel",
+    "original_title": "Hansel & Gretel",
+    "poster_path": "/lBIUiB5yT7b7XM6hfQUOw0RX3Eb.jpg",
+    "backdrop_path": "/zc2UykrlxDHqyIfpvvPIgBYkvY9.jpg",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "release_date": "2025-12-30",
+    "genres": [
+      "애니메이션",
+      "판타지",
+      "공포"
+    ],
+    "runtime": 3,
+    "overview": "",
+    "director": [
+      "Joaquín Cociña",
+      "Cristóbal León"
+    ],
+    "cast": [],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-08T15:16:47.948709+00:00"
+  },
+  "tv:334293": {
+    "id": 334293,
+    "media_type": "tv",
+    "title": "키드냅 게임",
+    "original_title": "키드냅 게임",
+    "poster_path": null,
+    "backdrop_path": null,
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "release_date": "2026-10-06",
+    "genres": [
+      "드라마",
+      "범죄"
+    ],
+    "runtime": null,
+    "overview": "",
+    "director": [],
+    "cast": [],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-08T15:16:48.453369+00:00"
+  },
+  "tv:305551": {
+    "id": 305551,
+    "media_type": "tv",
+    "title": "메리 베리 러브",
+    "original_title": "メリーベリーラブ",
+    "poster_path": "/vMCPcrzBeU603KUZDM374Boprh6.jpg",
+    "backdrop_path": "/vPDVee1j6w0hJ2xMJ2bU5HVBA0Z.jpg",
+    "vote_average": 9.0,
+    "vote_count": 2,
+    "release_date": "2026-10-07",
+    "genres": [
+      "코미디",
+      "드라마"
+    ],
+    "runtime": null,
+    "overview": "한국의 잘나가던 공간기획자 이유빈은 폭삭 망하고 일본의 한 섬으로 향한다. 그곳에 살고 있는 시라하마 카린은 알 수 없는 병이 있지만 딸기를 키우며 씩씩하게 살아가는 농부다. 국적도 배경도 전혀 다른 두 남녀가 예기치 않은 오해로 엮이게 되는데… 아름다운 섬에서 펼쳐지는 새콤달콤 한일 로코 《메리 베리 러브》",
+    "director": [
+      "김수정",
+      "노영섭"
+    ],
+    "cast": [
+      "지창욱",
+      "이마다 미오",
+      "남윤수",
+      "쿠마다 린카",
+      "정순원",
+      "강남",
+      "김태훈",
+      "사토이 켄타",
+      "단타 야스노리",
+      "공재경"
+    ],
+    "trailer_key": "AS6eCeBIzAQ",
+    "homepage": "https://www.ntv.co.jp/merryberrylove",
+    "cached_at": "2026-10-08T15:16:48.567258+00:00"
   }
 }
