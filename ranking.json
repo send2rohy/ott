@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "items": [
     {
       "rank": 1,
@@ -368,8 +368,8 @@
       "tmdb_title": "팀 버튼의 크리스마스 악몽",
       "tmdb_original_title": "The Nightmare Before Christmas",
       "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": 2
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -383,8 +383,8 @@
       "tmdb_title": "어벤져스",
       "tmdb_original_title": "The Avengers",
       "source": "tmdb_popular",
-      "previous_rank": 6,
-      "change": -1
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -398,8 +398,8 @@
       "tmdb_title": "데드풀과 울버린",
       "tmdb_original_title": "Deadpool & Wolverine",
       "source": "tmdb_popular",
-      "previous_rank": 7,
-      "change": -1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -448,6 +448,21 @@
     },
     {
       "rank": 2,
+      "title": "메리 베리 러브",
+      "original_title": "메리 베리 러브",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 305551,
+      "tmdb_title": "메리 베리 러브",
+      "tmdb_original_title": "メリーベリーラブ",
+      "source": "top10",
+      "previous_rank": 7,
+      "change": 5
+    },
+    {
+      "rank": 3,
       "title": "술래게임",
       "original_title": "술래게임",
       "season_title": "",
@@ -458,11 +473,11 @@
       "tmdb_title": "술래게임",
       "tmdb_original_title": "술래게임",
       "source": "top10",
-      "previous_rank": 3,
-      "change": 1
+      "previous_rank": 2,
+      "change": -1
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "메이드 인 코리아",
       "original_title": "메이드 인 코리아",
       "season_title": "",
@@ -473,11 +488,11 @@
       "tmdb_title": "메이드 인 코리아",
       "tmdb_original_title": "메이드 인 코리아",
       "source": "top10",
-      "previous_rank": 2,
+      "previous_rank": 3,
       "change": -1
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "킬러들의 쇼핑몰",
       "original_title": "킬러들의 쇼핑몰",
       "season_title": "",
@@ -489,10 +504,25 @@
       "tmdb_original_title": "킬러들의 쇼핑몰",
       "source": "top10",
       "previous_rank": 4,
+      "change": -1
+    },
+    {
+      "rank": 6,
+      "title": "키드냅 게임",
+      "original_title": "키드냅 게임",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 320513,
+      "tmdb_title": "키드냅 게임",
+      "tmdb_original_title": "kiDnap GAME",
+      "source": "top10",
+      "previous_rank": 6,
       "change": 0
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "연애전쟁",
       "original_title": "연애전쟁",
       "season_title": "",
@@ -504,52 +534,22 @@
       "tmdb_original_title": "연애전쟁",
       "source": "top10",
       "previous_rank": 5,
-      "change": 0
-    },
-    {
-      "rank": 6,
-      "title": "키드냅 게임",
-      "original_title": "키드냅 게임",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 334293,
-      "tmdb_title": "키드냅 게임",
-      "tmdb_original_title": "키드냅 게임",
-      "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 7,
-      "title": "메리 베리 러브",
-      "original_title": "메리 베리 러브",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 305551,
-      "tmdb_title": "메리 베리 러브",
-      "tmdb_original_title": "メリーベリーラブ",
-      "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
+      "change": -2
     },
     {
       "rank": 8,
-      "title": "너에게 다이브",
-      "original_title": "너에게 다이브",
+      "title": "재벌X형사",
+      "original_title": "재벌 x 형사",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 316197,
-      "tmdb_title": "너에게 다이브",
-      "tmdb_original_title": "너에게 다이브",
+      "tmdb_id": 220074,
+      "tmdb_title": "재벌X형사",
+      "tmdb_original_title": "재벌X형사",
       "source": "top10",
-      "previous_rank": 6,
-      "change": -2
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 9,
@@ -563,8 +563,8 @@
       "tmdb_title": "그레이 아나토미",
       "tmdb_original_title": "Grey's Anatomy",
       "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": -1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -578,8 +578,8 @@
       "tmdb_title": "심슨 가족",
       "tmdb_original_title": "The Simpsons",
       "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": -1
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
