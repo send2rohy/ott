@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-09T15:15:55.002172+00:00"
+    "cached_at": "2026-10-10T15:13:18.099474+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -904,8 +904,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.4,
-    "vote_count": 1212,
+    "vote_average": 8.421,
+    "vote_count": 1214,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-09T15:15:55.083585+00:00"
+    "cached_at": "2026-10-10T15:13:18.124041+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-09T15:15:55.174391+00:00"
+    "cached_at": "2026-10-10T15:13:18.171089+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-09T15:15:55.256775+00:00"
+    "cached_at": "2026-10-10T15:13:18.198574+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1582,8 +1582,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
-    "vote_average": 7.41,
-    "vote_count": 5135,
+    "vote_average": 7.4,
+    "vote_count": 5140,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1602,7 +1602,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-10-07T15:26:22.335907+00:00"
+    "cached_at": "2026-10-10T15:13:18.029524+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1639,8 +1639,8 @@
     "original_title": "Grey's Anatomy",
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
-    "vote_average": 8.2,
-    "vote_count": 11072,
+    "vote_average": 8.204,
+    "vote_count": 11074,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1662,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-09T15:15:53.805239+00:00"
+    "cached_at": "2026-10-10T15:13:18.006269+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1874,8 +1874,8 @@
     "original_title": "너 말고 다른 연애",
     "poster_path": "/mryeyCsFApnwYDpDcy3I6fYx2Dd.jpg",
     "backdrop_path": "/moUjiEzpJVNZc7hyNRBbLPt0CPX.jpg",
-    "vote_average": 9.0,
-    "vote_count": 2,
+    "vote_average": 6.3,
+    "vote_count": 3,
     "release_date": "2026-09-12",
     "genres": [
       "드라마",
@@ -1898,7 +1898,7 @@
     ],
     "trailer_key": "nQWv70PTHFM",
     "homepage": "https://program.kbs.co.kr/2tv/drama/loveotherthanyours",
-    "cached_at": "2026-10-02T15:17:07.780970+00:00"
+    "cached_at": "2026-10-10T15:13:18.075333+00:00"
   },
   "movie:714650": {
     "id": 714650,
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-10-09T15:15:52.366968+00:00"
+    "cached_at": "2026-10-10T15:13:17.928431+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2555,8 +2555,8 @@
     "original_title": "UNABOMBER",
     "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
     "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-    "vote_average": 6.559,
-    "vote_count": 393,
+    "vote_average": 6.574,
+    "vote_count": 403,
     "release_date": "2026-09-25",
     "genres": [
       "스릴러",
@@ -2582,7 +2582,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82010386",
-    "cached_at": "2026-10-09T15:15:51.660814+00:00"
+    "cached_at": "2026-10-10T15:13:17.745481+00:00"
   },
   "movie:10323": {
     "id": 10323,
@@ -2724,9 +2724,9 @@
     "title": "군체",
     "original_title": "군체",
     "poster_path": "/thK6glS5pklrlijsgSN6Hw9GLQK.jpg",
-    "backdrop_path": "/hpBGCnzOvdtQoMyE48gvwp2y5yx.jpg",
-    "vote_average": 8.108,
-    "vote_count": 995,
+    "backdrop_path": "/pGxUbJ1vKuMYeEjKDokFI7DNbSG.jpg",
+    "vote_average": 8.1,
+    "vote_count": 1103,
     "release_date": "2026-05-21",
     "genres": [
       "공포",
@@ -2752,7 +2752,7 @@
     ],
     "trailer_key": "AZ6zGFKO1xQ",
     "homepage": "",
-    "cached_at": "2026-10-02T15:17:07.681368+00:00"
+    "cached_at": "2026-10-10T15:13:18.054463+00:00"
   },
   "movie:348": {
     "id": 348,
@@ -2796,7 +2796,7 @@
     "poster_path": "/vqW2aUt9BvBj4PiRklU6NCwHQNW.jpg",
     "backdrop_path": "/zRx1HyM1wF6wqEvxV12Ha2WrvlJ.jpg",
     "vote_average": 5.926,
-    "vote_count": 6883,
+    "vote_count": 6884,
     "release_date": "2010-03-26",
     "genres": [
       "모험",
@@ -2822,7 +2822,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-09T15:15:51.839283+00:00"
+    "cached_at": "2026-10-10T15:13:17.776696+00:00"
   },
   "movie:9479": {
     "id": 9479,
@@ -2832,7 +2832,7 @@
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
     "vote_average": 7.847,
-    "vote_count": 10686,
+    "vote_count": 10692,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2858,7 +2858,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-09T15:15:52.986659+00:00"
+    "cached_at": "2026-10-10T15:13:17.954591+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -2868,7 +2868,7 @@
     "poster_path": "/hOr56UKAsB9waNDHhriOntCjHTJ.jpg",
     "backdrop_path": "/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
     "vote_average": 8.345,
-    "vote_count": 18621,
+    "vote_count": 18625,
     "release_date": "1991-02-14",
     "genres": [
       "범죄",
@@ -2894,7 +2894,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-09T15:15:51.938785+00:00"
+    "cached_at": "2026-10-10T15:13:17.802545+00:00"
   },
   "movie:564": {
     "id": 564,
@@ -2903,8 +2903,8 @@
     "original_title": "The Mummy",
     "poster_path": "/31lxBgDl51HYnAnIV41aPyK4em7.jpg",
     "backdrop_path": "/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
-    "vote_average": 6.998,
-    "vote_count": 10463,
+    "vote_average": 7.0,
+    "vote_count": 10465,
     "release_date": "1999-04-16",
     "genres": [
       "모험",
@@ -2930,7 +2930,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-09T15:15:52.020422+00:00"
+    "cached_at": "2026-10-10T15:13:17.832958+00:00"
   },
   "movie:22803": {
     "id": 22803,
@@ -2939,8 +2939,8 @@
     "original_title": "Law Abiding Citizen",
     "poster_path": "/7qwALNOqzoqYJmRV3zgXIJ19BXo.jpg",
     "backdrop_path": "/nazre7z7MoUwAqimnrSlMlfLR5t.jpg",
-    "vote_average": 7.396,
-    "vote_count": 5886,
+    "vote_average": 7.393,
+    "vote_count": 5892,
     "release_date": "2009-10-15",
     "genres": [
       "드라마",
@@ -2966,7 +2966,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-09T15:15:52.177802+00:00"
+    "cached_at": "2026-10-10T15:13:17.863488+00:00"
   },
   "movie:49872": {
     "id": 49872,
@@ -3002,7 +3002,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-07T15:26:21.565015+00:00"
+    "cached_at": "2026-10-10T15:13:17.905722+00:00"
   },
   "tv:307106": {
     "id": 307106,
@@ -3157,5 +3157,41 @@
     "trailer_key": "EwlvMXOjxn8",
     "homepage": "https://www.fujitv.co.jp/kidnap-game",
     "cached_at": "2026-10-09T15:15:53.572362+00:00"
+  },
+  "movie:321612": {
+    "id": 321612,
+    "media_type": "movie",
+    "title": "미녀와 야수",
+    "original_title": "Beauty and the Beast",
+    "poster_path": "/tzYsKo6wGoBrP51eL9wDzfDP6Vx.jpg",
+    "backdrop_path": "/uU1Mt4JWhDvl4vKb3AfxNsorkoM.jpg",
+    "vote_average": 6.968,
+    "vote_count": 16201,
+    "release_date": "2017-03-16",
+    "genres": [
+      "가족",
+      "판타지",
+      "로맨스"
+    ],
+    "runtime": 129,
+    "overview": "프랑스의 작은 마을에 아버지와 살고 있는 벨은 책을 통해 넓은 세계를 꿈꾼다. 전쟁 영웅 개스톤의 저돌적인 구애와 마을 사람들의 핀잔에도 결혼 따위엔 관심이 없다. 어느 날 행방불명된 아버지를 찾아 폐허가 된 성에 도착한 벨은 저주에 걸린 야수를 만나 아버지 대신 성에 갇히고, 야수 뿐 아니라 성 안의 모든 이들이 신비로운 장미의 마지막 꽃잎이 떨어지기 전에 저주를 풀지 못하면 영원히 인간으로 돌아올 수 없는 운명임을 알게 된다. 성에서 도망치려던 벨은 자신을 보호해 준 야수의 진심을 알게 되면서 차츰 마음을 열어가기 시작하는데...",
+    "director": [
+      "빌 콘돈"
+    ],
+    "cast": [
+      "엠마 왓슨",
+      "댄 스티븐스",
+      "루크 에반스",
+      "조시 게드",
+      "케빈 클라인",
+      "해티 모라한",
+      "해든 그웨네",
+      "제라드 호란",
+      "레이 피런",
+      "이완 맥그리거"
+    ],
+    "trailer_key": "rFOi7fLdkJ4",
+    "homepage": "",
+    "cached_at": "2026-10-10T15:13:17.982608+00:00"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "items": [
     {
       "rank": 1,
@@ -135,7 +135,7 @@
       "platform": "Netflix",
       "week": "2026-10-04",
       "media_type": "movie",
-      "tmdb_id": 1293070,
+      "tmdb_id": 49872,
       "tmdb_title": "Hansel & Gretel",
       "tmdb_original_title": "Hansel & Gretel",
       "previous_rank": 10,
@@ -307,7 +307,7 @@
       "tmdb_id": 299534,
       "tmdb_title": "어벤져스: 엔드게임",
       "tmdb_original_title": "Avengers: Endgame",
-      "source": "tmdb_popular",
+      "source": "top10",
       "previous_rank": 2,
       "change": 0
     },
@@ -373,6 +373,21 @@
     },
     {
       "rank": 7,
+      "title": "미녀와 야수",
+      "original_title": "미녀와 야수",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 321612,
+      "tmdb_title": "미녀와 야수",
+      "tmdb_original_title": "Beauty and the Beast",
+      "source": "tmdb_popular",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 8,
       "title": "어벤져스",
       "original_title": "어벤져스",
       "season_title": "",
@@ -384,22 +399,7 @@
       "tmdb_original_title": "The Avengers",
       "source": "tmdb_popular",
       "previous_rank": 7,
-      "change": 0
-    },
-    {
-      "rank": 8,
-      "title": "데드풀과 울버린",
-      "original_title": "데드풀과 울버린",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 533535,
-      "tmdb_title": "데드풀과 울버린",
-      "tmdb_original_title": "Deadpool & Wolverine",
-      "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": 0
+      "change": -1
     },
     {
       "rank": 9,
@@ -418,36 +418,21 @@
     },
     {
       "rank": 10,
-      "title": "인사이드 아웃",
-      "original_title": "인사이드 아웃",
+      "title": "데드풀과 울버린",
+      "original_title": "데드풀과 울버린",
       "season_title": "",
       "platform": "Disney+",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 150540,
-      "tmdb_title": "인사이드 아웃",
-      "tmdb_original_title": "Inside Out",
+      "tmdb_id": 533535,
+      "tmdb_title": "데드풀과 울버린",
+      "tmdb_original_title": "Deadpool & Wolverine",
       "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 0
+      "previous_rank": 8,
+      "change": -2
     },
     {
       "rank": 1,
-      "title": "연애박사",
-      "original_title": "연애박사",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 307106,
-      "tmdb_title": "연애박사",
-      "tmdb_original_title": "연애박사",
-      "source": "top10",
-      "previous_rank": 1,
-      "change": 0
-    },
-    {
-      "rank": 2,
       "title": "메리 베리 러브",
       "original_title": "메리 베리 러브",
       "season_title": "",
@@ -458,8 +443,23 @@
       "tmdb_title": "메리 베리 러브",
       "tmdb_original_title": "メリーベリーラブ",
       "source": "top10",
-      "previous_rank": 7,
-      "change": 5
+      "previous_rank": 2,
+      "change": 1
+    },
+    {
+      "rank": 2,
+      "title": "메이드 인 코리아",
+      "original_title": "메이드 인 코리아",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 246473,
+      "tmdb_title": "메이드 인 코리아",
+      "tmdb_original_title": "메이드 인 코리아",
+      "source": "top10",
+      "previous_rank": 4,
+      "change": 2
     },
     {
       "rank": 3,
@@ -473,23 +473,23 @@
       "tmdb_title": "술래게임",
       "tmdb_original_title": "술래게임",
       "source": "top10",
-      "previous_rank": 2,
-      "change": -1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
-      "title": "메이드 인 코리아",
-      "original_title": "메이드 인 코리아",
+      "title": "연애박사",
+      "original_title": "연애박사",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 246473,
-      "tmdb_title": "메이드 인 코리아",
-      "tmdb_original_title": "메이드 인 코리아",
+      "tmdb_id": 307106,
+      "tmdb_title": "연애박사",
+      "tmdb_original_title": "연애박사",
       "source": "top10",
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 1,
+      "change": -3
     },
     {
       "rank": 5,
@@ -503,8 +503,8 @@
       "tmdb_title": "킬러들의 쇼핑몰",
       "tmdb_original_title": "킬러들의 쇼핑몰",
       "source": "top10",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -523,21 +523,6 @@
     },
     {
       "rank": 7,
-      "title": "연애전쟁",
-      "original_title": "연애전쟁",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 325114,
-      "tmdb_title": "연애전쟁",
-      "tmdb_original_title": "연애전쟁",
-      "source": "top10",
-      "previous_rank": 5,
-      "change": -2
-    },
-    {
-      "rank": 8,
       "title": "재벌X형사",
       "original_title": "재벌 x 형사",
       "season_title": "",
@@ -548,8 +533,23 @@
       "tmdb_title": "재벌X형사",
       "tmdb_original_title": "재벌X형사",
       "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 8,
+      "change": 1
+    },
+    {
+      "rank": 8,
+      "title": "심슨 가족",
+      "original_title": "심슨 가족",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 456,
+      "tmdb_title": "심슨 가족",
+      "tmdb_original_title": "The Simpsons",
+      "source": "tmdb_popular",
+      "previous_rank": 10,
+      "change": 2
     },
     {
       "rank": 9,
@@ -568,18 +568,18 @@
     },
     {
       "rank": 10,
-      "title": "심슨 가족",
-      "original_title": "심슨 가족",
+      "title": "패밀리 가이",
+      "original_title": "패밀리 가이",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 456,
-      "tmdb_title": "심슨 가족",
-      "tmdb_original_title": "The Simpsons",
+      "tmdb_id": 1434,
+      "tmdb_title": "패밀리 가이",
+      "tmdb_original_title": "Family Guy",
       "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 0
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
@@ -653,20 +653,6 @@
     },
     {
       "rank": 6,
-      "title": "인턴",
-      "original_title": "인턴",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 257211,
-      "tmdb_title": "인턴",
-      "tmdb_original_title": "The Intern",
-      "previous_rank": 6,
-      "change": 0
-    },
-    {
-      "rank": 7,
       "title": "살목지",
       "original_title": "살목지",
       "season_title": "",
@@ -677,24 +663,24 @@
       "tmdb_title": "살목지",
       "tmdb_original_title": "살목지",
       "previous_rank": 7,
-      "change": 0
+      "change": 1
     },
     {
-      "rank": 8,
-      "title": "만약에 우리",
-      "original_title": "만약에 우리",
+      "rank": 7,
+      "title": "인턴",
+      "original_title": "인턴",
       "season_title": "",
       "platform": "Coupang Play",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 1264805,
-      "tmdb_title": "만약에 우리",
-      "tmdb_original_title": "만약에 우리",
-      "previous_rank": 8,
-      "change": 0
+      "tmdb_id": 257211,
+      "tmdb_title": "인턴",
+      "tmdb_original_title": "The Intern",
+      "previous_rank": 6,
+      "change": -1
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "해리 포터와 마법사의 돌",
       "original_title": "해리 포터와 마법사의 돌",
       "season_title": "",
@@ -705,7 +691,21 @@
       "tmdb_title": "해리 포터와 마법사의 돌",
       "tmdb_original_title": "Harry Potter and the Philosopher's Stone",
       "previous_rank": 9,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 9,
+      "title": "만약에 우리",
+      "original_title": "만약에 우리",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1264805,
+      "tmdb_title": "만약에 우리",
+      "tmdb_original_title": "만약에 우리",
+      "previous_rank": 8,
+      "change": -1
     },
     {
       "rank": 10,
