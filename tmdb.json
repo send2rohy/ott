@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-10T15:13:18.099474+00:00"
+    "cached_at": "2026-10-11T15:13:47.801411+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -905,7 +905,7 @@
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
     "vote_average": 8.421,
-    "vote_count": 1214,
+    "vote_count": 1216,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-10T15:13:18.124041+00:00"
+    "cached_at": "2026-10-11T15:13:47.877608+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-10T15:13:18.171089+00:00"
+    "cached_at": "2026-10-11T15:13:47.962499+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-10T15:13:18.198574+00:00"
+    "cached_at": "2026-10-11T15:13:48.051968+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1583,7 +1583,7 @@
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
     "vote_average": 7.4,
-    "vote_count": 5140,
+    "vote_count": 5144,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1602,7 +1602,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-10-10T15:13:18.029524+00:00"
+    "cached_at": "2026-10-11T15:13:47.625615+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1662,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-10T15:13:18.006269+00:00"
+    "cached_at": "2026-10-11T15:13:47.531745+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2253,8 +2253,8 @@
     "original_title": "Scandal",
     "poster_path": "/4XmF8PMSqtHCGNoL15oHbjr5ZuO.jpg",
     "backdrop_path": "/hpvw89Vq6rYx1bzrE3zdnWBGLfS.jpg",
-    "vote_average": 7.194,
-    "vote_count": 625,
+    "vote_average": 7.193,
+    "vote_count": 626,
     "release_date": "2012-04-05",
     "genres": [
       "드라마"
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-10-10T15:13:17.928431+00:00"
+    "cached_at": "2026-10-11T15:13:47.359720+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2555,8 +2555,8 @@
     "original_title": "UNABOMBER",
     "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
     "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-    "vote_average": 6.574,
-    "vote_count": 403,
+    "vote_average": 6.576,
+    "vote_count": 414,
     "release_date": "2026-09-25",
     "genres": [
       "스릴러",
@@ -2582,7 +2582,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82010386",
-    "cached_at": "2026-10-10T15:13:17.745481+00:00"
+    "cached_at": "2026-10-11T15:13:46.734285+00:00"
   },
   "movie:10323": {
     "id": 10323,
@@ -2795,8 +2795,8 @@
     "original_title": "Clash of the Titans",
     "poster_path": "/vqW2aUt9BvBj4PiRklU6NCwHQNW.jpg",
     "backdrop_path": "/zRx1HyM1wF6wqEvxV12Ha2WrvlJ.jpg",
-    "vote_average": 5.926,
-    "vote_count": 6884,
+    "vote_average": 5.9,
+    "vote_count": 6886,
     "release_date": "2010-03-26",
     "genres": [
       "모험",
@@ -2822,7 +2822,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-10T15:13:17.776696+00:00"
+    "cached_at": "2026-10-11T15:13:46.842021+00:00"
   },
   "movie:9479": {
     "id": 9479,
@@ -2831,8 +2831,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.847,
-    "vote_count": 10692,
+    "vote_average": 7.848,
+    "vote_count": 10703,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2858,7 +2858,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-10T15:13:17.954591+00:00"
+    "cached_at": "2026-10-11T15:13:47.444385+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -2868,7 +2868,7 @@
     "poster_path": "/hOr56UKAsB9waNDHhriOntCjHTJ.jpg",
     "backdrop_path": "/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
     "vote_average": 8.345,
-    "vote_count": 18625,
+    "vote_count": 18633,
     "release_date": "1991-02-14",
     "genres": [
       "범죄",
@@ -2894,7 +2894,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-10T15:13:17.802545+00:00"
+    "cached_at": "2026-10-11T15:13:46.939471+00:00"
   },
   "movie:564": {
     "id": 564,
@@ -2903,8 +2903,8 @@
     "original_title": "The Mummy",
     "poster_path": "/31lxBgDl51HYnAnIV41aPyK4em7.jpg",
     "backdrop_path": "/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
-    "vote_average": 7.0,
-    "vote_count": 10465,
+    "vote_average": 6.998,
+    "vote_count": 10473,
     "release_date": "1999-04-16",
     "genres": [
       "모험",
@@ -2930,7 +2930,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-10T15:13:17.832958+00:00"
+    "cached_at": "2026-10-11T15:13:47.042842+00:00"
   },
   "movie:22803": {
     "id": 22803,
@@ -2939,8 +2939,8 @@
     "original_title": "Law Abiding Citizen",
     "poster_path": "/7qwALNOqzoqYJmRV3zgXIJ19BXo.jpg",
     "backdrop_path": "/nazre7z7MoUwAqimnrSlMlfLR5t.jpg",
-    "vote_average": 7.393,
-    "vote_count": 5892,
+    "vote_average": 7.394,
+    "vote_count": 5894,
     "release_date": "2009-10-15",
     "genres": [
       "드라마",
@@ -2966,7 +2966,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-10T15:13:17.863488+00:00"
+    "cached_at": "2026-10-11T15:13:47.135262+00:00"
   },
   "movie:49872": {
     "id": 49872,
@@ -3002,7 +3002,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-10T15:13:17.905722+00:00"
+    "cached_at": "2026-10-11T15:13:47.282161+00:00"
   },
   "tv:307106": {
     "id": 307106,
@@ -3193,5 +3193,40 @@
     "trailer_key": "rFOi7fLdkJ4",
     "homepage": "",
     "cached_at": "2026-10-10T15:13:17.982608+00:00"
+  },
+  "movie:736720": {
+    "id": 736720,
+    "media_type": "movie",
+    "title": "핸섬가이즈",
+    "original_title": "핸섬가이즈",
+    "poster_path": "/ng4oX4mzPr8x53yF8gw5zGtpDLD.jpg",
+    "backdrop_path": "/7qMw4BkgvCLBev11Db5ygXNisaF.jpg",
+    "vote_average": 6.696,
+    "vote_count": 56,
+    "release_date": "2024-06-26",
+    "genres": [
+      "코미디",
+      "공포"
+    ],
+    "runtime": 102,
+    "overview": "자칭 터프가이 재필과 섹시가이 상구. 현실은 잊지 못할 첫인상으로 이사 첫날부터 동네 경찰 최 소장과 남 순경의 특별 감시 대상이 되지만, 꿈꾸던 유럽풍 드림하우스에서 새출발한다는 것에 그저 행복하기만 하다. 그러나 행복도 잠시, 물에 빠질뻔한 미나를 구해주려다 오히려 납치범으로 오해받는 상황이 이어진다. 한편 미나를 찾으러 온 불청객들을 시작으로 지하실에 봉인되어 있던 악령이 깨어나며 어두운 기운이 집안을 둘러싸기 시작하는데…",
+    "director": [
+      "남동협"
+    ],
+    "cast": [
+      "이성민",
+      "이희준",
+      "공승연",
+      "박지환",
+      "이규형",
+      "우현",
+      "장동주",
+      "강기둥",
+      "빈찬욱",
+      "박정화"
+    ],
+    "trailer_key": "oGbkEBrqUAs",
+    "homepage": "",
+    "cached_at": "2026-10-11T15:13:47.711408+00:00"
   }
 }
