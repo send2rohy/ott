@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-12T22:26:27.227705+00:00"
+    "cached_at": "2026-10-13T20:33:39.666667+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-12T22:26:27.535358+00:00"
+    "cached_at": "2026-10-13T20:33:39.792453+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -904,8 +904,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.4,
-    "vote_count": 1218,
+    "vote_average": 8.425,
+    "vote_count": 1220,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-12T22:26:27.638371+00:00"
+    "cached_at": "2026-10-13T20:33:39.867245+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-12T22:26:27.745164+00:00"
+    "cached_at": "2026-10-13T20:33:39.932494+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-12T22:26:27.842660+00:00"
+    "cached_at": "2026-10-13T20:33:40.029347+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1481,8 +1481,8 @@
     "original_title": "Avatar",
     "poster_path": "/m5lCha2XcbDowDoYHPc0DTNaCPU.jpg",
     "backdrop_path": "/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
-    "vote_average": 7.609,
-    "vote_count": 34719,
+    "vote_average": 7.61,
+    "vote_count": 34833,
     "release_date": "2009-12-16",
     "genres": [
       "SF",
@@ -1508,7 +1508,7 @@
     ],
     "trailer_key": "IZpaMT1H85o",
     "homepage": "",
-    "cached_at": "2026-09-25T15:15:46.288249+00:00"
+    "cached_at": "2026-10-13T20:33:39.601224+00:00"
   },
   "movie:83533": {
     "id": 83533,
@@ -1640,7 +1640,7 @@
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
     "vote_average": 8.204,
-    "vote_count": 11074,
+    "vote_count": 11075,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1662,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-12T22:26:27.323523+00:00"
+    "cached_at": "2026-10-13T20:33:39.732134+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-10-12T22:26:26.268118+00:00"
+    "cached_at": "2026-10-13T20:33:39.320953+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2551,8 +2551,8 @@
     "original_title": "UNABOMBER",
     "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
     "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-    "vote_average": 6.561,
-    "vote_count": 436,
+    "vote_average": 6.565,
+    "vote_count": 443,
     "release_date": "2026-09-25",
     "genres": [
       "스릴러",
@@ -2578,7 +2578,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82010386",
-    "cached_at": "2026-10-12T22:26:25.488036+00:00"
+    "cached_at": "2026-10-13T20:33:38.809054+00:00"
   },
   "movie:10323": {
     "id": 10323,
@@ -2818,7 +2818,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-12T22:26:25.591989+00:00"
+    "cached_at": "2026-10-13T20:33:38.908741+00:00"
   },
   "movie:9479": {
     "id": 9479,
@@ -2827,8 +2827,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.8,
-    "vote_count": 10709,
+    "vote_average": 7.848,
+    "vote_count": 10716,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2854,7 +2854,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-12T22:26:26.461036+00:00"
+    "cached_at": "2026-10-13T20:33:39.471080+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -2864,7 +2864,7 @@
     "poster_path": "/hOr56UKAsB9waNDHhriOntCjHTJ.jpg",
     "backdrop_path": "/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
     "vote_average": 8.345,
-    "vote_count": 18640,
+    "vote_count": 18645,
     "release_date": "1991-02-14",
     "genres": [
       "범죄",
@@ -2890,7 +2890,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-12T22:26:25.763887+00:00"
+    "cached_at": "2026-10-13T20:33:39.011934+00:00"
   },
   "movie:564": {
     "id": 564,
@@ -2900,7 +2900,7 @@
     "poster_path": "/31lxBgDl51HYnAnIV41aPyK4em7.jpg",
     "backdrop_path": "/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
     "vote_average": 6.998,
-    "vote_count": 10477,
+    "vote_count": 10482,
     "release_date": "1999-04-16",
     "genres": [
       "모험",
@@ -2926,7 +2926,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-12T22:26:25.882892+00:00"
+    "cached_at": "2026-10-13T20:33:39.099476+00:00"
   },
   "movie:22803": {
     "id": 22803,
@@ -2936,7 +2936,7 @@
     "poster_path": "/7qwALNOqzoqYJmRV3zgXIJ19BXo.jpg",
     "backdrop_path": "/nazre7z7MoUwAqimnrSlMlfLR5t.jpg",
     "vote_average": 7.393,
-    "vote_count": 5896,
+    "vote_count": 5898,
     "release_date": "2009-10-15",
     "genres": [
       "드라마",
@@ -2962,7 +2962,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-12T22:26:26.038011+00:00"
+    "cached_at": "2026-10-13T20:33:39.180536+00:00"
   },
   "movie:49872": {
     "id": 49872,
@@ -2998,7 +2998,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-12T22:26:26.134190+00:00"
+    "cached_at": "2026-10-13T20:33:39.251927+00:00"
   },
   "tv:307106": {
     "id": 307106,
@@ -3261,5 +3261,35 @@
     "trailer_key": "LmS5KMJTWlA",
     "homepage": "",
     "cached_at": "2026-10-12T22:26:26.678932+00:00"
+  },
+  "tv:276161": {
+    "id": 276161,
+    "media_type": "tv",
+    "title": "Teach You a Lesson",
+    "original_title": "Teach You a Lesson",
+    "poster_path": "/44iAuz8HkEDCOxjBmF4oogaXjnI.jpg",
+    "backdrop_path": "/vyG93jhmPL7tBIhRtCLa5mdBKob.jpg",
+    "vote_average": 9.369,
+    "vote_count": 979,
+    "release_date": "2026-06-05",
+    "genres": [
+      "Action & Adventure",
+      "드라마",
+      "코미디"
+    ],
+    "runtime": 70,
+    "overview": "선 넘는 학생, 학부모, 교사. 대한민국 교권이 무너졌다. 교육 현장을 바로잡기 위해 창설된 ‘교권보호국’. 그들의 유쾌, 상쾌, 통쾌한 참교육이 시작된다.",
+    "director": [
+      "홍종찬"
+    ],
+    "cast": [
+      "김무열",
+      "이성민",
+      "진기주",
+      "피오"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.netflix.com/title/81947300",
+    "cached_at": "2026-10-13T20:33:39.398254+00:00"
   }
 }
