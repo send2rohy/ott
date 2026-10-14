@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-13T20:33:39.666667+00:00"
+    "cached_at": "2026-10-14T19:14:24.253287+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-13T20:33:39.792453+00:00"
+    "cached_at": "2026-10-14T19:14:24.486614+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -904,8 +904,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.425,
-    "vote_count": 1220,
+    "vote_average": 8.427,
+    "vote_count": 1222,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-13T20:33:39.867245+00:00"
+    "cached_at": "2026-10-14T19:14:24.595779+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-13T20:33:39.932494+00:00"
+    "cached_at": "2026-10-14T19:14:24.696505+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-13T20:33:40.029347+00:00"
+    "cached_at": "2026-10-14T19:14:24.797170+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1639,8 +1639,8 @@
     "original_title": "Grey's Anatomy",
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
-    "vote_average": 8.204,
-    "vote_count": 11075,
+    "vote_average": 8.205,
+    "vote_count": 11077,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1662,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-13T20:33:39.732134+00:00"
+    "cached_at": "2026-10-14T19:14:24.349519+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-10-13T20:33:39.320953+00:00"
+    "cached_at": "2026-10-14T19:14:23.863392+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2552,7 +2552,7 @@
     "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
     "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
     "vote_average": 6.565,
-    "vote_count": 443,
+    "vote_count": 453,
     "release_date": "2026-09-25",
     "genres": [
       "스릴러",
@@ -2578,7 +2578,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82010386",
-    "cached_at": "2026-10-13T20:33:38.809054+00:00"
+    "cached_at": "2026-10-14T19:14:23.004406+00:00"
   },
   "movie:10323": {
     "id": 10323,
@@ -2818,7 +2818,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-13T20:33:38.908741+00:00"
+    "cached_at": "2026-10-14T19:14:23.297442+00:00"
   },
   "movie:9479": {
     "id": 9479,
@@ -2828,7 +2828,7 @@
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
     "vote_average": 7.848,
-    "vote_count": 10716,
+    "vote_count": 10719,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2854,7 +2854,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-13T20:33:39.471080+00:00"
+    "cached_at": "2026-10-14T19:14:24.063386+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -2864,7 +2864,7 @@
     "poster_path": "/hOr56UKAsB9waNDHhriOntCjHTJ.jpg",
     "backdrop_path": "/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
     "vote_average": 8.345,
-    "vote_count": 18645,
+    "vote_count": 18648,
     "release_date": "1991-02-14",
     "genres": [
       "범죄",
@@ -2890,7 +2890,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-13T20:33:39.011934+00:00"
+    "cached_at": "2026-10-14T19:14:23.400252+00:00"
   },
   "movie:564": {
     "id": 564,
@@ -2899,7 +2899,7 @@
     "original_title": "The Mummy",
     "poster_path": "/31lxBgDl51HYnAnIV41aPyK4em7.jpg",
     "backdrop_path": "/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
-    "vote_average": 6.998,
+    "vote_average": 7.0,
     "vote_count": 10482,
     "release_date": "1999-04-16",
     "genres": [
@@ -2926,7 +2926,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-13T20:33:39.099476+00:00"
+    "cached_at": "2026-10-14T19:14:23.561999+00:00"
   },
   "movie:22803": {
     "id": 22803,
@@ -2935,7 +2935,7 @@
     "original_title": "Law Abiding Citizen",
     "poster_path": "/7qwALNOqzoqYJmRV3zgXIJ19BXo.jpg",
     "backdrop_path": "/nazre7z7MoUwAqimnrSlMlfLR5t.jpg",
-    "vote_average": 7.393,
+    "vote_average": 7.394,
     "vote_count": 5898,
     "release_date": "2009-10-15",
     "genres": [
@@ -2962,7 +2962,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-13T20:33:39.180536+00:00"
+    "cached_at": "2026-10-14T19:14:23.666456+00:00"
   },
   "movie:49872": {
     "id": 49872,
@@ -2998,7 +2998,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-13T20:33:39.251927+00:00"
+    "cached_at": "2026-10-14T19:14:23.762666+00:00"
   },
   "tv:307106": {
     "id": 307106,
@@ -3007,8 +3007,8 @@
     "original_title": "연애박사",
     "poster_path": "/vyrpZOFIZJkQG8ZWTezmlNGav8R.jpg",
     "backdrop_path": "/mA4ClzkBvBCiTHQ8zHFsuWRaLW2.jpg",
-    "vote_average": 10.0,
-    "vote_count": 1,
+    "vote_average": 7.167,
+    "vote_count": 6,
     "release_date": "2026-10-05",
     "genres": [
       "드라마",
@@ -3016,24 +3016,14 @@
     ],
     "runtime": null,
     "overview": "고등학교 때 수영선수였지만 병으로 한 쪽 다리를 잃은 박사 과정생 민재와 진로를 잃고 방황하다 새로운 길에 들어선 석사 과정생 유진. 로봇 연구실에서 피어난, 두 청춘들의 맵고, 쓰고, 달콤한 로맨스.",
-    "director": [
-      "안판석"
-    ],
+    "director": [],
     "cast": [
       "추영우",
-      "김소현",
-      "김민",
-      "이규성",
-      "심혜진",
-      "김민석",
-      "박혁권",
-      "서정연",
-      "장인섭",
-      "이창훈"
+      "김소현"
     ],
     "trailer_key": "4HsK_-QQE5Y",
     "homepage": "https://ktena.co.kr/bbs/board.php?bo_table=drama&wr_id=51",
-    "cached_at": "2026-10-07T15:26:22.069387+00:00"
+    "cached_at": "2026-10-14T19:14:24.159776+00:00"
   },
   "movie:1293070": {
     "id": 1293070,
@@ -3269,8 +3259,8 @@
     "original_title": "Teach You a Lesson",
     "poster_path": "/44iAuz8HkEDCOxjBmF4oogaXjnI.jpg",
     "backdrop_path": "/vyG93jhmPL7tBIhRtCLa5mdBKob.jpg",
-    "vote_average": 9.369,
-    "vote_count": 979,
+    "vote_average": 9.367,
+    "vote_count": 980,
     "release_date": "2026-06-05",
     "genres": [
       "Action & Adventure",
@@ -3290,6 +3280,6 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/81947300",
-    "cached_at": "2026-10-13T20:33:39.398254+00:00"
+    "cached_at": "2026-10-14T19:14:23.960402+00:00"
   }
 }

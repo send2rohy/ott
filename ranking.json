@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "items": [
     {
       "rank": 1,
@@ -323,8 +323,8 @@
       "tmdb_title": "어벤져스: 인피니티 워",
       "tmdb_original_title": "Avengers: Infinity War",
       "source": "tmdb_popular",
-      "previous_rank": 4,
-      "change": 1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -338,8 +338,8 @@
       "tmdb_title": "어벤져스: 엔드게임",
       "tmdb_original_title": "Avengers: Endgame",
       "source": "tmdb_popular",
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -398,8 +398,8 @@
       "tmdb_title": "코코",
       "tmdb_original_title": "Coco",
       "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": 1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -413,8 +413,8 @@
       "tmdb_title": "어벤져스",
       "tmdb_original_title": "The Avengers",
       "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": -1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -428,56 +428,11 @@
       "tmdb_title": "아바타",
       "tmdb_original_title": "Avatar",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
-      "title": "메이드 인 코리아",
-      "original_title": "메이드 인 코리아",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 246473,
-      "tmdb_title": "메이드 인 코리아",
-      "tmdb_original_title": "메이드 인 코리아",
-      "source": "top10",
-      "previous_rank": 1,
-      "change": 0
-    },
-    {
-      "rank": 2,
-      "title": "메리 베리 러브",
-      "original_title": "메리 베리 러브",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 305551,
-      "tmdb_title": "메리 베리 러브",
-      "tmdb_original_title": "メリーベリーラブ",
-      "source": "top10",
-      "previous_rank": 2,
-      "change": 0
-    },
-    {
-      "rank": 3,
-      "title": "술래게임",
-      "original_title": "술래게임",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 330932,
-      "tmdb_title": "술래게임",
-      "tmdb_original_title": "술래게임",
-      "source": "top10",
-      "previous_rank": 3,
-      "change": 0
-    },
-    {
-      "rank": 4,
       "title": "연애박사",
       "original_title": "연애박사",
       "season_title": "",
@@ -489,55 +444,55 @@
       "tmdb_original_title": "연애박사",
       "source": "top10",
       "previous_rank": 4,
-      "change": 0
+      "change": 3
+    },
+    {
+      "rank": 2,
+      "title": "메이드 인 코리아",
+      "original_title": "메이드 인 코리아",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 246473,
+      "tmdb_title": "메이드 인 코리아",
+      "tmdb_original_title": "메이드 인 코리아",
+      "source": "top10",
+      "previous_rank": 1,
+      "change": -1
+    },
+    {
+      "rank": 3,
+      "title": "메리 베리 러브",
+      "original_title": "메리 베리 러브",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 305551,
+      "tmdb_title": "메리 베리 러브",
+      "tmdb_original_title": "メリーベリーラブ",
+      "source": "top10",
+      "previous_rank": 2,
+      "change": -1
+    },
+    {
+      "rank": 4,
+      "title": "술래게임",
+      "original_title": "술래게임",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 330932,
+      "tmdb_title": "술래게임",
+      "tmdb_original_title": "술래게임",
+      "source": "top10",
+      "previous_rank": 3,
+      "change": -1
     },
     {
       "rank": 5,
-      "title": "킬러들의 쇼핑몰",
-      "original_title": "킬러들의 쇼핑몰",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 215072,
-      "tmdb_title": "킬러들의 쇼핑몰",
-      "tmdb_original_title": "킬러들의 쇼핑몰",
-      "source": "top10",
-      "previous_rank": 5,
-      "change": 0
-    },
-    {
-      "rank": 6,
-      "title": "너에게 다이브",
-      "original_title": "너에게 다이브",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 316197,
-      "tmdb_title": "너에게 다이브",
-      "tmdb_original_title": "너에게 다이브",
-      "source": "top10",
-      "previous_rank": 6,
-      "change": 0
-    },
-    {
-      "rank": 7,
-      "title": "재벌X형사",
-      "original_title": "재벌 x 형사",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 220074,
-      "tmdb_title": "재벌X형사",
-      "tmdb_original_title": "재벌X형사",
-      "source": "top10",
-      "previous_rank": 7,
-      "change": 0
-    },
-    {
-      "rank": 8,
       "title": "연애전쟁",
       "original_title": "연애전쟁",
       "season_title": "",
@@ -549,7 +504,52 @@
       "tmdb_original_title": "연애전쟁",
       "source": "top10",
       "previous_rank": 8,
-      "change": 0
+      "change": 3
+    },
+    {
+      "rank": 6,
+      "title": "킬러들의 쇼핑몰",
+      "original_title": "킬러들의 쇼핑몰",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 215072,
+      "tmdb_title": "킬러들의 쇼핑몰",
+      "tmdb_original_title": "킬러들의 쇼핑몰",
+      "source": "top10",
+      "previous_rank": 5,
+      "change": -1
+    },
+    {
+      "rank": 7,
+      "title": "너에게 다이브",
+      "original_title": "너에게 다이브",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 316197,
+      "tmdb_title": "너에게 다이브",
+      "tmdb_original_title": "너에게 다이브",
+      "source": "top10",
+      "previous_rank": 6,
+      "change": -1
+    },
+    {
+      "rank": 8,
+      "title": "재벌X형사",
+      "original_title": "재벌 x 형사",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 220074,
+      "tmdb_title": "재벌X형사",
+      "tmdb_original_title": "재벌X형사",
+      "source": "top10",
+      "previous_rank": 7,
+      "change": -1
     },
     {
       "rank": 9,
@@ -634,8 +634,8 @@
       "tmdb_id": 736720,
       "tmdb_title": "핸섬가이즈",
       "tmdb_original_title": "핸섬가이즈",
-      "previous_rank": 6,
-      "change": 2
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -648,8 +648,8 @@
       "tmdb_id": 1242332,
       "tmdb_title": "노멀",
       "tmdb_original_title": "Normal",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -662,8 +662,8 @@
       "tmdb_id": 936245,
       "tmdb_title": "히든페이스",
       "tmdb_original_title": "히든페이스",
-      "previous_rank": 5,
-      "change": -1
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
