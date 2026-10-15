@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-14T19:14:24.253287+00:00"
+    "cached_at": "2026-10-15T18:58:03.351033+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -867,7 +867,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-14T19:14:24.486614+00:00"
+    "cached_at": "2026-10-15T18:58:03.508138+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -905,7 +905,7 @@
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
     "vote_average": 8.427,
-    "vote_count": 1222,
+    "vote_count": 1225,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -921,7 +921,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-14T19:14:24.595779+00:00"
+    "cached_at": "2026-10-15T18:58:03.544446+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -942,7 +942,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-14T19:14:24.696505+00:00"
+    "cached_at": "2026-10-15T18:58:03.576339+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -967,7 +967,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-14T19:14:24.797170+00:00"
+    "cached_at": "2026-10-15T18:58:03.871338+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1252,7 +1252,7 @@
     ],
     "trailer_key": "SCZYOE3VYP0",
     "homepage": "",
-    "cached_at": "2026-09-24T15:15:19.966981+00:00"
+    "cached_at": "2026-10-15T18:58:03.473585+00:00"
   },
   "movie:758323": {
     "id": 758323,
@@ -1582,8 +1582,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
-    "vote_average": 7.4,
-    "vote_count": 5144,
+    "vote_average": 7.408,
+    "vote_count": 5149,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1602,7 +1602,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-10-11T15:13:47.625615+00:00"
+    "cached_at": "2026-10-15T18:58:03.434601+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1640,7 +1640,7 @@
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
     "vote_average": 8.205,
-    "vote_count": 11077,
+    "vote_count": 11080,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1662,7 +1662,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-14T19:14:24.349519+00:00"
+    "cached_at": "2026-10-15T18:58:03.385900+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2082,7 +2082,7 @@
     "poster_path": "/rMXHvHzpuYZXrJUhRVJ3TvDSwe5.jpg",
     "backdrop_path": "/jJKZaTBNenlFclQyjrnvzkRmvWE.jpg",
     "vote_average": 7.9,
-    "vote_count": 23970,
+    "vote_count": 24016,
     "release_date": "2015-06-17",
     "genres": [
       "애니메이션",
@@ -2110,7 +2110,7 @@
     ],
     "trailer_key": "1KGZtWbZtq8",
     "homepage": "",
-    "cached_at": "2026-10-07T15:26:21.989527+00:00"
+    "cached_at": "2026-10-15T18:58:03.183057+00:00"
   },
   "movie:11474": {
     "id": 11474,
@@ -2276,7 +2276,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.abc.go.com/shows/scandal",
-    "cached_at": "2026-10-14T19:14:23.863392+00:00"
+    "cached_at": "2026-10-15T18:58:03.012805+00:00"
   },
   "movie:1084244": {
     "id": 1084244,
@@ -2551,8 +2551,8 @@
     "original_title": "UNABOMBER",
     "poster_path": "/7UTDhDYzmpymX2Njc7ZeyMZmHpO.jpg",
     "backdrop_path": "/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-    "vote_average": 6.565,
-    "vote_count": 453,
+    "vote_average": 6.6,
+    "vote_count": 458,
     "release_date": "2026-09-25",
     "genres": [
       "스릴러",
@@ -2578,7 +2578,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82010386",
-    "cached_at": "2026-10-14T19:14:23.004406+00:00"
+    "cached_at": "2026-10-15T18:58:02.686010+00:00"
   },
   "movie:10323": {
     "id": 10323,
@@ -2791,8 +2791,8 @@
     "original_title": "Clash of the Titans",
     "poster_path": "/vqW2aUt9BvBj4PiRklU6NCwHQNW.jpg",
     "backdrop_path": "/zRx1HyM1wF6wqEvxV12Ha2WrvlJ.jpg",
-    "vote_average": 5.9,
-    "vote_count": 6887,
+    "vote_average": 5.925,
+    "vote_count": 6888,
     "release_date": "2010-03-26",
     "genres": [
       "모험",
@@ -2818,7 +2818,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-14T19:14:23.297442+00:00"
+    "cached_at": "2026-10-15T18:58:02.745507+00:00"
   },
   "movie:9479": {
     "id": 9479,
@@ -2864,7 +2864,7 @@
     "poster_path": "/hOr56UKAsB9waNDHhriOntCjHTJ.jpg",
     "backdrop_path": "/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
     "vote_average": 8.345,
-    "vote_count": 18648,
+    "vote_count": 18653,
     "release_date": "1991-02-14",
     "genres": [
       "범죄",
@@ -2890,7 +2890,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-14T19:14:23.400252+00:00"
+    "cached_at": "2026-10-15T18:58:02.837937+00:00"
   },
   "movie:564": {
     "id": 564,
@@ -2899,8 +2899,8 @@
     "original_title": "The Mummy",
     "poster_path": "/31lxBgDl51HYnAnIV41aPyK4em7.jpg",
     "backdrop_path": "/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
-    "vote_average": 7.0,
-    "vote_count": 10482,
+    "vote_average": 6.998,
+    "vote_count": 10487,
     "release_date": "1999-04-16",
     "genres": [
       "모험",
@@ -2926,7 +2926,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-14T19:14:23.561999+00:00"
+    "cached_at": "2026-10-15T18:58:02.882010+00:00"
   },
   "movie:22803": {
     "id": 22803,
@@ -2962,7 +2962,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-14T19:14:23.666456+00:00"
+    "cached_at": "2026-10-15T18:58:02.926534+00:00"
   },
   "movie:49872": {
     "id": 49872,
@@ -2998,7 +2998,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-14T19:14:23.762666+00:00"
+    "cached_at": "2026-10-15T18:58:02.972334+00:00"
   },
   "tv:307106": {
     "id": 307106,
@@ -3080,8 +3080,8 @@
     "original_title": "メリーベリーラブ",
     "poster_path": "/vMCPcrzBeU603KUZDM374Boprh6.jpg",
     "backdrop_path": "/vPDVee1j6w0hJ2xMJ2bU5HVBA0Z.jpg",
-    "vote_average": 9.0,
-    "vote_count": 2,
+    "vote_average": 9.5,
+    "vote_count": 4,
     "release_date": "2026-10-07",
     "genres": [
       "코미디",
@@ -3107,7 +3107,7 @@
     ],
     "trailer_key": "AS6eCeBIzAQ",
     "homepage": "https://www.ntv.co.jp/merryberrylove",
-    "cached_at": "2026-10-08T15:16:48.567258+00:00"
+    "cached_at": "2026-10-15T18:58:03.303164+00:00"
   },
   "tv:320513": {
     "id": 320513,
@@ -3280,6 +3280,153 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/81947300",
-    "cached_at": "2026-10-14T19:14:23.960402+00:00"
+    "cached_at": "2026-10-15T18:58:03.049453+00:00"
+  },
+  "movie:1022789": {
+    "id": 1022789,
+    "media_type": "movie",
+    "title": "인사이드 아웃 2",
+    "original_title": "Inside Out 2",
+    "poster_path": "/x2BHx02jMbvpKjMvbf8XxJkYwHJ.jpg",
+    "backdrop_path": "/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
+    "vote_average": 7.541,
+    "vote_count": 7058,
+    "release_date": "2024-06-11",
+    "genres": [
+      "애니메이션",
+      "모험",
+      "코미디",
+      "가족"
+    ],
+    "runtime": 97,
+    "overview": "13살이 된 라일리의 행복을 위해 매일 바쁘게 머릿속 감정 컨트롤 본부를 운영하는 ‘기쁨’, ‘슬픔’, ‘버럭’, ‘까칠’, ‘소심’. 그러던 어느 날, 낯선 감정인 ‘불안’, ‘당황’, ‘따분’, ‘부럽’이가 본부에 등장하고, 언제나 최악의 상황을 대비하며 제멋대로인 ‘불안’이와 기존 감정들은 계속 충돌한다. 결국 새로운 감정들에 의해 본부에서 쫓겨나게 된 기존 감정들은 다시 본부로 돌아가기 위해 위험천만한 모험을 시작하는데…",
+    "director": [
+      "켈시 만"
+    ],
+    "cast": [
+      "에이미 폴러",
+      "마야 호크",
+      "켄싱턴 톨먼",
+      "리자 라피라",
+      "토니 헤일",
+      "루이스 블랙",
+      "필리스 스미스",
+      "아요 에데비리",
+      "릴리마르 에르난데스",
+      "Grace Lu"
+    ],
+    "trailer_key": "SCP3jdW_17w",
+    "homepage": "",
+    "cached_at": "2026-10-15T18:58:03.089043+00:00"
+  },
+  "movie:11": {
+    "id": 11,
+    "media_type": "movie",
+    "title": "스타워즈 에피소드 4: 새로운 희망",
+    "original_title": "Star Wars",
+    "poster_path": "/7XFfURIFCJxN1mfBg0SAjk5yGzg.jpg",
+    "backdrop_path": "/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg",
+    "vote_average": 8.2,
+    "vote_count": 23010,
+    "release_date": "1977-05-25",
+    "genres": [
+      "모험",
+      "액션",
+      "SF"
+    ],
+    "runtime": 121,
+    "overview": "공화국이 붕괴하고 제국이 수립된 뒤 20년, 제다이 기사단은 전멸하고 강력한 제국군의 횡포에 은하계는 공포에 휩싸여 있다. 그러던 중 공화국 재건을 노리는 반란군이 제국군의 비밀병기 데스스타 설계도를 훔쳐 달아나고 제국군은 이를 쫓는다. 하지만 결국 제국의 손에 붙잡히게 된 그들은 드로이드 R2-D2에 설계도를 넣어서 R2의 친구 C-3PO와 탈출시키는 데 성공하고, 두 드로이드 콤비는 타투인의 시골 마을에서 숙부와 함께 살고 있던 청년 루크 스카이워커에게 오게 되는데...",
+    "director": [
+      "조지 루카스"
+    ],
+    "cast": [
+      "마크 해밀",
+      "해리슨 포드",
+      "캐리 피셔",
+      "피터 커싱",
+      "앨릭 기니스",
+      "안소니 다니엘스",
+      "Kenny Baker",
+      "Peter Mayhew",
+      "David Prowse",
+      "제임스 얼 존스"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-15T18:58:03.134252+00:00"
+  },
+  "movie:57800": {
+    "id": 57800,
+    "media_type": "movie",
+    "title": "아이스 에이지 4: 대륙 이동설",
+    "original_title": "Ice Age: Continental Drift",
+    "poster_path": "/8DSHzbDsNDaC0wlRZS3hLUzJAC7.jpg",
+    "backdrop_path": "/scLQDnf1m2AqEEQSjAEdMRD6K9I.jpg",
+    "vote_average": 6.4,
+    "vote_count": 8321,
+    "release_date": "2012-06-27",
+    "genres": [
+      "애니메이션",
+      "코미디",
+      "모험",
+      "가족"
+    ],
+    "runtime": 88,
+    "overview": "격돌! 드디어 적수를 만나다!!  쩍! 갈라진 대륙과 바다, 딱! 마주친 빙하 해적단!  다람쥐 스크랫의 도토리를 향한 엄청난 집념이 지구의 운명마저 바꿔놓는 초대형 사고로 이어지면서, 대륙이 쩍쩍 갈라지기 시작한다.  갑작스러운 대륙 이동으로 살 곳을 잃어버린 매니, 디에고, 시드는 빙하를 배 삼아 정처 없이 떠돌던 중, 무시무시한 해적단과 마주치게 되는데…",
+    "director": [
+      "Michael Thurmeier",
+      "Steve Martino"
+    ],
+    "cast": [
+      "레이 로마노",
+      "존 레귀자모",
+      "데니스 리어리",
+      "숀 윌리엄 스콧",
+      "조시 펙",
+      "피터 딘클리지",
+      "완다 사이크스",
+      "제니퍼 로페즈",
+      "퀸 라티파",
+      "키키 팔머"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-15T18:58:03.219535+00:00"
+  },
+  "movie:285": {
+    "id": 285,
+    "media_type": "movie",
+    "title": "캐리비안의 해적: 세상의 끝에서",
+    "original_title": "Pirates of the Caribbean: At World's End",
+    "poster_path": "/bTotG6tZERQqfKr2TDjwdjW8It4.jpg",
+    "backdrop_path": "/1jHxkVXMI5s3vRiyiZooUy1shB5.jpg",
+    "vote_average": 7.279,
+    "vote_count": 15933,
+    "release_date": "2007-05-19",
+    "genres": [
+      "모험",
+      "판타지",
+      "액션"
+    ],
+    "runtime": 169,
+    "overview": "윌 터너와 엘리자베스 스완, 바르보사 선장은 바다괴물 크라켄에 잡아먹힌 잭 스패로우를 구하는 데 도움을 얻기 위해 싱가포르의 해적 사오펭을 찾아간다. 이들은 잭 스패로우가 있어야만 해적연맹의 아홉 영주를 모아 연합함대를 구성할 수 있고, 해적 소탕에 쌍심지를 켠 동인도회사에 맞설 수 있다. 동인도회사의 커틀러 베켓 경은 유령선 플라잉 더치맨과 그 선장 데비 존스를 수하에 거느리게 된 터. 이 힘이 막강해서, 해적 연합함대는 다시 바다의 여신 칼립소에게 도움을 요청하기로 한다.",
+    "director": [
+      "고어 버빈스키"
+    ],
+    "cast": [
+      "조니 뎁",
+      "제프리 러쉬",
+      "올랜도 블룸",
+      "키이라 나이틀리",
+      "잭 대븐포트",
+      "빌 나이",
+      "조너선 프라이스",
+      "Lee Arenberg",
+      "매켄지 크룩",
+      "Kevin McNally"
+    ],
+    "trailer_key": "D9F4UR_KxEc",
+    "homepage": "",
+    "cached_at": "2026-10-15T18:58:03.262973+00:00"
   }
 }
