@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-19T20:27:05.196373+00:00"
+    "cached_at": "2026-10-20T19:03:23.767497+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.418,
-    "vote_count": 1232,
+    "vote_average": 8.42,
+    "vote_count": 1236,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-19T20:27:05.303968+00:00"
+    "cached_at": "2026-10-20T19:03:23.867805+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-19T20:27:05.419617+00:00"
+    "cached_at": "2026-10-20T19:03:23.979058+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-19T20:27:05.532922+00:00"
+    "cached_at": "2026-10-20T19:03:24.081532+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1642,7 +1642,7 @@
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
     "vote_average": 8.205,
-    "vote_count": 11086,
+    "vote_count": 11088,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1664,7 +1664,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-19T20:27:04.985378+00:00"
+    "cached_at": "2026-10-20T19:03:23.486599+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2012,8 +2012,8 @@
     "original_title": "Normal",
     "poster_path": "/A7TN0R78eenIf7hED3k96POTJMX.jpg",
     "backdrop_path": "/1YU6Hy3x7fUh7dfOzSfjifTp20g.jpg",
-    "vote_average": 7.252,
-    "vote_count": 694,
+    "vote_average": 7.256,
+    "vote_count": 734,
     "release_date": "2026-04-16",
     "genres": [
       "액션",
@@ -2039,7 +2039,7 @@
     ],
     "trailer_key": "1aC9sPT4Af8",
     "homepage": "",
-    "cached_at": "2026-10-12T22:26:27.425830+00:00"
+    "cached_at": "2026-10-20T19:03:23.659043+00:00"
   },
   "movie:602296": {
     "id": 602296,
@@ -2431,8 +2431,8 @@
     "original_title": "너에게 다이브",
     "poster_path": "/21pLXbvuyfgUaAhhxkuvoX1pAN1.jpg",
     "backdrop_path": "/jseW3HucgNjN2CwJa3MiOlF4xMO.jpg",
-    "vote_average": 8.0,
-    "vote_count": 1,
+    "vote_average": 9.0,
+    "vote_count": 2,
     "release_date": "2026-09-26",
     "genres": [
       "코미디",
@@ -2450,7 +2450,7 @@
     ],
     "trailer_key": "WXfB28CNU9c",
     "homepage": "https://ichannela.com/program/detail/program_detail_renew.do?cateCode=0502340000",
-    "cached_at": "2026-10-12T22:26:27.107134+00:00"
+    "cached_at": "2026-10-20T19:03:23.177641+00:00"
   },
   "movie:126889": {
     "id": 126889,
@@ -2830,7 +2830,7 @@
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
     "vote_average": 7.851,
-    "vote_count": 10750,
+    "vote_count": 10758,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2856,7 +2856,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-19T20:27:04.694858+00:00"
+    "cached_at": "2026-10-20T19:03:22.962698+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3224,8 +3224,8 @@
     "original_title": "Coco",
     "poster_path": "/pQu93NuwR90AaCULzglVD5Ge4Ml.jpg",
     "backdrop_path": "/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
-    "vote_average": 8.199,
-    "vote_count": 21521,
+    "vote_average": 8.201,
+    "vote_count": 21584,
     "release_date": "2017-10-27",
     "genres": [
       "가족",
@@ -3252,7 +3252,7 @@
     ],
     "trailer_key": "LmS5KMJTWlA",
     "homepage": "",
-    "cached_at": "2026-10-12T22:26:26.678932+00:00"
+    "cached_at": "2026-10-20T19:03:23.073528+00:00"
   },
   "tv:276161": {
     "id": 276161,
@@ -3430,5 +3430,334 @@
     "trailer_key": "D9F4UR_KxEc",
     "homepage": "",
     "cached_at": "2026-10-15T18:58:03.262973+00:00"
+  },
+  "movie:1206349": {
+    "id": 1206349,
+    "media_type": "movie",
+    "title": "The Eyes",
+    "original_title": "The Eyes",
+    "poster_path": "/lNKBqRdy6cGLrFVdWOgNJ2z3w3a.jpg",
+    "backdrop_path": null,
+    "vote_average": 4.0,
+    "vote_count": 1,
+    "release_date": "2022-10-14",
+    "genres": [
+      "공포"
+    ],
+    "runtime": 7,
+    "overview": "",
+    "director": [
+      "Mike Timm"
+    ],
+    "cast": [
+      "Lydia Cornell",
+      "Ace Marrero"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-20T19:03:22.063230+00:00"
+  },
+  "movie:1236045": {
+    "id": 1236045,
+    "media_type": "movie",
+    "title": "짐승들",
+    "original_title": "Animals",
+    "poster_path": "/4wBaw64HtUcMzKHJ21hDPtkNWcb.jpg",
+    "backdrop_path": "/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+    "vote_average": 7.033,
+    "vote_count": 506,
+    "release_date": "2026-10-09",
+    "genres": [
+      "스릴러",
+      "드라마"
+    ],
+    "runtime": 109,
+    "overview": "로스앤젤레스 시장 후보와 그의 아내. 아들이 납치되면서 거짓과 속임수가 뒤얽힌 소용돌이에 휘말린다. 아들의 몸값을 마련하기 위해 안간힘을 쓰는 가운데, 두 사람은 자신들의 삶을 산산조각 낼 수도 있는 선택을 하고 비밀을 드러내야 하는 상황에 내몰린다.",
+    "director": [
+      "벤 애플렉"
+    ],
+    "cast": [
+      "벤 애플렉",
+      "케리 워싱턴",
+      "질리언 앤더슨",
+      "스티븐 연",
+      "아드리아나 파스",
+      "루이스 헤라르도 멘데스",
+      "크리스토퍼 우들리",
+      "제이콥 에스트라다",
+      "레이 피셔",
+      "Taylor Cooper"
+    ],
+    "trailer_key": "gPEgidr7Yus",
+    "homepage": "https://www.netflix.com/kr/title/81757047",
+    "cached_at": "2026-10-20T19:03:22.173983+00:00"
+  },
+  "movie:338970": {
+    "id": 338970,
+    "media_type": "movie",
+    "title": "툼 레이더",
+    "original_title": "Tomb Raider",
+    "poster_path": "/n0yZiY15kOb5ChVwcXG9zBeHlC6.jpg",
+    "backdrop_path": "/ohijjhvNqAPKTURQr6VIF7xuAjY.jpg",
+    "vote_average": 6.362,
+    "vote_count": 8575,
+    "release_date": "2018-03-05",
+    "genres": [
+      "액션",
+      "모험",
+      "판타지"
+    ],
+    "runtime": 118,
+    "overview": "21살의 라라 크로프트(알리시아 비칸데르)는 자전거 퀵서비스 일을 하며 살아간다. 7년 전 실종된 아버지의 사망 확인서에 사인을 하면 아버지 리차드(도미닉 웨스트)가 남긴 거대 기업 크로프트 홀딩스를 물려받을 수도 있지만, 여전히 아버지에 대한 원망과 그리움에서 허우적대고 있는 라라는 쉽게 그 죽음을 받아들이기가 힘들다. 그러던 중 아버지의 유품에서 실종 전 마지막 탐험에 대한 자료들이 발견된다. 죽음의 신으로 불린 히미코의 무덤을 지키기 위해 전설의 섬으로 향했던 아버지의 과거 행적을 따라 라라는 야마타이섬으로 향한다.",
+    "director": [
+      "로아르 우테우"
+    ],
+    "cast": [
+      "알리시아 비칸데르",
+      "도미닉 웨스트",
+      "월튼 고긴스",
+      "오언조",
+      "크리스틴 스콧 토머스",
+      "데릭 재커비",
+      "Alexandre Willaume",
+      "Tamer Burjaq",
+      "Adrian Collins",
+      "Keenan Arrison"
+    ],
+    "trailer_key": "ksQEbNMrGV4",
+    "homepage": "",
+    "cached_at": "2026-10-20T19:03:22.289611+00:00"
+  },
+  "movie:1212763": {
+    "id": 1212763,
+    "media_type": "movie",
+    "title": "이블 데드 번",
+    "original_title": "Evil Dead Burn",
+    "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
+    "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
+    "vote_average": 7.605,
+    "vote_count": 1775,
+    "release_date": "2026-07-07",
+    "genres": [
+      "공포"
+    ],
+    "runtime": 110,
+    "overview": "사랑하는 남편을 잃은 앨리스는 슬픔을 달래기 위해 외딴 곳에 자리한 시댁을 찾는다. 상실의 아픔을 함께 나누며 서로를 위로하려던 가족의 모임. 그러나 이 조용한 재회는 곧 상상조차 할 수 없는 악몽으로 뒤바뀐다. 알 수 없는 사악한 힘이 집안에 스며들고, 다정했던 가족들이 하나둘 피에 굶주린 존재로 변해가기 시작한 것이다. 닫힌 문 안에서 벗어날 길은 보이지 않고, 어제까지 가족이라 부르던 이들이 이제는 그녀의 목숨을 노린다. 끝없이 밀려오는 잔혹한 공포 속에서 앨리스는 살아남기 위해, 그리고 지켜야 할 무언가를 위해 사투를 벌인다. 삶에서 맺은 약속은 과연 죽음 앞에서도 지켜질 수 있을까.",
+    "director": [
+      "Sébastien Vaniček"
+    ],
+    "cast": [
+      "수헤일라 야쿠브",
+      "탄디 라이트",
+      "헌터 두핸",
+      "루시앤 뷰캐넌",
+      "에롤 샨드",
+      "모드 데이비",
+      "조지 풀라",
+      "그레타 반 덴 브링크",
+      "키아누 카림",
+      "Victory Ndukwe"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-20T19:03:22.393159+00:00"
+  },
+  "movie:1195506": {
+    "id": 1195506,
+    "media_type": "movie",
+    "title": "노보케인",
+    "original_title": "Novocaine",
+    "poster_path": "/dVi5wC7pctrEd6vOWoteIrm3d6s.jpg",
+    "backdrop_path": "/lyBH2mFFU6qrHwD5QKotL2JnEb6.jpg",
+    "vote_average": 6.752,
+    "vote_count": 1828,
+    "release_date": "2025-03-03",
+    "genres": [
+      "액션",
+      "코미디",
+      "스릴러"
+    ],
+    "runtime": 110,
+    "overview": "평범한 외모, 평범한 성격, 평범한 직업, 이보다 더 평범할 수 없는 은행원 ‘네이선 케인’은 남들과 다른 비밀을 숨기고 있다. 그것은 바로 선천성 무통각증으로 신체적 고통을 전혀 느끼지 못한다는 것. 첫눈에 반한 직장 동료 ‘셰리’와 완벽한 첫 데이트 후 설레는 마음도 잠시, 은행에 들이닥친 무장 강도단에게 ‘셰리’가 인질로 납치되고 만다. 오직 그녀를 구하겠다는 마음으로 강도를 쫓던 ‘네이선’은 자신의 특별한 능력(?)을 사용해 온몸을 무기 삼아 극한의 위험 속에 뛰어드는데…",
+    "director": [
+      "댄 버크",
+      "로버트 올슨"
+    ],
+    "cast": [
+      "잭 퀘이드",
+      "엠버 미드선더",
+      "Ray Nicholson",
+      "베티 게이브리얼",
+      "맷 월쉬",
+      "제이콥 배털런",
+      "Conrad Kemp",
+      "에반 헹스트",
+      "Craig Jackson",
+      "Lou Beatty Jr."
+    ],
+    "trailer_key": "3-787TkOznQ",
+    "homepage": "",
+    "cached_at": "2026-10-20T19:03:22.542449+00:00"
+  },
+  "movie:665": {
+    "id": 665,
+    "media_type": "movie",
+    "title": "벤허",
+    "original_title": "Ben-Hur",
+    "poster_path": "/sIsKjPdbtPouiehJUowKRQ4bzuw.jpg",
+    "backdrop_path": "/nk5gq5rNLBJiHvNGMRT6I9VRQX7.jpg",
+    "vote_average": 7.892,
+    "vote_count": 3306,
+    "release_date": "1959-11-18",
+    "genres": [
+      "역사",
+      "드라마",
+      "모험"
+    ],
+    "runtime": 212,
+    "overview": "서기 26년, 로마 제국 시대 유다 벤허(찰톤 헤스톤)는 예루살렘의 제일 가는 유태 귀족이다. 어느 날 로마의 지배하에 있던 이스라엘에 새로운 총독이 부임해오고, 그를 보좌하는 주둔 사령관으로 벤허의 옛 친구인 멧살라(스티븐 보이드)가 임명된다. 그러나, 어린 시절과는 달리 로마와 이스라엘이라는 적대적인 상황에 의해 둘 사이의 우정에 금이 가게 되고, 신임 총독의 부임 축하 행진 중 벤허의 여동생 티자(캐시 오도넬)의 실수로 총독이 부상을 당하는 사건이 발생한다. 멧살라는 유다의 계획적인 범행으로 몰아 벤허 가족을 잡아들이고, 벤허는 모든 것을 잃은 채 노예로 팔려가게 되는데...",
+    "director": [
+      "윌리엄 와일러"
+    ],
+    "cast": [
+      "찰턴 헤스턴",
+      "Stephen Boyd",
+      "Hugh Griffith",
+      "Jack Hawkins",
+      "Haya Harareet",
+      "Martha Scott",
+      "Cathy O'Donnell",
+      "Sam Jaffe",
+      "Finlay Currie",
+      "Frank Thring"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-20T19:03:22.640929+00:00"
+  },
+  "movie:302614": {
+    "id": 302614,
+    "media_type": "movie",
+    "title": "Bitukang Manok",
+    "original_title": "Bitukang Manok",
+    "poster_path": "/e2GbeuKJiEUhi3J5hHdddBAFZfj.jpg",
+    "backdrop_path": null,
+    "vote_average": 10.0,
+    "vote_count": 1,
+    "release_date": "2014-11-09",
+    "genres": [
+      "공포"
+    ],
+    "runtime": 0,
+    "overview": "",
+    "director": [
+      "Alec Figuracion"
+    ],
+    "cast": [
+      "Missy Maramara",
+      "Ken Anderson",
+      "Rhenz Gabalonzo",
+      "Guji Lorenzana",
+      "Mara Lopez",
+      "Therese Malvar",
+      "Kate Alejandrino",
+      "Rino Marco",
+      "Chino Alfonso"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-20T19:03:22.752079+00:00"
+  },
+  "tv:285322": {
+    "id": 285322,
+    "media_type": "tv",
+    "title": "빌로우",
+    "original_title": "Below",
+    "poster_path": "/sDQr66aTgFjCxdra1PUPcrMOQIo.jpg",
+    "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+    "vote_average": 7.205,
+    "vote_count": 185,
+    "release_date": "2026-10-08",
+    "genres": [
+      "드라마",
+      "미스터리"
+    ],
+    "runtime": null,
+    "overview": "뉴펀들랜드의 작은 마을을 공포로 몰아넣은 해양 괴생명체. 거칠게 살아온 한 어부와 그의 가족이 끈끈한 유대로 뭉친 공동체를 지키기 위해 사투를 벌인다.\n\n지역 전설, 손에 땀을 쥐게 하는 서스펜스, 따뜻한 유머, 반전에 반전을 거듭하는 전개가 절묘하게 어우러진 6부작 리미티드 시리즈. 가족과 공동체, 두렵지만 피할 수 없는 변화라는 주제를 깊이 들여다본다.",
+    "director": [],
+    "cast": [
+      "조쉬 하트넷",
+      "맥켄지 데이비스",
+      "찰리 히튼",
+      "루비 스톡스",
+      "칼렙 혼",
+      "로한 캠벨",
+      "윌로우 킨"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.netflix.com/title/81652677",
+    "cached_at": "2026-10-20T19:03:22.858578+00:00"
+  },
+  "tv:136315": {
+    "id": 136315,
+    "media_type": "tv",
+    "title": "더 베어",
+    "original_title": "The Bear",
+    "poster_path": "/t23nESlKRH1qQYWIoUQCOWkS2dl.jpg",
+    "backdrop_path": "/aJtG4txtmiRHwAAqENQHZvBs6kY.jpg",
+    "vote_average": 8.157,
+    "vote_count": 1982,
+    "release_date": "2022-06-23",
+    "genres": [
+      "드라마",
+      "코미디"
+    ],
+    "runtime": null,
+    "overview": "망해가는 식당을 살려라. 최고급 레스토랑의 유명 셰프가 죽은 형이 운영하던 싸구려 샌드위치 가게를 물려받는다.",
+    "director": [],
+    "cast": [
+      "제레미 앨런 화이트",
+      "에번 모스배크랙",
+      "아요 에데비리",
+      "라이오넬 보이스",
+      "애비 엘리엇",
+      "매티 매더슨",
+      "리자 콜론-자야스",
+      "에드윈 리 깁슨"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.fxnetworks.com/shows/the-bear",
+    "cached_at": "2026-10-20T19:03:23.284047+00:00"
+  },
+  "tv:1480": {
+    "id": 1480,
+    "media_type": "tv",
+    "title": "앨리의 사랑 만들기",
+    "original_title": "Ally McBeal",
+    "poster_path": "/weS8htxS2j0EQ6jorK3WOR1dZpH.jpg",
+    "backdrop_path": "/xCMs3IxaGqKSc5cwngRUlhmjbwl.jpg",
+    "vote_average": 6.5,
+    "vote_count": 390,
+    "release_date": "1997-09-08",
+    "genres": [
+      "드라마",
+      "코미디"
+    ],
+    "runtime": 43,
+    "overview": "사랑의 예감 하버드 법대를 졸업한 후 법률회사에서 취직한 앨리 맥빌은 선배 변호사가 상습적으로 성추행을 하자 사장에게 그 사실을 알리고 회사를 그만둔다. 얼마 후 길에서 우연히 만난 동창생 리차드 피쉬의 법률회사에 다시 일자리를 구한 앨리는 그곳에서 어린 시절부터 열렬히 사랑했다가 헤어진 빌리 토마스와 재회한다. 여전히 그를 사랑하는 앨리는 뛸 듯이 기뻐하지만, 빌리는 이미 결혼을 한 상태였는데...",
+    "director": [],
+    "cast": [
+      "Calista Flockhart",
+      "Greg Germann",
+      "제인 크라코브스키",
+      "레지나 홀",
+      "Peter MacNicol",
+      "Vonda Shepard",
+      "Portia De Rossi",
+      "Josh Hopkins"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-20T19:03:23.386749+00:00"
   }
 }
