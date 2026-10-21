@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-16T18:41:33.785686+00:00"
+    "cached_at": "2026-10-21T19:10:25.996065+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-20T19:03:23.767497+00:00"
+    "cached_at": "2026-10-21T19:10:26.505123+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.42,
-    "vote_count": 1236,
+    "vote_average": 8.421,
+    "vote_count": 1240,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-20T19:03:23.867805+00:00"
+    "cached_at": "2026-10-21T19:10:26.615176+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-20T19:03:23.979058+00:00"
+    "cached_at": "2026-10-21T19:10:26.724297+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-20T19:03:24.081532+00:00"
+    "cached_at": "2026-10-21T19:10:26.824153+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1641,8 +1641,8 @@
     "original_title": "Grey's Anatomy",
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
-    "vote_average": 8.205,
-    "vote_count": 11088,
+    "vote_average": 8.204,
+    "vote_count": 11089,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1664,7 +1664,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-20T19:03:23.486599+00:00"
+    "cached_at": "2026-10-21T19:10:26.400724+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2829,8 +2829,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.851,
-    "vote_count": 10758,
+    "vote_average": 7.852,
+    "vote_count": 10767,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2856,7 +2856,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-20T19:03:22.962698+00:00"
+    "cached_at": "2026-10-21T19:10:25.896459+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3455,7 +3455,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-20T19:03:22.063230+00:00"
+    "cached_at": "2026-10-21T19:10:25.381005+00:00"
   },
   "movie:1236045": {
     "id": 1236045,
@@ -3536,7 +3536,7 @@
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
     "vote_average": 7.605,
-    "vote_count": 1775,
+    "vote_count": 1780,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3560,7 +3560,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-20T19:03:22.393159+00:00"
+    "cached_at": "2026-10-21T19:10:25.484362+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3606,8 +3606,8 @@
     "original_title": "Ben-Hur",
     "poster_path": "/sIsKjPdbtPouiehJUowKRQ4bzuw.jpg",
     "backdrop_path": "/nk5gq5rNLBJiHvNGMRT6I9VRQX7.jpg",
-    "vote_average": 7.892,
-    "vote_count": 3306,
+    "vote_average": 7.891,
+    "vote_count": 3308,
     "release_date": "1959-11-18",
     "genres": [
       "역사",
@@ -3633,7 +3633,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-20T19:03:22.640929+00:00"
+    "cached_at": "2026-10-21T19:10:25.584319+00:00"
   },
   "movie:302614": {
     "id": 302614,
@@ -3666,7 +3666,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-20T19:03:22.752079+00:00"
+    "cached_at": "2026-10-21T19:10:25.692117+00:00"
   },
   "tv:285322": {
     "id": 285322,
@@ -3675,8 +3675,8 @@
     "original_title": "Below",
     "poster_path": "/sDQr66aTgFjCxdra1PUPcrMOQIo.jpg",
     "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-    "vote_average": 7.205,
-    "vote_count": 185,
+    "vote_average": 7.221,
+    "vote_count": 190,
     "release_date": "2026-10-08",
     "genres": [
       "드라마",
@@ -3696,7 +3696,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/81652677",
-    "cached_at": "2026-10-20T19:03:22.858578+00:00"
+    "cached_at": "2026-10-21T19:10:25.793165+00:00"
   },
   "tv:136315": {
     "id": 136315,
@@ -3706,7 +3706,7 @@
     "poster_path": "/t23nESlKRH1qQYWIoUQCOWkS2dl.jpg",
     "backdrop_path": "/aJtG4txtmiRHwAAqENQHZvBs6kY.jpg",
     "vote_average": 8.157,
-    "vote_count": 1982,
+    "vote_count": 1985,
     "release_date": "2022-06-23",
     "genres": [
       "드라마",
@@ -3727,7 +3727,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/the-bear",
-    "cached_at": "2026-10-20T19:03:23.284047+00:00"
+    "cached_at": "2026-10-21T19:10:26.195747+00:00"
   },
   "tv:1480": {
     "id": 1480,
@@ -3758,6 +3758,34 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-20T19:03:23.386749+00:00"
+    "cached_at": "2026-10-21T19:10:26.296361+00:00"
+  },
+  "tv:83631": {
+    "id": 83631,
+    "media_type": "tv",
+    "title": "뱀파이어에 관한 아주 특별한 다큐멘터리",
+    "original_title": "What We Do in the Shadows",
+    "poster_path": "/unGzAJszSJ42mLgTOj8jEO77PYg.jpg",
+    "backdrop_path": "/mKikck71CvVISUSTLk29fwRbH4y.jpg",
+    "vote_average": 7.999,
+    "vote_count": 1076,
+    "release_date": "2019-03-27",
+    "genres": [
+      "코미디",
+      "Sci-Fi & Fantasy"
+    ],
+    "runtime": null,
+    "overview": "수백 년 동안 함께 \"살아온\" 세 흡혈귀의 일상을 들여다보는 다큐멘터리 형식의 작품",
+    "director": [],
+    "cast": [
+      "Kayvan Novak",
+      "맷 베리",
+      "너태시아 디미트리우",
+      "하비 길렌",
+      "마크 프록시"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.fxnetworks.com/shows/what-we-do-in-the-shadows",
+    "cached_at": "2026-10-21T19:10:26.095428+00:00"
   }
 }
