@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-21T19:10:25.996065+00:00"
+    "cached_at": "2026-10-22T19:05:31.138651+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-21T19:10:26.505123+00:00"
+    "cached_at": "2026-10-22T19:05:31.500669+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.421,
-    "vote_count": 1240,
+    "vote_average": 8.422,
+    "vote_count": 1241,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-21T19:10:26.615176+00:00"
+    "cached_at": "2026-10-22T19:05:31.575311+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-21T19:10:26.724297+00:00"
+    "cached_at": "2026-10-22T19:05:31.651356+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-21T19:10:26.824153+00:00"
+    "cached_at": "2026-10-22T19:05:31.733228+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1254,7 +1254,7 @@
     ],
     "trailer_key": "SCZYOE3VYP0",
     "homepage": "",
-    "cached_at": "2026-10-15T18:58:03.473585+00:00"
+    "cached_at": "2026-10-22T19:05:31.437053+00:00"
   },
   "movie:758323": {
     "id": 758323,
@@ -2829,8 +2829,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.852,
-    "vote_count": 10767,
+    "vote_average": 7.851,
+    "vote_count": 10773,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2856,7 +2856,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-21T19:10:25.896459+00:00"
+    "cached_at": "2026-10-22T19:05:30.835361+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3008,9 +3008,9 @@
     "title": "연애박사",
     "original_title": "연애박사",
     "poster_path": "/vyrpZOFIZJkQG8ZWTezmlNGav8R.jpg",
-    "backdrop_path": "/mA4ClzkBvBCiTHQ8zHFsuWRaLW2.jpg",
-    "vote_average": 7.167,
-    "vote_count": 6,
+    "backdrop_path": "/wwSoLQrLyiXXUbRnZq1eWBbHaRR.jpg",
+    "vote_average": 8.875,
+    "vote_count": 8,
     "release_date": "2026-10-05",
     "genres": [
       "드라마",
@@ -3025,7 +3025,7 @@
     ],
     "trailer_key": "4HsK_-QQE5Y",
     "homepage": "https://ktena.co.kr/bbs/board.php?bo_table=drama&wr_id=51",
-    "cached_at": "2026-10-14T19:14:24.159776+00:00"
+    "cached_at": "2026-10-22T19:05:30.971425+00:00"
   },
   "movie:1293070": {
     "id": 1293070,
@@ -3082,8 +3082,8 @@
     "original_title": "メリーベリーラブ",
     "poster_path": "/vMCPcrzBeU603KUZDM374Boprh6.jpg",
     "backdrop_path": "/vPDVee1j6w0hJ2xMJ2bU5HVBA0Z.jpg",
-    "vote_average": 9.5,
-    "vote_count": 4,
+    "vote_average": 9.7,
+    "vote_count": 7,
     "release_date": "2026-10-07",
     "genres": [
       "코미디",
@@ -3109,7 +3109,7 @@
     ],
     "trailer_key": "AS6eCeBIzAQ",
     "homepage": "https://www.ntv.co.jp/merryberrylove",
-    "cached_at": "2026-10-15T18:58:03.303164+00:00"
+    "cached_at": "2026-10-22T19:05:31.061333+00:00"
   },
   "tv:320513": {
     "id": 320513,
@@ -3291,8 +3291,8 @@
     "original_title": "Inside Out 2",
     "poster_path": "/x2BHx02jMbvpKjMvbf8XxJkYwHJ.jpg",
     "backdrop_path": "/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
-    "vote_average": 7.541,
-    "vote_count": 7058,
+    "vote_average": 7.539,
+    "vote_count": 7095,
     "release_date": "2024-06-11",
     "genres": [
       "애니메이션",
@@ -3319,7 +3319,7 @@
     ],
     "trailer_key": "SCP3jdW_17w",
     "homepage": "",
-    "cached_at": "2026-10-15T18:58:03.089043+00:00"
+    "cached_at": "2026-10-22T19:05:30.901214+00:00"
   },
   "movie:11": {
     "id": 11,
@@ -3455,7 +3455,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-21T19:10:25.381005+00:00"
+    "cached_at": "2026-10-22T19:05:30.455149+00:00"
   },
   "movie:1236045": {
     "id": 1236045,
@@ -3535,8 +3535,8 @@
     "original_title": "Evil Dead Burn",
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "vote_average": 7.605,
-    "vote_count": 1780,
+    "vote_average": 7.599,
+    "vote_count": 1785,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3560,7 +3560,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-21T19:10:25.484362+00:00"
+    "cached_at": "2026-10-22T19:05:30.516684+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3606,8 +3606,8 @@
     "original_title": "Ben-Hur",
     "poster_path": "/sIsKjPdbtPouiehJUowKRQ4bzuw.jpg",
     "backdrop_path": "/nk5gq5rNLBJiHvNGMRT6I9VRQX7.jpg",
-    "vote_average": 7.891,
-    "vote_count": 3308,
+    "vote_average": 7.89,
+    "vote_count": 3310,
     "release_date": "1959-11-18",
     "genres": [
       "역사",
@@ -3633,7 +3633,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-21T19:10:25.584319+00:00"
+    "cached_at": "2026-10-22T19:05:30.600831+00:00"
   },
   "movie:302614": {
     "id": 302614,
@@ -3666,7 +3666,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-21T19:10:25.692117+00:00"
+    "cached_at": "2026-10-22T19:05:30.682751+00:00"
   },
   "tv:285322": {
     "id": 285322,
@@ -3675,8 +3675,8 @@
     "original_title": "Below",
     "poster_path": "/sDQr66aTgFjCxdra1PUPcrMOQIo.jpg",
     "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-    "vote_average": 7.221,
-    "vote_count": 190,
+    "vote_average": 7.227,
+    "vote_count": 194,
     "release_date": "2026-10-08",
     "genres": [
       "드라마",
@@ -3696,7 +3696,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/81652677",
-    "cached_at": "2026-10-21T19:10:25.793165+00:00"
+    "cached_at": "2026-10-22T19:05:30.755219+00:00"
   },
   "tv:136315": {
     "id": 136315,
@@ -3705,8 +3705,8 @@
     "original_title": "The Bear",
     "poster_path": "/t23nESlKRH1qQYWIoUQCOWkS2dl.jpg",
     "backdrop_path": "/aJtG4txtmiRHwAAqENQHZvBs6kY.jpg",
-    "vote_average": 8.157,
-    "vote_count": 1985,
+    "vote_average": 8.154,
+    "vote_count": 1989,
     "release_date": "2022-06-23",
     "genres": [
       "드라마",
@@ -3727,7 +3727,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/the-bear",
-    "cached_at": "2026-10-21T19:10:26.195747+00:00"
+    "cached_at": "2026-10-22T19:05:31.278960+00:00"
   },
   "tv:1480": {
     "id": 1480,
@@ -3758,7 +3758,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-21T19:10:26.296361+00:00"
+    "cached_at": "2026-10-22T19:05:31.355030+00:00"
   },
   "tv:83631": {
     "id": 83631,
@@ -3767,7 +3767,7 @@
     "original_title": "What We Do in the Shadows",
     "poster_path": "/unGzAJszSJ42mLgTOj8jEO77PYg.jpg",
     "backdrop_path": "/mKikck71CvVISUSTLk29fwRbH4y.jpg",
-    "vote_average": 7.999,
+    "vote_average": 8.0,
     "vote_count": 1076,
     "release_date": "2019-03-27",
     "genres": [
@@ -3786,6 +3786,6 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/what-we-do-in-the-shadows",
-    "cached_at": "2026-10-21T19:10:26.095428+00:00"
+    "cached_at": "2026-10-22T19:05:31.211160+00:00"
   }
 }
