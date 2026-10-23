@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "items": [
     {
       "rank": 1,
@@ -283,6 +283,21 @@
     },
     {
       "rank": 1,
+      "title": "모아나",
+      "original_title": "모아나",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1108427,
+      "tmdb_title": "모아나",
+      "tmdb_original_title": "Moana",
+      "source": "top10",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 2,
       "title": "토이 스토리 5",
       "original_title": "토이 스토리 5",
       "season_title": "",
@@ -292,12 +307,12 @@
       "tmdb_id": 1084244,
       "tmdb_title": "토이 스토리 5",
       "tmdb_original_title": "Toy Story 5",
-      "source": "tmdb_popular",
+      "source": "top10",
       "previous_rank": 1,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "팀 버튼의 크리스마스 악몽",
       "original_title": "팀 버튼의 크리스마스 악몽",
       "season_title": "",
@@ -308,23 +323,8 @@
       "tmdb_title": "팀 버튼의 크리스마스 악몽",
       "tmdb_original_title": "The Nightmare Before Christmas",
       "source": "tmdb_popular",
-      "previous_rank": 3,
-      "change": 1
-    },
-    {
-      "rank": 3,
-      "title": "어벤져스: 인피니티 워",
-      "original_title": "어벤져스: 인피니티 워",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 299536,
-      "tmdb_title": "어벤져스: 인피니티 워",
-      "tmdb_original_title": "Avengers: Infinity War",
-      "source": "tmdb_popular",
-      "previous_rank": 4,
-      "change": 1
+      "previous_rank": 2,
+      "change": -1
     },
     {
       "rank": 4,
@@ -338,23 +338,23 @@
       "tmdb_title": "어벤져스: 엔드게임",
       "tmdb_original_title": "Avengers: Endgame",
       "source": "tmdb_popular",
-      "previous_rank": 5,
-      "change": 1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
-      "title": "아바타: 불과 재",
-      "original_title": "아바타: 불과 재",
+      "title": "어벤져스: 인피니티 워",
+      "original_title": "어벤져스: 인피니티 워",
       "season_title": "",
       "platform": "Disney+",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 83533,
-      "tmdb_title": "아바타: 불과 재",
-      "tmdb_original_title": "Avatar: Fire and Ash",
+      "tmdb_id": 299536,
+      "tmdb_title": "어벤져스: 인피니티 워",
+      "tmdb_original_title": "Avengers: Infinity War",
       "source": "tmdb_popular",
-      "previous_rank": 6,
-      "change": 1
+      "previous_rank": 3,
+      "change": -2
     },
     {
       "rank": 6,
@@ -368,11 +368,26 @@
       "tmdb_title": "코코",
       "tmdb_original_title": "Coco",
       "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": 2
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
+      "title": "아바타: 불과 재",
+      "original_title": "아바타: 불과 재",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 83533,
+      "tmdb_title": "아바타: 불과 재",
+      "tmdb_original_title": "Avatar: Fire and Ash",
+      "source": "tmdb_popular",
+      "previous_rank": 5,
+      "change": -2
+    },
+    {
+      "rank": 8,
       "title": "주토피아 2",
       "original_title": "주토피아 2",
       "season_title": "",
@@ -384,10 +399,10 @@
       "tmdb_original_title": "Zootopia 2",
       "source": "tmdb_popular",
       "previous_rank": 7,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "어벤져스",
       "original_title": "어벤져스",
       "season_title": "",
@@ -398,11 +413,11 @@
       "tmdb_title": "어벤져스",
       "tmdb_original_title": "The Avengers",
       "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": 1
+      "previous_rank": 8,
+      "change": -1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "만달로리안과 그로구",
       "original_title": "만달로리안과 그로구",
       "season_title": "",
@@ -413,23 +428,8 @@
       "tmdb_title": "만달로리안과 그로구",
       "tmdb_original_title": "The Mandalorian and Grogu",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 10,
-      "title": "인사이드 아웃 2",
-      "original_title": "인사이드 아웃 2",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1022789,
-      "tmdb_title": "인사이드 아웃 2",
-      "tmdb_original_title": "Inside Out 2",
-      "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 0
+      "previous_rank": 9,
+      "change": -1
     },
     {
       "rank": 1,
@@ -448,21 +448,6 @@
     },
     {
       "rank": 2,
-      "title": "술래게임",
-      "original_title": "술래게임",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 330932,
-      "tmdb_title": "술래게임",
-      "tmdb_original_title": "술래게임",
-      "source": "top10",
-      "previous_rank": 5,
-      "change": 3
-    },
-    {
-      "rank": 3,
       "title": "메리 베리 러브",
       "original_title": "메리 베리 러브",
       "season_title": "",
@@ -473,41 +458,41 @@
       "tmdb_title": "메리 베리 러브",
       "tmdb_original_title": "メリーベリーラブ",
       "source": "top10",
-      "previous_rank": 2,
-      "change": -1
+      "previous_rank": 3,
+      "change": 1
+    },
+    {
+      "rank": 3,
+      "title": "비전퀘스트",
+      "original_title": "비전퀘스트",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 213375,
+      "tmdb_title": "비전퀘스트",
+      "tmdb_original_title": "VisionQuest",
+      "source": "top10",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 4,
-      "title": "메이드 인 코리아",
-      "original_title": "메이드 인 코리아",
+      "title": "술래게임",
+      "original_title": "술래게임",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 246473,
-      "tmdb_title": "메이드 인 코리아",
-      "tmdb_original_title": "메이드 인 코리아",
+      "tmdb_id": 330932,
+      "tmdb_title": "술래게임",
+      "tmdb_original_title": "술래게임",
       "source": "top10",
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 2,
+      "change": -2
     },
     {
       "rank": 5,
-      "title": "연애전쟁",
-      "original_title": "연애전쟁",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 325114,
-      "tmdb_title": "연애전쟁",
-      "tmdb_original_title": "연애전쟁",
-      "source": "top10",
-      "previous_rank": 4,
-      "change": -1
-    },
-    {
-      "rank": 6,
       "title": "키드냅 게임",
       "original_title": "키드냅 게임",
       "season_title": "",
@@ -518,8 +503,23 @@
       "tmdb_title": "키드냅 게임",
       "tmdb_original_title": "kiDnap GAME",
       "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 6,
+      "change": 1
+    },
+    {
+      "rank": 6,
+      "title": "연애전쟁",
+      "original_title": "연애전쟁",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 325114,
+      "tmdb_title": "연애전쟁",
+      "tmdb_original_title": "연애전쟁",
+      "source": "top10",
+      "previous_rank": 5,
+      "change": -1
     },
     {
       "rank": 7,
@@ -533,11 +533,26 @@
       "tmdb_title": "킬러들의 쇼핑몰",
       "tmdb_original_title": "킬러들의 쇼핑몰",
       "source": "top10",
-      "previous_rank": 6,
-      "change": -1
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
+      "title": "그레이 아나토미",
+      "original_title": "그레이 아나토미",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 1416,
+      "tmdb_title": "그레이 아나토미",
+      "tmdb_original_title": "Grey's Anatomy",
+      "source": "tmdb_popular",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 9,
       "title": "뱀파이어에 관한 아주 특별한 다큐멘터리",
       "original_title": "뱀파이어에 관한 아주 특별한 다큐멘터리",
       "season_title": "",
@@ -548,11 +563,11 @@
       "tmdb_title": "뱀파이어에 관한 아주 특별한 다큐멘터리",
       "tmdb_original_title": "What We Do in the Shadows",
       "source": "tmdb_popular",
-      "previous_rank": 7,
+      "previous_rank": 8,
       "change": -1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "더 베어",
       "original_title": "더 베어",
       "season_title": "",
@@ -562,21 +577,6 @@
       "tmdb_id": 136315,
       "tmdb_title": "더 베어",
       "tmdb_original_title": "The Bear",
-      "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": -1
-    },
-    {
-      "rank": 10,
-      "title": "앨리의 사랑 만들기",
-      "original_title": "앨리의 사랑 만들기",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 1480,
-      "tmdb_title": "앨리의 사랑 만들기",
-      "tmdb_original_title": "Ally McBeal",
       "source": "tmdb_popular",
       "previous_rank": 9,
       "change": -1
@@ -709,17 +709,17 @@
     },
     {
       "rank": 10,
-      "title": "짱구",
-      "original_title": "짱구",
+      "title": "해리 포터와 비밀의 방",
+      "original_title": "해리 포터와 비밀의 방",
       "season_title": "",
       "platform": "Coupang Play",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 1406652,
-      "tmdb_title": "짱구",
-      "tmdb_original_title": "짱구",
-      "previous_rank": 10,
-      "change": 0
+      "tmdb_id": 672,
+      "tmdb_title": "해리 포터와 비밀의 방",
+      "tmdb_original_title": "Harry Potter and the Chamber of Secrets",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,

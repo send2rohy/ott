@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-22T19:05:31.138651+00:00"
+    "cached_at": "2026-10-23T18:56:34.894813+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -466,8 +466,8 @@
     "original_title": "킬러들의 쇼핑몰",
     "poster_path": "/gfw41bHY2boxVse5l8M6m0sft5n.jpg",
     "backdrop_path": "/lg134VJrvY3ZdOlP4lTu1onOhcf.jpg",
-    "vote_average": 8.5,
-    "vote_count": 252,
+    "vote_average": 8.518,
+    "vote_count": 254,
     "release_date": "2024-01-17",
     "genres": [
       "드라마",
@@ -494,7 +494,7 @@
     ],
     "trailer_key": "3VrAwFB2Bm8",
     "homepage": "https://www.disneyplus.com/series/a-shop-for-killers/6pcuvK0SUuHI",
-    "cached_at": "2026-10-16T18:41:33.684336+00:00"
+    "cached_at": "2026-10-23T18:56:34.968964+00:00"
   },
   "movie:1228710": {
     "id": 1228710,
@@ -503,8 +503,8 @@
     "original_title": "The Mandalorian and Grogu",
     "poster_path": "/tMP99wq45GQMoeZwITgjAS8Wihm.jpg",
     "backdrop_path": "/ysLlsAxwgNSxBWHCgTKJrmjxpRQ.jpg",
-    "vote_average": 7.458,
-    "vote_count": 1860,
+    "vote_average": 7.462,
+    "vote_count": 1905,
     "release_date": "2026-05-20",
     "genres": [
       "액션",
@@ -530,7 +530,7 @@
     ],
     "trailer_key": "o58w-fU3Fbo",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:33.278600+00:00"
+    "cached_at": "2026-10-23T18:56:34.579792+00:00"
   },
   "movie:1314481": {
     "id": 1314481,
@@ -678,8 +678,8 @@
     "original_title": "Avengers: Endgame",
     "poster_path": "/z7ilT5rNN9kDo8JZmgyhM6ej2xv.jpg",
     "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-    "vote_average": 8.2,
-    "vote_count": 29012,
+    "vote_average": 8.247,
+    "vote_count": 29092,
     "release_date": "2019-04-24",
     "genres": [
       "모험",
@@ -706,7 +706,7 @@
     ],
     "trailer_key": "nsSUJOaSEMo",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:33.024166+00:00"
+    "cached_at": "2026-10-23T18:56:34.202481+00:00"
   },
   "tv:284884": {
     "id": 284884,
@@ -727,7 +727,7 @@
     "cast": [],
     "trailer_key": "0u8q095rp-4",
     "homepage": "https://www.coupangplay.com/content/d2b06b64-60ca-4b06-a2bc-004006d47402",
-    "cached_at": "2026-10-16T18:41:35.000830+00:00"
+    "cached_at": "2026-10-23T18:56:35.888443+00:00"
   },
   "tv:301418": {
     "id": 301418,
@@ -759,7 +759,7 @@
     ],
     "trailer_key": "HKj9yCm2R4A",
     "homepage": "https://www.viki.com/tv/41612c-the-affair-was-just-the-beginning",
-    "cached_at": "2026-10-16T18:41:35.126386+00:00"
+    "cached_at": "2026-10-23T18:56:35.953953+00:00"
   },
   "tv:325269": {
     "id": 325269,
@@ -785,7 +785,7 @@
     ],
     "trailer_key": "uUizQtn5sPQ",
     "homepage": "https://www.coupangplay.com/titles/b5af6191-196c-4d72-87ac-8580a2a4c277?type=TVSHOW&availability=SVOD&live=&channel=&rowId=e66158de-1dc8-4516-84c7-76fcf93d22c9&src=page_discover_feed%3AMulti-Hero-Curation-Content%3AALL&sourceType=&supportLive=",
-    "cached_at": "2026-10-16T18:41:35.233023+00:00"
+    "cached_at": "2026-10-23T18:56:36.027447+00:00"
   },
   "tv:325157": {
     "id": 325157,
@@ -800,7 +800,7 @@
     "genres": [
       "Talk"
     ],
-    "runtime": null,
+    "runtime": 35,
     "overview": "아직 처음인 것 투성이인 원희의 스무 살 버킷 리스트를 언니들과 함께 경험하며 성장해 가는 공감형 리얼 버라이어티 예능.",
     "director": [],
     "cast": [
@@ -808,7 +808,7 @@
     ],
     "trailer_key": "NACxtfU6wNw",
     "homepage": "https://www.coupangplay.com/titles/77218b6c-c58d-4e83-8a00-9264d6dce174?type=TVSHOW&availability=SVOD&live=&channel=&rowId=&trackId=MLRedis&src=page_search%3Aall&sourceType=page_discover_title_detail%3Apage_search&supportLive=",
-    "cached_at": "2026-10-16T18:41:35.333947+00:00"
+    "cached_at": "2026-10-23T18:56:36.101464+00:00"
   },
   "tv:321885": {
     "id": 321885,
@@ -834,7 +834,7 @@
     ],
     "trailer_key": "_A340qygxeM",
     "homepage": "https://www.coupangplay.com/content/19f65d86-36cf-48bc-a343-c2fcfdd37dd4",
-    "cached_at": "2026-10-16T18:41:35.440431+00:00"
+    "cached_at": "2026-10-23T18:56:36.174448+00:00"
   },
   "tv:73048": {
     "id": 73048,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-22T19:05:31.500669+00:00"
+    "cached_at": "2026-10-23T18:56:36.239158+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -897,7 +897,7 @@
     ],
     "trailer_key": "MT6IiqWxWB0",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:34.290192+00:00"
+    "cached_at": "2026-10-23T18:56:35.270670+00:00"
   },
   "tv:224372": {
     "id": 224372,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.422,
-    "vote_count": 1241,
+    "vote_average": 8.424,
+    "vote_count": 1244,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-22T19:05:31.575311+00:00"
+    "cached_at": "2026-10-23T18:56:36.341356+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-22T19:05:31.651356+00:00"
+    "cached_at": "2026-10-23T18:56:36.409334+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-22T19:05:31.733228+00:00"
+    "cached_at": "2026-10-23T18:56:36.482571+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1018,8 +1018,8 @@
     "original_title": "왕과 사는 남자",
     "poster_path": "/kkJB3SeUJp7Y0IXXLkv5QZHJGkH.jpg",
     "backdrop_path": "/1s1r4OOdnU8VX2inALVTA2q94uY.jpg",
-    "vote_average": 7.1,
-    "vote_count": 33,
+    "vote_average": 6.941,
+    "vote_count": 34,
     "release_date": "2026-02-04",
     "genres": [
       "역사",
@@ -1044,7 +1044,7 @@
     ],
     "trailer_key": "TpG4W2WwYBU",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:34.387827+00:00"
+    "cached_at": "2026-10-23T18:56:35.356267+00:00"
   },
   "movie:1461254": {
     "id": 1461254,
@@ -1053,8 +1053,8 @@
     "original_title": "살목지",
     "poster_path": "/uVJyWlSPCWftRUXRM6lxTqOzPY6.jpg",
     "backdrop_path": "/edVIvTc8RofOTxoAZN7a5kxIAay.jpg",
-    "vote_average": 6.125,
-    "vote_count": 32,
+    "vote_average": 6.029,
+    "vote_count": 35,
     "release_date": "2026-04-08",
     "genres": [
       "공포",
@@ -1079,7 +1079,7 @@
     ],
     "trailer_key": "46fcD067Qwo",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:34.807302+00:00"
+    "cached_at": "2026-10-23T18:56:35.598251+00:00"
   },
   "movie:936245": {
     "id": 936245,
@@ -1114,7 +1114,7 @@
     ],
     "trailer_key": "f4kfsf6C6eU",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:34.488945+00:00"
+    "cached_at": "2026-10-23T18:56:35.437814+00:00"
   },
   "movie:257211": {
     "id": 257211,
@@ -1218,7 +1218,7 @@
     ],
     "trailer_key": "J_RddSZnATU",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:34.905443+00:00"
+    "cached_at": "2026-10-23T18:56:35.673756+00:00"
   },
   "movie:1406652": {
     "id": 1406652,
@@ -1407,8 +1407,8 @@
     "original_title": "Avengers: Infinity War",
     "poster_path": "/kmP6viwzcEkZeoi1LaVcQemcvZh.jpg",
     "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-    "vote_average": 8.245,
-    "vote_count": 33156,
+    "vote_average": 8.246,
+    "vote_count": 33229,
     "release_date": "2018-04-25",
     "genres": [
       "모험",
@@ -1435,7 +1435,7 @@
     ],
     "trailer_key": "F0kvfk1ghjA",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:32.637735+00:00"
+    "cached_at": "2026-10-23T18:56:34.300418+00:00"
   },
   "movie:1084242": {
     "id": 1084242,
@@ -1444,8 +1444,8 @@
     "original_title": "Zootopia 2",
     "poster_path": "/ib6v6qUXzez1x2qIOLN7C0yJNPQ.jpg",
     "backdrop_path": "/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
-    "vote_average": 7.7,
-    "vote_count": 3561,
+    "vote_average": 7.668,
+    "vote_count": 3604,
     "release_date": "2025-11-26",
     "genres": [
       "애니메이션",
@@ -1474,7 +1474,7 @@
     ],
     "trailer_key": "H9boDm0J67w",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:32.784166+00:00"
+    "cached_at": "2026-10-23T18:56:34.495435+00:00"
   },
   "movie:19995": {
     "id": 19995,
@@ -1519,8 +1519,8 @@
     "original_title": "Avatar: Fire and Ash",
     "poster_path": "/l18o0AK18KS118tWeROOKYkF0ng.jpg",
     "backdrop_path": "/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
-    "vote_average": 7.65,
-    "vote_count": 4517,
+    "vote_average": 7.647,
+    "vote_count": 4572,
     "release_date": "2025-12-17",
     "genres": [
       "SF",
@@ -1546,7 +1546,7 @@
     ],
     "trailer_key": "fIaXDSQRA6o",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:32.894622+00:00"
+    "cached_at": "2026-10-23T18:56:34.387107+00:00"
   },
   "tv:456": {
     "id": 456,
@@ -1642,7 +1642,7 @@
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
     "vote_average": 8.204,
-    "vote_count": 11089,
+    "vote_count": 11092,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1664,7 +1664,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-21T19:10:26.400724+00:00"
+    "cached_at": "2026-10-23T18:56:35.039152+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2287,8 +2287,8 @@
     "original_title": "Toy Story 5",
     "poster_path": "/AqrJx3nVVMlKWXGaPIH32GzjEJA.jpg",
     "backdrop_path": "/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
-    "vote_average": 8.288,
-    "vote_count": 2620,
+    "vote_average": 8.278,
+    "vote_count": 2689,
     "release_date": "2026-06-17",
     "genres": [
       "애니메이션",
@@ -2315,7 +2315,7 @@
     ],
     "trailer_key": "oCtyRCnPQXY",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:32.435459+00:00"
+    "cached_at": "2026-10-23T18:56:33.983786+00:00"
   },
   "movie:671": {
     "id": 671,
@@ -2323,9 +2323,9 @@
     "title": "해리 포터와 마법사의 돌",
     "original_title": "Harry Potter and the Philosopher's Stone",
     "poster_path": "/8YaP48tVfngbURGldWk1I5odsBK.jpg",
-    "backdrop_path": "/hziiv14OpD73u9gAak4XDDfBKa2.jpg",
+    "backdrop_path": "/lvOLivVeX3DVVcwfVkxKf0R22D8.jpg",
     "vote_average": 7.905,
-    "vote_count": 30422,
+    "vote_count": 30476,
     "release_date": "2001-11-16",
     "genres": [
       "모험",
@@ -2350,7 +2350,7 @@
     ],
     "trailer_key": "vtJ6eZRanHc",
     "homepage": "",
-    "cached_at": "2026-10-16T18:41:34.710105+00:00"
+    "cached_at": "2026-10-23T18:56:35.527222+00:00"
   },
   "tv:1413": {
     "id": 1413,
@@ -2665,7 +2665,6 @@
     "overview": "끝없이 펼쳐진 광활한 공간에서 펼쳐지는 극한의 추격전. 플레이어들은 끊임없이 달리고 숨으며 몸으로 부딪쳐 살아남아야 한다. 누구도 믿을 수 없는 가운데, 플레이어들 사이에는 정체를 숨긴 술래가 존재한다. 끝없는 추격과 의심 속에서, 마지막까지 살아남는 자만이 승리를 차지한다.",
     "director": [],
     "cast": [
-      "황재균",
       "빠니보틀",
       "경수진",
       "말왕",
@@ -2674,11 +2673,12 @@
       "김똘똘",
       "양다일",
       "육준서",
-      "서지은"
+      "서지은",
+      "윤상현"
     ],
     "trailer_key": "xP-E5CC8SkI",
     "homepage": "https://www.disneyplus.com/browse/entity-246585f6-2139-40a3-b7aa-f97abf656589",
-    "cached_at": "2026-10-16T18:41:33.487485+00:00"
+    "cached_at": "2026-10-23T18:56:34.735634+00:00"
   },
   "movie:10138": {
     "id": 10138,
@@ -2829,8 +2829,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.851,
-    "vote_count": 10773,
+    "vote_average": 7.852,
+    "vote_count": 10786,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2856,7 +2856,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-22T19:05:30.835361+00:00"
+    "cached_at": "2026-10-23T18:56:34.070155+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3118,8 +3118,8 @@
     "original_title": "kiDnap GAME",
     "poster_path": "/uTr0dWaVwCVagjLNpZSBkZNTD2m.jpg",
     "backdrop_path": "/f2XoQ4503j04kyPFIA6qqweZaRE.jpg",
-    "vote_average": 0.0,
-    "vote_count": 0,
+    "vote_average": 5.0,
+    "vote_count": 1,
     "release_date": "2026-10-06",
     "genres": [
       "범죄",
@@ -3144,7 +3144,7 @@
     ],
     "trailer_key": "EwlvMXOjxn8",
     "homepage": "https://www.fujitv.co.jp/kidnap-game",
-    "cached_at": "2026-10-16T18:41:33.887557+00:00"
+    "cached_at": "2026-10-23T18:56:34.814348+00:00"
   },
   "movie:321612": {
     "id": 321612,
@@ -3455,7 +3455,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-22T19:05:30.455149+00:00"
+    "cached_at": "2026-10-23T18:56:33.497435+00:00"
   },
   "movie:1236045": {
     "id": 1236045,
@@ -3535,8 +3535,8 @@
     "original_title": "Evil Dead Burn",
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "vote_average": 7.599,
-    "vote_count": 1785,
+    "vote_average": 7.6,
+    "vote_count": 1790,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3560,7 +3560,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-22T19:05:30.516684+00:00"
+    "cached_at": "2026-10-23T18:56:33.572737+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3633,7 +3633,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-22T19:05:30.600831+00:00"
+    "cached_at": "2026-10-23T18:56:33.657648+00:00"
   },
   "movie:302614": {
     "id": 302614,
@@ -3666,7 +3666,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-22T19:05:30.682751+00:00"
+    "cached_at": "2026-10-23T18:56:33.726965+00:00"
   },
   "tv:285322": {
     "id": 285322,
@@ -3675,8 +3675,8 @@
     "original_title": "Below",
     "poster_path": "/sDQr66aTgFjCxdra1PUPcrMOQIo.jpg",
     "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-    "vote_average": 7.227,
-    "vote_count": 194,
+    "vote_average": 7.224,
+    "vote_count": 196,
     "release_date": "2026-10-08",
     "genres": [
       "드라마",
@@ -3696,7 +3696,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/81652677",
-    "cached_at": "2026-10-22T19:05:30.755219+00:00"
+    "cached_at": "2026-10-23T18:56:33.800836+00:00"
   },
   "tv:136315": {
     "id": 136315,
@@ -3705,8 +3705,8 @@
     "original_title": "The Bear",
     "poster_path": "/t23nESlKRH1qQYWIoUQCOWkS2dl.jpg",
     "backdrop_path": "/aJtG4txtmiRHwAAqENQHZvBs6kY.jpg",
-    "vote_average": 8.154,
-    "vote_count": 1989,
+    "vote_average": 8.2,
+    "vote_count": 1992,
     "release_date": "2022-06-23",
     "genres": [
       "드라마",
@@ -3727,7 +3727,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/the-bear",
-    "cached_at": "2026-10-22T19:05:31.278960+00:00"
+    "cached_at": "2026-10-23T18:56:35.173811+00:00"
   },
   "tv:1480": {
     "id": 1480,
@@ -3767,8 +3767,8 @@
     "original_title": "What We Do in the Shadows",
     "poster_path": "/unGzAJszSJ42mLgTOj8jEO77PYg.jpg",
     "backdrop_path": "/mKikck71CvVISUSTLk29fwRbH4y.jpg",
-    "vote_average": 8.0,
-    "vote_count": 1076,
+    "vote_average": 8.003,
+    "vote_count": 1078,
     "release_date": "2019-03-27",
     "genres": [
       "코미디",
@@ -3786,6 +3786,113 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/what-we-do-in-the-shadows",
-    "cached_at": "2026-10-22T19:05:31.211160+00:00"
+    "cached_at": "2026-10-23T18:56:35.098843+00:00"
+  },
+  "movie:1108427": {
+    "id": 1108427,
+    "media_type": "movie",
+    "title": "모아나",
+    "original_title": "Moana",
+    "poster_path": "/etJXeoQovaAcQD8gG0vebtoIlMH.jpg",
+    "backdrop_path": "/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+    "vote_average": 7.501,
+    "vote_count": 954,
+    "release_date": "2026-07-08",
+    "genres": [
+      "가족",
+      "판타지",
+      "코미디",
+      "모험"
+    ],
+    "runtime": 115,
+    "overview": "끝없는 바다 너머 새로운 세상을 꿈꾸던 모투누이 섬의 소녀 모아나. 어느 날 모투누이에 깊은 어둠이 드리우자, 모아나는 저주에 빠진 섬을 구하기 위해 전설의 영웅 마우이를 찾아, 그와 함께 운명을 건 항해에 나선다. 눈부신 파도, 거대한 모험, 그리고 운명을 바꿀 항해! 오감을 깨울 환상적인 바다가 생생하게 펼쳐진다!",
+    "director": [
+      "토마스 카일"
+    ],
+    "cast": [
+      "캐서린 라가이아",
+      "드웨인 존슨",
+      "레나 오웬",
+      "존 투위",
+      "프랭키 애덤스",
+      "저메인 클레멘트",
+      "Emma Puahi-Shapazian",
+      "Amaya Masoli",
+      "샘 푸에푸아",
+      "Sione Milford"
+    ],
+    "trailer_key": "izunRLYzHU0",
+    "homepage": "",
+    "cached_at": "2026-10-23T18:56:33.901594+00:00"
+  },
+  "tv:213375": {
+    "id": 213375,
+    "media_type": "tv",
+    "title": "비전퀘스트",
+    "original_title": "VisionQuest",
+    "poster_path": "/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
+    "backdrop_path": "/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+    "vote_average": 8.779,
+    "vote_count": 163,
+    "release_date": "2026-10-13",
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "드라마"
+    ],
+    "runtime": null,
+    "overview": "자신을 무기로 만들려는 자들을 피해 도망친 비전. 새롭게 태어난 그는 존재의 의미를 찾아 자신 안에 내장된 AI들, F.R.I.D.A.Y., E.D.I.T.H., J.A.R.V.I.S. 그리고 악명 높은 울트론과 대화를 나누며 답을 구한다. 하지만 자신의 목에 걸린 현상금 때문에 조용했던 삶은 산산조각 나고, 비전은 아들이 환생한 존재일지도 모르는 의문의 소년 토마스 셰퍼드와 함께 쫓기는 신세가 된다. 살아남기 위해서는 자신의 본성을 마주하고, 내면에 도사린 울트론의 유혹에 맞서며, 곁에 있는 어린 소년에게 숨겨진 비밀을 풀어야 한다.",
+    "director": [
+      "medo lshl"
+    ],
+    "cast": [
+      "폴 베타니",
+      "제임스 스페이더",
+      "루어리 몰리카",
+      "토드 스테쉬윅",
+      "로렌 모라이스",
+      "올라 브래디",
+      "다이앤 모건",
+      "폴리 프레임",
+      "Henry Lewis",
+      "Jonathan Sayer"
+    ],
+    "trailer_key": "_uC7fyA37Ts",
+    "homepage": "https://www.disneyplus.com/browse/entity-8744ec55-8d14-4631-99b4-c889a2d6013f",
+    "cached_at": "2026-10-23T18:56:34.664751+00:00"
+  },
+  "movie:672": {
+    "id": 672,
+    "media_type": "movie",
+    "title": "해리 포터와 비밀의 방",
+    "original_title": "Harry Potter and the Chamber of Secrets",
+    "poster_path": "/bo8FuQPWKLqbg3WgAXYISkwrbZ9.jpg",
+    "backdrop_path": "/zuYEvft5fuzBDOeq4ClYpiu9LlO.jpg",
+    "vote_average": 7.709,
+    "vote_count": 24272,
+    "release_date": "2002-11-13",
+    "genres": [
+      "모험",
+      "판타지"
+    ],
+    "runtime": 160,
+    "overview": "해리 포터에겐 이번 여름방학이 별로 즐겁질 못했다. 마법이라면 질색을 하는 페투니아 이모와 버논 이모부의 구박도 그렇지만, 무엇보다 속상한 건 단짝이었던 론 위즐리와 헤르미온느 그레인저가 그 사이 자신을 까맣게 잊었는지 자신의 편지에 답장 한 통 없다는 것.  그러던 어느날 꼬마 집요정 도비가 해리의 침실에 나타나 뜻밖의 얘기를 한다. 호그와트 마법학교로 돌아가면 무서운 일을 당할 거라는 것. 도비는 해리를 학교에 못 가게 하려고 자신이 여태까지 론과 헤르미온느의 답장을 가로채 왔음을 고백한다. 그러나 도비와 더즐리 가족의 방해에도 불구, 해리는 론과 그의 형제들이 타고 온 하늘을 나는 자동차를 타고 이모집을 탈출, 따뜻한 가족애가 넘치는 론의 집으로 가는데...",
+    "director": [
+      "크리스 콜럼버스"
+    ],
+    "cast": [
+      "다니엘 래드클리프",
+      "루퍼트 그린트",
+      "엠마 왓슨",
+      "케네스 브래너",
+      "토비 존스",
+      "로비 콜트레인",
+      "리처드 해리스",
+      "앨런 릭먼",
+      "톰 펠튼",
+      "제이슨 아이작스"
+    ],
+    "trailer_key": "5s8hdouZmG8",
+    "homepage": "",
+    "cached_at": "2026-10-23T18:56:35.758578+00:00"
   }
 }
