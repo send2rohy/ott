@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-25T18:15:25.630462+00:00"
+    "cached_at": "2026-10-26T20:21:55.900800+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.425,
-    "vote_count": 1250,
+    "vote_average": 8.4,
+    "vote_count": 1251,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-25T18:15:25.715609+00:00"
+    "cached_at": "2026-10-26T20:21:56.012167+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-25T18:15:25.773183+00:00"
+    "cached_at": "2026-10-26T20:21:56.109905+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-25T18:15:25.841950+00:00"
+    "cached_at": "2026-10-26T20:21:56.208359+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1641,8 +1641,8 @@
     "original_title": "Grey's Anatomy",
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
-    "vote_average": 8.204,
-    "vote_count": 11098,
+    "vote_average": 8.2,
+    "vote_count": 11100,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1664,7 +1664,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-25T18:15:25.235028+00:00"
+    "cached_at": "2026-10-26T20:21:55.525848+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -2821,8 +2821,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.852,
-    "vote_count": 10803,
+    "vote_average": 7.853,
+    "vote_count": 10812,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2848,7 +2848,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-25T18:15:25.159409+00:00"
+    "cached_at": "2026-10-26T20:21:55.331112+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3447,7 +3447,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-25T18:15:24.646283+00:00"
+    "cached_at": "2026-10-26T20:21:54.817794+00:00"
   },
   "movie:1236045": {
     "id": 1236045,
@@ -3527,8 +3527,8 @@
     "original_title": "Evil Dead Burn",
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "vote_average": 7.585,
-    "vote_count": 1816,
+    "vote_average": 7.6,
+    "vote_count": 1825,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3552,7 +3552,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-25T18:15:24.708468+00:00"
+    "cached_at": "2026-10-26T20:21:54.914194+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3599,7 +3599,7 @@
     "poster_path": "/sIsKjPdbtPouiehJUowKRQ4bzuw.jpg",
     "backdrop_path": "/nk5gq5rNLBJiHvNGMRT6I9VRQX7.jpg",
     "vote_average": 7.9,
-    "vote_count": 3314,
+    "vote_count": 3317,
     "release_date": "1959-11-18",
     "genres": [
       "역사",
@@ -3625,7 +3625,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-25T18:15:24.786472+00:00"
+    "cached_at": "2026-10-26T20:21:55.018256+00:00"
   },
   "movie:302614": {
     "id": 302614,
@@ -3658,7 +3658,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-25T18:15:24.882655+00:00"
+    "cached_at": "2026-10-26T20:21:55.115898+00:00"
   },
   "tv:285322": {
     "id": 285322,
@@ -3667,8 +3667,8 @@
     "original_title": "Below",
     "poster_path": "/sDQr66aTgFjCxdra1PUPcrMOQIo.jpg",
     "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-    "vote_average": 7.2,
-    "vote_count": 211,
+    "vote_average": 7.184,
+    "vote_count": 220,
     "release_date": "2026-10-08",
     "genres": [
       "드라마",
@@ -3688,7 +3688,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/81652677",
-    "cached_at": "2026-10-25T18:15:24.960593+00:00"
+    "cached_at": "2026-10-26T20:21:55.209654+00:00"
   },
   "tv:136315": {
     "id": 136315,
@@ -3728,8 +3728,8 @@
     "original_title": "Ally McBeal",
     "poster_path": "/weS8htxS2j0EQ6jorK3WOR1dZpH.jpg",
     "backdrop_path": "/xCMs3IxaGqKSc5cwngRUlhmjbwl.jpg",
-    "vote_average": 6.54,
-    "vote_count": 390,
+    "vote_average": 6.5,
+    "vote_count": 391,
     "release_date": "1997-09-08",
     "genres": [
       "드라마",
@@ -3750,7 +3750,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-25T18:15:25.383171+00:00"
+    "cached_at": "2026-10-26T20:21:55.713620+00:00"
   },
   "tv:83631": {
     "id": 83631,
@@ -3760,7 +3760,7 @@
     "poster_path": "/unGzAJszSJ42mLgTOj8jEO77PYg.jpg",
     "backdrop_path": "/mKikck71CvVISUSTLk29fwRbH4y.jpg",
     "vote_average": 8.0,
-    "vote_count": 1082,
+    "vote_count": 1085,
     "release_date": "2019-03-27",
     "genres": [
       "코미디",
@@ -3778,7 +3778,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/what-we-do-in-the-shadows",
-    "cached_at": "2026-10-25T18:15:25.316148+00:00"
+    "cached_at": "2026-10-26T20:21:55.619587+00:00"
   },
   "movie:1108427": {
     "id": 1108427,
@@ -3886,5 +3886,73 @@
     "trailer_key": "5s8hdouZmG8",
     "homepage": "",
     "cached_at": "2026-10-23T18:56:35.758578+00:00"
+  },
+  "tv:316702": {
+    "id": 316702,
+    "media_type": "tv",
+    "title": "파이널 테이블",
+    "original_title": "파이널 테이블",
+    "poster_path": "/zNSBXSIOMZWFZ5dqtm7tFBKFMrk.jpg",
+    "backdrop_path": "/anwMEnTDkhv5qJ8wXSRieCvFHGs.jpg",
+    "vote_average": 8.2,
+    "vote_count": 4,
+    "release_date": "2026-10-24",
+    "genres": [
+      "드라마"
+    ],
+    "runtime": null,
+    "overview": "최고의 한국인 요리사를 뽑는 '더 테이블: K 셰프 2026'. 베일에 싸인 세계적인 셰프 'Chris K.' 강한과 레스토랑을 지키려는 송이, 완벽주의 스타셰프 우진, 그리고 저마다의 사연을 품은 셰프들이 오직 맛과 진심으로 치열한 요리 전쟁을 펼친다. 승부를 넘어 음식과 온기로 서로의 상처를 보듬어가는 힐링 서바이벌 드라마.",
+    "director": [
+      "Kim Do-hoon"
+    ],
+    "cast": [
+      "안효섭",
+      "홍화연",
+      "장률",
+      "정유진",
+      "장영남",
+      "차지연",
+      "Lee Je-hyeong",
+      "Bret Allan Lindquist",
+      "곽민호"
+    ],
+    "trailer_key": "JpDD_kbMT_I",
+    "homepage": "https://tv.jtbc.co.kr/finaltable",
+    "cached_at": "2026-10-26T20:21:55.421928+00:00"
+  },
+  "movie:1368166": {
+    "id": 1368166,
+    "media_type": "movie",
+    "title": "하우스메이드",
+    "original_title": "The Housemaid",
+    "poster_path": "/fUDX16A4fJXmAuUA5t0pnqzXS0b.jpg",
+    "backdrop_path": "/zTnAnYIn0Iv3cn0ZHlzLhou3ybm.jpg",
+    "vote_average": 7.251,
+    "vote_count": 3275,
+    "release_date": "2025-12-18",
+    "genres": [
+      "미스터리",
+      "스릴러"
+    ],
+    "runtime": 132,
+    "overview": "과거를 숨긴 채 완벽한 저택의 가정부로 들어간 밀리가 이상한 행동을 보이는 아내 니나와 그런 아내를 이해하는 모범적인 남편 앤드루와 얽히며 닫힌 문 뒤의 거짓과 마주하게 되는 월드 베스트셀러 원작의 고자극 미스터리 스릴러",
+    "director": [
+      "폴 피그"
+    ],
+    "cast": [
+      "시드니 스위니",
+      "아만다 사이프리드",
+      "브랜든 스클레나",
+      "미켈레 모로네",
+      "Indiana Elle",
+      "Sarah Cooper",
+      "Elizabeth Perkins",
+      "Amanda Joy Erickson",
+      "메간 퍼거슨",
+      "Ellen Tamaki"
+    ],
+    "trailer_key": "KSEfUbj_Zh0",
+    "homepage": "",
+    "cached_at": "2026-10-26T20:21:55.806511+00:00"
   }
 }
