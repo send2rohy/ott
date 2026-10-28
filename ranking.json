@@ -1,286 +1,6 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "items": [
-    {
-      "rank": 1,
-      "title": "The Eyes",
-      "original_title": "The Eyes",
-      "season_title": "N/A",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "movie",
-      "tmdb_id": 1206349,
-      "tmdb_title": "The Eyes",
-      "tmdb_original_title": "The Eyes",
-      "previous_rank": 1,
-      "change": 0
-    },
-    {
-      "rank": 2,
-      "title": "짐승들",
-      "original_title": "Animals",
-      "season_title": "N/A",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "movie",
-      "tmdb_id": 1236045,
-      "tmdb_title": "짐승들",
-      "tmdb_original_title": "Animals",
-      "previous_rank": 2,
-      "change": 0
-    },
-    {
-      "rank": 3,
-      "title": "툼 레이더",
-      "original_title": "Tomb Raider",
-      "season_title": "N/A",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "movie",
-      "tmdb_id": 338970,
-      "tmdb_title": "툼 레이더",
-      "tmdb_original_title": "Tomb Raider",
-      "previous_rank": 3,
-      "change": 0
-    },
-    {
-      "rank": 4,
-      "title": "Hana Korea",
-      "original_title": "Hana Korea",
-      "season_title": "N/A",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "movie",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 4,
-      "change": 0
-    },
-    {
-      "rank": 5,
-      "title": "이블 데드 번",
-      "original_title": "Evil Dead Burn",
-      "season_title": "N/A",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "movie",
-      "tmdb_id": 1212763,
-      "tmdb_title": "이블 데드 번",
-      "tmdb_original_title": "Evil Dead Burn",
-      "previous_rank": 5,
-      "change": 0
-    },
-    {
-      "rank": 6,
-      "title": "The Ultimate Duo",
-      "original_title": "The Ultimate Duo",
-      "season_title": "N/A",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "movie",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 6,
-      "change": 0
-    },
-    {
-      "rank": 7,
-      "title": "노보케인",
-      "original_title": "Novocaine",
-      "season_title": "N/A",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "movie",
-      "tmdb_id": 1195506,
-      "tmdb_title": "노보케인",
-      "tmdb_original_title": "Novocaine",
-      "previous_rank": 7,
-      "change": 0
-    },
-    {
-      "rank": 8,
-      "title": "벤허",
-      "original_title": "Ben-Hur",
-      "season_title": "N/A",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "movie",
-      "tmdb_id": 665,
-      "tmdb_title": "벤허",
-      "tmdb_original_title": "Ben-Hur",
-      "previous_rank": 8,
-      "change": 0
-    },
-    {
-      "rank": 9,
-      "title": "Bitukang Manok",
-      "original_title": "Manok",
-      "season_title": "N/A",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "movie",
-      "tmdb_id": 302614,
-      "tmdb_title": "Bitukang Manok",
-      "tmdb_original_title": "Bitukang Manok",
-      "previous_rank": 9,
-      "change": 0
-    },
-    {
-      "rank": 10,
-      "title": "Land of Happiness",
-      "original_title": "Land of Happiness",
-      "season_title": "N/A",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "movie",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 10,
-      "change": 0
-    },
-    {
-      "rank": 1,
-      "title": "Doctor X: Mafia in White",
-      "original_title": "Doctor X: Mafia in White",
-      "season_title": "Doctor X: Mafia in White: Limited Series",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "tv",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 1,
-      "change": 0
-    },
-    {
-      "rank": 2,
-      "title": "100 Days of Deception",
-      "original_title": "100 Days of Deception",
-      "season_title": "100 Days of Deception: Limited Series",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "tv",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 2,
-      "change": 0
-    },
-    {
-      "rank": 3,
-      "title": "I am Solo",
-      "original_title": "I am Solo",
-      "season_title": "I am Solo: Part 34",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "tv",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 3,
-      "change": 0
-    },
-    {
-      "rank": 4,
-      "title": "Take Charge of My Heart",
-      "original_title": "Take Charge of My Heart",
-      "season_title": "Take Charge of My Heart: Limited Series",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "tv",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 4,
-      "change": 0
-    },
-    {
-      "rank": 5,
-      "title": "The Ballad of Us",
-      "original_title": "The Ballad of Us",
-      "season_title": "The Ballad of Us: Season 2",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "tv",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 5,
-      "change": 0
-    },
-    {
-      "rank": 6,
-      "title": "Marriage of Convenience",
-      "original_title": "Marriage of Convenience",
-      "season_title": "Marriage of Convenience: Season 1",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "tv",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 6,
-      "change": 0
-    },
-    {
-      "rank": 7,
-      "title": "The Wonder Coach",
-      "original_title": "The Wonder Coach",
-      "season_title": "The Wonder Coach: Season 2",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "tv",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 7,
-      "change": 0
-    },
-    {
-      "rank": 8,
-      "title": "빌로우",
-      "original_title": "Below",
-      "season_title": "Below: Limited Series",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "tv",
-      "tmdb_id": 285322,
-      "tmdb_title": "빌로우",
-      "tmdb_original_title": "Below",
-      "previous_rank": 8,
-      "change": 0
-    },
-    {
-      "rank": 9,
-      "title": "Kian’s Bizarre B&B",
-      "original_title": "Kian’s Bizarre B&B",
-      "season_title": "Kian’s Bizarre B&B: Season 2",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "tv",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 9,
-      "change": 0
-    },
-    {
-      "rank": 10,
-      "title": "The Apothecary Diaries",
-      "original_title": "The Apothecary Diaries",
-      "season_title": "The Apothecary Diaries: Season 3",
-      "platform": "Netflix",
-      "week": "2026-10-18",
-      "media_type": "tv",
-      "tmdb_id": null,
-      "tmdb_title": null,
-      "tmdb_original_title": null,
-      "previous_rank": 10,
-      "change": 0
-    },
     {
       "rank": 1,
       "title": "모아나",
@@ -308,8 +28,8 @@
       "tmdb_title": "팀 버튼의 크리스마스 악몽",
       "tmdb_original_title": "The Nightmare Before Christmas",
       "source": "tmdb_popular",
-      "previous_rank": 3,
-      "change": 1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -323,8 +43,8 @@
       "tmdb_title": "토이 스토리 5",
       "tmdb_original_title": "Toy Story 5",
       "source": "tmdb_popular",
-      "previous_rank": 2,
-      "change": -1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -458,8 +178,8 @@
       "tmdb_title": "연애박사",
       "tmdb_original_title": "연애박사",
       "source": "top10",
-      "previous_rank": 3,
-      "change": 1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -473,8 +193,8 @@
       "tmdb_title": "메리 베리 러브",
       "tmdb_original_title": "メリーベリーラブ",
       "source": "top10",
-      "previous_rank": 2,
-      "change": -1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -508,6 +228,21 @@
     },
     {
       "rank": 6,
+      "title": "연애전쟁",
+      "original_title": "연애전쟁",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 325114,
+      "tmdb_title": "연애전쟁",
+      "tmdb_original_title": "연애전쟁",
+      "source": "top10",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 7,
       "title": "술래게임",
       "original_title": "술래게임",
       "season_title": "",
@@ -519,22 +254,7 @@
       "tmdb_original_title": "술래게임",
       "source": "top10",
       "previous_rank": 6,
-      "change": 0
-    },
-    {
-      "rank": 7,
-      "title": "너에게 다이브",
-      "original_title": "너에게 다이브",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 316197,
-      "tmdb_title": "너에게 다이브",
-      "tmdb_original_title": "너에게 다이브",
-      "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
+      "change": -1
     },
     {
       "rank": 8,
@@ -548,8 +268,8 @@
       "tmdb_title": "킬러들의 쇼핑몰",
       "tmdb_original_title": "킬러들의 쇼핑몰",
       "source": "top10",
-      "previous_rank": 7,
-      "change": -1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -563,20 +283,20 @@
       "tmdb_title": "그레이 아나토미",
       "tmdb_original_title": "Grey's Anatomy",
       "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": -1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
-      "title": "패밀리 가이",
-      "original_title": "패밀리 가이",
+      "title": "크리미널 마인드",
+      "original_title": "크리미널 마인드",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 1434,
-      "tmdb_title": "패밀리 가이",
-      "tmdb_original_title": "Family Guy",
+      "tmdb_id": 4057,
+      "tmdb_title": "크리미널 마인드",
+      "tmdb_original_title": "Criminal Minds",
       "source": "tmdb_popular",
       "previous_rank": null,
       "change": "NEW"
@@ -639,20 +359,6 @@
     },
     {
       "rank": 5,
-      "title": "히든페이스",
-      "original_title": "히든페이스",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 936245,
-      "tmdb_title": "히든페이스",
-      "tmdb_original_title": "히든페이스",
-      "previous_rank": 5,
-      "change": 0
-    },
-    {
-      "rank": 6,
       "title": "해리 포터와 마법사의 돌",
       "original_title": "해리 포터와 마법사의 돌",
       "season_title": "",
@@ -663,7 +369,21 @@
       "tmdb_title": "해리 포터와 마법사의 돌",
       "tmdb_original_title": "Harry Potter and the Philosopher's Stone",
       "previous_rank": 6,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 6,
+      "title": "히든페이스",
+      "original_title": "히든페이스",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 936245,
+      "tmdb_title": "히든페이스",
+      "tmdb_original_title": "히든페이스",
+      "previous_rank": 5,
+      "change": -1
     },
     {
       "rank": 7,
@@ -676,8 +396,8 @@
       "tmdb_id": 1368166,
       "tmdb_title": "하우스메이드",
       "tmdb_original_title": "The Housemaid",
-      "previous_rank": 10,
-      "change": 3
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -690,8 +410,8 @@
       "tmdb_id": 1461254,
       "tmdb_title": "살목지",
       "tmdb_original_title": "살목지",
-      "previous_rank": 7,
-      "change": -1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -704,8 +424,8 @@
       "tmdb_id": 1264805,
       "tmdb_title": "만약에 우리",
       "tmdb_original_title": "만약에 우리",
-      "previous_rank": 8,
-      "change": -1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -718,8 +438,8 @@
       "tmdb_id": 672,
       "tmdb_title": "해리 포터와 비밀의 방",
       "tmdb_original_title": "Harry Potter and the Chamber of Secrets",
-      "previous_rank": 9,
-      "change": -1
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,

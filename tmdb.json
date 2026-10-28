@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-23T18:56:34.894813+00:00"
+    "cached_at": "2026-10-28T20:08:36.879759+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-27T19:55:45.516575+00:00"
+    "cached_at": "2026-10-28T20:08:37.554222+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.426,
-    "vote_count": 1253,
+    "vote_average": 8.425,
+    "vote_count": 1255,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-27T19:55:45.555871+00:00"
+    "cached_at": "2026-10-28T20:08:37.595621+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-27T19:55:45.601960+00:00"
+    "cached_at": "2026-10-28T20:08:37.644413+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-27T19:55:45.645745+00:00"
+    "cached_at": "2026-10-28T20:08:37.683597+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1642,7 +1642,7 @@
     "poster_path": "/lCUvpSvjAPU82HvJ8XfR74Chv5r.jpg",
     "backdrop_path": "/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
     "vote_average": 8.203,
-    "vote_count": 11103,
+    "vote_count": 11106,
     "release_date": "2005-03-27",
     "genres": [
       "드라마"
@@ -1664,7 +1664,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://abc.com/show/b7d90f97-dbb2-4ab5-b141-f9cbeae53581",
-    "cached_at": "2026-10-27T19:55:45.446587+00:00"
+    "cached_at": "2026-10-28T20:08:36.938901+00:00"
   },
   "tv:1911": {
     "id": 1911,
@@ -1972,8 +1972,8 @@
     "original_title": "Criminal Minds",
     "poster_path": "/A5hvLZpYcpT2GFA3j8LtI6eINFr.jpg",
     "backdrop_path": "/tUtXfyVy54BY7eJnRtI8Xnmr1ZL.jpg",
-    "vote_average": 8.3,
-    "vote_count": 4199,
+    "vote_average": 8.295,
+    "vote_count": 4209,
     "release_date": "2005-09-22",
     "genres": [
       "범죄",
@@ -1995,7 +1995,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-10-18T17:54:15.790675+00:00"
+    "cached_at": "2026-10-28T20:08:36.974495+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
@@ -2821,8 +2821,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.855,
-    "vote_count": 10821,
+    "vote_average": 7.856,
+    "vote_count": 10828,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2848,7 +2848,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-27T19:55:44.886159+00:00"
+    "cached_at": "2026-10-28T20:08:36.841290+00:00"
   },
   "movie:274": {
     "id": 274,
