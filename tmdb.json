@@ -399,7 +399,7 @@
     ],
     "trailer_key": "RgbDMRpTHxk",
     "homepage": "https://www.disneyplus.com/browse/entity-5acf7909-5d2f-494e-91a9-2fe0555c220f",
-    "cached_at": "2026-10-24T17:58:15.132080+00:00"
+    "cached_at": "2026-10-31T19:10:14.232115+00:00"
   },
   "tv:220074": {
     "id": 220074,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-30T19:53:34.850873+00:00"
+    "cached_at": "2026-10-31T19:10:14.715068+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -907,7 +907,7 @@
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
     "vote_average": 8.4,
-    "vote_count": 1257,
+    "vote_count": 1261,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-30T19:53:34.959413+00:00"
+    "cached_at": "2026-10-31T19:10:14.794290+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-30T19:53:35.088955+00:00"
+    "cached_at": "2026-10-31T19:10:14.885885+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-30T19:53:35.190570+00:00"
+    "cached_at": "2026-10-31T19:10:15.003574+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1584,8 +1584,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
-    "vote_average": 7.4,
-    "vote_count": 5173,
+    "vote_average": 7.412,
+    "vote_count": 5176,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1604,7 +1604,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-10-30T19:53:33.166486+00:00"
+    "cached_at": "2026-10-31T19:10:14.390989+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1876,8 +1876,8 @@
     "original_title": "너 말고 다른 연애",
     "poster_path": "/mryeyCsFApnwYDpDcy3I6fYx2Dd.jpg",
     "backdrop_path": "/moUjiEzpJVNZc7hyNRBbLPt0CPX.jpg",
-    "vote_average": 6.3,
-    "vote_count": 3,
+    "vote_average": 5.0,
+    "vote_count": 4,
     "release_date": "2026-09-12",
     "genres": [
       "드라마",
@@ -1892,7 +1892,7 @@
     ],
     "trailer_key": "nQWv70PTHFM",
     "homepage": "https://program.kbs.co.kr/2tv/drama/loveotherthanyours",
-    "cached_at": "2026-10-24T17:58:15.254417+00:00"
+    "cached_at": "2026-10-31T19:10:14.637165+00:00"
   },
   "movie:714650": {
     "id": 714650,
@@ -1936,8 +1936,8 @@
     "original_title": "Deadpool & Wolverine",
     "poster_path": "/dsfAcQ5J7TPOpJgcX8R1lRBqiMK.jpg",
     "backdrop_path": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
-    "vote_average": 7.59,
-    "vote_count": 9703,
+    "vote_average": 7.588,
+    "vote_count": 9763,
     "release_date": "2024-07-24",
     "genres": [
       "액션",
@@ -1963,7 +1963,7 @@
     ],
     "trailer_key": "NVDLUJa5dac",
     "homepage": "",
-    "cached_at": "2026-10-24T17:58:15.104634+00:00"
+    "cached_at": "2026-10-31T19:10:14.078748+00:00"
   },
   "tv:4057": {
     "id": 4057,
@@ -1972,8 +1972,8 @@
     "original_title": "Criminal Minds",
     "poster_path": "/A5hvLZpYcpT2GFA3j8LtI6eINFr.jpg",
     "backdrop_path": "/tUtXfyVy54BY7eJnRtI8Xnmr1ZL.jpg",
-    "vote_average": 8.295,
-    "vote_count": 4211,
+    "vote_average": 8.3,
+    "vote_count": 4212,
     "release_date": "2005-09-22",
     "genres": [
       "범죄",
@@ -1995,7 +1995,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-10-30T19:53:33.319672+00:00"
+    "cached_at": "2026-10-31T19:10:14.311755+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
@@ -2715,8 +2715,8 @@
     "original_title": "군체",
     "poster_path": "/hDPGsJxo8xX0OyqcMB8xI3RdaF3.jpg",
     "backdrop_path": "/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-    "vote_average": 8.129,
-    "vote_count": 1252,
+    "vote_average": 8.209,
+    "vote_count": 1461,
     "release_date": "2026-05-21",
     "genres": [
       "공포",
@@ -2742,7 +2742,7 @@
     ],
     "trailer_key": "AZ6zGFKO1xQ",
     "homepage": "",
-    "cached_at": "2026-10-24T17:58:15.232209+00:00"
+    "cached_at": "2026-10-31T19:10:14.545736+00:00"
   },
   "movie:348": {
     "id": 348,
@@ -2821,8 +2821,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.857,
-    "vote_count": 10836,
+    "vote_average": 7.856,
+    "vote_count": 10851,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2848,7 +2848,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-30T19:53:31.818752+00:00"
+    "cached_at": "2026-10-31T19:10:13.989592+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3447,7 +3447,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-30T19:53:31.041586+00:00"
+    "cached_at": "2026-10-31T19:10:13.527767+00:00"
   },
   "movie:1236045": {
     "id": 1236045,
@@ -3529,8 +3529,8 @@
     "original_title": "Evil Dead Burn",
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "vote_average": 7.601,
-    "vote_count": 1851,
+    "vote_average": 7.6,
+    "vote_count": 1858,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3554,7 +3554,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-30T19:53:31.140786+00:00"
+    "cached_at": "2026-10-31T19:10:13.607232+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3601,7 +3601,7 @@
     "poster_path": "/sIsKjPdbtPouiehJUowKRQ4bzuw.jpg",
     "backdrop_path": "/nk5gq5rNLBJiHvNGMRT6I9VRQX7.jpg",
     "vote_average": 7.891,
-    "vote_count": 3320,
+    "vote_count": 3323,
     "release_date": "1959-11-18",
     "genres": [
       "역사",
@@ -3627,7 +3627,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-30T19:53:31.263441+00:00"
+    "cached_at": "2026-10-31T19:10:13.685577+00:00"
   },
   "movie:302614": {
     "id": 302614,
@@ -3660,7 +3660,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-30T19:53:31.373687+00:00"
+    "cached_at": "2026-10-31T19:10:13.770801+00:00"
   },
   "tv:285322": {
     "id": 285322,
@@ -3669,8 +3669,8 @@
     "original_title": "Below",
     "poster_path": "/sDQr66aTgFjCxdra1PUPcrMOQIo.jpg",
     "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-    "vote_average": 7.2,
-    "vote_count": 233,
+    "vote_average": 7.17,
+    "vote_count": 238,
     "release_date": "2026-10-08",
     "genres": [
       "드라마",
@@ -3690,7 +3690,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/81652677",
-    "cached_at": "2026-10-30T19:53:31.498498+00:00"
+    "cached_at": "2026-10-31T19:10:13.849918+00:00"
   },
   "tv:136315": {
     "id": 136315,
@@ -3954,5 +3954,69 @@
     "trailer_key": "KSEfUbj_Zh0",
     "homepage": "",
     "cached_at": "2026-10-26T20:21:55.806511+00:00"
+  },
+  "tv:307478": {
+    "id": 307478,
+    "media_type": "tv",
+    "title": "라이어",
+    "original_title": "라이어",
+    "poster_path": "/up1YBgPq6lC0ut2JvjguNwLiXw4.jpg",
+    "backdrop_path": "/5V7scQ0nVkNcz8dcHRfZIiHECcc.jpg",
+    "vote_average": 8.5,
+    "vote_count": 2,
+    "release_date": "2026-10-30",
+    "genres": [
+      "드라마",
+      "범죄",
+      "미스터리"
+    ],
+    "runtime": null,
+    "overview": "완벽한 미소의 심장외과 의사 준호와 파도처럼 자유로운 사서교사 지선. 설레는 데이트 끝에 특별한 밤을 함께하지만, 다음 날 두 사람은 전혀 다른 기억으로 경찰서에서 마주 선다. 둘 중 한 사람은 거짓말을 하고 있다. 증거도 목격자도 없는 상황, 거짓말탐지기 결과마저 예상을 뒤엎으며 일상이 뒤흔들리기 시작한다.",
+    "director": [
+      "조영민"
+    ],
+    "cast": [
+      "유연석",
+      "서현진",
+      "옥자연",
+      "김지현",
+      "이천희",
+      "오동민",
+      "강지용",
+      "Jung Ji-woo",
+      "정승길",
+      "김빛"
+    ],
+    "trailer_key": "fkTp8shK6JA",
+    "homepage": "https://program.imbc.com/ThePerfectLie",
+    "cached_at": "2026-10-31T19:10:14.155991+00:00"
+  },
+  "tv:1100": {
+    "id": 1100,
+    "media_type": "tv",
+    "title": "내가 그녀를 만났을 때",
+    "original_title": "How I Met Your Mother",
+    "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
+    "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
+    "vote_average": 8.112,
+    "vote_count": 6037,
+    "release_date": "2005-09-19",
+    "genres": [
+      "코미디"
+    ],
+    "runtime": null,
+    "overview": "《내가 그녀를 만났을 때》는 미국 CBS에서 방영되었던 시트콤이다. 소울메이트를 찾기 위한 테드의 기나긴 여정. 어른이 된 테드가 아이들에게 아빠와 엄마가 만난 이야기를 들려주며 회상하는 장면들로 이뤄진다.",
+    "director": [],
+    "cast": [
+      "Josh Radnor",
+      "닐 패트릭 해리스",
+      "제이슨 시걸",
+      "앨리슨 해니건",
+      "코비 스멀더스",
+      "크리스틴 밀리오티"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-10-31T19:10:14.470522+00:00"
   }
 }
