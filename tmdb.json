@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-10-31T19:10:14.715068+00:00"
+    "cached_at": "2026-11-01T19:25:55.152038+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.4,
-    "vote_count": 1261,
+    "vote_average": 8.426,
+    "vote_count": 1264,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-10-31T19:10:14.794290+00:00"
+    "cached_at": "2026-11-01T19:25:55.194498+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-31T19:10:14.885885+00:00"
+    "cached_at": "2026-11-01T19:25:55.242000+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-31T19:10:15.003574+00:00"
+    "cached_at": "2026-11-01T19:25:55.290114+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1584,8 +1584,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
-    "vote_average": 7.412,
-    "vote_count": 5176,
+    "vote_average": 7.413,
+    "vote_count": 5181,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1604,7 +1604,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-10-31T19:10:14.390989+00:00"
+    "cached_at": "2026-11-01T19:25:54.991495+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -1995,7 +1995,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-10-31T19:10:14.311755+00:00"
+    "cached_at": "2026-11-01T19:25:54.949992+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
@@ -2821,8 +2821,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.856,
-    "vote_count": 10851,
+    "vote_average": 7.857,
+    "vote_count": 10861,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2848,7 +2848,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-31T19:10:13.989592+00:00"
+    "cached_at": "2026-11-01T19:25:54.908184+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3181,8 +3181,8 @@
     "original_title": "핸섬가이즈",
     "poster_path": "/ng4oX4mzPr8x53yF8gw5zGtpDLD.jpg",
     "backdrop_path": "/7qMw4BkgvCLBev11Db5ygXNisaF.jpg",
-    "vote_average": 6.741,
-    "vote_count": 58,
+    "vote_average": 6.684,
+    "vote_count": 57,
     "release_date": "2024-06-26",
     "genres": [
       "코미디",
@@ -3207,7 +3207,7 @@
     ],
     "trailer_key": "oGbkEBrqUAs",
     "homepage": "",
-    "cached_at": "2026-10-25T18:15:25.566578+00:00"
+    "cached_at": "2026-11-01T19:25:55.082994+00:00"
   },
   "movie:354912": {
     "id": 354912,
@@ -3447,7 +3447,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-31T19:10:13.527767+00:00"
+    "cached_at": "2026-11-01T19:25:54.606316+00:00"
   },
   "movie:1236045": {
     "id": 1236045,
@@ -3529,8 +3529,8 @@
     "original_title": "Evil Dead Burn",
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "vote_average": 7.6,
-    "vote_count": 1858,
+    "vote_average": 7.594,
+    "vote_count": 1875,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3554,7 +3554,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-31T19:10:13.607232+00:00"
+    "cached_at": "2026-11-01T19:25:54.645803+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3627,7 +3627,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-31T19:10:13.685577+00:00"
+    "cached_at": "2026-11-01T19:25:54.687961+00:00"
   },
   "movie:302614": {
     "id": 302614,
@@ -3660,7 +3660,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-31T19:10:13.770801+00:00"
+    "cached_at": "2026-11-01T19:25:54.770625+00:00"
   },
   "tv:285322": {
     "id": 285322,
@@ -3669,8 +3669,8 @@
     "original_title": "Below",
     "poster_path": "/sDQr66aTgFjCxdra1PUPcrMOQIo.jpg",
     "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-    "vote_average": 7.17,
-    "vote_count": 238,
+    "vote_average": 7.182,
+    "vote_count": 244,
     "release_date": "2026-10-08",
     "genres": [
       "드라마",
@@ -3690,7 +3690,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/title/81652677",
-    "cached_at": "2026-10-31T19:10:13.849918+00:00"
+    "cached_at": "2026-11-01T19:25:54.816203+00:00"
   },
   "tv:136315": {
     "id": 136315,
@@ -3999,7 +3999,7 @@
     "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
     "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
     "vote_average": 8.112,
-    "vote_count": 6037,
+    "vote_count": 6041,
     "release_date": "2005-09-19",
     "genres": [
       "코미디"
@@ -4017,6 +4017,36 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-10-31T19:10:14.470522+00:00"
+    "cached_at": "2026-11-01T19:25:55.033795+00:00"
+  },
+  "movie:987470": {
+    "id": 987470,
+    "media_type": "movie",
+    "title": "하얀 차를 탄 여자",
+    "original_title": "하얀 차를 탄 여자",
+    "poster_path": "/scdb6c8wnlnwbXMmLhvH5D9cvcY.jpg",
+    "backdrop_path": "/2RgHNI8ZAeaGnqcaXrDCWpj7R13.jpg",
+    "vote_average": 6.2,
+    "vote_count": 9,
+    "release_date": "2025-10-29",
+    "genres": [
+      "스릴러",
+      "미스터리"
+    ],
+    "runtime": 108,
+    "overview": "폭설이 휘몰아친 새벽, 흉기에 찔려 피투성이가 된 은서를 싣고 병원에 온 도경은 그녀를 언니라 부르며 살려달라 도움을 청한다. 곧이어 현장에 도착한 경찰 현주는 도경의 혼란스러운 진술 속 무언가 감춰진 진실을 직감하는데… 눈 속에 증거가 사라진 그날 밤, 모두가 다르게 기억하는 범인의 정체는 누구인가?",
+    "director": [
+      "고혜진"
+    ],
+    "cast": [
+      "정려원",
+      "이정은",
+      "장진희",
+      "강정우",
+      "이휘종"
+    ],
+    "trailer_key": "-3dG2MRh9gw",
+    "homepage": "",
+    "cached_at": "2026-11-01T19:25:54.854742+00:00"
   }
 }
