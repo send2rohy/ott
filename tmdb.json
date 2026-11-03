@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-10-29T20:07:11.565018+00:00"
+    "cached_at": "2026-11-03T20:50:30.236963+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-02T23:02:04.469477+00:00"
+    "cached_at": "2026-11-03T20:50:30.735969+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-02T23:02:04.539000+00:00"
+    "cached_at": "2026-11-03T20:50:30.842108+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-02T23:02:04.579384+00:00"
+    "cached_at": "2026-11-03T20:50:30.955454+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-02T23:02:04.625374+00:00"
+    "cached_at": "2026-11-03T20:50:31.098930+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1701,9 +1701,9 @@
     "title": "어벤져스",
     "original_title": "The Avengers",
     "poster_path": "/krgjV3rJtBcEpQehODKXNCt6uFL.jpg",
-    "backdrop_path": "/86IbFy98QjRIqg6WanKYb9tXNbJ.jpg",
+    "backdrop_path": "/gHLs7Fy3DzLmLsD4lmfqL55KGcl.jpg",
     "vote_average": 8.083,
-    "vote_count": 40178,
+    "vote_count": 40251,
     "release_date": "2012-04-25",
     "genres": [
       "SF",
@@ -1729,7 +1729,7 @@
     ],
     "trailer_key": "mck3JCl2uwQ",
     "homepage": "",
-    "cached_at": "2026-10-27T19:55:45.374713+00:00"
+    "cached_at": "2026-11-03T20:50:30.136056+00:00"
   },
   "tv:278113": {
     "id": 278113,
@@ -1995,7 +1995,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.paramountplus.com/shows/criminal_minds",
-    "cached_at": "2026-11-02T23:02:04.370254+00:00"
+    "cached_at": "2026-11-03T20:50:30.631093+00:00"
   },
   "movie:1242332": {
     "id": 1242332,
@@ -2821,8 +2821,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.858,
-    "vote_count": 10870,
+    "vote_average": 7.86,
+    "vote_count": 10883,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2848,7 +2848,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-02T23:02:04.240716+00:00"
+    "cached_at": "2026-11-03T20:50:29.960391+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3216,8 +3216,8 @@
     "original_title": "Coco",
     "poster_path": "/pQu93NuwR90AaCULzglVD5Ge4Ml.jpg",
     "backdrop_path": "/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
-    "vote_average": 8.202,
-    "vote_count": 21644,
+    "vote_average": 8.207,
+    "vote_count": 21766,
     "release_date": "2017-10-27",
     "genres": [
       "가족",
@@ -3244,7 +3244,7 @@
     ],
     "trailer_key": "LmS5KMJTWlA",
     "homepage": "",
-    "cached_at": "2026-10-27T19:55:44.932053+00:00"
+    "cached_at": "2026-11-03T20:50:29.802653+00:00"
   },
   "tv:276161": {
     "id": 276161,
@@ -3447,7 +3447,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-02T23:02:03.866208+00:00"
+    "cached_at": "2026-11-03T20:50:29.261808+00:00"
   },
   "movie:1236045": {
     "id": 1236045,
@@ -3529,8 +3529,8 @@
     "original_title": "Evil Dead Burn",
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "vote_average": 7.593,
-    "vote_count": 1889,
+    "vote_average": 7.594,
+    "vote_count": 1895,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3554,7 +3554,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-02T23:02:03.911080+00:00"
+    "cached_at": "2026-11-03T20:50:29.473772+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3998,8 +3998,8 @@
     "original_title": "How I Met Your Mother",
     "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
     "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
-    "vote_average": 8.112,
-    "vote_count": 6044,
+    "vote_average": 8.1,
+    "vote_count": 6046,
     "release_date": "2005-09-19",
     "genres": [
       "코미디"
@@ -4017,7 +4017,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-02T23:02:04.326900+00:00"
+    "cached_at": "2026-11-03T20:50:30.381770+00:00"
   },
   "movie:987470": {
     "id": 987470,
@@ -4048,5 +4048,205 @@
     "trailer_key": "-3dG2MRh9gw",
     "homepage": "",
     "cached_at": "2026-11-01T19:25:54.854742+00:00"
+  },
+  "movie:1249213": {
+    "id": 1249213,
+    "media_type": "movie",
+    "title": "드롭",
+    "original_title": "Drop",
+    "poster_path": "/l7Xj2XB7tRg1UqF4x5Prlc2LssQ.jpg",
+    "backdrop_path": "/akBGSguhkAj1TXOdZUcL11e1hpH.jpg",
+    "vote_average": 6.275,
+    "vote_count": 1018,
+    "release_date": "2025-04-07",
+    "genres": [
+      "미스터리",
+      "스릴러"
+    ],
+    "runtime": 95,
+    "overview": "몇 년 만의 데이트에 나선 싱글맘 바이올렛. 데이트 상대인 헨리와 즐거운 식사를 하던 도중 같은 레스토랑에 있는 누군가로부터 의문의 메시지를 받게 된다. 단순한 장난으로 치부하며 넘기려는 그녀에게 헨리를 죽이지 않으면 자신의 아들이 죽는다는 협박이 이어지고 이내 공포에 빠진 그녀는 익명의 위협에서 벗어나기 위해 고군분투하는데...",
+    "director": [
+      "크리스토퍼 랜던"
+    ],
+    "cast": [
+      "메간 파히",
+      "브랜든 스클레나",
+      "Reed Diamond",
+      "Violett Beane",
+      "Jeffery Self",
+      "Jacob Robinson",
+      "Gabrielle Ryan",
+      "Ed Weeks",
+      "Travis Nelson",
+      "Sarah McCormack"
+    ],
+    "trailer_key": "goUPwe_SO4k",
+    "homepage": "",
+    "cached_at": "2026-11-03T20:50:28.961023+00:00"
+  },
+  "movie:10413": {
+    "id": 10413,
+    "media_type": "movie",
+    "title": "탈주자",
+    "original_title": "Nowhere to Run",
+    "poster_path": "/a2FGbyzk2dTAlu37iGeQBbUjLLE.jpg",
+    "backdrop_path": "/5VF6N8dPSSPeyQdQoQ53mxDcUjw.jpg",
+    "vote_average": 6.571,
+    "vote_count": 876,
+    "release_date": "1993-01-15",
+    "genres": [
+      "액션",
+      "드라마",
+      "스릴러"
+    ],
+    "runtime": 94,
+    "overview": "호송 버스에서 탈출한 죄수 샘은 경찰의 추적을 피해 한적한 시골 마을 숲속에 몸을 숨긴다. 그곳에서 샘은 남편을 잃고 어린 두 아이 무키, 브리와 함께 농장을 꾸려 가는 클라이디를 몰래 지켜보게 된다. 그런데 개발업자 하일은 클라이디의 땅을 차지하기 위해 해결사를 보내 가족을 위협하고, 아무도 도와주지 않는 그녀는 홀로 버티며 하루하루를 견디고 있다. 숨어 지내야 하는 처지인데도 위기에 빠진 모자를 외면할 수 없었던 샘은 결국 가족 앞에 모습을 드러내고, 경계하던 클라이디와 아이들도 차츰 그에게 마음을 열기 시작한다. 하지만 개발업자 일당의 위협은 점점 더 거칠어지고, 샘을 쫓는 수사망도 서서히 좁혀 오는데...",
+    "director": [
+      "Robert Harmon"
+    ],
+    "cast": [
+      "장클로드 반담",
+      "로잔나 아퀘트",
+      "키어런 컬킨",
+      "테드 러바인",
+      "Tiffany Taubman",
+      "Edward Blatchford",
+      "Anthony Starke",
+      "Joss Ackland",
+      "Allan Graf",
+      "Leonard Termo"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-03T20:50:29.111346+00:00"
+  },
+  "movie:1660624": {
+    "id": 1660624,
+    "media_type": "movie",
+    "title": "Collision Course",
+    "original_title": "Collision Course",
+    "poster_path": "/xTp9NvziOk3e7ZuKGpZ2xuS92dJ.jpg",
+    "backdrop_path": "/kZHykdDdncRS0BrYfRSS1yULuLD.jpg",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "release_date": "2026-03-31",
+    "genres": [
+      "액션",
+      "코미디",
+      "드라마"
+    ],
+    "runtime": 8,
+    "overview": "",
+    "director": [
+      "Ashley Miller"
+    ],
+    "cast": [
+      "Ava Banzhoff",
+      "Matthew Dinello",
+      "Jeremy Jackson",
+      "Jadoryon Nicholas",
+      "Bela Gonzalez",
+      "Graham Hamilton"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-03T20:50:29.375184+00:00"
+  },
+  "movie:397759": {
+    "id": 397759,
+    "media_type": "movie",
+    "title": "목매달기 골목",
+    "original_title": "Kubitsuri Yokocho",
+    "poster_path": "/vtEVG0uzGmgvYTFwyCrILPpmIvr.jpg",
+    "backdrop_path": null,
+    "vote_average": 5.0,
+    "vote_count": 3,
+    "release_date": "2014-05-13",
+    "genres": [],
+    "runtime": 18,
+    "overview": "",
+    "director": [
+      "Christophe Deroo"
+    ],
+    "cast": [
+      "Takuro Kuraki",
+      "Kenji Sato",
+      "Ruichi Wada",
+      "Julien Lepretre Sato",
+      "Wataru Nakagawa"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-03T20:50:29.592166+00:00"
+  },
+  "movie:4597": {
+    "id": 4597,
+    "media_type": "movie",
+    "title": "아머드",
+    "original_title": "Armored",
+    "poster_path": "/oQrAXGkBy84FyGpWrY71ptqs7zD.jpg",
+    "backdrop_path": "/EOAv4NeWOxB5rfGmDJTofX3j3Z.jpg",
+    "vote_average": 5.8,
+    "vote_count": 741,
+    "release_date": "2009-12-04",
+    "genres": [
+      "액션",
+      "범죄",
+      "드라마",
+      "스릴러",
+      "미스터리"
+    ],
+    "runtime": 87,
+    "overview": "무장수송 경비 회사에 근무하는 일련의 직원들이, 자신들이 무장 트럭으로 운송하는 현금 4,200만불을 강탈하기로 결심한다. 마이크가 세운 그 계획은 은행에서 4천2백만 불의 현금을 다른 곳으로 운반해주는 척 하다가 그 돈을 숨기고 트럭에 불을 질러서 강도를 당한 것처럼 꾸미는 것이었다. 티와이의 반응을 살피기 위해 장난으로 강도짓을 꾸며본 마이크와 동료들은 티와이에게 그 계획을 제안한다. 그러나 부모님을 잃고 혼자서 동생을 돌봐야하는 티와이는 자신이 체포되고 동생 지미가 혼자 남겨질 것을 알면서 그런 제안을 받아들일수가 없다. 트럭 한 대를 통째로 빼돌리려던 그들의 계획은 점점 이상한 방향으로 흘러가는데...",
+    "director": [
+      "Nimród Antal"
+    ],
+    "cast": [
+      "맷 딜런",
+      "장 르노",
+      "로렌스 피시번",
+      "Amaury Nolasco",
+      "Fred Ward",
+      "Milo Ventimiglia",
+      "Skeet Ulrich",
+      "Columbus Short",
+      "Andre Jamal Kinney",
+      "Andrew Fiscella"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-03T20:50:29.693730+00:00"
+  },
+  "tv:1421": {
+    "id": 1421,
+    "media_type": "tv",
+    "title": "모던 패밀리",
+    "original_title": "Modern Family",
+    "poster_path": "/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg",
+    "backdrop_path": "/nO7EzksrBzlNpAg5rgv8HzaBIkx.jpg",
+    "vote_average": 7.909,
+    "vote_count": 3599,
+    "release_date": "2009-09-23",
+    "genres": [
+      "코미디"
+    ],
+    "runtime": null,
+    "overview": "에미상을 받은 이 시트콤은 로스앤젤레스에 사는 제이 프리쳇과 각양각색의 가족이 일상에서 수많은 난관을 만나고 해결해 나가는 이야기를 그린다.",
+    "director": [],
+    "cast": [
+      "에드 오닐",
+      "소피아 베르가라",
+      "줄리 보언",
+      "타이 버렐",
+      "Jesse Tyler Ferguson",
+      "에릭 스톤스트리트",
+      "세라 하일랜드",
+      "아리엘 윈터",
+      "Nolan Gould",
+      "Rico Rodriguez"
+    ],
+    "trailer_key": "",
+    "homepage": "http://abc.go.com/shows/modern-family",
+    "cached_at": "2026-11-03T20:50:30.487229+00:00"
   }
 }
