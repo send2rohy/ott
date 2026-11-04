@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-11-03T20:50:30.236963+00:00"
+    "cached_at": "2026-11-04T21:06:53.028190+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-03T20:50:30.735969+00:00"
+    "cached_at": "2026-11-04T21:06:53.333470+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -907,7 +907,7 @@
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
     "vote_average": 8.4,
-    "vote_count": 1265,
+    "vote_count": 1266,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-03T20:50:30.842108+00:00"
+    "cached_at": "2026-11-04T21:06:53.450381+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-03T20:50:30.955454+00:00"
+    "cached_at": "2026-11-04T21:06:53.560172+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-03T20:50:31.098930+00:00"
+    "cached_at": "2026-11-04T21:06:53.663494+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -2822,7 +2822,7 @@
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
     "vote_average": 7.86,
-    "vote_count": 10883,
+    "vote_count": 10893,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2848,7 +2848,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-03T20:50:29.960391+00:00"
+    "cached_at": "2026-11-04T21:06:52.890752+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3529,8 +3529,8 @@
     "original_title": "Evil Dead Burn",
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "vote_average": 7.594,
-    "vote_count": 1895,
+    "vote_average": 7.591,
+    "vote_count": 1902,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3554,7 +3554,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-03T20:50:29.473772+00:00"
+    "cached_at": "2026-11-04T21:06:52.580471+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3999,7 +3999,7 @@
     "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
     "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
     "vote_average": 8.1,
-    "vote_count": 6046,
+    "vote_count": 6050,
     "release_date": "2005-09-19",
     "genres": [
       "코미디"
@@ -4017,7 +4017,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-03T20:50:30.381770+00:00"
+    "cached_at": "2026-11-04T21:06:53.127523+00:00"
   },
   "movie:987470": {
     "id": 987470,
@@ -4091,8 +4091,8 @@
     "original_title": "Nowhere to Run",
     "poster_path": "/a2FGbyzk2dTAlu37iGeQBbUjLLE.jpg",
     "backdrop_path": "/5VF6N8dPSSPeyQdQoQ53mxDcUjw.jpg",
-    "vote_average": 6.571,
-    "vote_count": 876,
+    "vote_average": 6.57,
+    "vote_count": 877,
     "release_date": "1993-01-15",
     "genres": [
       "액션",
@@ -4118,7 +4118,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-03T20:50:29.111346+00:00"
+    "cached_at": "2026-11-04T21:06:52.284647+00:00"
   },
   "movie:1660624": {
     "id": 1660624,
@@ -4150,7 +4150,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-03T20:50:29.375184+00:00"
+    "cached_at": "2026-11-04T21:06:52.480544+00:00"
   },
   "movie:397759": {
     "id": 397759,
@@ -4215,7 +4215,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-03T20:50:29.693730+00:00"
+    "cached_at": "2026-11-04T21:06:52.789759+00:00"
   },
   "tv:1421": {
     "id": 1421,
@@ -4224,8 +4224,8 @@
     "original_title": "Modern Family",
     "poster_path": "/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg",
     "backdrop_path": "/nO7EzksrBzlNpAg5rgv8HzaBIkx.jpg",
-    "vote_average": 7.909,
-    "vote_count": 3599,
+    "vote_average": 7.908,
+    "vote_count": 3604,
     "release_date": "2009-09-23",
     "genres": [
       "코미디"
@@ -4247,6 +4247,77 @@
     ],
     "trailer_key": "",
     "homepage": "http://abc.go.com/shows/modern-family",
-    "cached_at": "2026-11-03T20:50:30.487229+00:00"
+    "cached_at": "2026-11-04T21:06:53.232366+00:00"
+  },
+  "movie:450975": {
+    "id": 450975,
+    "media_type": "movie",
+    "title": "The Eyes",
+    "original_title": "The Eyes",
+    "poster_path": "/4O2WnlOgMvBM3xqDVnEGpoJtw2R.jpg",
+    "backdrop_path": "/cFEWO3OPEep4EZ7rte7u6o80f3b.jpg",
+    "vote_average": 5.4,
+    "vote_count": 20,
+    "release_date": "2017-04-07",
+    "genres": [
+      "미스터리",
+      "드라마",
+      "범죄",
+      "스릴러"
+    ],
+    "runtime": 95,
+    "overview": "",
+    "director": [
+      "Robbie Bryan"
+    ],
+    "cast": [
+      "Nicholas Turturro",
+      "빈센트 패스토어",
+      "Megan West",
+      "Ana Isabelle",
+      "Greg Davis Jr.",
+      "Steven Hauck",
+      "Danny Flaherty",
+      "Carly Steel",
+      "Xiren Wang",
+      "Daniel Margotta"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-04T21:06:52.383367+00:00"
+  },
+  "movie:67193": {
+    "id": 67193,
+    "media_type": "movie",
+    "title": "Kubilay",
+    "original_title": "Kubilay",
+    "poster_path": "/fKRwi2OlJKFYwTEPDpmZvr9qJ0n.jpg",
+    "backdrop_path": "/sY0t1iIgBdybAZe7afPNmbjoQtR.jpg",
+    "vote_average": 3.0,
+    "vote_count": 2,
+    "release_date": "2010-01-01",
+    "genres": [
+      "역사"
+    ],
+    "runtime": 97,
+    "overview": "",
+    "director": [
+      "Ahmet Akıncı"
+    ],
+    "cast": [
+      "Arda Kural",
+      "Özcan Varaylı",
+      "Yalçın Mıhçı",
+      "Ünsal Emre",
+      "Selahattin Taşdöğen",
+      "Ergül Coşkun",
+      "Numan Çakır",
+      "Muhittin Yeşiloba",
+      "Anıl Yıldız",
+      "Nevin Yılmaz Taşdöğen"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-04T21:06:52.694122+00:00"
   }
 }
