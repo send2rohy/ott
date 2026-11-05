@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "items": [
     {
       "rank": 1,
@@ -403,18 +403,18 @@
     },
     {
       "rank": 9,
-      "title": "주토피아 2",
-      "original_title": "주토피아 2",
+      "title": "파이트 클럽",
+      "original_title": "파이트 클럽",
       "season_title": "",
       "platform": "Disney+",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 1084242,
-      "tmdb_title": "주토피아 2",
-      "tmdb_original_title": "Zootopia 2",
+      "tmdb_id": 550,
+      "tmdb_title": "파이트 클럽",
+      "tmdb_original_title": "Fight Club",
       "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": 0
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 10,
@@ -463,6 +463,21 @@
     },
     {
       "rank": 3,
+      "title": "메리 베리 러브",
+      "original_title": "메리 베리 러브",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 305551,
+      "tmdb_title": "메리 베리 러브",
+      "tmdb_original_title": "メリーベリーラブ",
+      "source": "top10",
+      "previous_rank": 5,
+      "change": 2
+    },
+    {
+      "rank": 4,
       "title": "파이널 테이블",
       "original_title": "파이널 테이블",
       "season_title": "",
@@ -474,10 +489,10 @@
       "tmdb_original_title": "파이널 테이블",
       "source": "top10",
       "previous_rank": 3,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "비전퀘스트",
       "original_title": "비전퀘스트",
       "season_title": "",
@@ -488,41 +503,11 @@
       "tmdb_title": "비전퀘스트",
       "tmdb_original_title": "VisionQuest",
       "source": "top10",
-      "previous_rank": 7,
-      "change": 3
-    },
-    {
-      "rank": 5,
-      "title": "메리 베리 러브",
-      "original_title": "메리 베리 러브",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 305551,
-      "tmdb_title": "메리 베리 러브",
-      "tmdb_original_title": "メリーベリーラブ",
-      "source": "top10",
       "previous_rank": 4,
       "change": -1
     },
     {
       "rank": 6,
-      "title": "연애전쟁",
-      "original_title": "연애전쟁",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 325114,
-      "tmdb_title": "연애전쟁",
-      "tmdb_original_title": "연애전쟁",
-      "source": "top10",
-      "previous_rank": 5,
-      "change": -1
-    },
-    {
-      "rank": 7,
       "title": "메이드 인 코리아",
       "original_title": "메이드 인 코리아",
       "season_title": "",
@@ -533,8 +518,23 @@
       "tmdb_title": "메이드 인 코리아",
       "tmdb_original_title": "메이드 인 코리아",
       "source": "top10",
-      "previous_rank": 6,
-      "change": -1
+      "previous_rank": 7,
+      "change": 1
+    },
+    {
+      "rank": 7,
+      "title": "공감세포",
+      "original_title": "공감세포",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 315007,
+      "tmdb_title": "공감세포",
+      "tmdb_original_title": "공감세포",
+      "source": "top10",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 8,
@@ -568,15 +568,15 @@
     },
     {
       "rank": 10,
-      "title": "심슨 가족",
-      "original_title": "심슨 가족",
+      "title": "프린세스 스타의 모험일기",
+      "original_title": "프린세스 스타의 모험일기",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 456,
-      "tmdb_title": "심슨 가족",
-      "tmdb_original_title": "The Simpsons",
+      "tmdb_id": 61923,
+      "tmdb_title": "프린세스 스타의 모험일기",
+      "tmdb_original_title": "Star vs. the Forces of Evil",
       "source": "tmdb_popular",
       "previous_rank": null,
       "change": "NEW"
@@ -611,20 +611,6 @@
     },
     {
       "rank": 3,
-      "title": "핸섬가이즈",
-      "original_title": "핸섬가이즈",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 736720,
-      "tmdb_title": "핸섬가이즈",
-      "tmdb_original_title": "핸섬가이즈",
-      "previous_rank": 3,
-      "change": 0
-    },
-    {
-      "rank": 4,
       "title": "해리 포터와 마법사의 돌",
       "original_title": "해리 포터와 마법사의 돌",
       "season_title": "",
@@ -635,7 +621,21 @@
       "tmdb_title": "해리 포터와 마법사의 돌",
       "tmdb_original_title": "Harry Potter and the Philosopher's Stone",
       "previous_rank": 4,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 4,
+      "title": "핸섬가이즈",
+      "original_title": "핸섬가이즈",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 736720,
+      "tmdb_title": "핸섬가이즈",
+      "tmdb_original_title": "핸섬가이즈",
+      "previous_rank": 3,
+      "change": -1
     },
     {
       "rank": 5,

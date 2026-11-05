@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-04T21:06:53.333470+00:00"
+    "cached_at": "2026-11-05T21:23:51.311753+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.4,
-    "vote_count": 1266,
+    "vote_average": 8.426,
+    "vote_count": 1269,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-04T21:06:53.450381+00:00"
+    "cached_at": "2026-11-05T21:23:51.336465+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-04T21:06:53.560172+00:00"
+    "cached_at": "2026-11-05T21:23:51.360371+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-04T21:06:53.663494+00:00"
+    "cached_at": "2026-11-05T21:23:51.412006+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -2822,7 +2822,7 @@
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
     "vote_average": 7.86,
-    "vote_count": 10893,
+    "vote_count": 10896,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2848,7 +2848,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-04T21:06:52.890752+00:00"
+    "cached_at": "2026-11-05T21:23:50.589782+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3002,7 +3002,7 @@
     "poster_path": "/vyrpZOFIZJkQG8ZWTezmlNGav8R.jpg",
     "backdrop_path": "/wwSoLQrLyiXXUbRnZq1eWBbHaRR.jpg",
     "vote_average": 9.1,
-    "vote_count": 10,
+    "vote_count": 11,
     "release_date": "2026-10-05",
     "genres": [
       "드라마",
@@ -3013,11 +3013,12 @@
     "director": [],
     "cast": [
       "추영우",
-      "김소현"
+      "김소현",
+      "장인섭"
     ],
     "trailer_key": "4HsK_-QQE5Y",
     "homepage": "https://ktena.co.kr/bbs/board.php?bo_table=drama&wr_id=51",
-    "cached_at": "2026-10-29T20:07:11.422390+00:00"
+    "cached_at": "2026-11-05T21:23:50.644676+00:00"
   },
   "movie:1293070": {
     "id": 1293070,
@@ -3074,8 +3075,8 @@
     "original_title": "メリーベリーラブ",
     "poster_path": "/vMCPcrzBeU603KUZDM374Boprh6.jpg",
     "backdrop_path": "/vPDVee1j6w0hJ2xMJ2bU5HVBA0Z.jpg",
-    "vote_average": 8.7,
-    "vote_count": 9,
+    "vote_average": 8.3,
+    "vote_count": 10,
     "release_date": "2026-10-07",
     "genres": [
       "코미디",
@@ -3101,7 +3102,7 @@
     ],
     "trailer_key": "AS6eCeBIzAQ",
     "homepage": "https://www.ntv.co.jp/merryberrylove",
-    "cached_at": "2026-10-29T20:07:11.491215+00:00"
+    "cached_at": "2026-11-05T21:23:50.670723+00:00"
   },
   "tv:320513": {
     "id": 320513,
@@ -3529,8 +3530,8 @@
     "original_title": "Evil Dead Burn",
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "vote_average": 7.591,
-    "vote_count": 1902,
+    "vote_average": 7.586,
+    "vote_count": 1907,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3554,7 +3555,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-04T21:06:52.580471+00:00"
+    "cached_at": "2026-11-05T21:23:50.490495+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3998,8 +3999,8 @@
     "original_title": "How I Met Your Mother",
     "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
     "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
-    "vote_average": 8.1,
-    "vote_count": 6050,
+    "vote_average": 8.111,
+    "vote_count": 6055,
     "release_date": "2005-09-19",
     "genres": [
       "코미디"
@@ -4017,7 +4018,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-04T21:06:53.127523+00:00"
+    "cached_at": "2026-11-05T21:23:51.225866+00:00"
   },
   "movie:987470": {
     "id": 987470,
@@ -4091,8 +4092,8 @@
     "original_title": "Nowhere to Run",
     "poster_path": "/a2FGbyzk2dTAlu37iGeQBbUjLLE.jpg",
     "backdrop_path": "/5VF6N8dPSSPeyQdQoQ53mxDcUjw.jpg",
-    "vote_average": 6.57,
-    "vote_count": 877,
+    "vote_average": 6.571,
+    "vote_count": 879,
     "release_date": "1993-01-15",
     "genres": [
       "액션",
@@ -4118,7 +4119,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-04T21:06:52.284647+00:00"
+    "cached_at": "2026-11-05T21:23:50.402849+00:00"
   },
   "movie:1660624": {
     "id": 1660624,
@@ -4150,7 +4151,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-04T21:06:52.480544+00:00"
+    "cached_at": "2026-11-05T21:23:50.463834+00:00"
   },
   "movie:397759": {
     "id": 397759,
@@ -4215,7 +4216,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-04T21:06:52.789759+00:00"
+    "cached_at": "2026-11-05T21:23:50.560572+00:00"
   },
   "tv:1421": {
     "id": 1421,
@@ -4224,8 +4225,8 @@
     "original_title": "Modern Family",
     "poster_path": "/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg",
     "backdrop_path": "/nO7EzksrBzlNpAg5rgv8HzaBIkx.jpg",
-    "vote_average": 7.908,
-    "vote_count": 3604,
+    "vote_average": 7.909,
+    "vote_count": 3605,
     "release_date": "2009-09-23",
     "genres": [
       "코미디"
@@ -4247,7 +4248,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://abc.go.com/shows/modern-family",
-    "cached_at": "2026-11-04T21:06:53.232366+00:00"
+    "cached_at": "2026-11-05T21:23:51.249581+00:00"
   },
   "movie:450975": {
     "id": 450975,
@@ -4284,7 +4285,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-04T21:06:52.383367+00:00"
+    "cached_at": "2026-11-05T21:23:50.431277+00:00"
   },
   "movie:67193": {
     "id": 67193,
@@ -4318,6 +4319,106 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-04T21:06:52.694122+00:00"
+    "cached_at": "2026-11-05T21:23:50.520721+00:00"
+  },
+  "movie:550": {
+    "id": 550,
+    "media_type": "movie",
+    "title": "파이트 클럽",
+    "original_title": "Fight Club",
+    "poster_path": "/eKZ07Ted7VHxQjbuZrRBFOamcKJ.jpg",
+    "backdrop_path": "/c6OLXfKAk5BKeR6broC8pYiCquX.jpg",
+    "vote_average": 8.4,
+    "vote_count": 33245,
+    "release_date": "1999-10-15",
+    "genres": [
+      "드라마",
+      "스릴러"
+    ],
+    "runtime": 139,
+    "overview": "자동차 회사의 리콜 심사관으로 일하는 주인공은 일상의 무료함과 공허함 속에서 늘 새로운 탈출을 꿈꾼다. 그는 비행기에서 자신을 비누 제조업자라고 소개하는 타일러 더든을 만난다. 집에 돌아온 주인공은 아파트가 누군가에 의해 폭파되었음을 발견하고, 타일러에게 도움을 청해 함께 생활하게 된다. 어느 날 밤 타일러는 주인공에게 자신을 때려달라고 부탁한다. 사람은 싸워봐야 진정한 자신을 알 수 있다는 것이다. 결국 이들은 매주 토요일 밤 술집 지하에서 맨주먹으로 격투를 벌이는 파이트 클럽을 결성하기에 이르는데...",
+    "director": [
+      "데이비드 핀처"
+    ],
+    "cast": [
+      "에드워드 노튼",
+      "브래드 피트",
+      "헬레나 본햄 카터",
+      "Meat Loaf",
+      "자레드 레토",
+      "Zach Grenier",
+      "홀트 매캘러니",
+      "에이온 바일리",
+      "Richmond Arquette",
+      "데이비드 앤드루스"
+    ],
+    "trailer_key": "2EKUbAKFYg0",
+    "homepage": "",
+    "cached_at": "2026-11-05T21:23:50.623253+00:00"
+  },
+  "tv:315007": {
+    "id": 315007,
+    "media_type": "tv",
+    "title": "공감세포",
+    "original_title": "공감세포",
+    "poster_path": "/dEQOEulL3jwRmYZBfnHlcttNh86.jpg",
+    "backdrop_path": "/ykYenWf8y5YqyZFkDdmVeKczTMl.jpg",
+    "vote_average": 6.8,
+    "vote_count": 6,
+    "release_date": "2026-07-04",
+    "genres": [
+      "드라마",
+      "코미디",
+      "Sci-Fi & Fantasy"
+    ],
+    "runtime": null,
+    "overview": "공감을 부정한 여자와 공감을 떠안은 남자. 두 사람은 ‘감정 전이’라는 초현실적인 사건을 통해 서로의 세계를 침범하며, 잃어버린 감정을 다시 배워가는 로맨틱 코미디.",
+    "director": [
+      "Kim Chil-bong"
+    ],
+    "cast": [
+      "엘",
+      "강민아",
+      "권소현",
+      "신우겸",
+      "차민지",
+      "강필준",
+      "김다혜",
+      "옥윤중",
+      "장성원",
+      "김이현"
+    ],
+    "trailer_key": "_R9-XGMq6M0",
+    "homepage": "https://lifetimekorea.kr/program/227",
+    "cached_at": "2026-11-05T21:23:50.700726+00:00"
+  },
+  "tv:61923": {
+    "id": 61923,
+    "media_type": "tv",
+    "title": "프린세스 스타의 모험일기",
+    "original_title": "Star vs. the Forces of Evil",
+    "poster_path": "/7lSjgoT5Ip7JgkSPyJUusrBz0ll.jpg",
+    "backdrop_path": "/2UElp7Dkm3SiB9ZEdKEWNmAOijB.jpg",
+    "vote_average": 8.4,
+    "vote_count": 1539,
+    "release_date": "2015-01-18",
+    "genres": [
+      "Action & Adventure",
+      "애니메이션",
+      "코미디",
+      "Sci-Fi & Fantasy",
+      "가족"
+    ],
+    "runtime": 11,
+    "overview": "다른 세계의 괴물들과 몇 번의 크고 작은 교전 이후, 놀기 좋아하는 십 대 소녀, 스타 버터플라이 공주는 왕족 부모에게 명을 받고 자신만의 독특한 차원 이동 스타일을 가지고 지구로 가서 디아즈 가족과 살게 된다. 다른 차원에서 온 외국인 교환학생이 된 스타는 디아즈 씨의 아들인 십 대 소년 마르코와 함께 고등학교에서 다중 우주와 학교의 악당과 싸운다. 아직 사용법에 익숙하지 않지만 강력한 자신의 마법의 지팡이를 지키기 위해.",
+    "director": [],
+    "cast": [
+      "Eden Sher",
+      "Adam McArthur",
+      "앨런 튜딕"
+    ],
+    "trailer_key": "",
+    "homepage": "https://disneynow.go.com/shows/star-vs-the-forces-of-evil",
+    "cached_at": "2026-11-05T21:23:51.278590+00:00"
   }
 }
