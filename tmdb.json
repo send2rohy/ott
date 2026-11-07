@@ -381,15 +381,15 @@
     "original_title": "메이드 인 코리아",
     "poster_path": "/lhZCpYVMKZanGTMabOYHTZLD1WY.jpg",
     "backdrop_path": "/fRR6jHutlHuYxMeZp4cZfjgafzd.jpg",
-    "vote_average": 8.2,
-    "vote_count": 40,
+    "vote_average": 8.1,
+    "vote_count": 41,
     "release_date": "2025-12-24",
     "genres": [
       "범죄",
       "드라마"
     ],
     "runtime": null,
-    "overview": "격동의 1970년대, 부와 권력에 대한 야망을 지닌 백기태와 그를 막기 위해 모든 것을 내던진 검사 장건영이 시대를 관통하는 거대한 사건과 직면하며 펼쳐지는 이야기",
+    "overview": "혼란과 도약이 공존하던 1970년대의 대한민국. 중앙정보부 부산지부의 과장 백기태는 낮에는 국가에 충성하는 정보요원으로, 밤에는 위험한 비즈니스맨으로 이중생활을 이어 간다. 부모를 일찍 여의고 동생들을 홀로 책임져 온 그는 권력에 이용당하다 버려지지 않기 위해, 국가를 수익모델로 삼아 부와 권력의 정점에 오르겠다는 야망을 품는다. 부산의 조직과 일본 야쿠자까지 끌어들인 그의 은밀한 사업이 점점 몸집을 불려 가는 가운데, 가족을 마약으로 잃은 뒤 오직 마약사범을 잡는 데 모든 것을 걸어 온 검사 장건영이 그 뒤를 집요하게 추적하기 시작한다. 시대를 뒤흔든 굵직한 사건들 한가운데서 두 남자의 목숨을 건 대결이 펼쳐진다.",
     "director": [],
     "cast": [
       "현빈",
@@ -399,7 +399,7 @@
     ],
     "trailer_key": "RgbDMRpTHxk",
     "homepage": "https://www.disneyplus.com/browse/entity-5acf7909-5d2f-494e-91a9-2fe0555c220f",
-    "cached_at": "2026-10-31T19:10:14.232115+00:00"
+    "cached_at": "2026-11-07T19:17:26.523457+00:00"
   },
   "tv:220074": {
     "id": 220074,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-06T20:44:59.202321+00:00"
+    "cached_at": "2026-11-07T19:17:27.121008+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.4,
-    "vote_count": 1269,
+    "vote_average": 8.424,
+    "vote_count": 1270,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-06T20:44:59.284569+00:00"
+    "cached_at": "2026-11-07T19:17:27.160271+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-06T20:44:59.379557+00:00"
+    "cached_at": "2026-11-07T19:17:27.182141+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-06T20:44:59.457559+00:00"
+    "cached_at": "2026-11-07T19:17:27.206959+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1445,7 +1445,7 @@
     "poster_path": "/ib6v6qUXzez1x2qIOLN7C0yJNPQ.jpg",
     "backdrop_path": "/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
     "vote_average": 7.667,
-    "vote_count": 3630,
+    "vote_count": 3657,
     "release_date": "2025-11-26",
     "genres": [
       "애니메이션",
@@ -1474,7 +1474,7 @@
     ],
     "trailer_key": "H9boDm0J67w",
     "homepage": "",
-    "cached_at": "2026-10-30T19:53:32.722565+00:00"
+    "cached_at": "2026-11-07T19:17:26.465613+00:00"
   },
   "movie:19995": {
     "id": 19995,
@@ -1876,12 +1876,11 @@
     "original_title": "너 말고 다른 연애",
     "poster_path": "/mryeyCsFApnwYDpDcy3I6fYx2Dd.jpg",
     "backdrop_path": "/moUjiEzpJVNZc7hyNRBbLPt0CPX.jpg",
-    "vote_average": 5.0,
-    "vote_count": 4,
+    "vote_average": 5.6,
+    "vote_count": 8,
     "release_date": "2026-09-12",
     "genres": [
-      "드라마",
-      "코미디"
+      "드라마"
     ],
     "runtime": null,
     "overview": "결혼의 기로에 선 오래된 연인들이 예기치 못한 새 인연을 만나며 겪게 되는 감정의 파동과 관계의 균열을 그린 현실 공감 로맨스",
@@ -1892,7 +1891,7 @@
     ],
     "trailer_key": "nQWv70PTHFM",
     "homepage": "https://program.kbs.co.kr/2tv/drama/loveotherthanyours",
-    "cached_at": "2026-10-31T19:10:14.637165+00:00"
+    "cached_at": "2026-11-07T19:17:26.671580+00:00"
   },
   "movie:714650": {
     "id": 714650,
@@ -1936,15 +1935,15 @@
     "original_title": "Deadpool & Wolverine",
     "poster_path": "/dsfAcQ5J7TPOpJgcX8R1lRBqiMK.jpg",
     "backdrop_path": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
-    "vote_average": 7.588,
-    "vote_count": 9763,
+    "vote_average": 7.587,
+    "vote_count": 9796,
     "release_date": "2024-07-24",
     "genres": [
       "액션",
       "코미디",
       "SF"
     ],
-    "runtime": 128,
+    "runtime": 127,
     "overview": "히어로 생활에서 은퇴한 후, 평범한 중고차 딜러로 살아가던 데드풀이 예상치 못한 거대한 위기를 맞아 모든 면에서 상극인 울버린을 찾아가게 되며 펼쳐지는 도파민 폭발 액션 블록버스터.",
     "director": [
       "숀 레비"
@@ -1963,7 +1962,7 @@
     ],
     "trailer_key": "NVDLUJa5dac",
     "homepage": "",
-    "cached_at": "2026-10-31T19:10:14.078748+00:00"
+    "cached_at": "2026-11-07T19:17:26.427199+00:00"
   },
   "tv:4057": {
     "id": 4057,
@@ -2715,8 +2714,8 @@
     "original_title": "군체",
     "poster_path": "/hDPGsJxo8xX0OyqcMB8xI3RdaF3.jpg",
     "backdrop_path": "/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-    "vote_average": 8.209,
-    "vote_count": 1461,
+    "vote_average": 8.212,
+    "vote_count": 1526,
     "release_date": "2026-05-21",
     "genres": [
       "공포",
@@ -2742,7 +2741,7 @@
     ],
     "trailer_key": "AZ6zGFKO1xQ",
     "homepage": "",
-    "cached_at": "2026-10-31T19:10:14.545736+00:00"
+    "cached_at": "2026-11-07T19:17:26.624179+00:00"
   },
   "movie:348": {
     "id": 348,
@@ -2822,7 +2821,7 @@
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
     "vote_average": 7.86,
-    "vote_count": 10900,
+    "vote_count": 10907,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2848,7 +2847,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-06T20:44:56.930287+00:00"
+    "cached_at": "2026-11-07T19:17:26.387161+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3530,8 +3529,8 @@
     "original_title": "Evil Dead Burn",
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "vote_average": 7.6,
-    "vote_count": 1910,
+    "vote_average": 7.584,
+    "vote_count": 1912,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3555,7 +3554,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-06T20:44:56.580623+00:00"
+    "cached_at": "2026-11-07T19:17:26.300251+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3990,7 +3989,7 @@
     ],
     "trailer_key": "fkTp8shK6JA",
     "homepage": "https://program.imbc.com/ThePerfectLie",
-    "cached_at": "2026-10-31T19:10:14.155991+00:00"
+    "cached_at": "2026-11-07T19:17:26.497180+00:00"
   },
   "tv:1100": {
     "id": 1100,
@@ -4000,7 +3999,7 @@
     "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
     "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
     "vote_average": 8.111,
-    "vote_count": 6056,
+    "vote_count": 6058,
     "release_date": "2005-09-19",
     "genres": [
       "코미디"
@@ -4018,7 +4017,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-06T20:44:57.606420+00:00"
+    "cached_at": "2026-11-07T19:17:26.574939+00:00"
   },
   "movie:987470": {
     "id": 987470,
@@ -4119,7 +4118,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-06T20:44:56.338446+00:00"
+    "cached_at": "2026-11-07T19:17:26.215262+00:00"
   },
   "movie:1660624": {
     "id": 1660624,
@@ -4151,7 +4150,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-06T20:44:56.500529+00:00"
+    "cached_at": "2026-11-07T19:17:26.278473+00:00"
   },
   "movie:397759": {
     "id": 397759,
@@ -4216,7 +4215,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-06T20:44:56.754266+00:00"
+    "cached_at": "2026-11-07T19:17:26.364742+00:00"
   },
   "tv:1421": {
     "id": 1421,
@@ -4225,8 +4224,8 @@
     "original_title": "Modern Family",
     "poster_path": "/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg",
     "backdrop_path": "/nO7EzksrBzlNpAg5rgv8HzaBIkx.jpg",
-    "vote_average": 7.909,
-    "vote_count": 3607,
+    "vote_average": 7.91,
+    "vote_count": 3610,
     "release_date": "2009-09-23",
     "genres": [
       "코미디"
@@ -4248,7 +4247,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://abc.go.com/shows/modern-family",
-    "cached_at": "2026-11-06T20:44:57.701742+00:00"
+    "cached_at": "2026-11-07T19:17:26.596471+00:00"
   },
   "movie:450975": {
     "id": 450975,
@@ -4285,7 +4284,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-06T20:44:56.417410+00:00"
+    "cached_at": "2026-11-07T19:17:26.253563+00:00"
   },
   "movie:67193": {
     "id": 67193,
@@ -4319,7 +4318,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-06T20:44:56.667941+00:00"
+    "cached_at": "2026-11-07T19:17:26.336674+00:00"
   },
   "movie:550": {
     "id": 550,
@@ -4490,5 +4489,75 @@
     "trailer_key": "FNHkrMZJowk",
     "homepage": "",
     "cached_at": "2026-11-06T20:44:58.567396+00:00"
+  },
+  "tv:1877": {
+    "id": 1877,
+    "media_type": "tv",
+    "title": "피니와 퍼브",
+    "original_title": "Phineas and Ferb",
+    "poster_path": "/9zgv7u9L3Mzw2BDyfNaRLVmhHEo.jpg",
+    "backdrop_path": "/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
+    "vote_average": 7.9,
+    "vote_count": 1083,
+    "release_date": "2007-08-17",
+    "genres": [
+      "애니메이션",
+      "코미디",
+      "가족",
+      "Sci-Fi & Fantasy"
+    ],
+    "runtime": null,
+    "overview": "피니와 퍼브에게 불가능이란 없다! 말썽꾸러기 발명가 형제 피니와 퍼브의 좌충우돌 이야기",
+    "director": [],
+    "cast": [
+      "빈센트 마텔라",
+      "애슐리 티스데일",
+      "앨리슨 스토너",
+      "David Errigo Jr.",
+      "Maulik Pancholy",
+      "Bobby Gaylor",
+      "댄 포벤마이어",
+      "Jeff 'Swampy' Marsh",
+      "캐럴라인 레아",
+      "디 브래들리 베이커"
+    ],
+    "trailer_key": "",
+    "homepage": "https://disneynow.com/shows/phineas-and-ferb",
+    "cached_at": "2026-11-07T19:17:26.553606+00:00"
+  },
+  "movie:350": {
+    "id": 350,
+    "media_type": "movie",
+    "title": "악마는 프라다를 입는다",
+    "original_title": "The Devil Wears Prada",
+    "poster_path": "/lxjGbkRnY9d2j8cxIHxX57NNvRH.jpg",
+    "backdrop_path": "/gkh6Nt8DtY1XT4gQsyFq9XAVJlJ.jpg",
+    "vote_average": 7.4,
+    "vote_count": 14399,
+    "release_date": "2006-06-29",
+    "genres": [
+      "드라마",
+      "코미디"
+    ],
+    "runtime": 109,
+    "overview": "명문대를 졸업한 소도시 출신의 앤드리아 삭스. 최고의 저널리스트 꿈을 안고 뉴욕에 상경하지만 그녀의 이력서를 보고 연락이 온 곳은 딱 한곳. 세계 최고의 패션지 런웨이 뿐이다. 그것도 기자가 아닌 편집장 미란다의 말단 비서로서. 미란다 프리슬리는 세계 패션쇼의 스케쥴을 바꿀 수 있을 만큼의 거물이지만 까다로운 완벽주의자로 악명이 높다. 직장생활의 꿈에 부푼 앤드리아. 그러나 현실은 지옥 그 자체. 악마 같은 미란다 밑에서 그녀는 과연 살아남을 수 있을까?",
+    "director": [
+      "데이비드 프랭클"
+    ],
+    "cast": [
+      "메릴 스트립",
+      "앤 해서웨이",
+      "에밀리 블런트",
+      "스탠리 투치",
+      "사이먼 베이커",
+      "애드리언 그레니어",
+      "트레이시 톰스",
+      "리치 서머",
+      "다니엘 선자타",
+      "데이비드 마셜 그랜트"
+    ],
+    "trailer_key": "2wnvmS1A7O8",
+    "homepage": "",
+    "cached_at": "2026-11-07T19:17:26.648072+00:00"
   }
 }

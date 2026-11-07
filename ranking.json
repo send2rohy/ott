@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "items": [
     {
       "rank": 1,
@@ -343,36 +343,6 @@
     },
     {
       "rank": 5,
-      "title": "어벤져스: 엔드게임",
-      "original_title": "어벤져스: 엔드게임",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 299534,
-      "tmdb_title": "어벤져스: 엔드게임",
-      "tmdb_original_title": "Avengers: Endgame",
-      "source": "tmdb_popular",
-      "previous_rank": 5,
-      "change": 0
-    },
-    {
-      "rank": 6,
-      "title": "데드풀과 울버린",
-      "original_title": "데드풀과 울버린",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 533535,
-      "tmdb_title": "데드풀과 울버린",
-      "tmdb_original_title": "Deadpool & Wolverine",
-      "source": "tmdb_popular",
-      "previous_rank": 6,
-      "change": 0
-    },
-    {
-      "rank": 7,
       "title": "어벤져스: 인피니티 워",
       "original_title": "어벤져스: 인피니티 워",
       "season_title": "",
@@ -384,10 +354,55 @@
       "tmdb_original_title": "Avengers: Infinity War",
       "source": "tmdb_popular",
       "previous_rank": 7,
-      "change": 0
+      "change": 2
+    },
+    {
+      "rank": 6,
+      "title": "어벤져스: 엔드게임",
+      "original_title": "어벤져스: 엔드게임",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 299534,
+      "tmdb_title": "어벤져스: 엔드게임",
+      "tmdb_original_title": "Avengers: Endgame",
+      "source": "tmdb_popular",
+      "previous_rank": 5,
+      "change": -1
+    },
+    {
+      "rank": 7,
+      "title": "데드풀과 울버린",
+      "original_title": "데드풀과 울버린",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 533535,
+      "tmdb_title": "데드풀과 울버린",
+      "tmdb_original_title": "Deadpool & Wolverine",
+      "source": "tmdb_popular",
+      "previous_rank": 6,
+      "change": -1
     },
     {
       "rank": 8,
+      "title": "주토피아 2",
+      "original_title": "주토피아 2",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1084242,
+      "tmdb_title": "주토피아 2",
+      "tmdb_original_title": "Zootopia 2",
+      "source": "tmdb_popular",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 9,
       "title": "아바타: 불과 재",
       "original_title": "아바타: 불과 재",
       "season_title": "",
@@ -399,10 +414,10 @@
       "tmdb_original_title": "Avatar: Fire and Ash",
       "source": "tmdb_popular",
       "previous_rank": 8,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "파이트 클럽",
       "original_title": "파이트 클럽",
       "season_title": "",
@@ -414,22 +429,7 @@
       "tmdb_original_title": "Fight Club",
       "source": "tmdb_popular",
       "previous_rank": 9,
-      "change": 0
-    },
-    {
-      "rank": 10,
-      "title": "어벤져스",
-      "original_title": "어벤져스",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 24428,
-      "tmdb_title": "어벤져스",
-      "tmdb_original_title": "The Avengers",
-      "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 0
+      "change": -1
     },
     {
       "rank": 1,
@@ -473,8 +473,8 @@
       "tmdb_title": "파이널 테이블",
       "tmdb_original_title": "파이널 테이블",
       "source": "top10",
-      "previous_rank": 4,
-      "change": 1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -488,8 +488,8 @@
       "tmdb_title": "메리 베리 러브",
       "tmdb_original_title": "メリーベリーラブ",
       "source": "top10",
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -538,6 +538,21 @@
     },
     {
       "rank": 8,
+      "title": "피니와 퍼브",
+      "original_title": "피니와 퍼브",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 1877,
+      "tmdb_title": "피니와 퍼브",
+      "tmdb_original_title": "Phineas and Ferb",
+      "source": "tmdb_popular",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 9,
       "title": "내가 그녀를 만났을 때",
       "original_title": "내가 그녀를 만났을 때",
       "season_title": "",
@@ -549,10 +564,10 @@
       "tmdb_original_title": "How I Met Your Mother",
       "source": "tmdb_popular",
       "previous_rank": 8,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "모던 패밀리",
       "original_title": "모던 패밀리",
       "season_title": "",
@@ -564,22 +579,7 @@
       "tmdb_original_title": "Modern Family",
       "source": "tmdb_popular",
       "previous_rank": 9,
-      "change": 0
-    },
-    {
-      "rank": 10,
-      "title": "아발로 왕국의 엘레나",
-      "original_title": "아발로 왕국의 엘레나",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 67175,
-      "tmdb_title": "아발로 왕국의 엘레나",
-      "tmdb_original_title": "Elena of Avalor",
-      "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "change": -1
     },
     {
       "rank": 1,
@@ -620,8 +620,8 @@
       "tmdb_id": 936245,
       "tmdb_title": "히든페이스",
       "tmdb_original_title": "히든페이스",
-      "previous_rank": 5,
-      "change": 2
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -634,8 +634,8 @@
       "tmdb_id": 671,
       "tmdb_title": "해리 포터와 마법사의 돌",
       "tmdb_original_title": "Harry Potter and the Philosopher's Stone",
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -648,8 +648,8 @@
       "tmdb_id": 736720,
       "tmdb_title": "핸섬가이즈",
       "tmdb_original_title": "핸섬가이즈",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -704,22 +704,22 @@
       "tmdb_id": 673,
       "tmdb_title": "해리 포터와 아즈카반의 죄수",
       "tmdb_original_title": "Harry Potter and the Prisoner of Azkaban",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
-      "title": "살목지",
-      "original_title": "살목지",
+      "title": "악마는 프라다를 입는다",
+      "original_title": "악마는 프라다를 입는다",
       "season_title": "",
       "platform": "Coupang Play",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 1461254,
-      "tmdb_title": "살목지",
-      "tmdb_original_title": "살목지",
-      "previous_rank": 9,
-      "change": -1
+      "tmdb_id": 350,
+      "tmdb_title": "악마는 프라다를 입는다",
+      "tmdb_original_title": "The Devil Wears Prada",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
