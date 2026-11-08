@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-07T19:17:27.121008+00:00"
+    "cached_at": "2026-11-08T19:26:10.564855+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.424,
-    "vote_count": 1270,
+    "vote_average": 8.423,
+    "vote_count": 1271,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-07T19:17:27.160271+00:00"
+    "cached_at": "2026-11-08T19:26:10.665940+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:27.182141+00:00"
+    "cached_at": "2026-11-08T19:26:10.805821+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:27.206959+00:00"
+    "cached_at": "2026-11-08T19:26:10.916584+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -2821,7 +2821,7 @@
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
     "vote_average": 7.86,
-    "vote_count": 10907,
+    "vote_count": 10913,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2847,7 +2847,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.387161+00:00"
+    "cached_at": "2026-11-08T19:26:09.865544+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3181,8 +3181,8 @@
     "original_title": "핸섬가이즈",
     "poster_path": "/ng4oX4mzPr8x53yF8gw5zGtpDLD.jpg",
     "backdrop_path": "/7qMw4BkgvCLBev11Db5ygXNisaF.jpg",
-    "vote_average": 6.684,
-    "vote_count": 57,
+    "vote_average": 6.717,
+    "vote_count": 60,
     "release_date": "2024-06-26",
     "genres": [
       "코미디",
@@ -3207,7 +3207,7 @@
     ],
     "trailer_key": "oGbkEBrqUAs",
     "homepage": "",
-    "cached_at": "2026-11-01T19:25:55.082994+00:00"
+    "cached_at": "2026-11-08T19:26:10.460561+00:00"
   },
   "movie:354912": {
     "id": 354912,
@@ -3529,8 +3529,8 @@
     "original_title": "Evil Dead Burn",
     "poster_path": "/oDVnoRDTXhWpFkh6ThGHznWWNHV.jpg",
     "backdrop_path": "/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "vote_average": 7.584,
-    "vote_count": 1912,
+    "vote_average": 7.581,
+    "vote_count": 1920,
     "release_date": "2026-07-07",
     "genres": [
       "공포"
@@ -3554,7 +3554,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.300251+00:00"
+    "cached_at": "2026-11-08T19:26:09.549598+00:00"
   },
   "movie:1195506": {
     "id": 1195506,
@@ -3999,7 +3999,7 @@
     "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
     "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
     "vote_average": 8.111,
-    "vote_count": 6058,
+    "vote_count": 6062,
     "release_date": "2005-09-19",
     "genres": [
       "코미디"
@@ -4017,7 +4017,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.574939+00:00"
+    "cached_at": "2026-11-08T19:26:10.150123+00:00"
   },
   "movie:987470": {
     "id": 987470,
@@ -4092,7 +4092,7 @@
     "poster_path": "/c8ADJ1emBBokgXkzmPCl5mIZBKy.jpg",
     "backdrop_path": "/5VF6N8dPSSPeyQdQoQ53mxDcUjw.jpg",
     "vote_average": 6.571,
-    "vote_count": 879,
+    "vote_count": 880,
     "release_date": "1993-01-15",
     "genres": [
       "액션",
@@ -4118,7 +4118,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.215262+00:00"
+    "cached_at": "2026-11-08T19:26:09.190176+00:00"
   },
   "movie:1660624": {
     "id": 1660624,
@@ -4150,7 +4150,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.278473+00:00"
+    "cached_at": "2026-11-08T19:26:09.452086+00:00"
   },
   "movie:397759": {
     "id": 397759,
@@ -4215,7 +4215,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.364742+00:00"
+    "cached_at": "2026-11-08T19:26:09.761096+00:00"
   },
   "tv:1421": {
     "id": 1421,
@@ -4224,8 +4224,8 @@
     "original_title": "Modern Family",
     "poster_path": "/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg",
     "backdrop_path": "/nO7EzksrBzlNpAg5rgv8HzaBIkx.jpg",
-    "vote_average": 7.91,
-    "vote_count": 3610,
+    "vote_average": 7.911,
+    "vote_count": 3613,
     "release_date": "2009-09-23",
     "genres": [
       "코미디"
@@ -4247,7 +4247,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://abc.go.com/shows/modern-family",
-    "cached_at": "2026-11-07T19:17:26.596471+00:00"
+    "cached_at": "2026-11-08T19:26:10.254974+00:00"
   },
   "movie:450975": {
     "id": 450975,
@@ -4284,7 +4284,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.253563+00:00"
+    "cached_at": "2026-11-08T19:26:09.340656+00:00"
   },
   "movie:67193": {
     "id": 67193,
@@ -4318,7 +4318,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.336674+00:00"
+    "cached_at": "2026-11-08T19:26:09.653782+00:00"
   },
   "movie:550": {
     "id": 550,
@@ -4398,8 +4398,8 @@
     "original_title": "Star vs. the Forces of Evil",
     "poster_path": "/7lSjgoT5Ip7JgkSPyJUusrBz0ll.jpg",
     "backdrop_path": "/2UElp7Dkm3SiB9ZEdKEWNmAOijB.jpg",
-    "vote_average": 8.4,
-    "vote_count": 1539,
+    "vote_average": 8.366,
+    "vote_count": 1541,
     "release_date": "2015-01-18",
     "genres": [
       "Action & Adventure",
@@ -4418,7 +4418,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://disneynow.go.com/shows/star-vs-the-forces-of-evil",
-    "cached_at": "2026-11-05T21:23:51.278590+00:00"
+    "cached_at": "2026-11-08T19:26:10.360946+00:00"
   },
   "tv:67175": {
     "id": 67175,
@@ -4497,8 +4497,8 @@
     "original_title": "Phineas and Ferb",
     "poster_path": "/9zgv7u9L3Mzw2BDyfNaRLVmhHEo.jpg",
     "backdrop_path": "/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
-    "vote_average": 7.9,
-    "vote_count": 1083,
+    "vote_average": 7.896,
+    "vote_count": 1084,
     "release_date": "2007-08-17",
     "genres": [
       "애니메이션",
@@ -4523,7 +4523,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://disneynow.com/shows/phineas-and-ferb",
-    "cached_at": "2026-11-07T19:17:26.553606+00:00"
+    "cached_at": "2026-11-08T19:26:10.031464+00:00"
   },
   "movie:350": {
     "id": 350,
