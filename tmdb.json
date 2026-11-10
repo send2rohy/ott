@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-11-04T21:06:53.028190+00:00"
+    "cached_at": "2026-11-10T21:14:18.948786+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-09T23:43:18.302699+00:00"
+    "cached_at": "2026-11-10T21:14:19.150599+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -906,8 +906,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.4,
-    "vote_count": 1273,
+    "vote_average": 8.419,
+    "vote_count": 1277,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-09T23:43:18.344619+00:00"
+    "cached_at": "2026-11-10T21:14:19.190606+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-09T23:43:18.388170+00:00"
+    "cached_at": "2026-11-10T21:14:19.234398+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-09T23:43:18.421867+00:00"
+    "cached_at": "2026-11-10T21:14:19.269640+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1555,8 +1555,8 @@
     "original_title": "The Simpsons",
     "poster_path": "/7HKQieF8YqXgTwBVjWFGWaEKNS7.jpg",
     "backdrop_path": "/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
-    "vote_average": 8.027,
-    "vote_count": 11118,
+    "vote_average": 8.028,
+    "vote_count": 11161,
     "release_date": "1989-12-17",
     "genres": [
       "애니메이션",
@@ -1575,7 +1575,7 @@
     ],
     "trailer_key": "IEkFk2k0b08",
     "homepage": "https://www.fox.com/detail/series/SER000852IRHK/the-simpsons",
-    "cached_at": "2026-10-30T19:53:33.417724+00:00"
+    "cached_at": "2026-11-10T21:14:19.033023+00:00"
   },
   "tv:1434": {
     "id": 1434,
@@ -1702,8 +1702,8 @@
     "original_title": "The Avengers",
     "poster_path": "/krgjV3rJtBcEpQehODKXNCt6uFL.jpg",
     "backdrop_path": "/gHLs7Fy3DzLmLsD4lmfqL55KGcl.jpg",
-    "vote_average": 8.083,
-    "vote_count": 40251,
+    "vote_average": 8.084,
+    "vote_count": 40333,
     "release_date": "2012-04-25",
     "genres": [
       "SF",
@@ -1729,7 +1729,7 @@
     ],
     "trailer_key": "mck3JCl2uwQ",
     "homepage": "",
-    "cached_at": "2026-11-03T20:50:30.136056+00:00"
+    "cached_at": "2026-11-10T21:14:18.917745+00:00"
   },
   "tv:278113": {
     "id": 278113,
@@ -2820,8 +2820,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.86,
-    "vote_count": 10920,
+    "vote_average": 7.861,
+    "vote_count": 10925,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2847,7 +2847,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-09T23:43:18.049847+00:00"
+    "cached_at": "2026-11-10T21:14:18.854550+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3217,7 +3217,7 @@
     "poster_path": "/pQu93NuwR90AaCULzglVD5Ge4Ml.jpg",
     "backdrop_path": "/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
     "vote_average": 8.207,
-    "vote_count": 21766,
+    "vote_count": 21838,
     "release_date": "2017-10-27",
     "genres": [
       "가족",
@@ -3228,7 +3228,8 @@
     "runtime": 105,
     "overview": "미구엘은 멕시코의 자랑인 에르네스토 델라 크루즈 같은 뮤지션이 되길 꿈꾸지만 미구엘 집안 사람들에게 음악은 금기다. 먼 옛날 조상 중에 음악 때문에 가족을 버린 인물이 있었기 때문. 미구엘은 죽은 자의 날이 되자 실력으로 인정받겠다는 결심을 하고 경연 무대에 오르려 하는데, 우연히 에르네스토의 기타에 손을 댔다가 죽은 자들의 세상에 들어서게 된다. 이승과 저승을 이어주는 마리골드 꽃길을 건너 죽은 자들의 세상에 도착한 미구엘은 거짓말과 위변조가 장기인 헥터를 만난다. 그리고 꿈에 그리던 우상 에르네스토를 만나러 가는 여정에서 가족의 비밀을 알게 된다.",
     "director": [
-      "리 언크리치"
+      "리 언크리치",
+      "아드리안 몰리나"
     ],
     "cast": [
       "Anthony Gonzalez",
@@ -3244,7 +3245,7 @@
     ],
     "trailer_key": "LmS5KMJTWlA",
     "homepage": "",
-    "cached_at": "2026-11-03T20:50:29.802653+00:00"
+    "cached_at": "2026-11-10T21:14:18.805923+00:00"
   },
   "tv:276161": {
     "id": 276161,
@@ -4091,8 +4092,8 @@
     "original_title": "Nowhere to Run",
     "poster_path": "/c8ADJ1emBBokgXkzmPCl5mIZBKy.jpg",
     "backdrop_path": "/5VF6N8dPSSPeyQdQoQ53mxDcUjw.jpg",
-    "vote_average": 6.6,
-    "vote_count": 880,
+    "vote_average": 6.567,
+    "vote_count": 882,
     "release_date": "1993-01-15",
     "genres": [
       "액션",
@@ -4118,7 +4119,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-09T23:43:17.768548+00:00"
+    "cached_at": "2026-11-10T21:14:18.757304+00:00"
   },
   "movie:1660624": {
     "id": 1660624,
@@ -4150,7 +4151,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-09T23:43:17.871849+00:00"
+    "cached_at": "2026-11-10T21:14:18.461634+00:00"
   },
   "movie:397759": {
     "id": 397759,
@@ -4224,8 +4225,8 @@
     "original_title": "Modern Family",
     "poster_path": "/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg",
     "backdrop_path": "/nO7EzksrBzlNpAg5rgv8HzaBIkx.jpg",
-    "vote_average": 7.9,
-    "vote_count": 3614,
+    "vote_average": 7.91,
+    "vote_count": 3616,
     "release_date": "2009-09-23",
     "genres": [
       "코미디"
@@ -4247,7 +4248,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://abc.go.com/shows/modern-family",
-    "cached_at": "2026-11-09T23:43:18.215342+00:00"
+    "cached_at": "2026-11-10T21:14:19.072882+00:00"
   },
   "movie:450975": {
     "id": 450975,
@@ -4497,7 +4498,7 @@
     "original_title": "Phineas and Ferb",
     "poster_path": "/9zgv7u9L3Mzw2BDyfNaRLVmhHEo.jpg",
     "backdrop_path": "/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
-    "vote_average": 7.896,
+    "vote_average": 7.9,
     "vote_count": 1086,
     "release_date": "2007-08-17",
     "genres": [
@@ -4523,7 +4524,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://disneynow.com/shows/phineas-and-ferb",
-    "cached_at": "2026-11-09T23:43:18.160031+00:00"
+    "cached_at": "2026-11-10T21:14:18.991916+00:00"
   },
   "movie:350": {
     "id": 350,
@@ -4559,5 +4560,209 @@
     "trailer_key": "2wnvmS1A7O8",
     "homepage": "",
     "cached_at": "2026-11-07T19:17:26.648072+00:00"
+  },
+  "movie:336815": {
+    "id": 336815,
+    "media_type": "movie",
+    "title": "Possible Lovers",
+    "original_title": "Possible Lovers",
+    "poster_path": null,
+    "backdrop_path": null,
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "release_date": "2008-01-01",
+    "genres": [],
+    "runtime": 90,
+    "overview": "",
+    "director": [
+      "Raya Martin"
+    ],
+    "cast": [
+      "J.K. Anicoche",
+      "Abner Delina, Jr."
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-10T21:14:18.421007+00:00"
+  },
+  "movie:49051": {
+    "id": 49051,
+    "media_type": "movie",
+    "title": "호빗: 뜻밖의 여정",
+    "original_title": "The Hobbit: An Unexpected Journey",
+    "poster_path": "/vtsequVUU3W2NVfWObXkq31VIgN.jpg",
+    "backdrop_path": "/xyXmtuvsoM5J3yNad0nvcetpBdY.jpg",
+    "vote_average": 7.388,
+    "vote_count": 20320,
+    "release_date": "2012-12-12",
+    "genres": [
+      "모험",
+      "판타지",
+      "액션"
+    ],
+    "runtime": 169,
+    "overview": "호빗족 빌보 배긴스는 어느 날 찾아온 회색의 마법사 간달프로부터 뜻밖의 제안을 받는다. 오래 전 난쟁이족의 영토였지만 무시무시한 용 스마우그에게 빼앗겨 지금은 황무지로 변한 동쪽의 외로운 산 에레보르 왕국을 되찾기 위해 함께 떠나자는 것. 빌보는 전설의 용사 소린이 이끄는 13명의 난쟁이족과 함께 위험 가득한 여정에 오른다. 외로운 산에 가기 위해서 반드시 거쳐야 하는 고블린 동굴에서 일행과 떨어져 헤매던 빌보는 그의 일생을 뒤바꿔놓는 존재인 골룸과 마주치게 되고, 골룸과의 수수께끼 대결 중에 대단한 힘을 지닌 골룸의 보물 절대반지를 얻게 되는데...",
+    "director": [
+      "피터 잭슨"
+    ],
+    "cast": [
+      "마틴 프리먼",
+      "이안 맥켈런",
+      "리차드 아미티지",
+      "제임스 네스빗",
+      "Ken Stott",
+      "실베스터 매코이",
+      "Barry Humphries",
+      "Dean O'Gorman",
+      "에이단 터너",
+      "그레이엄 맥타비시"
+    ],
+    "trailer_key": "xcqCzp1vKmQ",
+    "homepage": "",
+    "cached_at": "2026-11-10T21:14:18.523105+00:00"
+  },
+  "movie:122917": {
+    "id": 122917,
+    "media_type": "movie",
+    "title": "호빗: 다섯 군대 전투",
+    "original_title": "The Hobbit: The Battle of the Five Armies",
+    "poster_path": "/tLNTaP5kcH2FDQNxGu4EkOCpMjr.jpg",
+    "backdrop_path": "/3UbaCMmqOd7mca4Y5DOzY2ZVTyX.jpg",
+    "vote_average": 7.342,
+    "vote_count": 15974,
+    "release_date": "2014-12-10",
+    "genres": [
+      "액션",
+      "모험",
+      "판타지"
+    ],
+    "runtime": 144,
+    "overview": "빌보 배긴스와 참나무 방패 소린, 난쟁이 족이 떠난 거대한 여정의 끝에 난쟁이 족은 원래 자신들의 터전이던 에레보르에 있는 엄청난 보물을 되찾지만 이는 무시무시한 용 스마우그가 호수마을의 무기력한 주민들을 공격하게 되는 결과를 낳는다. 소린은 탐욕에 서서히 눈이 멀어 우정과 명예를 저버린 채 왕의 보물 아르켄스톤을 찾는다. 암흑의 군주 사우론은 오크 군대를 보내 외로운 산에 기습 공격을 감행한다. 마침내 다섯 군대의 전투가 시작되고 빌보는 본인과 친구들의 목숨을 걸고 싸워야만 하는데...",
+    "director": [
+      "피터 잭슨"
+    ],
+    "cast": [
+      "이안 맥켈런",
+      "마틴 프리먼",
+      "리차드 아미티지",
+      "올랜도 블룸",
+      "에반젤린 릴리",
+      "루크 에반스",
+      "리 페이스",
+      "베네딕트 컴버배치",
+      "Ken Stott",
+      "에이단 터너"
+    ],
+    "trailer_key": "taji0FUv1sk",
+    "homepage": "",
+    "cached_at": "2026-11-10T21:14:18.569165+00:00"
+  },
+  "movie:57158": {
+    "id": 57158,
+    "media_type": "movie",
+    "title": "호빗: 스마우그의 폐허",
+    "original_title": "The Hobbit: The Desolation of Smaug",
+    "poster_path": "/jhnHkvYSi9AlwDcYLlv193LiOPG.jpg",
+    "backdrop_path": "/5ZYxL6k4ZHrEmrFvmY4HZVzerxG.jpg",
+    "vote_average": 7.58,
+    "vote_count": 14800,
+    "release_date": "2013-12-11",
+    "genres": [
+      "판타지",
+      "모험",
+      "액션"
+    ],
+    "runtime": 161,
+    "overview": "사나운 용 스마우그가 빼앗아간 동쪽의 외로운 산 에레보르 왕국을 되찾기 위해 뜻하지 않은 여정을 떠나게 된 호빗 빌보 배긴스와 간달프, 그리고 난쟁이족 왕족의 후예 소린이 이끄는 13명의 난쟁이족. 원정대는 외로운 산으로 가는 길에 어둠의 숲에서 모습을 자유자재로 바꾸는 베오른과 거대한 거미떼를 만나고, 난쟁이들에게 적대적인 엘프족에게 잡혔다가 도망쳐 호수마을을 지나는 등 다양한 모험을 하게 된다. 그리고 마침내 지금껏 만났던 그 어떤 존재보다도 위험하고 모두의 용기와 우정, 지혜의 한계를 시험에 들게 한 용 스마우그와 맞닥뜨리게 되는데...",
+    "director": [
+      "피터 잭슨"
+    ],
+    "cast": [
+      "이안 맥켈런",
+      "마틴 프리먼",
+      "리차드 아미티지",
+      "베네딕트 컴버배치",
+      "올랜도 블룸",
+      "에반젤린 릴리",
+      "리 페이스",
+      "루크 에반스",
+      "스티븐 프라이",
+      "Ken Stott"
+    ],
+    "trailer_key": "qkYzyLPrZh4",
+    "homepage": "",
+    "cached_at": "2026-11-10T21:14:18.616894+00:00"
+  },
+  "movie:296096": {
+    "id": 296096,
+    "media_type": "movie",
+    "title": "미 비포 유",
+    "original_title": "Me Before You",
+    "poster_path": "/aCnkVi4QTuc7E0d0qp0SAnRA3M0.jpg",
+    "backdrop_path": "/3WK7p9EdZmmvB1IbB2Vw9Rf4lXH.jpg",
+    "vote_average": 7.932,
+    "vote_count": 13716,
+    "release_date": "2016-06-01",
+    "genres": [
+      "드라마",
+      "로맨스"
+    ],
+    "runtime": 110,
+    "overview": "오랫동안 일하던 카페가 문을 닫자 가족의 생계를 걱정하던 루이자는 사고로 사지가 마비된 윌의 간병인 일을 맡는다. 활동적인 사업가였던 윌은 달라진 삶을 받아들이지 못한 채 마음을 닫고, 밝은 옷차림과 수다로 다가오는 그녀에게 냉담하게 반응한다. 돌봄 경험도 특별한 계획도 없던 루이자는 까다로운 고용주를 상대하며 하루에도 몇 번씩 자존심을 다친다. 하지만 매일 마주하며 마음을 나누던 두 사람은 날카로운 말 뒤에 숨은 상처와 웃음 뒤에 가려진 두려움을 조금씩 알아간다. 루이자는 윌에게 즐거운 시간을 선물하고 싶어지고, 윌은 작은 마을에 머물던 그녀에게 더 넓은 세상을 이야기한다. 서로의 삶을 바꾸기 시작한 두 사람 앞에서 약속된 여섯 달은 빠르게 흘러간다.",
+    "director": [
+      "테아 샤록"
+    ],
+    "cast": [
+      "에밀리아 클라크",
+      "샘 클라플린",
+      "자넷 맥티어",
+      "찰스 댄스",
+      "브렌던 코일",
+      "제나 콜먼",
+      "매튜 루이스",
+      "서맨사 스파이로",
+      "Stephen Peacocke",
+      "바네사 커비"
+    ],
+    "trailer_key": "XuDTPniIX-8",
+    "homepage": "",
+    "cached_at": "2026-11-10T21:14:18.663299+00:00"
+  },
+  "movie:11088": {
+    "id": 11088,
+    "media_type": "movie",
+    "title": "하이스트",
+    "original_title": "Heist",
+    "poster_path": "/xrwwSXFeW35wYsnobreXbGxHwUC.jpg",
+    "backdrop_path": "/1acmRn1cnPnavQGQCrIJOERd6vX.jpg",
+    "vote_average": 6.32,
+    "vote_count": 664,
+    "release_date": "2001-11-09",
+    "genres": [
+      "액션",
+      "범죄",
+      "드라마",
+      "스릴러"
+    ],
+    "runtime": 107,
+    "overview": "조 무어는 보석 도둑이다. 어느날 그의 범행 장면이 감시 카메라에 찍히면서 인생이 꼬이기 시작한다. 그의 장물 버그먼은 돈을 주지 않고, 그의 아내는 버그먼의 젊은 부하와 사랑에 빠져 그를 배신하려 한다. 무어와 그의 파트너 바비, 핑키는 자신들이 파산했고, 배신당했으며, 갈취당했음을 알게 된다. 이들은 어쩔 수 없이 버그먼이 계획한 마지막 도둑질을 하게 되는데...",
+    "director": [
+      "데이비드 매밋"
+    ],
+    "cast": [
+      "진 해크먼",
+      "대니 드비토",
+      "델로이 린도",
+      "샘 록웰",
+      "Rebecca Pidgeon",
+      "Ricky Jay",
+      "패티 루폰",
+      "Alan Bilzerian",
+      "Richard L. Friedman",
+      "Robert Lussier"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-10T21:14:18.704849+00:00"
   }
 }
