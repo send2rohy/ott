@@ -457,7 +457,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-11-10T21:14:18.948786+00:00"
+    "cached_at": "2026-11-11T21:48:01.596917+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-10T21:14:19.150599+00:00"
+    "cached_at": "2026-11-11T21:48:01.978403+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-10T21:14:19.190606+00:00"
+    "cached_at": "2026-11-11T21:48:02.137818+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-10T21:14:19.234398+00:00"
+    "cached_at": "2026-11-11T21:48:02.241990+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-10T21:14:19.269640+00:00"
+    "cached_at": "2026-11-11T21:48:02.345836+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -2821,7 +2821,7 @@
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
     "vote_average": 7.861,
-    "vote_count": 10925,
+    "vote_count": 10930,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2847,7 +2847,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-10T21:14:18.854550+00:00"
+    "cached_at": "2026-11-11T21:48:01.394244+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -4119,7 +4119,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-10T21:14:18.757304+00:00"
+    "cached_at": "2026-11-11T21:48:01.292967+00:00"
   },
   "movie:1660624": {
     "id": 1660624,
@@ -4498,8 +4498,8 @@
     "original_title": "Phineas and Ferb",
     "poster_path": "/9zgv7u9L3Mzw2BDyfNaRLVmhHEo.jpg",
     "backdrop_path": "/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
-    "vote_average": 7.9,
-    "vote_count": 1086,
+    "vote_average": 7.897,
+    "vote_count": 1087,
     "release_date": "2007-08-17",
     "genres": [
       "애니메이션",
@@ -4524,7 +4524,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://disneynow.com/shows/phineas-and-ferb",
-    "cached_at": "2026-11-10T21:14:18.991916+00:00"
+    "cached_at": "2026-11-11T21:48:01.696830+00:00"
   },
   "movie:350": {
     "id": 350,
@@ -4583,7 +4583,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-10T21:14:18.421007+00:00"
+    "cached_at": "2026-11-11T21:48:00.932321+00:00"
   },
   "movie:49051": {
     "id": 49051,
@@ -4736,7 +4736,7 @@
     "poster_path": "/xrwwSXFeW35wYsnobreXbGxHwUC.jpg",
     "backdrop_path": "/1acmRn1cnPnavQGQCrIJOERd6vX.jpg",
     "vote_average": 6.32,
-    "vote_count": 664,
+    "vote_count": 668,
     "release_date": "2001-11-09",
     "genres": [
       "액션",
@@ -4763,6 +4763,104 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-10T21:14:18.704849+00:00"
+    "cached_at": "2026-11-11T21:48:01.182538+00:00"
+  },
+  "movie:102059": {
+    "id": 102059,
+    "media_type": "movie",
+    "title": "Collision Course",
+    "original_title": "Collision Course",
+    "poster_path": "/xpyePeVClwq85miKvY1r4T8ps5.jpg",
+    "backdrop_path": "/7LSpJ439BQ7K4zHlhCpRsoWmZXf.jpg",
+    "vote_average": 4.308,
+    "vote_count": 39,
+    "release_date": "1989-04-27",
+    "genres": [
+      "액션",
+      "코미디",
+      "범죄"
+    ],
+    "runtime": 100,
+    "overview": "",
+    "director": [
+      "Lewis Teague"
+    ],
+    "cast": [
+      "Pat Morita",
+      "제이 레노",
+      "Chris Sarandon",
+      "Tom Noonan",
+      "어니 허드슨",
+      "John Hancock",
+      "Al Waxman",
+      "Dennis Holahan",
+      "Danny Kamekona",
+      "Soon-Tek Oh"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-11T21:48:01.029118+00:00"
+  },
+  "tv:340321": {
+    "id": 340321,
+    "media_type": "tv",
+    "title": "스타일 워즈",
+    "original_title": "스타일 워즈",
+    "poster_path": "/4TPb5YUlD957jPjVh3pSQMgeFnb.jpg",
+    "backdrop_path": "/1TGswrKv75QTlwP0Q3pj9tBm4tm.jpg",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "release_date": "2026-11-11",
+    "genres": [
+      "Reality"
+    ],
+    "runtime": null,
+    "overview": "인간의 생존을 위한 필수 요소이자 나를 증명하는 가장 강력한 무기 ‘옷’. 옷에 미친 72인이 오직 ‘스타일’ 하나로 맞붙는다! 외모, 나이, 직업, 경력, 유명세가 통하지 않는 단 하나의 무대에서 가장 옷을 잘 입는 최후의 1인은 과연 누가 될 것인가? 입는 순간, 패션 생존 게임이 시작된다!",
+    "director": [],
+    "cast": [
+      "이혜리",
+      "홍진경",
+      "정욱준",
+      "배정남",
+      "최실장"
+    ],
+    "trailer_key": "PvSU3omH_vo",
+    "homepage": "https://www.disneyplus.com/browse/entity-48718a21-c9c9-487a-a655-d81a9f44c7de",
+    "cached_at": "2026-11-11T21:48:01.497169+00:00"
+  },
+  "movie:674": {
+    "id": 674,
+    "media_type": "movie",
+    "title": "해리 포터와 불의 잔",
+    "original_title": "Harry Potter and the Goblet of Fire",
+    "poster_path": "/uWPnKtu1eutmgBQ2hoWm0Xe8nfN.jpg",
+    "backdrop_path": "/cClWTo3ftVXvV1sF8vlLuWfnlph.jpg",
+    "vote_average": 7.804,
+    "vote_count": 22922,
+    "release_date": "2005-11-16",
+    "genres": [
+      "모험",
+      "판타지"
+    ],
+    "runtime": 157,
+    "overview": "요즘 들어 매일 꾸는 악몽 때문에 이마의 상처에 더욱 통증을 느끼는 해리는 친구 론과 헤르미온느와 함께 퀴디치 월드컵에 참가해 악몽에서 벗어날 수 있게 돼 마냥 기쁘다. 그러나 퀴디치 캠프장 근방 하늘에 불길한 기운이 나타난다. 바로 마왕 볼드모트의 상징인 어둠의 표식이 나타난 것. 볼드모트가 13년 전에 자취를 감춘 뒤, 감히 모습을 드러내지 못했던 그의 추종자 데스 이터들이 그 표식을 불러낸 것이다. 두려움으로 가득 찬 해리는 안전한 호그와트 마법학교로 돌아가고 싶어한다. 덤블도어 교장이라면 자신을 지켜줄 수 있을 것이기에. 그러나 올해는 예년과 상황이 좀 다른데...",
+    "director": [
+      "마이크 뉴웰"
+    ],
+    "cast": [
+      "다니엘 래드클리프",
+      "루퍼트 그린트",
+      "엠마 왓슨",
+      "브렌던 글리슨",
+      "마이클 갬본",
+      "로버트 패틴슨",
+      "랄프 파인즈",
+      "로비 콜트레인",
+      "앨런 릭먼",
+      "데이비드 테넌트"
+    ],
+    "trailer_key": "uzZ_y3wShe0",
+    "homepage": "",
+    "cached_at": "2026-11-11T21:48:01.880947+00:00"
   }
 }

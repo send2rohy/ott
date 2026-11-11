@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "items": [
     {
       "rank": 1,
@@ -12,8 +12,8 @@
       "tmdb_id": 336815,
       "tmdb_title": "Possible Lovers",
       "tmdb_original_title": "Possible Lovers",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -23,11 +23,11 @@
       "platform": "Netflix",
       "week": "2026-11-08",
       "media_type": "movie",
-      "tmdb_id": 1660624,
+      "tmdb_id": 102059,
       "tmdb_title": "Collision Course",
       "tmdb_original_title": "Collision Course",
-      "previous_rank": 6,
-      "change": 4
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -40,8 +40,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -54,8 +54,8 @@
       "tmdb_id": 49051,
       "tmdb_title": "호빗: 뜻밖의 여정",
       "tmdb_original_title": "The Hobbit: An Unexpected Journey",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -68,8 +68,8 @@
       "tmdb_id": 122917,
       "tmdb_title": "호빗: 다섯 군대 전투",
       "tmdb_original_title": "The Hobbit: The Battle of the Five Armies",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -82,8 +82,8 @@
       "tmdb_id": 57158,
       "tmdb_title": "호빗: 스마우그의 폐허",
       "tmdb_original_title": "The Hobbit: The Desolation of Smaug",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -96,8 +96,8 @@
       "tmdb_id": 296096,
       "tmdb_title": "미 비포 유",
       "tmdb_original_title": "Me Before You",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -110,8 +110,8 @@
       "tmdb_id": 11088,
       "tmdb_title": "하이스트",
       "tmdb_original_title": "Heist",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -124,8 +124,8 @@
       "tmdb_id": 10413,
       "tmdb_title": "탈주자",
       "tmdb_original_title": "Nowhere to Run",
-      "previous_rank": 4,
-      "change": -5
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -138,8 +138,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 2,
-      "change": -8
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -152,8 +152,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 2,
-      "change": 1
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -166,8 +166,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 1,
-      "change": -1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -208,8 +208,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -236,8 +236,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 5,
-      "change": -2
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -250,8 +250,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 7,
-      "change": -1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -278,26 +278,11 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 8,
-      "change": -2
-    },
-    {
-      "rank": 1,
-      "title": "모아나",
-      "original_title": "모아나",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1108427,
-      "tmdb_title": "모아나",
-      "tmdb_original_title": "Moana",
-      "source": "top10",
-      "previous_rank": 1,
+      "previous_rank": 10,
       "change": 0
     },
     {
-      "rank": 2,
+      "rank": 1,
       "title": "코코",
       "original_title": "코코",
       "season_title": "",
@@ -309,7 +294,22 @@
       "tmdb_original_title": "Coco",
       "source": "tmdb_popular",
       "previous_rank": 2,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 2,
+      "title": "토이 스토리 5",
+      "original_title": "토이 스토리 5",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1084244,
+      "tmdb_title": "토이 스토리 5",
+      "tmdb_original_title": "Toy Story 5",
+      "source": "tmdb_popular",
+      "previous_rank": 4,
+      "change": 2
     },
     {
       "rank": 3,
@@ -328,18 +328,18 @@
     },
     {
       "rank": 4,
-      "title": "토이 스토리 5",
-      "original_title": "토이 스토리 5",
+      "title": "모아나",
+      "original_title": "모아나",
       "season_title": "",
       "platform": "Disney+",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 1084244,
-      "tmdb_title": "토이 스토리 5",
-      "tmdb_original_title": "Toy Story 5",
+      "tmdb_id": 1108427,
+      "tmdb_title": "모아나",
+      "tmdb_original_title": "Moana",
       "source": "tmdb_popular",
-      "previous_rank": 4,
-      "change": 0
+      "previous_rank": 1,
+      "change": -3
     },
     {
       "rank": 5,
@@ -358,6 +358,21 @@
     },
     {
       "rank": 6,
+      "title": "주토피아 2",
+      "original_title": "주토피아 2",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1084242,
+      "tmdb_title": "주토피아 2",
+      "tmdb_original_title": "Zootopia 2",
+      "source": "tmdb_popular",
+      "previous_rank": 8,
+      "change": 2
+    },
+    {
+      "rank": 7,
       "title": "어벤져스: 엔드게임",
       "original_title": "어벤져스: 엔드게임",
       "season_title": "",
@@ -369,40 +384,10 @@
       "tmdb_original_title": "Avengers: Endgame",
       "source": "tmdb_popular",
       "previous_rank": 6,
-      "change": 0
-    },
-    {
-      "rank": 7,
-      "title": "데드풀과 울버린",
-      "original_title": "데드풀과 울버린",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 533535,
-      "tmdb_title": "데드풀과 울버린",
-      "tmdb_original_title": "Deadpool & Wolverine",
-      "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": 2
-    },
-    {
-      "rank": 8,
-      "title": "주토피아 2",
-      "original_title": "주토피아 2",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1084242,
-      "tmdb_title": "주토피아 2",
-      "tmdb_original_title": "Zootopia 2",
-      "source": "tmdb_popular",
-      "previous_rank": 7,
       "change": -1
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "아바타: 불과 재",
       "original_title": "아바타: 불과 재",
       "season_title": "",
@@ -413,8 +398,23 @@
       "tmdb_title": "아바타: 불과 재",
       "tmdb_original_title": "Avatar: Fire and Ash",
       "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": -1
+      "previous_rank": 9,
+      "change": 1
+    },
+    {
+      "rank": 9,
+      "title": "데드풀과 울버린",
+      "original_title": "데드풀과 울버린",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 533535,
+      "tmdb_title": "데드풀과 울버린",
+      "tmdb_original_title": "Deadpool & Wolverine",
+      "source": "tmdb_popular",
+      "previous_rank": 7,
+      "change": -2
     },
     {
       "rank": 10,
@@ -433,6 +433,21 @@
     },
     {
       "rank": 1,
+      "title": "연애박사",
+      "original_title": "연애박사",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 307106,
+      "tmdb_title": "연애박사",
+      "tmdb_original_title": "연애박사",
+      "source": "top10",
+      "previous_rank": 2,
+      "change": 1
+    },
+    {
+      "rank": 2,
       "title": "라이어",
       "original_title": "라이어",
       "season_title": "",
@@ -444,25 +459,25 @@
       "tmdb_original_title": "라이어",
       "source": "top10",
       "previous_rank": 1,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 2,
-      "title": "연애박사",
-      "original_title": "연애박사",
+      "rank": 3,
+      "title": "비전퀘스트",
+      "original_title": "비전퀘스트",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 307106,
-      "tmdb_title": "연애박사",
-      "tmdb_original_title": "연애박사",
+      "tmdb_id": 213375,
+      "tmdb_title": "비전퀘스트",
+      "tmdb_original_title": "VisionQuest",
       "source": "top10",
-      "previous_rank": 3,
-      "change": 1
+      "previous_rank": 7,
+      "change": 4
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "파이널 테이블",
       "original_title": "파이널 테이블",
       "season_title": "",
@@ -473,11 +488,11 @@
       "tmdb_title": "파이널 테이블",
       "tmdb_original_title": "파이널 테이블",
       "source": "top10",
-      "previous_rank": 2,
+      "previous_rank": 3,
       "change": -1
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "메리 베리 러브",
       "original_title": "메리 베리 러브",
       "season_title": "",
@@ -489,10 +504,40 @@
       "tmdb_original_title": "メリーベリーラブ",
       "source": "top10",
       "previous_rank": 4,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "title": "공감세포",
+      "original_title": "공감세포",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 315007,
+      "tmdb_title": "공감세포",
+      "tmdb_original_title": "공감세포",
+      "source": "top10",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 7,
+      "title": "스타일 워즈",
+      "original_title": "스타일 워즈",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 340321,
+      "tmdb_title": "스타일 워즈",
+      "tmdb_original_title": "스타일 워즈",
+      "source": "top10",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 8,
       "title": "연애전쟁",
       "original_title": "연애전쟁",
       "season_title": "",
@@ -503,41 +548,11 @@
       "tmdb_title": "연애전쟁",
       "tmdb_original_title": "연애전쟁",
       "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 6,
-      "title": "메이드 인 코리아",
-      "original_title": "메이드 인 코리아",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 246473,
-      "tmdb_title": "메이드 인 코리아",
-      "tmdb_original_title": "메이드 인 코리아",
-      "source": "top10",
       "previous_rank": 5,
-      "change": -1
+      "change": -3
     },
     {
-      "rank": 7,
-      "title": "비전퀘스트",
-      "original_title": "비전퀘스트",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 213375,
-      "tmdb_title": "비전퀘스트",
-      "tmdb_original_title": "VisionQuest",
-      "source": "top10",
-      "previous_rank": 6,
-      "change": -1
-    },
-    {
-      "rank": 8,
+      "rank": 9,
       "title": "피니와 퍼브",
       "original_title": "피니와 퍼브",
       "season_title": "",
@@ -549,10 +564,10 @@
       "tmdb_original_title": "Phineas and Ferb",
       "source": "tmdb_popular",
       "previous_rank": 8,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "심슨 가족",
       "original_title": "심슨 가족",
       "season_title": "",
@@ -562,21 +577,6 @@
       "tmdb_id": 456,
       "tmdb_title": "심슨 가족",
       "tmdb_original_title": "The Simpsons",
-      "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 10,
-      "title": "모던 패밀리",
-      "original_title": "모던 패밀리",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 1421,
-      "tmdb_title": "모던 패밀리",
-      "tmdb_original_title": "Modern Family",
       "source": "tmdb_popular",
       "previous_rank": 9,
       "change": -1
@@ -648,8 +648,8 @@
       "tmdb_id": 1321179,
       "tmdb_title": "왕과 사는 남자",
       "tmdb_original_title": "왕과 사는 남자",
-      "previous_rank": 6,
-      "change": 1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -662,25 +662,11 @@
       "tmdb_id": 736720,
       "tmdb_title": "핸섬가이즈",
       "tmdb_original_title": "핸섬가이즈",
-      "previous_rank": 5,
-      "change": -1
-    },
-    {
-      "rank": 7,
-      "title": "만약에 우리",
-      "original_title": "만약에 우리",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1264805,
-      "tmdb_title": "만약에 우리",
-      "tmdb_original_title": "만약에 우리",
-      "previous_rank": 7,
+      "previous_rank": 6,
       "change": 0
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "해리 포터와 비밀의 방",
       "original_title": "해리 포터와 비밀의 방",
       "season_title": "",
@@ -691,7 +677,21 @@
       "tmdb_title": "해리 포터와 비밀의 방",
       "tmdb_original_title": "Harry Potter and the Chamber of Secrets",
       "previous_rank": 8,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 8,
+      "title": "만약에 우리",
+      "original_title": "만약에 우리",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1264805,
+      "tmdb_title": "만약에 우리",
+      "tmdb_original_title": "만약에 우리",
+      "previous_rank": 7,
+      "change": -1
     },
     {
       "rank": 9,
@@ -704,22 +704,22 @@
       "tmdb_id": 673,
       "tmdb_title": "해리 포터와 아즈카반의 죄수",
       "tmdb_original_title": "Harry Potter and the Prisoner of Azkaban",
-      "previous_rank": 10,
-      "change": 1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
-      "title": "악마는 프라다를 입는다",
-      "original_title": "악마는 프라다를 입는다",
+      "title": "해리 포터와 불의 잔",
+      "original_title": "해리 포터와 불의 잔",
       "season_title": "",
       "platform": "Coupang Play",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 350,
-      "tmdb_title": "악마는 프라다를 입는다",
-      "tmdb_original_title": "The Devil Wears Prada",
-      "previous_rank": 9,
-      "change": -1
+      "tmdb_id": 674,
+      "tmdb_title": "해리 포터와 불의 잔",
+      "tmdb_original_title": "Harry Potter and the Goblet of Fire",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
