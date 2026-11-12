@@ -869,7 +869,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-11T21:48:01.978403+00:00"
+    "cached_at": "2026-11-12T21:46:23.626491+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -907,7 +907,7 @@
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
     "vote_average": 8.419,
-    "vote_count": 1277,
+    "vote_count": 1278,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -923,7 +923,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-11T21:48:02.137818+00:00"
+    "cached_at": "2026-11-12T21:46:23.664266+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -944,7 +944,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-11T21:48:02.241990+00:00"
+    "cached_at": "2026-11-12T21:46:23.703308+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -969,7 +969,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-11T21:48:02.345836+00:00"
+    "cached_at": "2026-11-12T21:46:23.729313+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -2821,7 +2821,7 @@
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
     "vote_average": 7.861,
-    "vote_count": 10930,
+    "vote_count": 10935,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2847,7 +2847,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-11T21:48:01.394244+00:00"
+    "cached_at": "2026-11-12T21:46:23.495584+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3000,24 +3000,23 @@
     "original_title": "연애박사",
     "poster_path": "/vyrpZOFIZJkQG8ZWTezmlNGav8R.jpg",
     "backdrop_path": "/wwSoLQrLyiXXUbRnZq1eWBbHaRR.jpg",
-    "vote_average": 9.1,
-    "vote_count": 11,
+    "vote_average": 9.059,
+    "vote_count": 17,
     "release_date": "2026-10-05",
     "genres": [
       "드라마",
       "코미디"
     ],
-    "runtime": null,
+    "runtime": 70,
     "overview": "고등학교 때 수영선수였지만 병으로 한 쪽 다리를 잃은 박사 과정생 민재와 진로를 잃고 방황하다 새로운 길에 들어선 석사 과정생 유진. 로봇 연구실에서 피어난, 두 청춘들의 맵고, 쓰고, 달콤한 로맨스.",
     "director": [],
     "cast": [
       "추영우",
-      "김소현",
-      "장인섭"
+      "김소현"
     ],
     "trailer_key": "4HsK_-QQE5Y",
     "homepage": "https://ktena.co.kr/bbs/board.php?bo_table=drama&wr_id=51",
-    "cached_at": "2026-11-05T21:23:50.644676+00:00"
+    "cached_at": "2026-11-12T21:46:23.516315+00:00"
   },
   "movie:1293070": {
     "id": 1293070,
@@ -3101,7 +3100,7 @@
     ],
     "trailer_key": "AS6eCeBIzAQ",
     "homepage": "https://www.ntv.co.jp/merryberrylove",
-    "cached_at": "2026-11-05T21:23:50.670723+00:00"
+    "cached_at": "2026-11-12T21:46:23.543784+00:00"
   },
   "tv:320513": {
     "id": 320513,
@@ -4093,7 +4092,7 @@
     "poster_path": "/c8ADJ1emBBokgXkzmPCl5mIZBKy.jpg",
     "backdrop_path": "/5VF6N8dPSSPeyQdQoQ53mxDcUjw.jpg",
     "vote_average": 6.567,
-    "vote_count": 882,
+    "vote_count": 883,
     "release_date": "1993-01-15",
     "genres": [
       "액션",
@@ -4119,7 +4118,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-11T21:48:01.292967+00:00"
+    "cached_at": "2026-11-12T21:46:23.469438+00:00"
   },
   "movie:1660624": {
     "id": 1660624,
@@ -4390,7 +4389,7 @@
     ],
     "trailer_key": "_R9-XGMq6M0",
     "homepage": "https://lifetimekorea.kr/program/227",
-    "cached_at": "2026-11-05T21:23:50.700726+00:00"
+    "cached_at": "2026-11-12T21:46:23.567582+00:00"
   },
   "tv:61923": {
     "id": 61923,
@@ -4498,8 +4497,8 @@
     "original_title": "Phineas and Ferb",
     "poster_path": "/9zgv7u9L3Mzw2BDyfNaRLVmhHEo.jpg",
     "backdrop_path": "/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
-    "vote_average": 7.897,
-    "vote_count": 1087,
+    "vote_average": 7.892,
+    "vote_count": 1088,
     "release_date": "2007-08-17",
     "genres": [
       "애니메이션",
@@ -4524,7 +4523,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://disneynow.com/shows/phineas-and-ferb",
-    "cached_at": "2026-11-11T21:48:01.696830+00:00"
+    "cached_at": "2026-11-12T21:46:23.596045+00:00"
   },
   "movie:350": {
     "id": 350,
@@ -4583,7 +4582,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-11T21:48:00.932321+00:00"
+    "cached_at": "2026-11-12T21:46:23.369167+00:00"
   },
   "movie:49051": {
     "id": 49051,
@@ -4735,8 +4734,8 @@
     "original_title": "Heist",
     "poster_path": "/xrwwSXFeW35wYsnobreXbGxHwUC.jpg",
     "backdrop_path": "/1acmRn1cnPnavQGQCrIJOERd6vX.jpg",
-    "vote_average": 6.32,
-    "vote_count": 668,
+    "vote_average": 6.321,
+    "vote_count": 670,
     "release_date": "2001-11-09",
     "genres": [
       "액션",
@@ -4763,7 +4762,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-11T21:48:01.182538+00:00"
+    "cached_at": "2026-11-12T21:46:23.443561+00:00"
   },
   "movie:102059": {
     "id": 102059,
@@ -4799,7 +4798,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-11T21:48:01.029118+00:00"
+    "cached_at": "2026-11-12T21:46:23.410350+00:00"
   },
   "tv:340321": {
     "id": 340321,
