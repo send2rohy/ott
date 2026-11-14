@@ -394,12 +394,13 @@
     "cast": [
       "현빈",
       "정우성",
+      "우도환",
       "차희",
       "이세호"
     ],
     "trailer_key": "RgbDMRpTHxk",
     "homepage": "https://www.disneyplus.com/browse/entity-5acf7909-5d2f-494e-91a9-2fe0555c220f",
-    "cached_at": "2026-11-07T19:17:26.523457+00:00"
+    "cached_at": "2026-11-14T19:49:15.795991+00:00"
   },
   "tv:220074": {
     "id": 220074,
@@ -869,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-13T21:17:21.463015+00:00"
+    "cached_at": "2026-11-14T19:49:16.155618+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -924,7 +925,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-13T21:17:21.544282+00:00"
+    "cached_at": "2026-11-14T19:49:16.234965+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -945,7 +946,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:21.621373+00:00"
+    "cached_at": "2026-11-14T19:49:16.319245+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -970,7 +971,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:21.690938+00:00"
+    "cached_at": "2026-11-14T19:49:16.391520+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1445,12 +1446,12 @@
     "original_title": "Zootopia 2",
     "poster_path": "/ib6v6qUXzez1x2qIOLN7C0yJNPQ.jpg",
     "backdrop_path": "/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
-    "vote_average": 7.667,
-    "vote_count": 3657,
+    "vote_average": 7.665,
+    "vote_count": 3689,
     "release_date": "2025-11-26",
     "genres": [
-      "애니메이션",
       "모험",
+      "애니메이션",
       "코미디",
       "미스터리",
       "가족"
@@ -1475,7 +1476,7 @@
     ],
     "trailer_key": "H9boDm0J67w",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.465613+00:00"
+    "cached_at": "2026-11-14T19:49:15.580954+00:00"
   },
   "movie:19995": {
     "id": 19995,
@@ -1877,14 +1878,14 @@
     "original_title": "너 말고 다른 연애",
     "poster_path": "/mryeyCsFApnwYDpDcy3I6fYx2Dd.jpg",
     "backdrop_path": "/moUjiEzpJVNZc7hyNRBbLPt0CPX.jpg",
-    "vote_average": 5.6,
-    "vote_count": 8,
+    "vote_average": 5.75,
+    "vote_count": 12,
     "release_date": "2026-09-12",
     "genres": [
       "드라마"
     ],
     "runtime": null,
-    "overview": "결혼의 기로에 선 오래된 연인들이 예기치 못한 새 인연을 만나며 겪게 되는 감정의 파동과 관계의 균열을 그린 현실 공감 로맨스",
+    "overview": "어릴 때부터 서로의 상처를 보듬어온 남궁호와 이미도는 십 년째 연애하며 가족처럼 익숙한 사이가 된다. 제과회사에서 일하는 호는 미도와의 미래를 믿지만, 영화감독인 미도는 번번이 좌절되는 일과 무뎌진 관계 속에서 자신의 마음을 돌아본다. 그때 미도 앞에 집요한 변호사 한태승이 나타나고, 호의 일상에는 원칙을 굽히지 않는 신입사원 박수아가 들어온다. 낯선 사람에게 느끼는 감정은 오래된 연인을 향한 애정과 부딪히며, 무심히 넘겼던 말과 행동에도 새로운 의미를 남긴다. 결혼을 바라는 주변의 기대까지 더해지자 두 사람은 함께 쌓아온 시간을 지키는 일과 솔직해지는 일 사이에서 흔들린다. 가장 잘 아는 사람 곁에서 처음 마주한 이 마음을, 이들은 사랑의 끝이라고 불러야 할까?",
     "director": [],
     "cast": [
       "서강준",
@@ -1892,7 +1893,7 @@
     ],
     "trailer_key": "nQWv70PTHFM",
     "homepage": "https://program.kbs.co.kr/2tv/drama/loveotherthanyours",
-    "cached_at": "2026-11-07T19:17:26.671580+00:00"
+    "cached_at": "2026-11-14T19:49:16.081453+00:00"
   },
   "movie:714650": {
     "id": 714650,
@@ -1936,8 +1937,8 @@
     "original_title": "Deadpool & Wolverine",
     "poster_path": "/dsfAcQ5J7TPOpJgcX8R1lRBqiMK.jpg",
     "backdrop_path": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
-    "vote_average": 7.587,
-    "vote_count": 9796,
+    "vote_average": 7.583,
+    "vote_count": 9836,
     "release_date": "2024-07-24",
     "genres": [
       "액션",
@@ -1963,7 +1964,7 @@
     ],
     "trailer_key": "NVDLUJa5dac",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.427199+00:00"
+    "cached_at": "2026-11-14T19:49:15.455802+00:00"
   },
   "tv:4057": {
     "id": 4057,
@@ -2715,8 +2716,8 @@
     "original_title": "군체",
     "poster_path": "/hDPGsJxo8xX0OyqcMB8xI3RdaF3.jpg",
     "backdrop_path": "/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-    "vote_average": 8.212,
-    "vote_count": 1526,
+    "vote_average": 8.182,
+    "vote_count": 1593,
     "release_date": "2026-05-21",
     "genres": [
       "공포",
@@ -2742,7 +2743,7 @@
     ],
     "trailer_key": "AZ6zGFKO1xQ",
     "homepage": "",
-    "cached_at": "2026-11-07T19:17:26.624179+00:00"
+    "cached_at": "2026-11-14T19:49:16.006736+00:00"
   },
   "movie:348": {
     "id": 348,
@@ -2822,7 +2823,7 @@
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
     "vote_average": 7.861,
-    "vote_count": 10936,
+    "vote_count": 10940,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2848,7 +2849,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:19.900365+00:00"
+    "cached_at": "2026-11-14T19:49:15.350146+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3990,7 +3991,7 @@
     ],
     "trailer_key": "fkTp8shK6JA",
     "homepage": "https://program.imbc.com/ThePerfectLie",
-    "cached_at": "2026-11-07T19:17:26.497180+00:00"
+    "cached_at": "2026-11-14T19:49:15.662951+00:00"
   },
   "tv:1100": {
     "id": 1100,
@@ -4000,7 +4001,7 @@
     "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
     "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
     "vote_average": 8.111,
-    "vote_count": 6063,
+    "vote_count": 6077,
     "release_date": "2005-09-19",
     "genres": [
       "코미디"
@@ -4018,7 +4019,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-09T23:43:18.255243+00:00"
+    "cached_at": "2026-11-14T19:49:15.937561+00:00"
   },
   "movie:987470": {
     "id": 987470,
@@ -4119,7 +4120,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:19.665609+00:00"
+    "cached_at": "2026-11-14T19:49:15.264073+00:00"
   },
   "movie:1660624": {
     "id": 1660624,
@@ -4226,7 +4227,7 @@
     "poster_path": "/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg",
     "backdrop_path": "/nO7EzksrBzlNpAg5rgv8HzaBIkx.jpg",
     "vote_average": 7.911,
-    "vote_count": 3621,
+    "vote_count": 3623,
     "release_date": "2009-09-23",
     "genres": [
       "코미디"
@@ -4248,7 +4249,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://abc.go.com/shows/modern-family",
-    "cached_at": "2026-11-13T21:17:20.451851+00:00"
+    "cached_at": "2026-11-14T19:49:15.870931+00:00"
   },
   "movie:450975": {
     "id": 450975,
@@ -4583,7 +4584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:19.430961+00:00"
+    "cached_at": "2026-11-14T19:49:15.016022+00:00"
   },
   "movie:49051": {
     "id": 49051,
@@ -4735,8 +4736,8 @@
     "original_title": "Heist",
     "poster_path": "/xrwwSXFeW35wYsnobreXbGxHwUC.jpg",
     "backdrop_path": "/1acmRn1cnPnavQGQCrIJOERd6vX.jpg",
-    "vote_average": 6.321,
-    "vote_count": 670,
+    "vote_average": 6.317,
+    "vote_count": 671,
     "release_date": "2001-11-09",
     "genres": [
       "액션",
@@ -4763,7 +4764,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:19.589109+00:00"
+    "cached_at": "2026-11-14T19:49:15.194326+00:00"
   },
   "movie:102059": {
     "id": 102059,
@@ -4799,7 +4800,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:19.502246+00:00"
+    "cached_at": "2026-11-14T19:49:15.093067+00:00"
   },
   "tv:340321": {
     "id": 340321,

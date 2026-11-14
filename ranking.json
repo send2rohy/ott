@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "items": [
     {
       "rank": 1,
@@ -313,6 +313,21 @@
     },
     {
       "rank": 3,
+      "title": "어벤져스: 엔드게임",
+      "original_title": "어벤져스: 엔드게임",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 299534,
+      "tmdb_title": "어벤져스: 엔드게임",
+      "tmdb_original_title": "Avengers: Endgame",
+      "source": "tmdb_popular",
+      "previous_rank": 5,
+      "change": 2
+    },
+    {
+      "rank": 4,
       "title": "모아나",
       "original_title": "모아나",
       "season_title": "",
@@ -324,10 +339,25 @@
       "tmdb_original_title": "Moana",
       "source": "tmdb_popular",
       "previous_rank": 3,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "어벤져스: 인피니티 워",
+      "original_title": "어벤져스: 인피니티 워",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 299536,
+      "tmdb_title": "어벤져스: 인피니티 워",
+      "tmdb_original_title": "Avengers: Infinity War",
+      "source": "tmdb_popular",
+      "previous_rank": 6,
+      "change": 1
+    },
+    {
+      "rank": 6,
       "title": "팀 버튼의 크리스마스 악몽",
       "original_title": "팀 버튼의 크리스마스 악몽",
       "season_title": "",
@@ -339,55 +369,10 @@
       "tmdb_original_title": "The Nightmare Before Christmas",
       "source": "tmdb_popular",
       "previous_rank": 4,
-      "change": 0
-    },
-    {
-      "rank": 5,
-      "title": "어벤져스: 엔드게임",
-      "original_title": "어벤져스: 엔드게임",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 299534,
-      "tmdb_title": "어벤져스: 엔드게임",
-      "tmdb_original_title": "Avengers: Endgame",
-      "source": "tmdb_popular",
-      "previous_rank": 6,
-      "change": 1
-    },
-    {
-      "rank": 6,
-      "title": "어벤져스: 인피니티 워",
-      "original_title": "어벤져스: 인피니티 워",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 299536,
-      "tmdb_title": "어벤져스: 인피니티 워",
-      "tmdb_original_title": "Avengers: Infinity War",
-      "source": "tmdb_popular",
-      "previous_rank": 5,
-      "change": -1
+      "change": -2
     },
     {
       "rank": 7,
-      "title": "데드풀과 울버린",
-      "original_title": "데드풀과 울버린",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 533535,
-      "tmdb_title": "데드풀과 울버린",
-      "tmdb_original_title": "Deadpool & Wolverine",
-      "source": "tmdb_popular",
-      "previous_rank": 9,
-      "change": 2
-    },
-    {
-      "rank": 8,
       "title": "아바타: 불과 재",
       "original_title": "아바타: 불과 재",
       "season_title": "",
@@ -398,26 +383,26 @@
       "tmdb_title": "아바타: 불과 재",
       "tmdb_original_title": "Avatar: Fire and Ash",
       "source": "tmdb_popular",
+      "previous_rank": 8,
+      "change": 1
+    },
+    {
+      "rank": 8,
+      "title": "데드풀과 울버린",
+      "original_title": "데드풀과 울버린",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 533535,
+      "tmdb_title": "데드풀과 울버린",
+      "tmdb_original_title": "Deadpool & Wolverine",
+      "source": "tmdb_popular",
       "previous_rank": 7,
       "change": -1
     },
     {
       "rank": 9,
-      "title": "주토피아 2",
-      "original_title": "주토피아 2",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1084242,
-      "tmdb_title": "주토피아 2",
-      "tmdb_original_title": "Zootopia 2",
-      "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": -1
-    },
-    {
-      "rank": 10,
       "title": "어벤져스",
       "original_title": "어벤져스",
       "season_title": "",
@@ -429,7 +414,22 @@
       "tmdb_original_title": "The Avengers",
       "source": "tmdb_popular",
       "previous_rank": 10,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 10,
+      "title": "주토피아 2",
+      "original_title": "주토피아 2",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1084242,
+      "tmdb_title": "주토피아 2",
+      "tmdb_original_title": "Zootopia 2",
+      "source": "tmdb_popular",
+      "previous_rank": 9,
+      "change": -1
     },
     {
       "rank": 1,
@@ -443,8 +443,8 @@
       "tmdb_title": "라이어",
       "tmdb_original_title": "라이어",
       "source": "top10",
-      "previous_rank": 2,
-      "change": 1
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -458,8 +458,8 @@
       "tmdb_title": "연애박사",
       "tmdb_original_title": "연애박사",
       "source": "top10",
-      "previous_rank": 1,
-      "change": -1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -488,8 +488,8 @@
       "tmdb_title": "비전퀘스트",
       "tmdb_original_title": "VisionQuest",
       "source": "top10",
-      "previous_rank": 5,
-      "change": 1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -503,8 +503,8 @@
       "tmdb_title": "메리 베리 러브",
       "tmdb_original_title": "メリーベリーラブ",
       "source": "top10",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -533,8 +533,8 @@
       "tmdb_title": "메이드 인 코리아",
       "tmdb_original_title": "메이드 인 코리아",
       "source": "top10",
-      "previous_rank": 8,
-      "change": 1
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -548,26 +548,11 @@
       "tmdb_title": "심슨 가족",
       "tmdb_original_title": "The Simpsons",
       "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 2
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
-      "title": "크리미널 마인드",
-      "original_title": "크리미널 마인드",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 4057,
-      "tmdb_title": "크리미널 마인드",
-      "tmdb_original_title": "Criminal Minds",
-      "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 10,
       "title": "모던 패밀리",
       "original_title": "모던 패밀리",
       "season_title": "",
@@ -577,6 +562,21 @@
       "tmdb_id": 1421,
       "tmdb_title": "모던 패밀리",
       "tmdb_original_title": "Modern Family",
+      "source": "tmdb_popular",
+      "previous_rank": 10,
+      "change": 1
+    },
+    {
+      "rank": 10,
+      "title": "내가 그녀를 만났을 때",
+      "original_title": "내가 그녀를 만났을 때",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 1100,
+      "tmdb_title": "내가 그녀를 만났을 때",
+      "tmdb_original_title": "How I Met Your Mother",
       "source": "tmdb_popular",
       "previous_rank": null,
       "change": "NEW"
