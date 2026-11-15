@@ -870,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-14T19:49:16.155618+00:00"
+    "cached_at": "2026-11-15T20:13:34.587642+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -908,8 +908,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.42,
-    "vote_count": 1280,
+    "vote_average": 8.416,
+    "vote_count": 1286,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -925,7 +925,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-14T19:49:16.234965+00:00"
+    "cached_at": "2026-11-15T20:13:34.625956+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -946,7 +946,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-14T19:49:16.319245+00:00"
+    "cached_at": "2026-11-15T20:13:34.673213+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -971,7 +971,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-14T19:49:16.391520+00:00"
+    "cached_at": "2026-11-15T20:13:34.707942+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -2353,7 +2353,7 @@
     "poster_path": "/ovgdkSfkIRsYbgS99GmuMsy03fF.jpg",
     "backdrop_path": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
     "vote_average": 8.1,
-    "vote_count": 6194,
+    "vote_count": 6300,
     "release_date": "2011-10-05",
     "genres": [
       "드라마",
@@ -2377,7 +2377,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/american-horror-story",
-    "cached_at": "2026-09-27T15:13:36.974696+00:00"
+    "cached_at": "2026-11-15T20:13:34.440695+00:00"
   },
   "movie:1327819": {
     "id": 1327819,
@@ -2822,8 +2822,8 @@
     "original_title": "The Nightmare Before Christmas",
     "poster_path": "/hZpeftLIA5XaO8cRmv1QWiCpUHx.jpg",
     "backdrop_path": "/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "vote_average": 7.861,
-    "vote_count": 10940,
+    "vote_average": 7.9,
+    "vote_count": 10945,
     "release_date": "1993-10-09",
     "genres": [
       "판타지",
@@ -2849,7 +2849,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-14T19:49:15.350146+00:00"
+    "cached_at": "2026-11-15T20:13:34.355918+00:00"
   },
   "movie:274": {
     "id": 274,
@@ -3182,7 +3182,7 @@
     "original_title": "핸섬가이즈",
     "poster_path": "/ng4oX4mzPr8x53yF8gw5zGtpDLD.jpg",
     "backdrop_path": "/7qMw4BkgvCLBev11Db5ygXNisaF.jpg",
-    "vote_average": 6.717,
+    "vote_average": 6.7,
     "vote_count": 60,
     "release_date": "2024-06-26",
     "genres": [
@@ -3208,7 +3208,7 @@
     ],
     "trailer_key": "oGbkEBrqUAs",
     "homepage": "",
-    "cached_at": "2026-11-08T19:26:10.460561+00:00"
+    "cached_at": "2026-11-15T20:13:34.544543+00:00"
   },
   "movie:354912": {
     "id": 354912,
@@ -4001,7 +4001,7 @@
     "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
     "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
     "vote_average": 8.111,
-    "vote_count": 6077,
+    "vote_count": 6079,
     "release_date": "2005-09-19",
     "genres": [
       "코미디"
@@ -4019,7 +4019,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-14T19:49:15.937561+00:00"
+    "cached_at": "2026-11-15T20:13:34.406127+00:00"
   },
   "movie:987470": {
     "id": 987470,
@@ -4226,8 +4226,8 @@
     "original_title": "Modern Family",
     "poster_path": "/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg",
     "backdrop_path": "/nO7EzksrBzlNpAg5rgv8HzaBIkx.jpg",
-    "vote_average": 7.911,
-    "vote_count": 3623,
+    "vote_average": 7.912,
+    "vote_count": 3627,
     "release_date": "2009-09-23",
     "genres": [
       "코미디"
@@ -4249,7 +4249,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://abc.go.com/shows/modern-family",
-    "cached_at": "2026-11-14T19:49:15.870931+00:00"
+    "cached_at": "2026-11-15T20:13:34.472730+00:00"
   },
   "movie:450975": {
     "id": 450975,
@@ -4863,5 +4863,40 @@
     "trailer_key": "uzZ_y3wShe0",
     "homepage": "",
     "cached_at": "2026-11-11T21:48:01.880947+00:00"
+  },
+  "movie:936075": {
+    "id": 936075,
+    "media_type": "movie",
+    "title": "마이클",
+    "original_title": "Michael",
+    "poster_path": "/piMZqtd0gGS7OgkhDwiQ7vVViBQ.jpg",
+    "backdrop_path": "/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+    "vote_average": 8.579,
+    "vote_count": 4734,
+    "release_date": "2026-04-22",
+    "genres": [
+      "음악",
+      "드라마"
+    ],
+    "runtime": 128,
+    "overview": "어린 나이에 형제들과 ‘잭슨 파이브’ 그룹의 막내로 데뷔하자마자 음악적 천재성과 스타성으로 주목을 받은 ‘마이클 잭슨’. 전세계적인 스타로 성공하지만, 그는 가족에 대한 책임감과 자신의 음악적 정체성 사이에서 고민에 빠지게 된다.",
+    "director": [
+      "안톤 후쿠아"
+    ],
+    "cast": [
+      "자파 잭슨",
+      "콜먼 도밍고",
+      "니아 롱",
+      "줄리아노 발디",
+      "케일린 더럴 존스",
+      "마일스 텔러",
+      "Larenz Tate",
+      "로라 해리어",
+      "마이크 마이어스",
+      "켄드릭 샘슨"
+    ],
+    "trailer_key": "D5Wbzgi6Ivs",
+    "homepage": "",
+    "cached_at": "2026-11-15T20:13:34.509918+00:00"
   }
 }
