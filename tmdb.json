@@ -458,7 +458,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-11-11T21:48:01.596917+00:00"
+    "cached_at": "2026-11-16T23:40:33.939989+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -870,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-15T20:13:34.587642+00:00"
+    "cached_at": "2026-11-16T23:40:34.041722+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -908,8 +908,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.416,
-    "vote_count": 1286,
+    "vote_average": 8.418,
+    "vote_count": 1287,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -925,7 +925,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-15T20:13:34.625956+00:00"
+    "cached_at": "2026-11-16T23:40:34.066699+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -946,7 +946,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-15T20:13:34.673213+00:00"
+    "cached_at": "2026-11-16T23:40:34.103130+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -971,7 +971,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-15T20:13:34.707942+00:00"
+    "cached_at": "2026-11-16T23:40:34.128208+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -2352,8 +2352,8 @@
     "original_title": "American Horror Story",
     "poster_path": "/ovgdkSfkIRsYbgS99GmuMsy03fF.jpg",
     "backdrop_path": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
-    "vote_average": 8.1,
-    "vote_count": 6300,
+    "vote_average": 8.079,
+    "vote_count": 6304,
     "release_date": "2011-10-05",
     "genres": [
       "드라마",
@@ -2377,7 +2377,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/american-horror-story",
-    "cached_at": "2026-11-15T20:13:34.440695+00:00"
+    "cached_at": "2026-11-16T23:40:34.017784+00:00"
   },
   "movie:1327819": {
     "id": 1327819,
@@ -4093,7 +4093,7 @@
     "original_title": "Nowhere to Run",
     "poster_path": "/c8ADJ1emBBokgXkzmPCl5mIZBKy.jpg",
     "backdrop_path": "/5VF6N8dPSSPeyQdQoQ53mxDcUjw.jpg",
-    "vote_average": 6.567,
+    "vote_average": 6.6,
     "vote_count": 883,
     "release_date": "1993-01-15",
     "genres": [
@@ -4120,7 +4120,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-14T19:49:15.264073+00:00"
+    "cached_at": "2026-11-16T23:40:32.952268+00:00"
   },
   "movie:1660624": {
     "id": 1660624,
@@ -4584,7 +4584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-14T19:49:15.016022+00:00"
+    "cached_at": "2026-11-16T23:40:32.626371+00:00"
   },
   "movie:49051": {
     "id": 49051,
@@ -4736,8 +4736,8 @@
     "original_title": "Heist",
     "poster_path": "/xrwwSXFeW35wYsnobreXbGxHwUC.jpg",
     "backdrop_path": "/1acmRn1cnPnavQGQCrIJOERd6vX.jpg",
-    "vote_average": 6.317,
-    "vote_count": 671,
+    "vote_average": 6.319,
+    "vote_count": 675,
     "release_date": "2001-11-09",
     "genres": [
       "액션",
@@ -4764,7 +4764,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-14T19:49:15.194326+00:00"
+    "cached_at": "2026-11-16T23:40:32.675128+00:00"
   },
   "movie:102059": {
     "id": 102059,
@@ -4800,7 +4800,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-14T19:49:15.093067+00:00"
+    "cached_at": "2026-11-16T23:40:32.650424+00:00"
   },
   "tv:340321": {
     "id": 340321,
@@ -4898,5 +4898,329 @@
     "trailer_key": "D5Wbzgi6Ivs",
     "homepage": "",
     "cached_at": "2026-11-15T20:13:34.509918+00:00"
+  },
+  "movie:619803": {
+    "id": 619803,
+    "media_type": "movie",
+    "title": "범죄도시 2",
+    "original_title": "범죄도시 2",
+    "poster_path": "/A5lqb8XWiJ5Zkif699EBXkdRV8X.jpg",
+    "backdrop_path": "/p5L7UYtRtL6tMltPzb8DX0rynNv.jpg",
+    "vote_average": 7.315,
+    "vote_count": 481,
+    "release_date": "2022-05-18",
+    "genres": [
+      "액션",
+      "범죄",
+      "스릴러"
+    ],
+    "runtime": 106,
+    "overview": "가리봉동 소탕작전으로부터 4년이 지난 2008년, 금천경찰서 강력반은 베트남으로 도주한 용의자를 인도받아 오라는 미션을 받는다. 그렇게 현지를 물색하던 마석도와 전일만은 용의자에게 미심쩍음을 느껴 추궁한 끝에, 악랄한 강해상의 존재를 알게 된다. 두 형사는 수사권이 없는 상황에도 한국과 베트남을 오가며 역대급 범죄를 저지르는 그를 잡겠다는 일념 하나로 호찌민 이곳저곳을 거침없이 누빈다.",
+    "director": [
+      "이상용"
+    ],
+    "cast": [
+      "마동석",
+      "손석구",
+      "최귀화",
+      "박지환",
+      "허동원",
+      "하준",
+      "정재광",
+      "남문철",
+      "박지영",
+      "이주원"
+    ],
+    "trailer_key": "DfqBfjboSNE",
+    "homepage": "",
+    "cached_at": "2026-11-16T23:40:33.744096+00:00"
+  },
+  "movie:109445": {
+    "id": 109445,
+    "media_type": "movie",
+    "title": "겨울왕국",
+    "original_title": "Frozen",
+    "poster_path": "/lYceQKe3EsYn7VdDXGTy7dSwBLp.jpg",
+    "backdrop_path": "/rj58WQ9ImI0mYDptXdM7euX1Wjt.jpg",
+    "vote_average": 7.249,
+    "vote_count": 18089,
+    "release_date": "2013-11-20",
+    "genres": [
+      "애니메이션",
+      "가족",
+      "모험",
+      "판타지"
+    ],
+    "runtime": 108,
+    "overview": "서로가 최고의 친구였던 자매 엘사와 안나. 하지만 언니 엘사에게는 하나뿐인 동생에게조차 말 못할 비밀이 있다. 모든 것을 얼려버리는 신비로운 힘이 바로 그 것. 엘사는 통제할 수 없는 자신의 힘이 두려워 왕국을 떠나 북쪽 산으로 도망치고, 홀로 그곳에서 얼음 궁전을 지어 지내게 된다. 한편 얼어버린 왕국의 저주를 풀기 위해 안나는 언니를 찾아 나서고, 그 과정에서 안나는 까칠한 매력의 얼음장수 크리스토프와 만나 영원히 얼어붙은 왕국을 구해내기 위해 함께 고군분투한다.",
+    "director": [
+      "Chris Buck",
+      "제니퍼 리"
+    ],
+    "cast": [
+      "크리스틴 벨",
+      "이디나 멘젤",
+      "조나단 그로프",
+      "조시 게드",
+      "Santino Fontana",
+      "앨런 튜딕",
+      "키어런 하인즈",
+      "Chris Williams",
+      "Stephen J. Anderson",
+      "Maia Wilson"
+    ],
+    "trailer_key": "bbh1NIpDo-c",
+    "homepage": "http://www.frozen2014.co.kr/",
+    "cached_at": "2026-11-16T23:40:33.783422+00:00"
+  },
+  "movie:955555": {
+    "id": 955555,
+    "media_type": "movie",
+    "title": "범죄도시 3",
+    "original_title": "범죄도시 3",
+    "poster_path": "/kPtNokhBtgwSp3MHaR3X4O0SPbF.jpg",
+    "backdrop_path": "/5DKVH8KeqFwPacWFMyYqTaECxJP.jpg",
+    "vote_average": 7.239,
+    "vote_count": 592,
+    "release_date": "2023-05-31",
+    "genres": [
+      "액션",
+      "범죄",
+      "스릴러"
+    ],
+    "runtime": 105,
+    "overview": "베트남 납치 살해범 검거 후 7년 뒤, 마석도는 새로운 팀원들과 함께 살인사건을 조사한다. 사건 조사 중 마석도는 신종 마약 사건이 연루되었음을 알게 되고 수사를 확대한다. 한편 마약 사건의 배후인 주성철은 계속해서 판을 키워가고, 약을 유통하던 일본 조직과 리키까지 한국에 들어오며 사건의 규모는 점점 더 커져가는데...",
+    "director": [
+      "이상용"
+    ],
+    "cast": [
+      "마동석",
+      "이준혁",
+      "아오키 무네타카",
+      "이범수",
+      "김민재",
+      "이지훈",
+      "김도건",
+      "고규필",
+      "전석호",
+      "쿠니무라 준"
+    ],
+    "trailer_key": "4p7WZmM3Bk8",
+    "homepage": "",
+    "cached_at": "2026-11-16T23:40:33.818418+00:00"
+  },
+  "movie:330457": {
+    "id": 330457,
+    "media_type": "movie",
+    "title": "겨울왕국 2",
+    "original_title": "Frozen II",
+    "poster_path": "/lVcwSnzhSMWYXUQzyMilCztSE6I.jpg",
+    "backdrop_path": "/AoSZyb37ljMAxw0RdeQEBHKtgcc.jpg",
+    "vote_average": 7.218,
+    "vote_count": 10580,
+    "release_date": "2019-11-20",
+    "genres": [
+      "가족",
+      "애니메이션",
+      "모험",
+      "코미디",
+      "판타지"
+    ],
+    "runtime": 103,
+    "overview": "평화를 되찾은 아렌델 왕국에 새로운 위기가 찾아온다. 어느 날부턴가 의문의 목소리가 엘사를 부르고, 평화로운 아렌델 왕국을 위협한다. 트롤은 모든 것은 과거에서 시작되었음을 알려주며 엘사의 힘의 비밀과 진실을 찾아 떠나야한다고 조언한다. 위험에 빠진 아렌델 왕국을 구해야만 하는 엘사와 안나는 숨겨진 과거의 진실을 찾아 크리스토프, 올라프, 그리고 스벤과 함께 위험천만한 놀라운 모험을 떠나게 된다. 자신의 힘을 두려워했던 엘사는 이제 이 모험을 헤쳐나가기에 자신의 힘이 충분하다고 믿어야만 하는데...",
+    "director": [
+      "제니퍼 리",
+      "Chris Buck"
+    ],
+    "cast": [
+      "크리스틴 벨",
+      "이디나 멘젤",
+      "조시 게드",
+      "에반 레이첼 우드",
+      "조나단 그로프",
+      "스털링 K. 브라운",
+      "알프레드 몰리나",
+      "Rachel Matthews",
+      "제이슨 리터",
+      "마사 플림턴"
+    ],
+    "trailer_key": "eSEs4B4H-EA",
+    "homepage": "",
+    "cached_at": "2026-11-16T23:40:33.845334+00:00"
+  },
+  "movie:771": {
+    "id": 771,
+    "media_type": "movie",
+    "title": "나 홀로 집에",
+    "original_title": "Home Alone",
+    "poster_path": "/vqe3WPiHAgCiAHXGVHSJPDG9OgO.jpg",
+    "backdrop_path": "/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
+    "vote_average": 7.471,
+    "vote_count": 13076,
+    "release_date": "1990-11-16",
+    "genres": [
+      "코미디",
+      "가족"
+    ],
+    "runtime": 105,
+    "overview": "크리스마스를 앞둔 시카고의 맥컬리스터 가족은 친척들과 함께 파리로 떠날 준비에 한창이다. 형과 다투다 혼자 다락방으로 쫓겨난 여덟 살 케빈은 가족이 모두 사라졌으면 좋겠다고 빌고 잠이 든다. 밤사이 정전으로 늦잠을 잔 가족들은 공항으로 서두르다 케빈을 두고 떠나고, 텅 빈 집에서 깨어난 케빈은 소원이 이루어졌다고 기뻐한다. 케빈이 잔소리 없는 자유를 즐기는 동안, 아들을 빠뜨렸다는 사실을 깨달은 엄마는 집으로 돌아갈 방법을 찾느라 애를 태운다. 하지만 동네 빈집을 노리던 해리와 마브가 자기 집을 털려 한다는 걸 알게 되면서 케빈의 신나는 휴가는 뜻밖의 위기를 맞는다. 도움을 청할 가족도 곁에 없는 케빈은 집 안의 물건과 기발한 꾀를 총동원해 두 도둑을 맞을 준비를 한다.",
+    "director": [
+      "크리스 콜럼버스"
+    ],
+    "cast": [
+      "맥컬리 컬킨",
+      "조 페시",
+      "다니엘 스턴",
+      "John Heard",
+      "Roberts Blossom",
+      "캐서린 오하라",
+      "Angela Goethals",
+      "Devin Ratray",
+      "Gerry Bamman",
+      "Hillary Wolf"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-16T23:40:33.867439+00:00"
+  },
+  "movie:772": {
+    "id": 772,
+    "media_type": "movie",
+    "title": "나 홀로 집에 2: 뉴욕을 헤매다",
+    "original_title": "Home Alone 2: Lost in New York",
+    "poster_path": "/eUYFbtuSBuvihNmFgLJtl1Y54fE.jpg",
+    "backdrop_path": "/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
+    "vote_average": 6.8,
+    "vote_count": 11072,
+    "release_date": "1992-11-15",
+    "genres": [
+      "코미디",
+      "가족",
+      "모험"
+    ],
+    "runtime": 115,
+    "overview": "시카고에 살고 있는 케빈의 가족은 크리스마스에 플로리다에 가기로 되어있다. 그러나 공항의 소란 속에, 홀로 뉴욕행 비행기에 오르게 되어 거대한 도시에 혼자 남게 된 케빈은 기지를 발휘하여 아버지 카드로 플로리자 호텔에 묶게되고, 의심스러워 하는 종업원들을 멋지게 따돌린다. 한편, 감옥을 탈출한 2인조 강도 마브와 해리는 뉴욕의 장난감 가게를 털어 한 몫 잡을 꿈에 부풀어 있는데...",
+    "director": [
+      "크리스 콜럼버스"
+    ],
+    "cast": [
+      "맥컬리 컬킨",
+      "조 페시",
+      "다니엘 스턴",
+      "캐서린 오하라",
+      "John Heard",
+      "Brenda Fricker",
+      "팀 커리",
+      "Devin Ratray",
+      "Gerry Bamman",
+      "롭 슈나이더"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-16T23:40:33.890651+00:00"
+  },
+  "movie:479718": {
+    "id": 479718,
+    "media_type": "movie",
+    "title": "범죄도시",
+    "original_title": "범죄도시",
+    "poster_path": "/sVwbHA4nhw389PwpDzkJam4WMoB.jpg",
+    "backdrop_path": "/xord8lZ7mK8ctki6FBgNYrbpWCO.jpg",
+    "vote_average": 7.631,
+    "vote_count": 589,
+    "release_date": "2017-10-03",
+    "genres": [
+      "액션",
+      "범죄",
+      "스릴러"
+    ],
+    "runtime": 121,
+    "overview": "2004년 서울 가리봉동, 형사 마석도는 거친 주먹과 현장의 감각으로 범죄 조직 사이의 충돌을 누르며 동네의 질서를 지켜 왔다. 그러던 중 중국 하얼빈에서 넘어온 신흥 조직이 잔혹한 폭력으로 기존 세력을 밀어내면서 거리의 분위기가 달라진다. 돈을 거둬들이는 데 수단을 가리지 않는 일당은 빠르게 영역을 넓히고, 지역의 강자인 황사장까지 위협한다. 주민들의 일상에 공포가 퍼지자 마석도와 전일만 반장이 이끄는 강력반은 더는 힘의 균형에 기댈 수 없다고 판단한다. 형사들은 거리의 정보와 조직들의 움직임을 모으며 예측하기 어려운 범인들을 한꺼번에 붙잡을 소탕 작전을 준비한다. 말보다 폭력이 먼저 오가는 동네에서 마석도는 익숙한 골목을 다시 경찰의 손에 돌려놓으려 한다.",
+    "director": [
+      "강윤성"
+    ],
+    "cast": [
+      "마동석",
+      "윤계상",
+      "조재윤",
+      "최귀화",
+      "임형준",
+      "진선규",
+      "홍기준",
+      "허동원",
+      "하준",
+      "김성규"
+    ],
+    "trailer_key": "n-dYGqVVgU4",
+    "homepage": "",
+    "cached_at": "2026-11-16T23:40:33.919848+00:00"
+  },
+  "tv:226102": {
+    "id": 226102,
+    "media_type": "tv",
+    "title": "크래시",
+    "original_title": "크래시",
+    "poster_path": "/mlm7ZnMZxyexylGeAD48QgjEeAg.jpg",
+    "backdrop_path": "/4wZZ8CGEsjXaKt5TosiFqbaPymD.jpg",
+    "vote_average": 8.6,
+    "vote_count": 20,
+    "release_date": "2024-05-13",
+    "genres": [
+      "범죄",
+      "코미디",
+      "드라마",
+      "Action & Adventure",
+      "미스터리"
+    ],
+    "runtime": null,
+    "overview": "카이스트 출신의 합리적 개인주의자 차연호와 냉철한 판단력과 따뜻한 감수성을 겸비한 교통조사계 에이스 민소희가 교통범죄수사팀에서 펼치는 좌충우돌 도로 위 범죄 추적기",
+    "director": [],
+    "cast": [
+      "이민기",
+      "곽선영",
+      "허성태",
+      "이호철",
+      "최문희",
+      "지성",
+      "함은정",
+      "엄현경"
+    ],
+    "trailer_key": "nLreMDr1Kzo",
+    "homepage": "https://ktena.co.kr/bbs/board.php?bo_table=drama&wr_id=52",
+    "cached_at": "2026-11-16T23:40:33.963447+00:00"
+  },
+  "tv:300954": {
+    "id": 300954,
+    "media_type": "tv",
+    "title": "결혼의 완성",
+    "original_title": "결혼의 완성",
+    "poster_path": "/tC7y1Ut98xH8Ovs1KhxRPMkwEmN.jpg",
+    "backdrop_path": "/lfTUwBiSyCVcvBPAMzSOYGUgr2c.jpg",
+    "vote_average": 8.7,
+    "vote_count": 27,
+    "release_date": "2026-07-04",
+    "genres": [
+      "범죄",
+      "드라마",
+      "미스터리"
+    ],
+    "runtime": null,
+    "overview": "남은 건 서로에 대한 원망 뿐인 붕괴 직전의 부부 태주와 세윤. 이혼 얘기까지 오가던 어느 날, 술에 취한 태주가 한 말로 인해 아내 세윤이 의문의 범죄자에게 납치된다. 설상가상 납치 사건의 용의자로 남편인 태주가 지목되면서, 태주는 경찰을 피해 홀로 아내를 구해야 하는 상황에 처한다. 돈을 노린 범행이라 생각했던 사건은 숨겨져 있던 진실로 이어지고… 태주는 세윤을 위해 극한까지 자신을 내던져야만 한다.",
+    "director": [],
+    "cast": [
+      "남궁민",
+      "이설",
+      "김대명",
+      "이상희",
+      "장광",
+      "오민애",
+      "차미경",
+      "권혁",
+      "우지현",
+      "조윤서"
+    ],
+    "trailer_key": "EAAs_9tW_7w",
+    "homepage": "https://program.kbs.co.kr/2tv/drama/thehusband",
+    "cached_at": "2026-11-16T23:40:33.988484+00:00"
   }
 }
