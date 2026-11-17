@@ -458,7 +458,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-11-16T23:40:33.939989+00:00"
+    "cached_at": "2026-11-17T22:48:52.430342+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -870,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-16T23:40:34.041722+00:00"
+    "cached_at": "2026-11-17T22:48:52.650101+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -925,7 +925,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-16T23:40:34.066699+00:00"
+    "cached_at": "2026-11-17T22:48:52.752884+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -946,7 +946,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-16T23:40:34.103130+00:00"
+    "cached_at": "2026-11-17T22:48:52.867610+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -971,7 +971,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-16T23:40:34.128208+00:00"
+    "cached_at": "2026-11-17T22:48:52.971675+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -2352,8 +2352,8 @@
     "original_title": "American Horror Story",
     "poster_path": "/ovgdkSfkIRsYbgS99GmuMsy03fF.jpg",
     "backdrop_path": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
-    "vote_average": 8.079,
-    "vote_count": 6304,
+    "vote_average": 8.1,
+    "vote_count": 6306,
     "release_date": "2011-10-05",
     "genres": [
       "드라마",
@@ -2377,7 +2377,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/american-horror-story",
-    "cached_at": "2026-11-16T23:40:34.017784+00:00"
+    "cached_at": "2026-11-17T22:48:52.548628+00:00"
   },
   "movie:1327819": {
     "id": 1327819,
@@ -3218,7 +3218,7 @@
     "poster_path": "/pQu93NuwR90AaCULzglVD5Ge4Ml.jpg",
     "backdrop_path": "/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
     "vote_average": 8.207,
-    "vote_count": 21838,
+    "vote_count": 21887,
     "release_date": "2017-10-27",
     "genres": [
       "가족",
@@ -3246,7 +3246,7 @@
     ],
     "trailer_key": "LmS5KMJTWlA",
     "homepage": "",
-    "cached_at": "2026-11-10T21:14:18.805923+00:00"
+    "cached_at": "2026-11-17T22:48:52.230153+00:00"
   },
   "tv:276161": {
     "id": 276161,
@@ -3896,8 +3896,8 @@
     "original_title": "파이널 테이블",
     "poster_path": "/zNSBXSIOMZWFZ5dqtm7tFBKFMrk.jpg",
     "backdrop_path": "/anwMEnTDkhv5qJ8wXSRieCvFHGs.jpg",
-    "vote_average": 8.5,
-    "vote_count": 11,
+    "vote_average": 8.333,
+    "vote_count": 15,
     "release_date": "2026-10-24",
     "genres": [
       "드라마"
@@ -3920,7 +3920,7 @@
     ],
     "trailer_key": "JpDD_kbMT_I",
     "homepage": "https://tv.jtbc.co.kr/finaltable",
-    "cached_at": "2026-11-09T23:43:18.087256+00:00"
+    "cached_at": "2026-11-17T22:48:52.330016+00:00"
   },
   "movie:1368166": {
     "id": 1368166,
@@ -4584,7 +4584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-16T23:40:32.626371+00:00"
+    "cached_at": "2026-11-17T22:48:50.780284+00:00"
   },
   "movie:49051": {
     "id": 49051,
@@ -4701,8 +4701,8 @@
     "original_title": "Me Before You",
     "poster_path": "/aCnkVi4QTuc7E0d0qp0SAnRA3M0.jpg",
     "backdrop_path": "/3WK7p9EdZmmvB1IbB2Vw9Rf4lXH.jpg",
-    "vote_average": 7.932,
-    "vote_count": 13716,
+    "vote_average": 7.931,
+    "vote_count": 13727,
     "release_date": "2016-06-01",
     "genres": [
       "드라마",
@@ -4727,7 +4727,7 @@
     ],
     "trailer_key": "XuDTPniIX-8",
     "homepage": "",
-    "cached_at": "2026-11-10T21:14:18.663299+00:00"
+    "cached_at": "2026-11-17T22:48:51.253264+00:00"
   },
   "movie:11088": {
     "id": 11088,
@@ -4764,7 +4764,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-16T23:40:32.675128+00:00"
+    "cached_at": "2026-11-17T22:48:51.883180+00:00"
   },
   "movie:102059": {
     "id": 102059,
@@ -5056,7 +5056,7 @@
     "poster_path": "/vqe3WPiHAgCiAHXGVHSJPDG9OgO.jpg",
     "backdrop_path": "/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
     "vote_average": 7.471,
-    "vote_count": 13076,
+    "vote_count": 13079,
     "release_date": "1990-11-16",
     "genres": [
       "코미디",
@@ -5081,7 +5081,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-16T23:40:33.867439+00:00"
+    "cached_at": "2026-11-17T22:48:51.997749+00:00"
   },
   "movie:772": {
     "id": 772,
@@ -5091,7 +5091,7 @@
     "poster_path": "/eUYFbtuSBuvihNmFgLJtl1Y54fE.jpg",
     "backdrop_path": "/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
     "vote_average": 6.8,
-    "vote_count": 11072,
+    "vote_count": 11073,
     "release_date": "1992-11-15",
     "genres": [
       "코미디",
@@ -5117,7 +5117,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-16T23:40:33.890651+00:00"
+    "cached_at": "2026-11-17T22:48:52.112928+00:00"
   },
   "movie:479718": {
     "id": 479718,
@@ -5222,5 +5222,222 @@
     "trailer_key": "EAAs_9tW_7w",
     "homepage": "https://program.kbs.co.kr/2tv/drama/thehusband",
     "cached_at": "2026-11-16T23:40:33.988484+00:00"
+  },
+  "movie:1083381": {
+    "id": 1083381,
+    "media_type": "movie",
+    "title": "백룸",
+    "original_title": "Backrooms",
+    "poster_path": "/tcqLtpb8EUDqbct2YFl8ZGNfP2p.jpg",
+    "backdrop_path": "/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
+    "vote_average": 7.0,
+    "vote_count": 4128,
+    "release_date": "2026-05-27",
+    "genres": [
+      "공포",
+      "미스터리",
+      "SF"
+    ],
+    "runtime": 111,
+    "overview": "가구점을 운영하는 클라크는 어느 날 가게 지하실에서 이상한 통로를 발견한다. 그 너머에는 누렇게 바랜 벽지와 윙윙거리는 형광등, 축축한 카펫이 끝없이 이어지는 텅 빈 방들이 펼쳐져 있다. 낯설면서도 어딘가 익숙한 이 기묘한 공간에 매료된 클라크는 그곳을 탐색하기 시작하고, 그의 상담을 맡아 온 치료사 메리도 이 수수께끼의 차원에 발을 들이게 된다. 하지만 들어갈수록 공간은 상식을 벗어나 뒤틀리고, 방향 감각마저 잃게 만드는 무한한 미로 속 어딘가에서 정체를 알 수 없는 무언가가 그들을 지켜보고 있다는 기척이 느껴지기 시작한다.",
+    "director": [
+      "케인 파슨스"
+    ],
+    "cast": [
+      "치웨텔 에지오포",
+      "레나테 레인스베",
+      "핀 베넷",
+      "루키타 맥스웰",
+      "마크 듀플래스",
+      "애번 조기아",
+      "로버트 밥로트키",
+      "엠버 앰브로즈",
+      "크리스타 코소넨",
+      "필립 그란거"
+    ],
+    "trailer_key": "RiK3su5spKw",
+    "homepage": "",
+    "cached_at": "2026-11-17T22:48:50.904074+00:00"
+  },
+  "movie:20184": {
+    "id": 20184,
+    "media_type": "movie",
+    "title": "Never Surrender",
+    "original_title": "Never Surrender",
+    "poster_path": "/3EMaDo7LSbn4kle5hFw4DRIFAK6.jpg",
+    "backdrop_path": "/pZWdW44OtyGD1r8gO3m6g7AsO7m.jpg",
+    "vote_average": 3.1,
+    "vote_count": 24,
+    "release_date": "2009-04-28",
+    "genres": [
+      "액션",
+      "모험",
+      "드라마",
+      "스릴러"
+    ],
+    "runtime": 87,
+    "overview": "",
+    "director": [
+      "Hector Echavarria"
+    ],
+    "cast": [
+      "Hector Echavarria",
+      "Patrick Kilpatrick",
+      "James Russo",
+      "Georges St-Pierre",
+      "Heath Herring",
+      "B.J. Penn",
+      "Anderson Silva",
+      "Quinton 'Rampage' Jackson",
+      "Silvia Koys",
+      "Sabrina Machado"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-17T22:48:51.027688+00:00"
+  },
+  "movie:205775": {
+    "id": 205775,
+    "media_type": "movie",
+    "title": "하트 오브 더 씨",
+    "original_title": "In the Heart of the Sea",
+    "poster_path": "/6mmusaA02pIMXdfvuGZCPkmA9Op.jpg",
+    "backdrop_path": "/4LRLz2V63TSwuQhBVNXsbnHxgoY.jpg",
+    "vote_average": 6.793,
+    "vote_count": 4566,
+    "release_date": "2015-12-03",
+    "genres": [
+      "스릴러",
+      "드라마",
+      "모험",
+      "액션",
+      "역사"
+    ],
+    "runtime": 121,
+    "overview": "고래기름이 큰돈이 되던 시대, 베테랑 항해사 오웬 체이스는 기대와 달리 포경선 에식스호의 일등 항해사로 승선한다. 배의 지휘를 맡은 조지 폴라드는 경험과 신뢰를 얻은 오웬을 못마땅하게 여기고, 두 사람은 출항 직후부터 사사건건 부딪힌다. 충분한 성과를 거두지 못한 선원들은 고래가 많다는 먼 바다의 소식을 듣고, 거대한 흰 고래에 관한 경고에도 항로를 바꾼다. 마침내 나타난 고래는 사냥꾼들의 작은 배를 공격하고 에식스호까지 들이받아 선원들을 망망대해로 내몬다. 살아남은 사람들은 얼마 남지 않은 물과 식량을 나눠 실은 작은 보트에 몸을 맡긴 채 육지에 닿을 길을 찾아야 한다. 바다를 정복하리라 믿었던 이들은 굶주림과 갈증 속에서 생존을 위한 결정을 내려야 한다.",
+    "director": [
+      "론 하워드"
+    ],
+    "cast": [
+      "크리스 헴스워스",
+      "벤자민 워커",
+      "킬리언 머피",
+      "브렌던 글리슨",
+      "벤 위쇼",
+      "미셸 페얼리",
+      "톰 홀랜드",
+      "폴 앤더슨",
+      "프랭크 딜레인",
+      "Joseph Mawle"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-17T22:48:51.139209+00:00"
+  },
+  "movie:1570488": {
+    "id": 1570488,
+    "media_type": "movie",
+    "title": "반려견의 완벽한 크리스마스",
+    "original_title": "A Dog's Perfect Christmas",
+    "poster_path": "/zvsNAohDHRWcGvbPSD7r3WojpKb.jpg",
+    "backdrop_path": "/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
+    "vote_average": 7.201,
+    "vote_count": 67,
+    "release_date": "2026-11-04",
+    "genres": [
+      "코미디",
+      "드라마"
+    ],
+    "runtime": 102,
+    "overview": "갑작스러운 건강 문제로 뿔뿔이 흩어진 고스 가족. 충직한 반려견 윈스테드는 크리스마스이브가 오기 전 가족을 다시 한 자리에 모으기 위해 온 힘을 다한다.",
+    "director": [
+      "Cathryn Michon"
+    ],
+    "cast": [
+      "데니스 퀘이드",
+      "Milo Ventimiglia",
+      "브룩 레나 존슨",
+      "캐슬린 로즈 퍼킨스",
+      "제니퍼 틸리",
+      "토마스 헤이든 처치",
+      "메리 스틴버겐",
+      "Ethan Loomis",
+      "Marissa Jaret Winokur",
+      "Cathryn Michon"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.netflix.com/kr/title/82090597",
+    "cached_at": "2026-11-17T22:48:51.369867+00:00"
+  },
+  "movie:1543469": {
+    "id": 1543469,
+    "media_type": "movie",
+    "title": "하트랜드",
+    "original_title": "Heartland",
+    "poster_path": "/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+    "backdrop_path": "/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
+    "vote_average": 6.53,
+    "vote_count": 66,
+    "release_date": "2026-11-13",
+    "genres": [
+      "스릴러",
+      "미스터리"
+    ],
+    "runtime": 114,
+    "overview": "한때 컨트리 음악계의 슈퍼스타였던 미스티 존스. 은둔 생활을 하던 그녀는 떠오르는 신예 컨트리 가수인 조카가 실종되자 사건 조사에 나서고, 그 과정에서 자신의 과거와 내슈빌의 어두운 이면을 마주한다. 사건을 파헤칠수록 수상쩍은 민낯을 드러내는 내슈빌. 그곳에선 모두, 심지어 미스티마저도, 겉으로 보이는 그대로가 아니다.",
+    "director": [
+      "Shana Feste"
+    ],
+    "cast": [
+      "제시카 차스테인",
+      "Carter Faith",
+      "Ross Lynch",
+      "존 호크스",
+      "개렛 헤들런드",
+      "Norbert Leo Butz",
+      "Hill Harper",
+      "Ben Dickey",
+      "폴 스파크스",
+      "제니퍼 네틀스"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-17T22:48:51.471350+00:00"
+  },
+  "movie:157336": {
+    "id": 157336,
+    "media_type": "movie",
+    "title": "인터스텔라",
+    "original_title": "Interstellar",
+    "poster_path": "/gDN2NWtHbs8ZWEBQM8Dh5OVXdb4.jpg",
+    "backdrop_path": "/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
+    "vote_average": 8.493,
+    "vote_count": 41925,
+    "release_date": "2014-11-04",
+    "genres": [
+      "모험",
+      "드라마",
+      "SF"
+    ],
+    "runtime": 169,
+    "overview": "세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+    "director": [
+      "크리스토퍼 놀란"
+    ],
+    "cast": [
+      "매튜 매커너히",
+      "앤 해서웨이",
+      "마이클 케인",
+      "제시카 차스테인",
+      "케이시 애플렉",
+      "웨스 벤틀리",
+      "토퍼 그레이스",
+      "맥켄지 포이",
+      "앨런 버스틴",
+      "존 리스고"
+    ],
+    "trailer_key": "LEEtpP6dkIY",
+    "homepage": "",
+    "cached_at": "2026-11-17T22:48:51.766772+00:00"
   }
 }
