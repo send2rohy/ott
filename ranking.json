@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "items": [
     {
       "rank": 1,
@@ -26,8 +26,8 @@
       "tmdb_id": 1083381,
       "tmdb_title": "백룸",
       "tmdb_original_title": "Backrooms",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -54,8 +54,8 @@
       "tmdb_id": 20184,
       "tmdb_title": "Never Surrender",
       "tmdb_original_title": "Never Surrender",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -68,8 +68,8 @@
       "tmdb_id": 205775,
       "tmdb_title": "하트 오브 더 씨",
       "tmdb_original_title": "In the Heart of the Sea",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -82,8 +82,8 @@
       "tmdb_id": 296096,
       "tmdb_title": "미 비포 유",
       "tmdb_original_title": "Me Before You",
-      "previous_rank": 7,
-      "change": 1
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -96,8 +96,8 @@
       "tmdb_id": 1570488,
       "tmdb_title": "반려견의 완벽한 크리스마스",
       "tmdb_original_title": "A Dog's Perfect Christmas",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -110,8 +110,8 @@
       "tmdb_id": 1543469,
       "tmdb_title": "하트랜드",
       "tmdb_original_title": "Heartland",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -124,8 +124,8 @@
       "tmdb_id": 157336,
       "tmdb_title": "인터스텔라",
       "tmdb_original_title": "Interstellar",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -138,8 +138,8 @@
       "tmdb_id": 11088,
       "tmdb_title": "하이스트",
       "tmdb_original_title": "Heist",
-      "previous_rank": 8,
-      "change": -2
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -152,8 +152,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -180,8 +180,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 1,
-      "change": -2
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -194,8 +194,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -208,8 +208,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -222,8 +222,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 5,
-      "change": -1
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -236,8 +236,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -264,8 +264,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 7,
-      "change": -2
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -278,8 +278,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -338,8 +338,8 @@
       "tmdb_title": "범죄도시 3",
       "tmdb_original_title": "범죄도시 3",
       "source": "top10",
-      "previous_rank": 5,
-      "change": 1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -353,8 +353,8 @@
       "tmdb_title": "겨울왕국",
       "tmdb_original_title": "Frozen",
       "source": "top10",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -368,8 +368,8 @@
       "tmdb_title": "나 홀로 집에",
       "tmdb_original_title": "Home Alone",
       "source": "top10",
-      "previous_rank": 7,
-      "change": 1
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -383,8 +383,8 @@
       "tmdb_title": "겨울왕국 2",
       "tmdb_original_title": "Frozen II",
       "source": "top10",
-      "previous_rank": 6,
-      "change": -1
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -398,8 +398,8 @@
       "tmdb_title": "범죄도시",
       "tmdb_original_title": "범죄도시",
       "source": "top10",
-      "previous_rank": 9,
-      "change": 1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -413,23 +413,23 @@
       "tmdb_title": "나 홀로 집에 2: 뉴욕을 헤매다",
       "tmdb_original_title": "Home Alone 2: Lost in New York",
       "source": "top10",
-      "previous_rank": 8,
-      "change": -1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
-      "title": "코코",
-      "original_title": "코코",
+      "title": "어벤져스: 엔드게임",
+      "original_title": "어벤져스: 엔드게임",
       "season_title": "",
       "platform": "Disney+",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 354912,
-      "tmdb_title": "코코",
-      "tmdb_original_title": "Coco",
+      "tmdb_id": 299534,
+      "tmdb_title": "어벤져스: 엔드게임",
+      "tmdb_original_title": "Avengers: Endgame",
       "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 0
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
@@ -443,8 +443,8 @@
       "tmdb_title": "크래시",
       "tmdb_original_title": "크래시",
       "source": "top10",
-      "previous_rank": 5,
-      "change": 4
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -458,56 +458,26 @@
       "tmdb_title": "라이어",
       "tmdb_original_title": "라이어",
       "source": "top10",
-      "previous_rank": 1,
-      "change": -1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
-      "title": "파이널 테이블",
-      "original_title": "파이널 테이블",
+      "title": "공감세포",
+      "original_title": "공감세포",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 316702,
-      "tmdb_title": "파이널 테이블",
-      "tmdb_original_title": "파이널 테이블",
+      "tmdb_id": 315007,
+      "tmdb_title": "공감세포",
+      "tmdb_original_title": "공감세포",
       "source": "top10",
-      "previous_rank": 2,
-      "change": -1
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 4,
-      "title": "연애박사",
-      "original_title": "연애박사",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 307106,
-      "tmdb_title": "연애박사",
-      "tmdb_original_title": "연애박사",
-      "source": "top10",
-      "previous_rank": 3,
-      "change": -1
-    },
-    {
-      "rank": 5,
-      "title": "연애전쟁",
-      "original_title": "연애전쟁",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 325114,
-      "tmdb_title": "연애전쟁",
-      "tmdb_original_title": "연애전쟁",
-      "source": "top10",
-      "previous_rank": 4,
-      "change": -1
-    },
-    {
-      "rank": 6,
       "title": "스타일 워즈",
       "original_title": "스타일 워즈",
       "season_title": "",
@@ -519,25 +489,25 @@
       "tmdb_original_title": "스타일 워즈",
       "source": "top10",
       "previous_rank": 6,
-      "change": 0
+      "change": 2
     },
     {
-      "rank": 7,
-      "title": "비전퀘스트",
-      "original_title": "비전퀘스트",
+      "rank": 5,
+      "title": "파이널 테이블",
+      "original_title": "파이널 테이블",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 213375,
-      "tmdb_title": "비전퀘스트",
-      "tmdb_original_title": "VisionQuest",
+      "tmdb_id": 316702,
+      "tmdb_title": "파이널 테이블",
+      "tmdb_original_title": "파이널 테이블",
       "source": "top10",
-      "previous_rank": 7,
-      "change": 0
+      "previous_rank": 3,
+      "change": -2
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "메리 베리 러브",
       "original_title": "메리 베리 러브",
       "season_title": "",
@@ -549,25 +519,40 @@
       "tmdb_original_title": "メリーベリーラブ",
       "source": "top10",
       "previous_rank": 8,
-      "change": 0
+      "change": 2
     },
     {
-      "rank": 9,
-      "title": "메이드 인 코리아",
-      "original_title": "메이드 인 코리아",
+      "rank": 7,
+      "title": "연애박사",
+      "original_title": "연애박사",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 246473,
-      "tmdb_title": "메이드 인 코리아",
-      "tmdb_original_title": "메이드 인 코리아",
+      "tmdb_id": 307106,
+      "tmdb_title": "연애박사",
+      "tmdb_original_title": "연애박사",
       "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 4,
+      "change": -3
     },
     {
-      "rank": 10,
+      "rank": 8,
+      "title": "연애전쟁",
+      "original_title": "연애전쟁",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 325114,
+      "tmdb_title": "연애전쟁",
+      "tmdb_original_title": "연애전쟁",
+      "source": "top10",
+      "previous_rank": 5,
+      "change": -3
+    },
+    {
+      "rank": 9,
       "title": "아메리칸 호러 스토리",
       "original_title": "아메리칸 호러 스토리",
       "season_title": "",
@@ -579,7 +564,22 @@
       "tmdb_original_title": "American Horror Story",
       "source": "tmdb_popular",
       "previous_rank": 10,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 10,
+      "title": "내가 그녀를 만났을 때",
+      "original_title": "내가 그녀를 만났을 때",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 1100,
+      "tmdb_title": "내가 그녀를 만났을 때",
+      "tmdb_original_title": "How I Met Your Mother",
+      "source": "tmdb_popular",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
@@ -597,20 +597,6 @@
     },
     {
       "rank": 2,
-      "title": "군체",
-      "original_title": "군체",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1375646,
-      "tmdb_title": "군체",
-      "tmdb_original_title": "군체",
-      "previous_rank": 2,
-      "change": 0
-    },
-    {
-      "rank": 3,
       "title": "마이클",
       "original_title": "마이클",
       "season_title": "",
@@ -621,7 +607,21 @@
       "tmdb_title": "마이클",
       "tmdb_original_title": "Michael",
       "previous_rank": 3,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 3,
+      "title": "군체",
+      "original_title": "군체",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1375646,
+      "tmdb_title": "군체",
+      "tmdb_original_title": "군체",
+      "previous_rank": 2,
+      "change": -1
     },
     {
       "rank": 4,
@@ -634,8 +634,8 @@
       "tmdb_id": 671,
       "tmdb_title": "해리 포터와 마법사의 돌",
       "tmdb_original_title": "Harry Potter and the Philosopher's Stone",
-      "previous_rank": 5,
-      "change": 1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -648,8 +648,8 @@
       "tmdb_id": 936245,
       "tmdb_title": "히든페이스",
       "tmdb_original_title": "히든페이스",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -681,20 +681,6 @@
     },
     {
       "rank": 8,
-      "title": "핸섬가이즈",
-      "original_title": "핸섬가이즈",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 736720,
-      "tmdb_title": "핸섬가이즈",
-      "tmdb_original_title": "핸섬가이즈",
-      "previous_rank": 8,
-      "change": 0
-    },
-    {
-      "rank": 9,
       "title": "해리 포터와 아즈카반의 죄수",
       "original_title": "해리 포터와 아즈카반의 죄수",
       "season_title": "",
@@ -705,7 +691,21 @@
       "tmdb_title": "해리 포터와 아즈카반의 죄수",
       "tmdb_original_title": "Harry Potter and the Prisoner of Azkaban",
       "previous_rank": 9,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 9,
+      "title": "핸섬가이즈",
+      "original_title": "핸섬가이즈",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 736720,
+      "tmdb_title": "핸섬가이즈",
+      "tmdb_original_title": "핸섬가이즈",
+      "previous_rank": 8,
+      "change": -1
     },
     {
       "rank": 10,
