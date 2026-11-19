@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "items": [
     {
       "rank": 1,
@@ -373,21 +373,6 @@
     },
     {
       "rank": 7,
-      "title": "겨울왕국 2",
-      "original_title": "겨울왕국 2",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 330457,
-      "tmdb_title": "겨울왕국 2",
-      "tmdb_original_title": "Frozen II",
-      "source": "top10",
-      "previous_rank": 7,
-      "change": 0
-    },
-    {
-      "rank": 8,
       "title": "범죄도시",
       "original_title": "범죄도시",
       "season_title": "",
@@ -399,7 +384,22 @@
       "tmdb_original_title": "범죄도시",
       "source": "top10",
       "previous_rank": 8,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 8,
+      "title": "겨울왕국 2",
+      "original_title": "겨울왕국 2",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 330457,
+      "tmdb_title": "겨울왕국 2",
+      "tmdb_original_title": "Frozen II",
+      "source": "top10",
+      "previous_rank": 7,
+      "change": -1
     },
     {
       "rank": 9,
@@ -428,8 +428,8 @@
       "tmdb_title": "어벤져스: 엔드게임",
       "tmdb_original_title": "Avengers: Endgame",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -463,51 +463,6 @@
     },
     {
       "rank": 3,
-      "title": "공감세포",
-      "original_title": "공감세포",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 315007,
-      "tmdb_title": "공감세포",
-      "tmdb_original_title": "공감세포",
-      "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 4,
-      "title": "스타일 워즈",
-      "original_title": "스타일 워즈",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 340321,
-      "tmdb_title": "스타일 워즈",
-      "tmdb_original_title": "스타일 워즈",
-      "source": "top10",
-      "previous_rank": 6,
-      "change": 2
-    },
-    {
-      "rank": 5,
-      "title": "파이널 테이블",
-      "original_title": "파이널 테이블",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 316702,
-      "tmdb_title": "파이널 테이블",
-      "tmdb_original_title": "파이널 테이블",
-      "source": "top10",
-      "previous_rank": 3,
-      "change": -2
-    },
-    {
-      "rank": 6,
       "title": "메리 베리 러브",
       "original_title": "메리 베리 러브",
       "season_title": "",
@@ -518,8 +473,53 @@
       "tmdb_title": "메리 베리 러브",
       "tmdb_original_title": "メリーベリーラブ",
       "source": "top10",
-      "previous_rank": 8,
-      "change": 2
+      "previous_rank": 6,
+      "change": 3
+    },
+    {
+      "rank": 4,
+      "title": "공감세포",
+      "original_title": "공감세포",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 315007,
+      "tmdb_title": "공감세포",
+      "tmdb_original_title": "공감세포",
+      "source": "top10",
+      "previous_rank": 3,
+      "change": -1
+    },
+    {
+      "rank": 5,
+      "title": "스타일 워즈",
+      "original_title": "스타일 워즈",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 340321,
+      "tmdb_title": "스타일 워즈",
+      "tmdb_original_title": "스타일 워즈",
+      "source": "top10",
+      "previous_rank": 4,
+      "change": -1
+    },
+    {
+      "rank": 6,
+      "title": "파이널 테이블",
+      "original_title": "파이널 테이블",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 316702,
+      "tmdb_title": "파이널 테이블",
+      "tmdb_original_title": "파이널 테이블",
+      "source": "top10",
+      "previous_rank": 5,
+      "change": -1
     },
     {
       "rank": 7,
@@ -533,8 +533,8 @@
       "tmdb_title": "연애박사",
       "tmdb_original_title": "연애박사",
       "source": "top10",
-      "previous_rank": 4,
-      "change": -3
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -548,8 +548,8 @@
       "tmdb_title": "연애전쟁",
       "tmdb_original_title": "연애전쟁",
       "source": "top10",
-      "previous_rank": 5,
-      "change": -3
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -563,20 +563,20 @@
       "tmdb_title": "아메리칸 호러 스토리",
       "tmdb_original_title": "American Horror Story",
       "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
-      "title": "내가 그녀를 만났을 때",
-      "original_title": "내가 그녀를 만났을 때",
+      "title": "패밀리 가이",
+      "original_title": "패밀리 가이",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 1100,
-      "tmdb_title": "내가 그녀를 만났을 때",
-      "tmdb_original_title": "How I Met Your Mother",
+      "tmdb_id": 1434,
+      "tmdb_title": "패밀리 가이",
+      "tmdb_original_title": "Family Guy",
       "source": "tmdb_popular",
       "previous_rank": null,
       "change": "NEW"
@@ -606,8 +606,8 @@
       "tmdb_id": 936075,
       "tmdb_title": "마이클",
       "tmdb_original_title": "Michael",
-      "previous_rank": 3,
-      "change": 1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -620,8 +620,8 @@
       "tmdb_id": 1375646,
       "tmdb_title": "군체",
       "tmdb_original_title": "군체",
-      "previous_rank": 2,
-      "change": -1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -690,8 +690,8 @@
       "tmdb_id": 673,
       "tmdb_title": "해리 포터와 아즈카반의 죄수",
       "tmdb_original_title": "Harry Potter and the Prisoner of Azkaban",
-      "previous_rank": 9,
-      "change": 1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -704,8 +704,8 @@
       "tmdb_id": 736720,
       "tmdb_title": "핸섬가이즈",
       "tmdb_original_title": "핸섬가이즈",
-      "previous_rank": 8,
-      "change": -1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
