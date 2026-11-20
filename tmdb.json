@@ -728,7 +728,7 @@
     "cast": [],
     "trailer_key": "0u8q095rp-4",
     "homepage": "https://www.coupangplay.com/content/d2b06b64-60ca-4b06-a2bc-004006d47402",
-    "cached_at": "2026-11-13T21:17:21.080049+00:00"
+    "cached_at": "2026-11-20T22:10:30.596684+00:00"
   },
   "tv:301418": {
     "id": 301418,
@@ -737,8 +737,8 @@
     "original_title": "지금 불륜이 문제가 아닙니다",
     "poster_path": "/dyusVtoZ2h3RV6jbgTeqzRBMV7a.jpg",
     "backdrop_path": "/463KX5md13Db6pIMCCnIZqtPWFK.jpg",
-    "vote_average": 8.417,
-    "vote_count": 12,
+    "vote_average": 8.308,
+    "vote_count": 13,
     "release_date": "2026-07-31",
     "genres": [
       "범죄",
@@ -760,7 +760,7 @@
     ],
     "trailer_key": "HKj9yCm2R4A",
     "homepage": "https://www.viki.com/tv/41612c-the-affair-was-just-the-beginning",
-    "cached_at": "2026-11-13T21:17:21.149301+00:00"
+    "cached_at": "2026-11-20T22:10:30.700447+00:00"
   },
   "tv:325269": {
     "id": 325269,
@@ -786,7 +786,7 @@
     ],
     "trailer_key": "uUizQtn5sPQ",
     "homepage": "https://www.coupangplay.com/titles/b5af6191-196c-4d72-87ac-8580a2a4c277?type=TVSHOW&availability=SVOD&live=&channel=&rowId=e66158de-1dc8-4516-84c7-76fcf93d22c9&src=page_discover_feed%3AMulti-Hero-Curation-Content%3AALL&sourceType=&supportLive=",
-    "cached_at": "2026-11-13T21:17:21.220272+00:00"
+    "cached_at": "2026-11-20T22:10:30.815885+00:00"
   },
   "tv:325157": {
     "id": 325157,
@@ -809,7 +809,7 @@
     ],
     "trailer_key": "NACxtfU6wNw",
     "homepage": "https://www.coupangplay.com/titles/77218b6c-c58d-4e83-8a00-9264d6dce174?type=TVSHOW&availability=SVOD&live=&channel=&rowId=&trackId=MLRedis&src=page_search%3Aall&sourceType=page_discover_title_detail%3Apage_search&supportLive=",
-    "cached_at": "2026-11-13T21:17:21.286008+00:00"
+    "cached_at": "2026-11-20T22:10:30.907525+00:00"
   },
   "tv:321885": {
     "id": 321885,
@@ -835,7 +835,7 @@
     ],
     "trailer_key": "_A340qygxeM",
     "homepage": "https://www.coupangplay.com/content/19f65d86-36cf-48bc-a343-c2fcfdd37dd4",
-    "cached_at": "2026-11-13T21:17:21.358211+00:00"
+    "cached_at": "2026-11-20T22:10:31.047017+00:00"
   },
   "tv:73048": {
     "id": 73048,
@@ -870,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-19T22:37:24.483884+00:00"
+    "cached_at": "2026-11-20T22:10:31.153255+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -899,7 +899,7 @@
     ],
     "trailer_key": "MT6IiqWxWB0",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:20.525544+00:00"
+    "cached_at": "2026-11-20T22:10:29.693965+00:00"
   },
   "tv:224372": {
     "id": 224372,
@@ -908,8 +908,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.419,
-    "vote_count": 1288,
+    "vote_average": 8.415,
+    "vote_count": 1292,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -925,7 +925,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-19T22:37:24.581555+00:00"
+    "cached_at": "2026-11-20T22:10:31.290434+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -946,7 +946,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-19T22:37:24.682634+00:00"
+    "cached_at": "2026-11-20T22:10:31.396606+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -971,7 +971,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-19T22:37:24.785993+00:00"
+    "cached_at": "2026-11-20T22:10:31.517936+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1020,8 +1020,8 @@
     "original_title": "왕과 사는 남자",
     "poster_path": "/kkJB3SeUJp7Y0IXXLkv5QZHJGkH.jpg",
     "backdrop_path": "/1s1r4OOdnU8VX2inALVTA2q94uY.jpg",
-    "vote_average": 6.9,
-    "vote_count": 34,
+    "vote_average": 6.943,
+    "vote_count": 35,
     "release_date": "2026-02-04",
     "genres": [
       "역사",
@@ -1046,7 +1046,7 @@
     ],
     "trailer_key": "TpG4W2WwYBU",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:20.754287+00:00"
+    "cached_at": "2026-11-20T22:10:30.066069+00:00"
   },
   "movie:1461254": {
     "id": 1461254,
@@ -1116,7 +1116,7 @@
     ],
     "trailer_key": "f4kfsf6C6eU",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:20.589907+00:00"
+    "cached_at": "2026-11-20T22:10:29.967813+00:00"
   },
   "movie:257211": {
     "id": 257211,
@@ -1194,7 +1194,7 @@
     "original_title": "만약에 우리",
     "poster_path": "/3ajXIRwoTGvnlLWVPgZPrHgXIW.jpg",
     "backdrop_path": "/2xtajuwR5EGFQm4pXuykWoEu4u0.jpg",
-    "vote_average": 7.654,
+    "vote_average": 7.7,
     "vote_count": 26,
     "release_date": "2025-12-31",
     "genres": [
@@ -1202,7 +1202,7 @@
       "드라마"
     ],
     "runtime": 115,
-    "overview": "고향 가는 고속버스에 올라탄 은호와 휴학 후 어디론가 떠날 결심을 한 정원, 나란히 앉게 된 두 사람은 뜻밖의 인연을 맺는다. 서로의 꿈을 응원하며 의지하던 두 사람은 어느새 일상 깊숙이 스며들어 연인으로 발전한다. 웃고, 싸우고, 화해하며 세상을 다 가진 듯 뜨겁게 사랑하지만, 현실의 벽 앞에 두 사람은 결국 다른 길을 선택하게 된다. 그렇게 10년이 지난 후, 다시 마주한 순간 은호는 정원에게 오랫동안 묻어두었던 한마디를 꺼낸다.",
+    "overview": "고향으로 가는 버스에 오른 은호는 휴학 후 어디론가 떠나려는 정원과 옆자리에 앉으면서, 뜻밖의 인연을 맺는다. 앞날을 확신할 수 없는 두 사람은 서로의 꿈을 들어주고 응원하며, 혼자서는 막막했던 일상을 함께 견디는 사이가 된다. 자주 보고 기대는 시간이 쌓이자 우정은 사랑으로 바뀌고, 다투고 화해하는 순간들까지 둘만의 생활 속에 자리 잡는다. 하지만 사랑만으로 해결되지 않는 현실은 함께 꿈꾸던 미래를 흔들고, 두 사람은 결국 각자의 길을 걷게 된다. 그렇게 십 년이 흐른 뒤 다시 마주한 은호와 정원은, 달라진 현재 너머로 가장 가까웠던 시절의 서로를 떠올린다. 오래 묻어둔 말을 꺼내려는 은호 앞에서, 끝났다고 여겼던 사랑은 아직 답하지 못한 질문이 된다.",
     "director": [
       "김도영"
     ],
@@ -1220,7 +1220,7 @@
     ],
     "trailer_key": "J_RddSZnATU",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:20.908804+00:00"
+    "cached_at": "2026-11-20T22:10:30.469972+00:00"
   },
   "movie:1406652": {
     "id": 1406652,
@@ -1586,8 +1586,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
-    "vote_average": 7.4,
-    "vote_count": 5222,
+    "vote_average": 7.418,
+    "vote_count": 5224,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1606,7 +1606,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-11-19T22:37:24.341036+00:00"
+    "cached_at": "2026-11-20T22:10:29.403421+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -2280,8 +2280,8 @@
     "original_title": "Toy Story 5",
     "poster_path": "/AqrJx3nVVMlKWXGaPIH32GzjEJA.jpg",
     "backdrop_path": "/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
-    "vote_average": 8.254,
-    "vote_count": 2871,
+    "vote_average": 8.242,
+    "vote_count": 2906,
     "release_date": "2026-06-17",
     "genres": [
       "애니메이션",
@@ -2308,7 +2308,7 @@
     ],
     "trailer_key": "oCtyRCnPQXY",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:19.736359+00:00"
+    "cached_at": "2026-11-20T22:10:28.771732+00:00"
   },
   "movie:671": {
     "id": 671,
@@ -2316,9 +2316,9 @@
     "title": "해리 포터와 마법사의 돌",
     "original_title": "Harry Potter and the Philosopher's Stone",
     "poster_path": "/8YaP48tVfngbURGldWk1I5odsBK.jpg",
-    "backdrop_path": "/bfh9Z3Ghz4FOJAfLOAhmc3ccnHU.jpg",
+    "backdrop_path": "/5jkE2SzR5uR2egEb1rRhF22JyWN.jpg",
     "vote_average": 7.905,
-    "vote_count": 30620,
+    "vote_count": 30658,
     "release_date": "2001-11-16",
     "genres": [
       "모험",
@@ -2343,7 +2343,7 @@
     ],
     "trailer_key": "vtJ6eZRanHc",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:20.674170+00:00"
+    "cached_at": "2026-11-20T22:10:29.863575+00:00"
   },
   "tv:1413": {
     "id": 1413,
@@ -2353,7 +2353,7 @@
     "poster_path": "/ovgdkSfkIRsYbgS99GmuMsy03fF.jpg",
     "backdrop_path": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
     "vote_average": 8.1,
-    "vote_count": 6312,
+    "vote_count": 6313,
     "release_date": "2011-10-05",
     "genres": [
       "드라마",
@@ -2377,7 +2377,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/american-horror-story",
-    "cached_at": "2026-11-19T22:37:24.245622+00:00"
+    "cached_at": "2026-11-20T22:10:29.494543+00:00"
   },
   "movie:1327819": {
     "id": 1327819,
@@ -3791,8 +3791,8 @@
     "original_title": "Moana",
     "poster_path": "/etJXeoQovaAcQD8gG0vebtoIlMH.jpg",
     "backdrop_path": "/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
-    "vote_average": 7.4,
-    "vote_count": 1051,
+    "vote_average": 7.414,
+    "vote_count": 1079,
     "release_date": "2026-07-08",
     "genres": [
       "가족",
@@ -3819,7 +3819,7 @@
     ],
     "trailer_key": "izunRLYzHU0",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:19.808320+00:00"
+    "cached_at": "2026-11-20T22:10:28.671529+00:00"
   },
   "tv:213375": {
     "id": 213375,
@@ -3861,8 +3861,8 @@
     "original_title": "Harry Potter and the Chamber of Secrets",
     "poster_path": "/bo8FuQPWKLqbg3WgAXYISkwrbZ9.jpg",
     "backdrop_path": "/7tbeoSTWW2cWPecjQo9fcdf0Hzv.jpg",
-    "vote_average": 7.71,
-    "vote_count": 24399,
+    "vote_average": 7.709,
+    "vote_count": 24434,
     "release_date": "2002-11-13",
     "genres": [
       "모험",
@@ -3887,7 +3887,7 @@
     ],
     "trailer_key": "5s8hdouZmG8",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:20.846267+00:00"
+    "cached_at": "2026-11-20T22:10:30.200360+00:00"
   },
   "tv:316702": {
     "id": 316702,
@@ -4001,7 +4001,7 @@
     "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
     "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
     "vote_average": 8.108,
-    "vote_count": 6092,
+    "vote_count": 6097,
     "release_date": "2005-09-19",
     "genres": [
       "코미디"
@@ -4019,7 +4019,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-18T22:30:18.481312+00:00"
+    "cached_at": "2026-11-20T22:10:29.595491+00:00"
   },
   "movie:987470": {
     "id": 987470,
@@ -4465,7 +4465,7 @@
     "poster_path": "/anwNl1xbzXoj5Ax1nVw3WoDzHlw.jpg",
     "backdrop_path": "/vbk5CfaAHOjQPSAcYm6AoRRz2Af.jpg",
     "vote_average": 8.014,
-    "vote_count": 23974,
+    "vote_count": 24012,
     "release_date": "2004-05-31",
     "genres": [
       "모험",
@@ -4490,7 +4490,7 @@
     ],
     "trailer_key": "FNHkrMZJowk",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:21.009630+00:00"
+    "cached_at": "2026-11-20T22:10:30.363751+00:00"
   },
   "tv:1877": {
     "id": 1877,
@@ -4584,7 +4584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-19T22:37:23.003706+00:00"
+    "cached_at": "2026-11-20T22:10:27.576874+00:00"
   },
   "movie:49051": {
     "id": 49051,
@@ -4737,7 +4737,7 @@
     "poster_path": "/xrwwSXFeW35wYsnobreXbGxHwUC.jpg",
     "backdrop_path": "/1acmRn1cnPnavQGQCrIJOERd6vX.jpg",
     "vote_average": 6.318,
-    "vote_count": 676,
+    "vote_count": 677,
     "release_date": "2001-11-09",
     "genres": [
       "액션",
@@ -4764,7 +4764,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-19T22:37:23.553959+00:00"
+    "cached_at": "2026-11-20T22:10:28.292888+00:00"
   },
   "movie:102059": {
     "id": 102059,
@@ -5056,7 +5056,7 @@
     "poster_path": "/vqe3WPiHAgCiAHXGVHSJPDG9OgO.jpg",
     "backdrop_path": "/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
     "vote_average": 7.472,
-    "vote_count": 13087,
+    "vote_count": 13089,
     "release_date": "1990-11-16",
     "genres": [
       "코미디",
@@ -5081,7 +5081,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-19T22:37:23.653092+00:00"
+    "cached_at": "2026-11-20T22:10:28.892237+00:00"
   },
   "movie:772": {
     "id": 772,
@@ -5091,7 +5091,7 @@
     "poster_path": "/eUYFbtuSBuvihNmFgLJtl1Y54fE.jpg",
     "backdrop_path": "/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
     "vote_average": 6.801,
-    "vote_count": 11079,
+    "vote_count": 11082,
     "release_date": "1992-11-15",
     "genres": [
       "코미디",
@@ -5117,7 +5117,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-19T22:37:23.753732+00:00"
+    "cached_at": "2026-11-20T22:10:29.151989+00:00"
   },
   "movie:479718": {
     "id": 479718,
@@ -5294,7 +5294,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-19T22:37:23.142830+00:00"
+    "cached_at": "2026-11-20T22:10:27.728424+00:00"
   },
   "movie:205775": {
     "id": 205775,
@@ -5303,8 +5303,8 @@
     "original_title": "In the Heart of the Sea",
     "poster_path": "/6mmusaA02pIMXdfvuGZCPkmA9Op.jpg",
     "backdrop_path": "/4LRLz2V63TSwuQhBVNXsbnHxgoY.jpg",
-    "vote_average": 6.793,
-    "vote_count": 4569,
+    "vote_average": 6.794,
+    "vote_count": 4570,
     "release_date": "2015-12-03",
     "genres": [
       "스릴러",
@@ -5332,7 +5332,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-19T22:37:23.247628+00:00"
+    "cached_at": "2026-11-20T22:10:27.883623+00:00"
   },
   "movie:1570488": {
     "id": 1570488,
@@ -5341,8 +5341,8 @@
     "original_title": "A Dog's Perfect Christmas",
     "poster_path": "/zvsNAohDHRWcGvbPSD7r3WojpKb.jpg",
     "backdrop_path": "/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
-    "vote_average": 7.176,
-    "vote_count": 71,
+    "vote_average": 7.178,
+    "vote_count": 76,
     "release_date": "2026-11-04",
     "genres": [
       "코미디",
@@ -5367,7 +5367,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82090597",
-    "cached_at": "2026-11-19T22:37:23.347655+00:00"
+    "cached_at": "2026-11-20T22:10:27.986899+00:00"
   },
   "movie:1543469": {
     "id": 1543469,
@@ -5376,8 +5376,8 @@
     "original_title": "Heartland",
     "poster_path": "/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
     "backdrop_path": "/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
-    "vote_average": 6.265,
-    "vote_count": 98,
+    "vote_average": 6.252,
+    "vote_count": 103,
     "release_date": "2026-11-13",
     "genres": [
       "스릴러",
@@ -5402,7 +5402,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-19T22:37:23.448856+00:00"
+    "cached_at": "2026-11-20T22:10:28.078401+00:00"
   },
   "movie:157336": {
     "id": 157336,
@@ -5439,5 +5439,77 @@
     "trailer_key": "LEEtpP6dkIY",
     "homepage": "",
     "cached_at": "2026-11-17T22:48:51.766772+00:00"
+  },
+  "movie:634649": {
+    "id": 634649,
+    "media_type": "movie",
+    "title": "스파이더맨: 노 웨이 홈",
+    "original_title": "Spider-Man: No Way Home",
+    "poster_path": "/fvqoI9r1GU2EFkc0xjZ6dKCuDVR.jpg",
+    "backdrop_path": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+    "vote_average": 7.945,
+    "vote_count": 23594,
+    "release_date": "2021-12-15",
+    "genres": [
+      "액션",
+      "모험",
+      "SF"
+    ],
+    "runtime": 148,
+    "overview": "미스테리오의 계략으로 세상에 정체가 탄로난 스파이더맨 피터 파커는 하루 아침에 평범한 일상을 잃게 된다. 문제를 해결하기 위해 닥터 스트레인지를 찾아가 도움을 청하지만 뜻하지 않게 멀티버스가 열리면서 각기 다른 차원의 불청객들이 나타난다. 닥터 옥토퍼스를 비롯해 스파이더맨에게 깊은 원한을 가진 숙적들의 강력한 공격에 피터 파커는 사상 최악의 위기를 맞게 되는데…",
+    "director": [
+      "존 왓츠"
+    ],
+    "cast": [
+      "톰 홀랜드",
+      "젠데이아",
+      "베네딕트 컴버배치",
+      "제이콥 배털런",
+      "존 파브로",
+      "제이미 폭스",
+      "윌렘 대포",
+      "알프레드 몰리나",
+      "베네딕트 웡",
+      "토니 레볼로리"
+    ],
+    "trailer_key": "yFZh-Wqi7RI",
+    "homepage": "",
+    "cached_at": "2026-11-20T22:10:28.522831+00:00"
+  },
+  "movie:1726": {
+    "id": 1726,
+    "media_type": "movie",
+    "title": "아이언맨",
+    "original_title": "Iron Man",
+    "poster_path": "/ziReGUV3xURsWmcmsn2GOunPc0L.jpg",
+    "backdrop_path": "/cKvDv2LpwVEqbdXWoQl4XgGN6le.jpg",
+    "vote_average": 7.7,
+    "vote_count": 29222,
+    "release_date": "2008-04-30",
+    "genres": [
+      "액션",
+      "SF",
+      "모험"
+    ],
+    "runtime": 125,
+    "overview": "천재적인 두뇌와 막대한 부를 모두 거머쥔 스타크 인더스트리의 CEO 토니 스타크는 최첨단 무기를 개발해 팔며 세상의 찬사와 향락을 누리는 남자다. 그러나 아프가니스탄에서 신무기 시연을 마치고 돌아가던 길, 무장 테러 조직의 습격을 받은 그는 심장 가까이에 파편이 박힌 채 동굴 속에 포로로 갇히고 만다. 자신이 만든 무기가 무고한 사람들을 해치는 데 쓰이고 있다는 사실을 목격한 토니는 함께 갇힌 과학자 인센의 도움을 받아, 무기를 만들라는 테러 조직의 요구 대신 탈출을 위한 강철 슈트를 몰래 만들어 낸다. 구사일생으로 돌아온 토니는 무기 사업 중단을 선언해 세상을 발칵 뒤집어 놓고, 비서 페퍼와 친구 로디가 걱정스럽게 지켜보는 가운데 한층 진화된 아이언맨 슈트 개발에 몰두한다. 하지만 그의 결심을 못마땅하게 여기는 이들의 그림자가 서서히 다가오는데...",
+    "director": [
+      "존 파브로"
+    ],
+    "cast": [
+      "로버트 다우니 주니어",
+      "테렌스 하워드",
+      "제프 브리지스",
+      "기네스 팰트로",
+      "레슬리 비브",
+      "숀 토브",
+      "파란 타히르",
+      "클라크 그렉",
+      "Bill Smitrovich",
+      "Sayed Badreya"
+    ],
+    "trailer_key": "hgCmHTDMZig",
+    "homepage": "",
+    "cached_at": "2026-11-20T22:10:29.309438+00:00"
   }
 }
