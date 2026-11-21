@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "items": [
     {
       "rank": 1,
@@ -293,8 +293,8 @@
       "tmdb_title": "스파이더맨: 노 웨이 홈",
       "tmdb_original_title": "Spider-Man: No Way Home",
       "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -308,8 +308,8 @@
       "tmdb_title": "모아나",
       "tmdb_original_title": "Moana",
       "source": "top10",
-      "previous_rank": 1,
-      "change": -1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -323,41 +323,11 @@
       "tmdb_title": "토이 스토리 5",
       "tmdb_original_title": "Toy Story 5",
       "source": "top10",
-      "previous_rank": 2,
-      "change": -1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
-      "title": "범죄도시 2",
-      "original_title": "범죄도시2",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 619803,
-      "tmdb_title": "범죄도시 2",
-      "tmdb_original_title": "범죄도시 2",
-      "source": "top10",
-      "previous_rank": 3,
-      "change": -1
-    },
-    {
-      "rank": 5,
-      "title": "범죄도시 3",
-      "original_title": "범죄도시3",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 955555,
-      "tmdb_title": "범죄도시 3",
-      "tmdb_original_title": "범죄도시 3",
-      "source": "top10",
-      "previous_rank": 4,
-      "change": -1
-    },
-    {
-      "rank": 6,
       "title": "겨울왕국",
       "original_title": "겨울왕국",
       "season_title": "",
@@ -368,11 +338,11 @@
       "tmdb_title": "겨울왕국",
       "tmdb_original_title": "Frozen",
       "source": "top10",
-      "previous_rank": 5,
-      "change": -1
+      "previous_rank": 6,
+      "change": 2
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "나 홀로 집에",
       "original_title": "나 홀로 집에",
       "season_title": "",
@@ -383,11 +353,26 @@
       "tmdb_title": "나 홀로 집에",
       "tmdb_original_title": "Home Alone",
       "source": "top10",
-      "previous_rank": 6,
-      "change": -1
+      "previous_rank": 7,
+      "change": 2
     },
     {
-      "rank": 8,
+      "rank": 6,
+      "title": "스파이더맨: 어크로스 더 유니버스",
+      "original_title": "스파이더맨: 어크로스 더 유니버스",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 569094,
+      "tmdb_title": "스파이더맨: 어크로스 더 유니버스",
+      "tmdb_original_title": "Spider-Man: Across the Spider-Verse",
+      "source": "top10",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 7,
       "title": "겨울왕국 2",
       "original_title": "겨울왕국 2",
       "season_title": "",
@@ -399,10 +384,10 @@
       "tmdb_original_title": "Frozen II",
       "source": "top10",
       "previous_rank": 8,
-      "change": 0
+      "change": 1
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "나 홀로 집에 2: 뉴욕을 헤매다",
       "original_title": "나 홀로 집에 2",
       "season_title": "",
@@ -414,7 +399,22 @@
       "tmdb_original_title": "Home Alone 2: Lost in New York",
       "source": "top10",
       "previous_rank": 9,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 9,
+      "title": "범죄도시 2",
+      "original_title": "범죄도시2",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 619803,
+      "tmdb_title": "범죄도시 2",
+      "tmdb_original_title": "범죄도시 2",
+      "source": "top10",
+      "previous_rank": 4,
+      "change": -5
     },
     {
       "rank": 10,
@@ -428,8 +428,8 @@
       "tmdb_title": "아이언맨",
       "tmdb_original_title": "Iron Man",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -443,8 +443,8 @@
       "tmdb_title": "라이어",
       "tmdb_original_title": "라이어",
       "source": "top10",
-      "previous_rank": 2,
-      "change": 1
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -458,8 +458,8 @@
       "tmdb_title": "크래시",
       "tmdb_original_title": "크래시",
       "source": "top10",
-      "previous_rank": 1,
-      "change": -1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -493,18 +493,18 @@
     },
     {
       "rank": 5,
-      "title": "스타일 워즈",
-      "original_title": "스타일 워즈",
+      "title": "결혼의 완성",
+      "original_title": "결혼의 완성",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 340321,
-      "tmdb_title": "스타일 워즈",
-      "tmdb_original_title": "스타일 워즈",
+      "tmdb_id": 300954,
+      "tmdb_title": "결혼의 완성",
+      "tmdb_original_title": "결혼의 완성",
       "source": "top10",
-      "previous_rank": 5,
-      "change": 0
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 6,
@@ -523,6 +523,21 @@
     },
     {
       "rank": 7,
+      "title": "스타일 워즈",
+      "original_title": "스타일 워즈",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 340321,
+      "tmdb_title": "스타일 워즈",
+      "tmdb_original_title": "스타일 워즈",
+      "source": "top10",
+      "previous_rank": 5,
+      "change": -2
+    },
+    {
+      "rank": 8,
       "title": "연애박사",
       "original_title": "연애박사",
       "season_title": "",
@@ -534,22 +549,7 @@
       "tmdb_original_title": "연애박사",
       "source": "top10",
       "previous_rank": 7,
-      "change": 0
-    },
-    {
-      "rank": 8,
-      "title": "패밀리 가이",
-      "original_title": "패밀리 가이",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 1434,
-      "tmdb_title": "패밀리 가이",
-      "tmdb_original_title": "Family Guy",
-      "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 2
+      "change": -1
     },
     {
       "rank": 9,
@@ -568,18 +568,18 @@
     },
     {
       "rank": 10,
-      "title": "내가 그녀를 만났을 때",
-      "original_title": "내가 그녀를 만났을 때",
+      "title": "패밀리 가이",
+      "original_title": "패밀리 가이",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 1100,
-      "tmdb_title": "내가 그녀를 만났을 때",
-      "tmdb_original_title": "How I Met Your Mother",
+      "tmdb_id": 1434,
+      "tmdb_title": "패밀리 가이",
+      "tmdb_original_title": "Family Guy",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 8,
+      "change": -2
     },
     {
       "rank": 1,
@@ -681,6 +681,20 @@
     },
     {
       "rank": 8,
+      "title": "만약에 우리",
+      "original_title": "만약에 우리",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1264805,
+      "tmdb_title": "만약에 우리",
+      "tmdb_original_title": "만약에 우리",
+      "previous_rank": 9,
+      "change": 1
+    },
+    {
+      "rank": 9,
       "title": "해리 포터와 아즈카반의 죄수",
       "original_title": "해리 포터와 아즈카반의 죄수",
       "season_title": "",
@@ -691,35 +705,21 @@
       "tmdb_title": "해리 포터와 아즈카반의 죄수",
       "tmdb_original_title": "Harry Potter and the Prisoner of Azkaban",
       "previous_rank": 8,
-      "change": 0
-    },
-    {
-      "rank": 9,
-      "title": "만약에 우리",
-      "original_title": "만약에 우리",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1264805,
-      "tmdb_title": "만약에 우리",
-      "tmdb_original_title": "만약에 우리",
-      "previous_rank": 10,
-      "change": 1
+      "change": -1
     },
     {
       "rank": 10,
-      "title": "핸섬가이즈",
-      "original_title": "핸섬가이즈",
+      "title": "해리 포터와 불의 잔",
+      "original_title": "해리 포터와 불의 잔",
       "season_title": "",
       "platform": "Coupang Play",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 736720,
-      "tmdb_title": "핸섬가이즈",
-      "tmdb_original_title": "핸섬가이즈",
-      "previous_rank": 9,
-      "change": -1
+      "tmdb_id": 674,
+      "tmdb_title": "해리 포터와 불의 잔",
+      "tmdb_original_title": "Harry Potter and the Goblet of Fire",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
