@@ -870,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-21T20:50:03.875847+00:00"
+    "cached_at": "2026-11-22T20:57:55.603559+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -908,8 +908,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.416,
-    "vote_count": 1294,
+    "vote_average": 8.417,
+    "vote_count": 1299,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -925,7 +925,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-21T20:50:03.985980+00:00"
+    "cached_at": "2026-11-22T20:57:55.641618+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -946,7 +946,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-21T20:50:04.092825+00:00"
+    "cached_at": "2026-11-22T20:57:55.688622+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -971,7 +971,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-21T20:50:04.195870+00:00"
+    "cached_at": "2026-11-22T20:57:55.740921+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -1586,8 +1586,8 @@
     "original_title": "Family Guy",
     "poster_path": "/1pbtcqNDKeWErfsDQo82pTPXQjT.jpg",
     "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
-    "vote_average": 7.418,
-    "vote_count": 5227,
+    "vote_average": 7.419,
+    "vote_count": 5229,
     "release_date": "1999-01-31",
     "genres": [
       "애니메이션",
@@ -1606,7 +1606,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
-    "cached_at": "2026-11-21T20:50:03.448175+00:00"
+    "cached_at": "2026-11-22T20:57:55.428243+00:00"
   },
   "tv:1433": {
     "id": 1433,
@@ -2353,7 +2353,7 @@
     "poster_path": "/ovgdkSfkIRsYbgS99GmuMsy03fF.jpg",
     "backdrop_path": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
     "vote_average": 8.078,
-    "vote_count": 6315,
+    "vote_count": 6316,
     "release_date": "2011-10-05",
     "genres": [
       "드라마",
@@ -2377,7 +2377,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.fxnetworks.com/shows/american-horror-story",
-    "cached_at": "2026-11-21T20:50:03.341012+00:00"
+    "cached_at": "2026-11-22T20:57:55.467863+00:00"
   },
   "movie:1327819": {
     "id": 1327819,
@@ -4584,7 +4584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-21T20:50:02.006939+00:00"
+    "cached_at": "2026-11-22T20:57:55.085211+00:00"
   },
   "movie:49051": {
     "id": 49051,
@@ -4736,8 +4736,8 @@
     "original_title": "Heist",
     "poster_path": "/xrwwSXFeW35wYsnobreXbGxHwUC.jpg",
     "backdrop_path": "/1acmRn1cnPnavQGQCrIJOERd6vX.jpg",
-    "vote_average": 6.318,
-    "vote_count": 678,
+    "vote_average": 6.317,
+    "vote_count": 681,
     "release_date": "2001-11-09",
     "genres": [
       "액션",
@@ -4764,7 +4764,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-21T20:50:02.643464+00:00"
+    "cached_at": "2026-11-22T20:57:55.294762+00:00"
   },
   "movie:102059": {
     "id": 102059,
@@ -4871,8 +4871,8 @@
     "original_title": "Michael",
     "poster_path": "/piMZqtd0gGS7OgkhDwiQ7vVViBQ.jpg",
     "backdrop_path": "/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
-    "vote_average": 8.579,
-    "vote_count": 4734,
+    "vote_average": 8.569,
+    "vote_count": 4762,
     "release_date": "2026-04-22",
     "genres": [
       "음악",
@@ -4897,7 +4897,7 @@
     ],
     "trailer_key": "D5Wbzgi6Ivs",
     "homepage": "",
-    "cached_at": "2026-11-15T20:13:34.509918+00:00"
+    "cached_at": "2026-11-22T20:57:55.505329+00:00"
   },
   "movie:619803": {
     "id": 619803,
@@ -5055,8 +5055,8 @@
     "original_title": "Home Alone",
     "poster_path": "/vqe3WPiHAgCiAHXGVHSJPDG9OgO.jpg",
     "backdrop_path": "/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
-    "vote_average": 7.472,
-    "vote_count": 13096,
+    "vote_average": 7.5,
+    "vote_count": 13100,
     "release_date": "1990-11-16",
     "genres": [
       "코미디",
@@ -5081,7 +5081,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-21T20:50:02.748387+00:00"
+    "cached_at": "2026-11-22T20:57:55.343004+00:00"
   },
   "movie:772": {
     "id": 772,
@@ -5091,7 +5091,7 @@
     "poster_path": "/eUYFbtuSBuvihNmFgLJtl1Y54fE.jpg",
     "backdrop_path": "/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
     "vote_average": 6.8,
-    "vote_count": 11085,
+    "vote_count": 11086,
     "release_date": "1992-11-15",
     "genres": [
       "코미디",
@@ -5117,7 +5117,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-21T20:50:03.106723+00:00"
+    "cached_at": "2026-11-22T20:57:55.391866+00:00"
   },
   "movie:479718": {
     "id": 479718,
@@ -5294,7 +5294,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-21T20:50:02.126779+00:00"
+    "cached_at": "2026-11-22T20:57:55.118759+00:00"
   },
   "movie:205775": {
     "id": 205775,
@@ -5303,8 +5303,8 @@
     "original_title": "In the Heart of the Sea",
     "poster_path": "/6mmusaA02pIMXdfvuGZCPkmA9Op.jpg",
     "backdrop_path": "/4LRLz2V63TSwuQhBVNXsbnHxgoY.jpg",
-    "vote_average": 6.793,
-    "vote_count": 4571,
+    "vote_average": 6.794,
+    "vote_count": 4576,
     "release_date": "2015-12-03",
     "genres": [
       "스릴러",
@@ -5332,7 +5332,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-21T20:50:02.277502+00:00"
+    "cached_at": "2026-11-22T20:57:55.169177+00:00"
   },
   "movie:1570488": {
     "id": 1570488,
@@ -5341,8 +5341,8 @@
     "original_title": "A Dog's Perfect Christmas",
     "poster_path": "/zvsNAohDHRWcGvbPSD7r3WojpKb.jpg",
     "backdrop_path": "/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
-    "vote_average": 7.106,
-    "vote_count": 80,
+    "vote_average": 7.128,
+    "vote_count": 82,
     "release_date": "2026-11-04",
     "genres": [
       "코미디",
@@ -5367,7 +5367,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.netflix.com/kr/title/82090597",
-    "cached_at": "2026-11-21T20:50:02.432804+00:00"
+    "cached_at": "2026-11-22T20:57:55.214552+00:00"
   },
   "movie:1543469": {
     "id": 1543469,
@@ -5376,8 +5376,8 @@
     "original_title": "Heartland",
     "poster_path": "/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
     "backdrop_path": "/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
-    "vote_average": 6.3,
-    "vote_count": 108,
+    "vote_average": 6.261,
+    "vote_count": 113,
     "release_date": "2026-11-13",
     "genres": [
       "스릴러",
@@ -5402,7 +5402,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-21T20:50:02.533460+00:00"
+    "cached_at": "2026-11-22T20:57:55.251040+00:00"
   },
   "movie:157336": {
     "id": 157336,
@@ -5550,5 +5550,42 @@
     "trailer_key": "9DZU3NNyAg8",
     "homepage": "",
     "cached_at": "2026-11-21T20:50:02.866999+00:00"
+  },
+  "movie:70160": {
+    "id": 70160,
+    "media_type": "movie",
+    "title": "헝거게임: 판엠의 불꽃",
+    "original_title": "The Hunger Games",
+    "poster_path": "/iZWZcLJ2NoyM1UoDJexgSWmXOC.jpg",
+    "backdrop_path": "/eVYChqJavS1DCXFeJE2lzVUMLKp.jpg",
+    "vote_average": 7.227,
+    "vote_count": 24078,
+    "release_date": "2012-03-12",
+    "genres": [
+      "SF",
+      "모험",
+      "액션",
+      "스릴러"
+    ],
+    "runtime": 142,
+    "overview": "12개의 구역으로 이루어진 독재국가 판엠이 체제를 유지하기 위해 만든 생존 전쟁 헝거게임. 일년에 한번 각 구역에서 추첨을 통해 두 명을 선발, 총 24명이 생존을 겨루게 되는 것. 헝거게임의 추첨식에서 캣니스는 어린 여동생의 이름이 호명되자 동생을 대신해 참가를 자청하며 주목을 받는다. 과거 자신을 위기에서 구해줬던 피타 역시 선발되어 미묘한 감정에 휩싸인다. 캣니스는 금지구역에서 함께 사냥했던 게일에게 가족을 부탁하며 생존을 겨루게 될 판엠의 수도 캐피톨로 향하는데...",
+    "director": [
+      "게리 로스"
+    ],
+    "cast": [
+      "제니퍼 로렌스",
+      "조쉬 허처슨",
+      "리암 헴스워스",
+      "우디 해럴슨",
+      "엘리자베스 뱅크스",
+      "레니 크래비츠",
+      "스탠리 투치",
+      "도널드 서덜랜드",
+      "웨스 벤틀리",
+      "토비 존스"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-22T20:57:55.564445+00:00"
   }
 }

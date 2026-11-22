@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "items": [
     {
       "rank": 1,
@@ -338,8 +338,8 @@
       "tmdb_title": "겨울왕국",
       "tmdb_original_title": "Frozen",
       "source": "top10",
-      "previous_rank": 6,
-      "change": 2
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -353,8 +353,8 @@
       "tmdb_title": "나 홀로 집에",
       "tmdb_original_title": "Home Alone",
       "source": "top10",
-      "previous_rank": 7,
-      "change": 2
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -368,8 +368,8 @@
       "tmdb_title": "스파이더맨: 어크로스 더 유니버스",
       "tmdb_original_title": "Spider-Man: Across the Spider-Verse",
       "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -383,8 +383,8 @@
       "tmdb_title": "겨울왕국 2",
       "tmdb_original_title": "Frozen II",
       "source": "top10",
-      "previous_rank": 8,
-      "change": 1
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -398,8 +398,8 @@
       "tmdb_title": "나 홀로 집에 2: 뉴욕을 헤매다",
       "tmdb_original_title": "Home Alone 2: Lost in New York",
       "source": "top10",
-      "previous_rank": 9,
-      "change": 1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -413,8 +413,8 @@
       "tmdb_title": "범죄도시 2",
       "tmdb_original_title": "범죄도시 2",
       "source": "top10",
-      "previous_rank": 4,
-      "change": -5
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -448,66 +448,6 @@
     },
     {
       "rank": 2,
-      "title": "크래시",
-      "original_title": "크래시",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 226102,
-      "tmdb_title": "크래시",
-      "tmdb_original_title": "크래시",
-      "source": "top10",
-      "previous_rank": 2,
-      "change": 0
-    },
-    {
-      "rank": 3,
-      "title": "메리 베리 러브",
-      "original_title": "메리 베리 러브",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 305551,
-      "tmdb_title": "메리 베리 러브",
-      "tmdb_original_title": "メリーベリーラブ",
-      "source": "top10",
-      "previous_rank": 3,
-      "change": 0
-    },
-    {
-      "rank": 4,
-      "title": "공감세포",
-      "original_title": "공감세포",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 315007,
-      "tmdb_title": "공감세포",
-      "tmdb_original_title": "공감세포",
-      "source": "top10",
-      "previous_rank": 4,
-      "change": 0
-    },
-    {
-      "rank": 5,
-      "title": "결혼의 완성",
-      "original_title": "결혼의 완성",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 300954,
-      "tmdb_title": "결혼의 완성",
-      "tmdb_original_title": "결혼의 완성",
-      "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 6,
       "title": "파이널 테이블",
       "original_title": "파이널 테이블",
       "season_title": "",
@@ -519,25 +459,55 @@
       "tmdb_original_title": "파이널 테이블",
       "source": "top10",
       "previous_rank": 6,
-      "change": 0
+      "change": 4
     },
     {
-      "rank": 7,
-      "title": "스타일 워즈",
-      "original_title": "스타일 워즈",
+      "rank": 3,
+      "title": "크래시",
+      "original_title": "크래시",
       "season_title": "",
       "platform": "Disney+",
       "category": "tv",
       "media_type": "tv",
-      "tmdb_id": 340321,
-      "tmdb_title": "스타일 워즈",
-      "tmdb_original_title": "스타일 워즈",
+      "tmdb_id": 226102,
+      "tmdb_title": "크래시",
+      "tmdb_original_title": "크래시",
       "source": "top10",
-      "previous_rank": 5,
-      "change": -2
+      "previous_rank": 2,
+      "change": -1
     },
     {
-      "rank": 8,
+      "rank": 4,
+      "title": "메리 베리 러브",
+      "original_title": "메리 베리 러브",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 305551,
+      "tmdb_title": "메리 베리 러브",
+      "tmdb_original_title": "メリーベリーラブ",
+      "source": "top10",
+      "previous_rank": 3,
+      "change": -1
+    },
+    {
+      "rank": 5,
+      "title": "공감세포",
+      "original_title": "공감세포",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 315007,
+      "tmdb_title": "공감세포",
+      "tmdb_original_title": "공감세포",
+      "source": "top10",
+      "previous_rank": 4,
+      "change": -1
+    },
+    {
+      "rank": 6,
       "title": "연애박사",
       "original_title": "연애박사",
       "season_title": "",
@@ -548,11 +518,56 @@
       "tmdb_title": "연애박사",
       "tmdb_original_title": "연애박사",
       "source": "top10",
+      "previous_rank": 8,
+      "change": 2
+    },
+    {
+      "rank": 7,
+      "title": "결혼의 완성",
+      "original_title": "결혼의 완성",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 300954,
+      "tmdb_title": "결혼의 완성",
+      "tmdb_original_title": "결혼의 완성",
+      "source": "top10",
+      "previous_rank": 5,
+      "change": -2
+    },
+    {
+      "rank": 8,
+      "title": "스타일 워즈",
+      "original_title": "스타일 워즈",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 340321,
+      "tmdb_title": "스타일 워즈",
+      "tmdb_original_title": "스타일 워즈",
+      "source": "top10",
       "previous_rank": 7,
       "change": -1
     },
     {
       "rank": 9,
+      "title": "패밀리 가이",
+      "original_title": "패밀리 가이",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 1434,
+      "tmdb_title": "패밀리 가이",
+      "tmdb_original_title": "Family Guy",
+      "source": "tmdb_popular",
+      "previous_rank": 10,
+      "change": 1
+    },
+    {
+      "rank": 10,
       "title": "아메리칸 호러 스토리",
       "original_title": "아메리칸 호러 스토리",
       "season_title": "",
@@ -564,22 +579,7 @@
       "tmdb_original_title": "American Horror Story",
       "source": "tmdb_popular",
       "previous_rank": 9,
-      "change": 0
-    },
-    {
-      "rank": 10,
-      "title": "패밀리 가이",
-      "original_title": "패밀리 가이",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 1434,
-      "tmdb_title": "패밀리 가이",
-      "tmdb_original_title": "Family Guy",
-      "source": "tmdb_popular",
-      "previous_rank": 8,
-      "change": -2
+      "change": -1
     },
     {
       "rank": 1,
@@ -690,8 +690,8 @@
       "tmdb_id": 1264805,
       "tmdb_title": "만약에 우리",
       "tmdb_original_title": "만약에 우리",
-      "previous_rank": 9,
-      "change": 1
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -704,20 +704,20 @@
       "tmdb_id": 673,
       "tmdb_title": "해리 포터와 아즈카반의 죄수",
       "tmdb_original_title": "Harry Potter and the Prisoner of Azkaban",
-      "previous_rank": 8,
-      "change": -1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
-      "title": "해리 포터와 불의 잔",
-      "original_title": "해리 포터와 불의 잔",
+      "title": "헝거게임: 판엠의 불꽃",
+      "original_title": "헝거게임: 판엠의 불꽃",
       "season_title": "",
       "platform": "Coupang Play",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 674,
-      "tmdb_title": "해리 포터와 불의 잔",
-      "tmdb_original_title": "Harry Potter and the Goblet of Fire",
+      "tmdb_id": 70160,
+      "tmdb_title": "헝거게임: 판엠의 불꽃",
+      "tmdb_original_title": "The Hunger Games",
       "previous_rank": null,
       "change": "NEW"
     },
