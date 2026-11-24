@@ -400,7 +400,7 @@
     ],
     "trailer_key": "RgbDMRpTHxk",
     "homepage": "https://www.disneyplus.com/browse/entity-5acf7909-5d2f-494e-91a9-2fe0555c220f",
-    "cached_at": "2026-11-14T19:49:15.795991+00:00"
+    "cached_at": "2026-11-24T23:47:46.534206+00:00"
   },
   "tv:220074": {
     "id": 220074,
@@ -458,7 +458,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://tv.jtbc.co.kr/event/pr10011929/pm10071830",
-    "cached_at": "2026-11-24T02:03:30.119615+00:00"
+    "cached_at": "2026-11-24T23:47:46.561369+00:00"
   },
   "tv:215072": {
     "id": 215072,
@@ -679,8 +679,8 @@
     "original_title": "Avengers: Endgame",
     "poster_path": "/z7ilT5rNN9kDo8JZmgyhM6ej2xv.jpg",
     "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-    "vote_average": 8.2,
-    "vote_count": 29280,
+    "vote_average": 8.246,
+    "vote_count": 29500,
     "release_date": "2019-04-24",
     "genres": [
       "모험",
@@ -690,8 +690,8 @@
     "runtime": 181,
     "overview": "어벤져스의 패배 이후 지구는 초토화됐고 남은 절반의 사람들은 정신적 고통을 호소하며 하루하루를 근근이 버텨나간다. 와칸다에서 싸우다 생존한 히어로들과 우주의 타이탄 행성에서 싸우다 생존한 히어로들이 뿔뿔이 흩어졌는데, 아이언맨과 네뷸라는 우주를 떠돌고 있고 지구에 남아 있는 어벤져스 멤버들은 닉 퓨리가 마지막에 신호를 보내다 만 송신기만 들여다보며 혹시 모를 우주의 응답을 기다리는 중이다. 애초 히어로의 삶을 잠시 내려놓고 가족과 시간을 보내던 호크아이 역시 헤아릴 수 없는 마음의 상처를 입은 채 사라지고 마는데...",
     "director": [
-      "조 루소",
-      "안소니 루소"
+      "안소니 루소",
+      "조 루소"
     ],
     "cast": [
       "로버트 다우니 주니어",
@@ -707,7 +707,7 @@
     ],
     "trailer_key": "nsSUJOaSEMo",
     "homepage": "",
-    "cached_at": "2026-11-13T21:17:20.036694+00:00"
+    "cached_at": "2026-11-24T23:47:46.492655+00:00"
   },
   "tv:284884": {
     "id": 284884,
@@ -870,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-24T02:03:30.220196+00:00"
+    "cached_at": "2026-11-24T23:47:46.666131+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -908,8 +908,8 @@
     "original_title": "A Knight of the Seven Kingdoms",
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-    "vote_average": 8.4,
-    "vote_count": 1300,
+    "vote_average": 8.417,
+    "vote_count": 1301,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -925,7 +925,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-24T02:03:30.241500+00:00"
+    "cached_at": "2026-11-24T23:47:46.687669+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -946,7 +946,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T02:03:30.266837+00:00"
+    "cached_at": "2026-11-24T23:47:46.712463+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -971,7 +971,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T02:03:30.313529+00:00"
+    "cached_at": "2026-11-24T23:47:46.738140+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -3895,9 +3895,9 @@
     "title": "파이널 테이블",
     "original_title": "파이널 테이블",
     "poster_path": "/zNSBXSIOMZWFZ5dqtm7tFBKFMrk.jpg",
-    "backdrop_path": "/anwMEnTDkhv5qJ8wXSRieCvFHGs.jpg",
-    "vote_average": 8.333,
-    "vote_count": 15,
+    "backdrop_path": "/gq3FEuYsUl1r4rQYDCaQvzw1bOd.jpg",
+    "vote_average": 9.0,
+    "vote_count": 16,
     "release_date": "2026-10-24",
     "genres": [
       "드라마"
@@ -3920,7 +3920,7 @@
     ],
     "trailer_key": "JpDD_kbMT_I",
     "homepage": "https://tv.jtbc.co.kr/finaltable",
-    "cached_at": "2026-11-17T22:48:52.330016+00:00"
+    "cached_at": "2026-11-24T23:47:46.513336+00:00"
   },
   "movie:1368166": {
     "id": 1368166,
@@ -4584,7 +4584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T02:03:29.455374+00:00"
+    "cached_at": "2026-11-24T23:47:45.649325+00:00"
   },
   "movie:49051": {
     "id": 49051,
@@ -5055,8 +5055,8 @@
     "original_title": "Home Alone",
     "poster_path": "/vqe3WPiHAgCiAHXGVHSJPDG9OgO.jpg",
     "backdrop_path": "/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
-    "vote_average": 7.473,
-    "vote_count": 13106,
+    "vote_average": 7.5,
+    "vote_count": 13110,
     "release_date": "1990-11-16",
     "genres": [
       "코미디",
@@ -5081,7 +5081,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T02:03:29.574223+00:00"
+    "cached_at": "2026-11-24T23:47:46.456686+00:00"
   },
   "movie:772": {
     "id": 772,
@@ -5228,8 +5228,8 @@
     "original_title": "Backrooms",
     "poster_path": "/tcqLtpb8EUDqbct2YFl8ZGNfP2p.jpg",
     "backdrop_path": "/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
-    "vote_average": 7.0,
-    "vote_count": 4128,
+    "vote_average": 6.981,
+    "vote_count": 4171,
     "release_date": "2026-05-27",
     "genres": [
       "공포",
@@ -5255,7 +5255,7 @@
     ],
     "trailer_key": "RiK3su5spKw",
     "homepage": "",
-    "cached_at": "2026-11-17T22:48:50.904074+00:00"
+    "cached_at": "2026-11-24T23:47:45.765073+00:00"
   },
   "movie:20184": {
     "id": 20184,
@@ -5292,7 +5292,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T02:03:29.473634+00:00"
+    "cached_at": "2026-11-24T23:47:45.706296+00:00"
   },
   "movie:205775": {
     "id": 205775,
@@ -5374,8 +5374,8 @@
     "original_title": "Heartland",
     "poster_path": "/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
     "backdrop_path": "/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
-    "vote_average": 6.199,
-    "vote_count": 123,
+    "vote_average": 6.187,
+    "vote_count": 126,
     "release_date": "2026-11-13",
     "genres": [
       "스릴러",
@@ -5400,7 +5400,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T02:03:29.536108+00:00"
+    "cached_at": "2026-11-24T23:47:45.730445+00:00"
   },
   "movie:157336": {
     "id": 157336,
@@ -5557,7 +5557,7 @@
     "poster_path": "/iZWZcLJ2NoyM1UoDJexgSWmXOC.jpg",
     "backdrop_path": "/eVYChqJavS1DCXFeJE2lzVUMLKp.jpg",
     "vote_average": 7.227,
-    "vote_count": 24092,
+    "vote_count": 24103,
     "release_date": "2012-03-12",
     "genres": [
       "SF",
@@ -5584,7 +5584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T02:03:30.198609+00:00"
+    "cached_at": "2026-11-24T23:47:46.642409+00:00"
   },
   "tv:1420": {
     "id": 1420,
@@ -5593,8 +5593,8 @@
     "original_title": "New Girl",
     "poster_path": "/4OBdGUx78ZBLUVqs0EhUVkpJEOU.jpg",
     "backdrop_path": "/959IFVeGqz2M6qGvQ1RxN2r6Mq6.jpg",
-    "vote_average": 7.4,
-    "vote_count": 1781,
+    "vote_average": 7.361,
+    "vote_count": 1783,
     "release_date": "2011-09-20",
     "genres": [
       "코미디"
@@ -5611,6 +5611,292 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.fox.com/new-girl",
-    "cached_at": "2026-11-24T02:03:30.165781+00:00"
+    "cached_at": "2026-11-24T23:47:46.608460+00:00"
+  },
+  "movie:1122573": {
+    "id": 1122573,
+    "media_type": "movie",
+    "title": "인 더 그레이",
+    "original_title": "In the Grey",
+    "poster_path": "/wilN2jrZqClKcgONqyXQUnB4btD.jpg",
+    "backdrop_path": "/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
+    "vote_average": 7.5,
+    "vote_count": 1228,
+    "release_date": "2026-05-13",
+    "genres": [
+      "액션",
+      "범죄"
+    ],
+    "runtime": 97,
+    "overview": "악질 채무 청산을 전담하는 변호사 ‘레이첼’은 스펜서 골드스타인 투자가 '보비’를 찾아가 부패한 거물 ‘매니’에게 받지 못한 채무 10억 달러를 되찾아 주겠다고 제안한다. ‘레이첼’은 시스템의 빈틈을 교묘히 이용해, ‘살라사르’를 공략할 계획을 세우고, 전직 특수부대 요원 '시드’와 ‘브롱코'를 임무에 끌어들여 기상천외한 작전을 세우는데!",
+    "director": [
+      "가이 리치"
+    ],
+    "cast": [
+      "헨리 카빌",
+      "제이크 질렌할",
+      "에이사 곤살레스",
+      "Carlos Bardem",
+      "Michael Vu",
+      "피셔 스티븐스",
+      "로저먼드 파이크",
+      "Mohammed Al Turki",
+      "Kojo Attah",
+      "Jason Wong"
+    ],
+    "trailer_key": "Ss6f5k_egaA",
+    "homepage": "",
+    "cached_at": "2026-11-24T23:47:45.672919+00:00"
+  },
+  "movie:1551025": {
+    "id": 1551025,
+    "media_type": "movie",
+    "title": "스타의 보디가드",
+    "original_title": "Guarding Stars",
+    "poster_path": "/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
+    "backdrop_path": "/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
+    "vote_average": 6.9,
+    "vote_count": 120,
+    "release_date": "2026-11-18",
+    "genres": [
+      "로맨스",
+      "코미디"
+    ],
+    "runtime": 109,
+    "overview": "연말 동안 매력적인 액션 스타의 경호 업무를 맡게 된 원칙주의 철벽 경호원. 묘한 기류가 흐르는 두 사람의 만남 속에 비밀이 하나둘 드러나고, 크리스마스는 생각보다 훨씬 복잡하게 꼬여만 간다.",
+    "director": [
+      "Elizabeth Allen Rosenbaum"
+    ],
+    "cast": [
+      "레이튼 미스터",
+      "재러드 파달레키",
+      "앤디 맥도웰",
+      "Walker Hayes",
+      "Noah LaLonde",
+      "Toby Sandeman",
+      "Phil Brooks",
+      "에이바 맥스",
+      "Jake Foy",
+      "Siobhan Williams"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-24T23:47:45.786663+00:00"
+  },
+  "movie:458638": {
+    "id": 458638,
+    "media_type": "movie",
+    "title": "Dirty Money",
+    "original_title": "Dirty Money",
+    "poster_path": "/gov1Al7hU1E62tEZVSKHP0nnbTr.jpg",
+    "backdrop_path": "/gVd5LM5qooWweosbAC5K0YZDFT0.jpg",
+    "vote_average": 5.5,
+    "vote_count": 4,
+    "release_date": "1995-05-12",
+    "genres": [
+      "액션",
+      "스릴러",
+      "코미디"
+    ],
+    "runtime": 105,
+    "overview": "",
+    "director": [
+      "James Bruce"
+    ],
+    "cast": [
+      "Freddy Deane",
+      "Biff Yeager",
+      "Timothy Patrick Cavanaugh",
+      "DeLauné Michel",
+      "Charmagne Eckert",
+      "Jerry Rector"
+    ],
+    "trailer_key": "",
+    "homepage": "",
+    "cached_at": "2026-11-24T23:47:45.805682+00:00"
+  },
+  "movie:1595124": {
+    "id": 1595124,
+    "media_type": "movie",
+    "title": "스텝스",
+    "original_title": "Steps",
+    "poster_path": "/jtfCcWZ3ZyKdgi0u7JVOxEOSSJP.jpg",
+    "backdrop_path": "/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+    "vote_average": 7.241,
+    "vote_count": 85,
+    "release_date": "2026-11-20",
+    "genres": [
+      "애니메이션",
+      "가족",
+      "코미디",
+      "모험",
+      "판타지"
+    ],
+    "runtime": 107,
+    "overview": "독특한 매력이 넘치는 액션 코미디. 신데렐라의 '못된' 의붓자매 릴리스가 요정 대모의 요술봉을 훔치면서 우리가 알던 동화 속 이야기가 완전히 뒤집힌다.",
+    "director": [
+      "Alyce Tzue",
+      "John Ripa"
+    ],
+    "cast": [
+      "앨리 웡",
+      "아만다 사이프리드",
+      "스테파니 수",
+      "니키 글레이저",
+      "다니엘 래드클리프",
+      "영 마지노",
+      "피터 딘클리지",
+      "베티 미들러",
+      "Luis Martinez",
+      "Gwendoline Yeo"
+    ],
+    "trailer_key": "yW6_97U-tlI",
+    "homepage": "https://www.netflix.com/kr/title/81212809",
+    "cached_at": "2026-11-24T23:47:45.830551+00:00"
+  },
+  "movie:1167307": {
+    "id": 1167307,
+    "media_type": "movie",
+    "title": "다윗",
+    "original_title": "David",
+    "poster_path": "/tGmTssnoltCCZBY7ys4lYRTFYFj.jpg",
+    "backdrop_path": "/mZ6J2g6HCV2gj3iuCdSxcyBXq9c.jpg",
+    "vote_average": 8.078,
+    "vote_count": 212,
+    "release_date": "2025-12-14",
+    "genres": [
+      "애니메이션",
+      "가족",
+      "드라마",
+      "역사",
+      "모험"
+    ],
+    "runtime": 110,
+    "overview": "소년 다윗은 어느 날 선지자 사무엘로부터 왕이 될 운명을 듣게 되지만, 그것이 무엇을 의미하는지 알기도 전에 전쟁의 한가운데로 내던져진다. 모두가 숨을 죽인 전장, 세상이 두려워한 거인 골리앗 앞에 홀로 선 다윗은 단 하나의 돌로 마침내 그를 쓰러뜨린다. 기적 같은 승리 이후, 그는 단숨에 영웅이 되지만 그 이름은 곧 사울 왕의 분노를 깨운다. 또다시 거대한 위협 앞에 맞서게 된 다윗은 자신에게 주어진 운명의 무게와 마주하게 되는데...",
+    "director": [
+      "Phil Cunningham",
+      "Brent Dawes"
+    ],
+    "cast": [
+      "브랜든 잉그만",
+      "브라이언 스티발레",
+      "Shahar Taboch",
+      "Aaron Tavaler",
+      "Hector",
+      "미리 메시카",
+      "Jack Wagman",
+      "Jonathan Shaboo",
+      "슬로안 루카스 물다운",
+      "Mike Ciporkin"
+    ],
+    "trailer_key": "HrY287X1ots",
+    "homepage": "",
+    "cached_at": "2026-11-24T23:47:45.856380+00:00"
+  },
+  "movie:617126": {
+    "id": 617126,
+    "media_type": "movie",
+    "title": "판타스틱 4: 새로운 출발",
+    "original_title": "The Fantastic 4: First Steps",
+    "poster_path": "/vXvcMeUL6dGr9iBhNOMG3SPRHGA.jpg",
+    "backdrop_path": "/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+    "vote_average": 6.9,
+    "vote_count": 4186,
+    "release_date": "2025-07-23",
+    "genres": [
+      "SF",
+      "모험",
+      "액션"
+    ],
+    "runtime": 114,
+    "overview": "우주 탐사 이후 특별한 능력을 얻은 리드와 수, 조니와 벤은 사람들의 기대를 한 몸에 받는 영웅이자 일상을 함께하는 가족으로 살아간다. 서로 다른 성격과 능력을 맞추며 지구를 지켜온 이들 앞에, 은빛 전령 실버서퍼가 나타나 행성의 종말을 예고한다. 그녀가 알리는 존재는 세계를 집어삼키며 끝없는 허기를 채우는 우주의 거인 갤럭투스다. 네 사람은 지금껏 상대했던 위협과는 규모부터 다른 적을 막기 위해 과학과 초인적인 힘을 모두 동원해야 한다. 그러나 지구를 구하려는 임무가 가족의 운명과 맞물리면서, 영웅으로서의 책임과 소중한 사람을 지키려는 마음이 팽팽하게 충돌한다. 모두가 해답을 기다리는 가운데 이들은 자신들이 한 팀인 이유를 다시 확인하며 불가능해 보이는 방어에 나선다.",
+    "director": [
+      "맷 샤크먼"
+    ],
+    "cast": [
+      "페드로 파스칼",
+      "바네사 커비",
+      "에번 모스배크랙",
+      "조셉 퀸",
+      "랄프 이네슨",
+      "줄리아 가너",
+      "폴 월터 하우저",
+      "나타샤 리온",
+      "세라 나일스",
+      "마크 게이티스"
+    ],
+    "trailer_key": "ZltyHct1UV4",
+    "homepage": "",
+    "cached_at": "2026-11-24T23:47:46.405360+00:00"
+  },
+  "movie:566525": {
+    "id": 566525,
+    "media_type": "movie",
+    "title": "샹치와 텐 링즈의 전설",
+    "original_title": "Shang-Chi and the Legend of the Ten Rings",
+    "poster_path": "/14L4NGrqO4r7gJtVRiSRP5rNsL5.jpg",
+    "backdrop_path": "/r7K6Xt0RX4Mw0cAbZVw5cyb1Tux.jpg",
+    "vote_average": 7.476,
+    "vote_count": 10996,
+    "release_date": "2021-09-01",
+    "genres": [
+      "액션",
+      "모험",
+      "판타지"
+    ],
+    "runtime": 132,
+    "overview": "초인적인 능력을 가진 텐 링즈의 힘으로 수세기 동안 어둠의 세상을 지배해 온 웬우. 샹치는 아버지 웬우 밑에서 암살자로 훈련을 받았지만 이를 거부하고 평범함 삶을 선택한다. 샌프란시스코로 떠나와 자신의 진짜 이름을 숨긴 채 션이란 가명으로 살아가는 샹치. 웬우가 수장으로 있는 조직 텐 링즈의 일원인 레이저 피스트가 찾아와 샹치의 펜던트를 훔쳐가자 샹치는 친구 케이티와 함께 연이 끊겼던 동생 샤링을 염려하며 그녀가 숨어 지내는 마카오로 찾아간다. 텐 링즈의 마법 같은 힘을 통해 수천년 동안 지구의 역사를 혼란에 빠뜨렸던 웬우는 자신의 아들딸을 다시 불러들여 새로운 계략을 꾸민다.",
+    "director": [
+      "데스틴 대니얼 크레턴"
+    ],
+    "cast": [
+      "시무 리우",
+      "양조위",
+      "아콰피나",
+      "벤 킹슬리",
+      "장멍얼",
+      "천파라",
+      "양자경",
+      "원화",
+      "플로리안 문테아누",
+      "Andy Le"
+    ],
+    "trailer_key": "Pj7CadRf82k",
+    "homepage": "",
+    "cached_at": "2026-11-24T23:47:46.433527+00:00"
+  },
+  "tv:4574": {
+    "id": 4574,
+    "media_type": "tv",
+    "title": "엑스맨",
+    "original_title": "X-Men",
+    "poster_path": "/2OFwsFhAobczgJWnVdwd9oZAF2N.jpg",
+    "backdrop_path": "/8GlKBQJTFZp9mpLXJrmNCtdTyxx.jpg",
+    "vote_average": 8.199,
+    "vote_count": 1439,
+    "release_date": "1992-10-31",
+    "genres": [
+      "Kids",
+      "Sci-Fi & Fantasy",
+      "애니메이션",
+      "Action & Adventure"
+    ],
+    "runtime": null,
+    "overview": "마블 코믹스 세계에서, 유전적으로 부여된 초능력을 가진 사람인 돌연변이는 증오와 두려움에 가득 찬 대중에게 박해를 받는다. 이에 대한  피난처 중 하나는 자비에르 교수의 영재 아카데미이다.",
+    "director": [],
+    "cast": [
+      "Cedric Smith",
+      "Norm Spencer",
+      "캐서린 디셔",
+      "앨리슨 실리스미스",
+      "Lenore Zann",
+      "캘 도드",
+      "Alyson Court",
+      "조지 버자",
+      "Tony Daniels"
+    ],
+    "trailer_key": "",
+    "homepage": "https://www.disneyplus.com/browse/entity-e9f59c82-de76-4a18-a849-192532ff9b2d",
+    "cached_at": "2026-11-24T23:47:46.583321+00:00"
   }
 }
