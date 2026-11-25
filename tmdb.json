@@ -870,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-24T23:47:46.666131+00:00"
+    "cached_at": "2026-11-25T23:30:08.740813+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -925,7 +925,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-24T23:47:46.687669+00:00"
+    "cached_at": "2026-11-25T23:30:08.838158+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -946,7 +946,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T23:47:46.712463+00:00"
+    "cached_at": "2026-11-25T23:30:08.946144+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -971,7 +971,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T23:47:46.738140+00:00"
+    "cached_at": "2026-11-25T23:30:09.048856+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -4584,7 +4584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T23:47:45.649325+00:00"
+    "cached_at": "2026-11-25T23:30:07.590794+00:00"
   },
   "movie:49051": {
     "id": 49051,
@@ -4827,7 +4827,7 @@
     ],
     "trailer_key": "PvSU3omH_vo",
     "homepage": "https://www.disneyplus.com/browse/entity-48718a21-c9c9-487a-a655-d81a9f44c7de",
-    "cached_at": "2026-11-18T22:30:18.407386+00:00"
+    "cached_at": "2026-11-25T23:30:08.255766+00:00"
   },
   "movie:674": {
     "id": 674,
@@ -5055,8 +5055,8 @@
     "original_title": "Home Alone",
     "poster_path": "/vqe3WPiHAgCiAHXGVHSJPDG9OgO.jpg",
     "backdrop_path": "/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
-    "vote_average": 7.5,
-    "vote_count": 13110,
+    "vote_average": 7.473,
+    "vote_count": 13117,
     "release_date": "1990-11-16",
     "genres": [
       "코미디",
@@ -5081,7 +5081,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T23:47:46.456686+00:00"
+    "cached_at": "2026-11-25T23:30:08.149865+00:00"
   },
   "movie:772": {
     "id": 772,
@@ -5292,7 +5292,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T23:47:45.706296+00:00"
+    "cached_at": "2026-11-25T23:30:07.693854+00:00"
   },
   "movie:205775": {
     "id": 205775,
@@ -5374,8 +5374,8 @@
     "original_title": "Heartland",
     "poster_path": "/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
     "backdrop_path": "/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
-    "vote_average": 6.187,
-    "vote_count": 126,
+    "vote_average": 6.173,
+    "vote_count": 130,
     "release_date": "2026-11-13",
     "genres": [
       "스릴러",
@@ -5400,7 +5400,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T23:47:45.730445+00:00"
+    "cached_at": "2026-11-25T23:30:07.796427+00:00"
   },
   "movie:157336": {
     "id": 157336,
@@ -5557,7 +5557,7 @@
     "poster_path": "/iZWZcLJ2NoyM1UoDJexgSWmXOC.jpg",
     "backdrop_path": "/eVYChqJavS1DCXFeJE2lzVUMLKp.jpg",
     "vote_average": 7.227,
-    "vote_count": 24103,
+    "vote_count": 24114,
     "release_date": "2012-03-12",
     "genres": [
       "SF",
@@ -5584,7 +5584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T23:47:46.642409+00:00"
+    "cached_at": "2026-11-25T23:30:08.635560+00:00"
   },
   "tv:1420": {
     "id": 1420,
@@ -5594,7 +5594,7 @@
     "poster_path": "/4OBdGUx78ZBLUVqs0EhUVkpJEOU.jpg",
     "backdrop_path": "/959IFVeGqz2M6qGvQ1RxN2r6Mq6.jpg",
     "vote_average": 7.361,
-    "vote_count": 1783,
+    "vote_count": 1785,
     "release_date": "2011-09-20",
     "genres": [
       "코미디"
@@ -5611,7 +5611,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.fox.com/new-girl",
-    "cached_at": "2026-11-24T23:47:46.608460+00:00"
+    "cached_at": "2026-11-25T23:30:08.467694+00:00"
   },
   "movie:1122573": {
     "id": 1122573,
@@ -5655,8 +5655,8 @@
     "original_title": "Guarding Stars",
     "poster_path": "/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
     "backdrop_path": "/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
-    "vote_average": 6.9,
-    "vote_count": 120,
+    "vote_average": 6.94,
+    "vote_count": 125,
     "release_date": "2026-11-18",
     "genres": [
       "로맨스",
@@ -5671,17 +5671,17 @@
       "레이튼 미스터",
       "재러드 파달레키",
       "앤디 맥도웰",
-      "Walker Hayes",
       "Noah LaLonde",
+      "Shaun Johnston",
       "Toby Sandeman",
+      "Rachael Ancheril",
       "Phil Brooks",
-      "에이바 맥스",
-      "Jake Foy",
-      "Siobhan Williams"
+      "Siobhan Williams",
+      "Greg Lawson"
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T23:47:45.786663+00:00"
+    "cached_at": "2026-11-25T23:30:07.937985+00:00"
   },
   "movie:458638": {
     "id": 458638,
@@ -5713,7 +5713,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-24T23:47:45.805682+00:00"
+    "cached_at": "2026-11-25T23:30:08.050179+00:00"
   },
   "movie:1595124": {
     "id": 1595124,
@@ -5897,6 +5897,6 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.disneyplus.com/browse/entity-e9f59c82-de76-4a18-a849-192532ff9b2d",
-    "cached_at": "2026-11-24T23:47:46.583321+00:00"
+    "cached_at": "2026-11-25T23:30:08.361526+00:00"
   }
 }

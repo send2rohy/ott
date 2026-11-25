@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "items": [
     {
       "rank": 1,
@@ -26,8 +26,8 @@
       "tmdb_id": 1122573,
       "tmdb_title": "인 더 그레이",
       "tmdb_original_title": "In the Grey",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -40,8 +40,8 @@
       "tmdb_id": 20184,
       "tmdb_title": "Never Surrender",
       "tmdb_original_title": "Never Surrender",
-      "previous_rank": 4,
-      "change": 1
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -54,8 +54,8 @@
       "tmdb_id": 1543469,
       "tmdb_title": "하트랜드",
       "tmdb_original_title": "Heartland",
-      "previous_rank": 8,
-      "change": 4
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -68,8 +68,8 @@
       "tmdb_id": 1083381,
       "tmdb_title": "백룸",
       "tmdb_original_title": "Backrooms",
-      "previous_rank": 2,
-      "change": -3
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -82,8 +82,8 @@
       "tmdb_id": 1551025,
       "tmdb_title": "스타의 보디가드",
       "tmdb_original_title": "Guarding Stars",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -96,8 +96,8 @@
       "tmdb_id": 458638,
       "tmdb_title": "Dirty Money",
       "tmdb_original_title": "Dirty Money",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -110,8 +110,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 3,
-      "change": -5
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -124,8 +124,8 @@
       "tmdb_id": 1595124,
       "tmdb_title": "스텝스",
       "tmdb_original_title": "Steps",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -138,8 +138,8 @@
       "tmdb_id": 1167307,
       "tmdb_title": "다윗",
       "tmdb_original_title": "David",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -152,8 +152,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -166,8 +166,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 1,
-      "change": -1
+      "previous_rank": 2,
+      "change": 0
     },
     {
       "rank": 3,
@@ -180,8 +180,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -194,8 +194,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 7,
-      "change": 3
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -208,8 +208,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -222,8 +222,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 2,
-      "change": -4
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -236,8 +236,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
@@ -250,8 +250,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 3,
-      "change": -5
+      "previous_rank": 8,
+      "change": 0
     },
     {
       "rank": 9,
@@ -264,8 +264,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 5,
-      "change": -4
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -278,8 +278,8 @@
       "tmdb_id": null,
       "tmdb_title": null,
       "tmdb_original_title": null,
-      "previous_rank": 6,
-      "change": -4
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -298,6 +298,36 @@
     },
     {
       "rank": 2,
+      "title": "판타스틱 4: 새로운 출발",
+      "original_title": "판타스틱 4: 새로운 출발",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 617126,
+      "tmdb_title": "판타스틱 4: 새로운 출발",
+      "tmdb_original_title": "The Fantastic 4: First Steps",
+      "source": "top10",
+      "previous_rank": 3,
+      "change": 1
+    },
+    {
+      "rank": 3,
+      "title": "샹치와 텐 링즈의 전설",
+      "original_title": "샹치와 텐 링즈의 전설",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 566525,
+      "tmdb_title": "샹치와 텐 링즈의 전설",
+      "tmdb_original_title": "Shang-Chi and the Legend of the Ten Rings",
+      "source": "top10",
+      "previous_rank": 4,
+      "change": 1
+    },
+    {
+      "rank": 4,
       "title": "모아나",
       "original_title": "모아나",
       "season_title": "",
@@ -309,37 +339,7 @@
       "tmdb_original_title": "Moana",
       "source": "top10",
       "previous_rank": 2,
-      "change": 0
-    },
-    {
-      "rank": 3,
-      "title": "판타스틱 4: 새로운 출발",
-      "original_title": "판타스틱 4: 새로운 출발",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 617126,
-      "tmdb_title": "판타스틱 4: 새로운 출발",
-      "tmdb_original_title": "The Fantastic 4: First Steps",
-      "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 4,
-      "title": "샹치와 텐 링즈의 전설",
-      "original_title": "샹치와 텐 링즈의 전설",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 566525,
-      "tmdb_title": "샹치와 텐 링즈의 전설",
-      "tmdb_original_title": "Shang-Chi and the Legend of the Ten Rings",
-      "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
+      "change": -2
     },
     {
       "rank": 5,
@@ -353,8 +353,8 @@
       "tmdb_title": "토이 스토리 5",
       "tmdb_original_title": "Toy Story 5",
       "source": "top10",
-      "previous_rank": 3,
-      "change": -2
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -368,8 +368,8 @@
       "tmdb_title": "나 홀로 집에",
       "tmdb_original_title": "Home Alone",
       "source": "top10",
-      "previous_rank": 4,
-      "change": -2
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -383,23 +383,23 @@
       "tmdb_title": "범죄도시 2",
       "tmdb_original_title": "범죄도시 2",
       "source": "top10",
-      "previous_rank": 5,
-      "change": -2
+      "previous_rank": 7,
+      "change": 0
     },
     {
       "rank": 8,
-      "title": "스파이더맨: 어크로스 더 유니버스",
-      "original_title": "스파이더맨: 어크로스 더 유니버스",
+      "title": "범죄도시 3",
+      "original_title": "범죄도시3",
       "season_title": "",
       "platform": "Disney+",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 569094,
-      "tmdb_title": "스파이더맨: 어크로스 더 유니버스",
-      "tmdb_original_title": "Spider-Man: Across the Spider-Verse",
+      "tmdb_id": 955555,
+      "tmdb_title": "범죄도시 3",
+      "tmdb_original_title": "범죄도시 3",
       "source": "top10",
-      "previous_rank": 6,
-      "change": -2
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 9,
@@ -413,8 +413,8 @@
       "tmdb_title": "아이언맨",
       "tmdb_original_title": "Iron Man",
       "source": "tmdb_popular",
-      "previous_rank": 10,
-      "change": 1
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
@@ -428,8 +428,8 @@
       "tmdb_title": "어벤져스: 엔드게임",
       "tmdb_original_title": "Avengers: Endgame",
       "source": "tmdb_popular",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 10,
+      "change": 0
     },
     {
       "rank": 1,
@@ -443,8 +443,8 @@
       "tmdb_title": "크래시",
       "tmdb_original_title": "크래시",
       "source": "top10",
-      "previous_rank": 3,
-      "change": 2
+      "previous_rank": 1,
+      "change": 0
     },
     {
       "rank": 2,
@@ -458,41 +458,11 @@
       "tmdb_title": "라이어",
       "tmdb_original_title": "라이어",
       "source": "top10",
-      "previous_rank": 1,
-      "change": -1
-    },
-    {
-      "rank": 3,
-      "title": "파이널 테이블",
-      "original_title": "파이널 테이블",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 316702,
-      "tmdb_title": "파이널 테이블",
-      "tmdb_original_title": "파이널 테이블",
-      "source": "top10",
       "previous_rank": 2,
-      "change": -1
-    },
-    {
-      "rank": 4,
-      "title": "메리 베리 러브",
-      "original_title": "메리 베리 러브",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 305551,
-      "tmdb_title": "메리 베리 러브",
-      "tmdb_original_title": "メリーベリーラブ",
-      "source": "top10",
-      "previous_rank": 4,
       "change": 0
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "공감세포",
       "original_title": "공감세포",
       "season_title": "",
@@ -504,10 +474,55 @@
       "tmdb_original_title": "공감세포",
       "source": "top10",
       "previous_rank": 5,
-      "change": 0
+      "change": 2
+    },
+    {
+      "rank": 4,
+      "title": "스타일 워즈",
+      "original_title": "스타일 워즈",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 340321,
+      "tmdb_title": "스타일 워즈",
+      "tmdb_original_title": "스타일 워즈",
+      "source": "top10",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 5,
+      "title": "파이널 테이블",
+      "original_title": "파이널 테이블",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 316702,
+      "tmdb_title": "파이널 테이블",
+      "tmdb_original_title": "파이널 테이블",
+      "source": "top10",
+      "previous_rank": 3,
+      "change": -2
     },
     {
       "rank": 6,
+      "title": "메리 베리 러브",
+      "original_title": "메리 베리 러브",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 305551,
+      "tmdb_title": "메리 베리 러브",
+      "tmdb_original_title": "メリーベリーラブ",
+      "source": "top10",
+      "previous_rank": 4,
+      "change": -2
+    },
+    {
+      "rank": 7,
       "title": "연애박사",
       "original_title": "연애박사",
       "season_title": "",
@@ -519,10 +534,10 @@
       "tmdb_original_title": "연애박사",
       "source": "top10",
       "previous_rank": 6,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "메이드 인 코리아",
       "original_title": "메이드 인 코리아",
       "season_title": "",
@@ -533,23 +548,8 @@
       "tmdb_title": "메이드 인 코리아",
       "tmdb_original_title": "메이드 인 코리아",
       "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 8,
-      "title": "연애전쟁",
-      "original_title": "연애전쟁",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 325114,
-      "tmdb_title": "연애전쟁",
-      "tmdb_original_title": "연애전쟁",
-      "source": "top10",
-      "previous_rank": 8,
-      "change": 0
+      "previous_rank": 7,
+      "change": -1
     },
     {
       "rank": 9,
@@ -563,8 +563,8 @@
       "tmdb_title": "엑스맨",
       "tmdb_original_title": "X-Men",
       "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 9,
+      "change": 0
     },
     {
       "rank": 10,
