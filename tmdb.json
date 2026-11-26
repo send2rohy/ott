@@ -870,7 +870,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://program.tving.com/tvn/snl",
-    "cached_at": "2026-11-25T23:30:08.740813+00:00"
+    "cached_at": "2026-11-26T23:34:13.326367+00:00"
   },
   "movie:1658705": {
     "id": 1658705,
@@ -909,7 +909,7 @@
     "poster_path": "/bgCgwKtZoPMcb8BVIFTkiWReTQF.jpg",
     "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
     "vote_average": 8.417,
-    "vote_count": 1301,
+    "vote_count": 1302,
     "release_date": "2026-01-18",
     "genres": [
       "드라마",
@@ -925,7 +925,7 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
-    "cached_at": "2026-11-25T23:30:08.838158+00:00"
+    "cached_at": "2026-11-26T23:34:13.427920+00:00"
   },
   "tv:33833": {
     "id": 33833,
@@ -946,7 +946,7 @@
     "cast": [],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-25T23:30:08.946144+00:00"
+    "cached_at": "2026-11-26T23:34:13.533975+00:00"
   },
   "tv:305719": {
     "id": 305719,
@@ -971,7 +971,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-25T23:30:09.048856+00:00"
+    "cached_at": "2026-11-26T23:34:13.629701+00:00"
   },
   "movie:11970": {
     "id": 11970,
@@ -3075,8 +3075,8 @@
     "original_title": "メリーベリーラブ",
     "poster_path": "/vMCPcrzBeU603KUZDM374Boprh6.jpg",
     "backdrop_path": "/vPDVee1j6w0hJ2xMJ2bU5HVBA0Z.jpg",
-    "vote_average": 7.955,
-    "vote_count": 11,
+    "vote_average": 7.208,
+    "vote_count": 12,
     "release_date": "2026-10-07",
     "genres": [
       "코미디",
@@ -3102,7 +3102,7 @@
     ],
     "trailer_key": "AS6eCeBIzAQ",
     "homepage": "https://www.ntv.co.jp/merryberrylove",
-    "cached_at": "2026-11-19T22:37:23.856173+00:00"
+    "cached_at": "2026-11-26T23:34:12.589788+00:00"
   },
   "tv:320513": {
     "id": 320513,
@@ -4391,7 +4391,7 @@
     ],
     "trailer_key": "_R9-XGMq6M0",
     "homepage": "https://lifetimekorea.kr/program/227",
-    "cached_at": "2026-11-19T22:37:23.953033+00:00"
+    "cached_at": "2026-11-26T23:34:12.699345+00:00"
   },
   "tv:61923": {
     "id": 61923,
@@ -4584,7 +4584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-25T23:30:07.590794+00:00"
+    "cached_at": "2026-11-26T23:34:11.765505+00:00"
   },
   "movie:49051": {
     "id": 49051,
@@ -5055,8 +5055,8 @@
     "original_title": "Home Alone",
     "poster_path": "/vqe3WPiHAgCiAHXGVHSJPDG9OgO.jpg",
     "backdrop_path": "/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
-    "vote_average": 7.473,
-    "vote_count": 13117,
+    "vote_average": 7.5,
+    "vote_count": 13126,
     "release_date": "1990-11-16",
     "genres": [
       "코미디",
@@ -5081,7 +5081,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-25T23:30:08.149865+00:00"
+    "cached_at": "2026-11-26T23:34:12.484437+00:00"
   },
   "movie:772": {
     "id": 772,
@@ -5292,7 +5292,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-25T23:30:07.693854+00:00"
+    "cached_at": "2026-11-26T23:34:11.888598+00:00"
   },
   "movie:205775": {
     "id": 205775,
@@ -5372,10 +5372,10 @@
     "media_type": "movie",
     "title": "하트랜드",
     "original_title": "Heartland",
-    "poster_path": "/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+    "poster_path": "/azArOQaVxKa3367XJv2l4ewjsdB.jpg",
     "backdrop_path": "/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
-    "vote_average": 6.173,
-    "vote_count": 130,
+    "vote_average": 6.164,
+    "vote_count": 131,
     "release_date": "2026-11-13",
     "genres": [
       "스릴러",
@@ -5400,7 +5400,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-25T23:30:07.796427+00:00"
+    "cached_at": "2026-11-26T23:34:11.984788+00:00"
   },
   "movie:157336": {
     "id": 157336,
@@ -5557,7 +5557,7 @@
     "poster_path": "/iZWZcLJ2NoyM1UoDJexgSWmXOC.jpg",
     "backdrop_path": "/eVYChqJavS1DCXFeJE2lzVUMLKp.jpg",
     "vote_average": 7.227,
-    "vote_count": 24114,
+    "vote_count": 24128,
     "release_date": "2012-03-12",
     "genres": [
       "SF",
@@ -5584,7 +5584,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-25T23:30:08.635560+00:00"
+    "cached_at": "2026-11-26T23:34:13.234302+00:00"
   },
   "tv:1420": {
     "id": 1420,
@@ -5593,8 +5593,8 @@
     "original_title": "New Girl",
     "poster_path": "/4OBdGUx78ZBLUVqs0EhUVkpJEOU.jpg",
     "backdrop_path": "/959IFVeGqz2M6qGvQ1RxN2r6Mq6.jpg",
-    "vote_average": 7.361,
-    "vote_count": 1785,
+    "vote_average": 7.359,
+    "vote_count": 1788,
     "release_date": "2011-09-20",
     "genres": [
       "코미디"
@@ -5611,7 +5611,7 @@
     ],
     "trailer_key": "",
     "homepage": "http://www.fox.com/new-girl",
-    "cached_at": "2026-11-25T23:30:08.467694+00:00"
+    "cached_at": "2026-11-26T23:34:13.011684+00:00"
   },
   "movie:1122573": {
     "id": 1122573,
@@ -5655,8 +5655,8 @@
     "original_title": "Guarding Stars",
     "poster_path": "/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
     "backdrop_path": "/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
-    "vote_average": 6.94,
-    "vote_count": 125,
+    "vote_average": 6.809,
+    "vote_count": 139,
     "release_date": "2026-11-18",
     "genres": [
       "로맨스",
@@ -5681,7 +5681,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-25T23:30:07.937985+00:00"
+    "cached_at": "2026-11-26T23:34:12.082764+00:00"
   },
   "movie:458638": {
     "id": 458638,
@@ -5713,7 +5713,7 @@
     ],
     "trailer_key": "",
     "homepage": "",
-    "cached_at": "2026-11-25T23:30:08.050179+00:00"
+    "cached_at": "2026-11-26T23:34:12.213076+00:00"
   },
   "movie:1595124": {
     "id": 1595124,
@@ -5897,6 +5897,74 @@
     ],
     "trailer_key": "",
     "homepage": "https://www.disneyplus.com/browse/entity-e9f59c82-de76-4a18-a849-192532ff9b2d",
-    "cached_at": "2026-11-25T23:30:08.361526+00:00"
+    "cached_at": "2026-11-26T23:34:12.908638+00:00"
+  },
+  "movie:986056": {
+    "id": 986056,
+    "media_type": "movie",
+    "title": "썬더볼츠*",
+    "original_title": "Thunderbolts*",
+    "poster_path": "/iTX4O9gb8Jn0F5N5WgYnbIopdnP.jpg",
+    "backdrop_path": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+    "vote_average": 7.292,
+    "vote_count": 4346,
+    "release_date": "2025-04-30",
+    "genres": [
+      "액션",
+      "SF",
+      "모험"
+    ],
+    "runtime": 127,
+    "overview": "어벤져스가 사라진 후, 세계 최대의 위협과 마주한 세상을 구하기 위해 전직 스파이, 암살자, 살인 청부 업자 등 마블의 별난 놈들이 펼치는 예측불허 팀플레이를 담은 액션 블록버스터",
+    "director": [
+      "제이크 슈레이어"
+    ],
+    "cast": [
+      "플로렌스 퓨",
+      "세바스찬 스탠",
+      "줄리아 루이드레이퍼스",
+      "루이스 풀먼",
+      "데이비드 하버",
+      "와이엇 러셀",
+      "해나 존 케이먼",
+      "올가 쿠릴렌코",
+      "제럴딘 비스워너던",
+      "웬들 피어스"
+    ],
+    "trailer_key": "4txrPwjxSRI",
+    "homepage": "",
+    "cached_at": "2026-11-26T23:34:12.378062+00:00"
+  },
+  "tv:278573": {
+    "id": 278573,
+    "media_type": "tv",
+    "title": "21세기 대군부인",
+    "original_title": "21세기 대군부인",
+    "poster_path": "/4EDKW5nyVYmTvqU3AV6aRMrIkFU.jpg",
+    "backdrop_path": "/6ekykPwvAywJRjFEnUoCFWTO9O3.jpg",
+    "vote_average": 8.9,
+    "vote_count": 245,
+    "release_date": "2026-04-10",
+    "genres": [
+      "코미디",
+      "드라마"
+    ],
+    "runtime": null,
+    "overview": "여전히 왕이 존재하는 21세기 입헌군주제 대한민국. 재계 서열 1위 캐슬그룹의 차녀이자 유능한 경영인 성희주는 미모와 재력, 실력까지 모든 것을 갖췄지만 평민이자 서출이라는 이유로 늘 무시당한다. 한편 국민의 사랑을 받는 왕실의 차남 이안대군은 어린 왕을 대신해 섭정을 맡고 있으면서도 왕좌를 넘본다는 의심 속에 빛나서도, 소리를 내서도 안 되는 삶을 살아간다. 신분의 벽을 넘고 싶은 희주는 국왕의 탄일연에서 마주친 이안대군에게 대뜸 계약결혼을 제안하고, 각자의 목적을 위해 손을 잡은 두 사람은 온 나라를 속일 가짜 연인 행세를 시작한다. 그러나 왕실과 내각의 거센 반대, 그리고 그들을 노리는 보이지 않는 위협 속에서 계약으로 시작된 관계는 점점 예상치 못한 방향으로 흘러간다.",
+    "director": [
+      "박준화",
+      "배희영"
+    ],
+    "cast": [
+      "IU",
+      "변우석",
+      "노상현",
+      "공승연",
+      "유수빈",
+      "이연"
+    ],
+    "trailer_key": "x352TuRAg84",
+    "homepage": "https://program.imbc.com/perfectcrown",
+    "cached_at": "2026-11-26T23:34:12.810062+00:00"
   }
 }
