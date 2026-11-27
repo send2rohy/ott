@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "items": [
     {
       "rank": 1,
@@ -338,8 +338,8 @@
       "tmdb_title": "썬더볼츠*",
       "tmdb_original_title": "Thunderbolts*",
       "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -353,26 +353,11 @@
       "tmdb_title": "모아나",
       "tmdb_original_title": "Moana",
       "source": "top10",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
-      "title": "토이 스토리 5",
-      "original_title": "토이 스토리 5",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "movie",
-      "media_type": "movie",
-      "tmdb_id": 1084244,
-      "tmdb_title": "토이 스토리 5",
-      "tmdb_original_title": "Toy Story 5",
-      "source": "top10",
-      "previous_rank": 5,
-      "change": -1
-    },
-    {
-      "rank": 7,
       "title": "나 홀로 집에",
       "original_title": "나 홀로 집에",
       "season_title": "",
@@ -383,23 +368,38 @@
       "tmdb_title": "나 홀로 집에",
       "tmdb_original_title": "Home Alone",
       "source": "top10",
+      "previous_rank": 7,
+      "change": 1
+    },
+    {
+      "rank": 7,
+      "title": "토이 스토리 5",
+      "original_title": "토이 스토리 5",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "movie",
+      "media_type": "movie",
+      "tmdb_id": 1084244,
+      "tmdb_title": "토이 스토리 5",
+      "tmdb_original_title": "Toy Story 5",
+      "source": "top10",
       "previous_rank": 6,
       "change": -1
     },
     {
       "rank": 8,
-      "title": "범죄도시 2",
-      "original_title": "범죄도시2",
+      "title": "나 홀로 집에 2: 뉴욕을 헤매다",
+      "original_title": "나 홀로 집에 2",
       "season_title": "",
       "platform": "Disney+",
       "category": "movie",
       "media_type": "movie",
-      "tmdb_id": 619803,
-      "tmdb_title": "범죄도시 2",
-      "tmdb_original_title": "범죄도시 2",
+      "tmdb_id": 772,
+      "tmdb_title": "나 홀로 집에 2: 뉴욕을 헤매다",
+      "tmdb_original_title": "Home Alone 2: Lost in New York",
       "source": "top10",
-      "previous_rank": 7,
-      "change": -1
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 9,
@@ -433,21 +433,6 @@
     },
     {
       "rank": 1,
-      "title": "크래시",
-      "original_title": "크래시",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 226102,
-      "tmdb_title": "크래시",
-      "tmdb_original_title": "크래시",
-      "source": "top10",
-      "previous_rank": 1,
-      "change": 0
-    },
-    {
-      "rank": 2,
       "title": "라이어",
       "original_title": "라이어",
       "season_title": "",
@@ -459,7 +444,22 @@
       "tmdb_original_title": "라이어",
       "source": "top10",
       "previous_rank": 2,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 2,
+      "title": "크래시",
+      "original_title": "크래시",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 226102,
+      "tmdb_title": "크래시",
+      "tmdb_original_title": "크래시",
+      "source": "top10",
+      "previous_rank": 1,
+      "change": -1
     },
     {
       "rank": 3,
@@ -473,8 +473,8 @@
       "tmdb_title": "메리 베리 러브",
       "tmdb_original_title": "メリーベリーラブ",
       "source": "top10",
-      "previous_rank": 6,
-      "change": 3
+      "previous_rank": 3,
+      "change": 0
     },
     {
       "rank": 4,
@@ -488,8 +488,8 @@
       "tmdb_title": "공감세포",
       "tmdb_original_title": "공감세포",
       "source": "top10",
-      "previous_rank": 3,
-      "change": -1
+      "previous_rank": 4,
+      "change": 0
     },
     {
       "rank": 5,
@@ -503,8 +503,8 @@
       "tmdb_title": "스타일 워즈",
       "tmdb_original_title": "스타일 워즈",
       "source": "top10",
-      "previous_rank": 4,
-      "change": -1
+      "previous_rank": 5,
+      "change": 0
     },
     {
       "rank": 6,
@@ -518,8 +518,8 @@
       "tmdb_title": "파이널 테이블",
       "tmdb_original_title": "파이널 테이블",
       "source": "top10",
-      "previous_rank": 5,
-      "change": -1
+      "previous_rank": 6,
+      "change": 0
     },
     {
       "rank": 7,
@@ -533,26 +533,11 @@
       "tmdb_title": "21세기 대군부인",
       "tmdb_original_title": "21세기 대군부인",
       "source": "top10",
-      "previous_rank": null,
-      "change": "NEW"
-    },
-    {
-      "rank": 8,
-      "title": "메이드 인 코리아",
-      "original_title": "메이드 인 코리아",
-      "season_title": "",
-      "platform": "Disney+",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 246473,
-      "tmdb_title": "메이드 인 코리아",
-      "tmdb_original_title": "메이드 인 코리아",
-      "source": "top10",
-      "previous_rank": 8,
+      "previous_rank": 7,
       "change": 0
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "엑스맨",
       "original_title": "엑스맨",
       "season_title": "",
@@ -564,10 +549,10 @@
       "tmdb_original_title": "X-Men",
       "source": "top10",
       "previous_rank": 9,
-      "change": 0
+      "change": 1
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "뉴 걸",
       "original_title": "뉴 걸",
       "season_title": "",
@@ -579,7 +564,22 @@
       "tmdb_original_title": "New Girl",
       "source": "tmdb_popular",
       "previous_rank": 10,
-      "change": 0
+      "change": 1
+    },
+    {
+      "rank": 10,
+      "title": "아메리칸 호러 스토리",
+      "original_title": "아메리칸 호러 스토리",
+      "season_title": "",
+      "platform": "Disney+",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 1413,
+      "tmdb_title": "아메리칸 호러 스토리",
+      "tmdb_original_title": "American Horror Story",
+      "source": "tmdb_popular",
+      "previous_rank": null,
+      "change": "NEW"
     },
     {
       "rank": 1,
@@ -723,6 +723,20 @@
     },
     {
       "rank": 1,
+      "title": "저스트 메이크업",
+      "original_title": "저스트 메이크업",
+      "season_title": "",
+      "platform": "Coupang Play",
+      "category": "tv",
+      "media_type": "tv",
+      "tmdb_id": 300397,
+      "tmdb_title": "저스트 메이크업",
+      "tmdb_original_title": "저스트 메이크업",
+      "previous_rank": null,
+      "change": "NEW"
+    },
+    {
+      "rank": 2,
       "title": "직장인들",
       "original_title": "직장인들",
       "season_title": "",
@@ -733,10 +747,10 @@
       "tmdb_title": "직장인들",
       "tmdb_original_title": "직장인들",
       "previous_rank": 1,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "너 말고 다른 연애",
       "original_title": "너 말고 다른 연애",
       "season_title": "",
@@ -747,10 +761,10 @@
       "tmdb_title": "너 말고 다른 연애",
       "tmdb_original_title": "너 말고 다른 연애",
       "previous_rank": 2,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "지금 불륜이 문제가 아닙니다",
       "original_title": "지금 불륜이 문제가 아닙니다",
       "season_title": "",
@@ -761,10 +775,10 @@
       "tmdb_title": "지금 불륜이 문제가 아닙니다",
       "tmdb_original_title": "지금 불륜이 문제가 아닙니다",
       "previous_rank": 3,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "국대: 로드 투 노스 아메리카",
       "original_title": "국대: 로드 투 노스 아메리카",
       "season_title": "",
@@ -775,10 +789,10 @@
       "tmdb_title": "국대: 로드 투 노스 아메리카",
       "tmdb_original_title": "국대: 로드 투 노스 아메리카",
       "previous_rank": 4,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "원희는 스무살",
       "original_title": "원희는 스무살",
       "season_title": "",
@@ -789,10 +803,10 @@
       "tmdb_title": "원희는 스무살",
       "tmdb_original_title": "원희는 스무살",
       "previous_rank": 5,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "봉주르빵집",
       "original_title": "봉주르빵집",
       "season_title": "",
@@ -803,10 +817,10 @@
       "tmdb_title": "봉주르빵집",
       "tmdb_original_title": "봉주르빵집",
       "previous_rank": 6,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "SNL 코리아",
       "original_title": "SNL 코리아",
       "season_title": "",
@@ -817,10 +831,10 @@
       "tmdb_title": "SNL 코리아",
       "tmdb_original_title": "SNL 코리아",
       "previous_rank": 7,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "세븐킹덤의 기사",
       "original_title": "세븐킹덤의 기사",
       "season_title": "",
@@ -831,10 +845,10 @@
       "tmdb_title": "세븐킹덤의 기사",
       "tmdb_original_title": "A Knight of the Seven Kingdoms",
       "previous_rank": 8,
-      "change": 0
+      "change": -1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "HBO First Look",
       "original_title": "HBO",
       "season_title": "",
@@ -845,21 +859,7 @@
       "tmdb_title": "HBO First Look",
       "tmdb_original_title": "HBO First Look",
       "previous_rank": 9,
-      "change": 0
-    },
-    {
-      "rank": 10,
-      "title": "자매다방",
-      "original_title": "자매다방",
-      "season_title": "",
-      "platform": "Coupang Play",
-      "category": "tv",
-      "media_type": "tv",
-      "tmdb_id": 305719,
-      "tmdb_title": "자매다방",
-      "tmdb_original_title": "자매다방",
-      "previous_rank": 10,
-      "change": 0
+      "change": -1
     }
   ]
 }
